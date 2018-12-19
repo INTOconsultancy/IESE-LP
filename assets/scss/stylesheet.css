@@ -8,7 +8,24 @@
   outline: none;
 }
 
-a, h1, h2, h3, h4, h5, h6, label, li, object, ol, p, span, tbody, td, th, tr, ul {
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+li,
+object,
+ol,
+p,
+span,
+tbody,
+td,
+th,
+tr,
+ul {
   margin: 0;
   padding: 0;
   border: 0;
@@ -223,6 +240,129 @@ img {
 
 .blanco {
   color: #ffffff;
+}
+
+header {
+  width: 100%;
+  padding: 18px 38px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 2px -2px gray;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container img {
+  width: 116px;
+}
+
+.space {
+  width: 100%;
+  height: 97px;
+}
+
+.hero-container {
+  width: 100%;
+  background-color: #D9DEF2;
+  position: relative;
+}
+.hero-container .hero-title {
+  width: 100%;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 0 31px;
+}
+.hero-container .hero-title div {
+  text-align: center;
+}
+.hero-container .hero-title div:nth-child(1) {
+  line-height: 24px;
+}
+.hero-container .hero-title div:nth-child(2) {
+  line-height: 38px;
+}
+.hero-container .hero-title div:nth-child(3) {
+  line-height: 24px;
+}
+.hero-container .hero-title div:nth-child(4) {
+  line-height: 31px;
+}
+
+.hero-title-time {
+  margin-top: 30px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 395px;
+  background-color: #EEEEEE;
+  padding: 40px 48px;
+}
+.form-container .form-title {
+  text-align: center;
+}
+.form-container .form-cont {
+  width: 100%;
+}
+.form-container .form-cont .mdl-textfield {
+  width: 100%;
+  margin: 0 auto;
+}
+.form-container .form-cont .mdl-textfield select {
+  text-align: left;
+  align-items: flex-end;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* remove default arrow */
+  background-image: url("assets/img/svg/flecha-desplegar.svg") !important;
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 15px;
+  background-size: 10px;
+}
+.form-container .form-cont .button-container {
+  display: flex;
+  justify-content: center;
+}
+.form-container .form-cont .button-container button {
+  width: 263px;
+  padding: 20px 21px;
+  background-color: #FF0000;
+}
+
+.mdl-textfield.is-invalid .mdl-textfield__input {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+  box-shadow: none;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+  color: #3f51b5;
+  font-size: 12px;
+  top: 4px;
+  visibility: visible;
+}
+
+.mdl-textfield__label::after {
+  background-color: #3f51b5;
+  bottom: 20px;
+  content: "";
+  height: 2px;
+  left: 45%;
+  position: absolute;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  visibility: hidden;
+  width: 10px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
