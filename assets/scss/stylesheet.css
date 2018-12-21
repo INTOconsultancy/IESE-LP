@@ -242,6 +242,10 @@ img {
   color: #666666;
 }
 
+.gris6E {
+  color: #68746E;
+}
+
 .gris70 {
   color: #707070;
 }
@@ -428,6 +432,7 @@ header {
 }
 
 .form-container .form-cont .button-container button {
+  cursor: pointer;
   width: 100%;
   padding: 20px;
   background-color: #FB5151;
@@ -454,6 +459,10 @@ header {
 .private-data div {
   margin: 10px auto 0;
   text-align: center;
+}
+
+.private-data div a {
+  cursor: pointer;
 }
 
 .private-data div a:hover {
@@ -819,7 +828,7 @@ hr {
   }
   .new-world-desc-cont {
     width: 100%;
-    max-width: 1095px;
+    max-width: 1187px;
     margin: 20px auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -829,9 +838,6 @@ hr {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .new-world-desc-cont .new-world-desc {
     width: 100%;
@@ -862,7 +868,7 @@ hr {
         -ms-flex-align: initial;
             align-items: initial;
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1270px;
   }
   .new-world-dates-container .new-world-date-cont {
     width: 100%;
@@ -881,6 +887,389 @@ hr {
   .new-world-dates-container .new-world-date-cont p {
     margin: 15px auto 0;
     text-align: center !important;
+  }
+}
+
+.el-certificado-container {
+  width: 100%;
+  padding: 40px 17px;
+  background-color: #ffffff;
+}
+
+.el-certificado-container hr {
+  width: 100%;
+  display: none;
+  margin: 40px auto 0 !important;
+  max-width: 1135px;
+}
+
+.el-certificado-container .el-certificado-title {
+  width: 100%;
+  text-align: center;
+  line-height: 36px;
+  margin-bottom: 10px;
+  max-width: 1190px;
+}
+
+.el-certificado-container .el-certificado-cont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.el-certificado-container .el-certificado-cont .el-certificado-beneficios {
+  width: 100%;
+  padding: 22px 25px;
+  margin: 10px 5px;
+  max-width: 320px;
+  line-height: 24px;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 10px -2px gray;
+          box-shadow: 0 2px 10px -2px gray;
+}
+
+@media only screen and (min-width: 1024px) {
+  .el-certificado-container {
+    padding: 40px 17px 0;
+  }
+  .el-certificado-container .el-certificado-title {
+    text-align: center;
+    line-height: 38px;
+    margin: 0 auto 10px;
+  }
+  .el-certificado-container .el-certificado-cont {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: initial;
+        -ms-flex-align: initial;
+            align-items: initial;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1190px !important;
+  }
+  .el-certificado-container .el-certificado-cont .el-certificado-beneficios {
+    width: 100%;
+    padding: 22px 25px;
+    margin: 10px auto;
+    max-width: 270px;
+    line-height: 24px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 10px -2px gray;
+            box-shadow: 0 2px 10px -2px gray;
+  }
+  .el-certificado-container hr {
+    display: block;
+    margin: 50px auto 0 !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .el-certificado-title {
+    text-align: left !important;
+  }
+}
+
+.profesor-container {
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.profesor-container .profesor-title {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1135px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.profesor-cont {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profesor-cont .profesor-desc {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  max-width: 545px;
+}
+
+.profesor-cont .profesor-desc .profesor-desc-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profesor-cont .profesor-desc .profesor-desc-cont .profesor-img {
+  width: auto;
+}
+
+.profesor-cont .profesor-desc .profesor-desc-cont .profesor-img img {
+  width: 116px;
+  border-radius: 50%;
+}
+
+.profesor-cont .profesor-desc .profesor-desc-cont .profesor-data {
+  width: 100%;
+  margin: 20px 0 0 0;
+  max-width: 240px;
+}
+
+.profesor-cont .profesor-desc .profesor-desc-cont .profesor-data div {
+  text-align: center;
+}
+
+.profesor-cont .profesor-desc .profesor-desc-cont .profesor-data div:nth-child(1) {
+  line-height: 31px;
+}
+
+.profesor-cont .profesor-desc .profesor-desc-cont .profesor-data div:nth-child(2) {
+  margin-top: 5px;
+  line-height: 21px;
+}
+
+.profesor-cont .profesor-desc hr {
+  width: 100% !important;
+  margin: 20px auto !important;
+}
+
+.profesor-cont .profesor-desc .profesor-description {
+  text-align: center;
+  line-height: 22px;
+}
+
+@media only screen and (min-width: 396px) {
+  .profesor-data {
+    width: 100%;
+    margin: 0 0 0 20px !important;
+    max-width: 240px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .profesor-title {
+    text-align: center !important;
+  }
+  .profesor-cont {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .profesor-desc {
+    width: 100%;
+    margin: 0 32px 0 0 !important;
+    padding: 15px 0;
+    max-width: 545px;
+  }
+  .profesor-desc .profesor-desc-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: initial !important;
+        -ms-flex-pack: initial !important;
+            justify-content: initial !important;
+  }
+  .profesor-desc .profesor-desc-cont .profesor-img {
+    width: auto;
+  }
+  .profesor-desc .profesor-desc-cont .profesor-img img {
+    width: 116px;
+    border-radius: 50%;
+  }
+  .profesor-desc .profesor-desc-cont .profesor-data div {
+    text-align: left !important;
+  }
+  .profesor-desc .profesor-desc-cont .profesor-data div:nth-child(1) {
+    line-height: 31px;
+  }
+  .profesor-desc .profesor-desc-cont .profesor-data div:nth-child(2) {
+    margin-top: 5px;
+    line-height: 21px;
+  }
+  .profesor-desc hr {
+    margin: 20px auto 10px !important;
+  }
+  .profesor-desc .profesor-description {
+    text-align: left !important;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .profesor-title {
+    text-align: left !important;
+  }
+}
+
+.tutores-expertos-container {
+  width: 100%;
+  padding: 40px 17px;
+  background-color: #EEEEEE;
+}
+
+.tutores-expertos-container .tutores-expertos-title {
+  text-align: center;
+  line-height: 41px;
+}
+
+.tutores-expertos-container .tutores-expertos-subtitle {
+  text-align: center;
+  line-height: 24px;
+  margin: 20px auto 0;
+  width: 100%;
+  max-width: 550px;
+}
+
+.tutores-expertos-container .tutor-cont {
+  width: 100%;
+  margin: 10px auto;
+  max-width: 645px;
+  padding: 35px 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 10px -2px gray;
+          box-shadow: 0 2px 10px -2px gray;
+}
+
+.tutores-expertos-container .tutor-cont hr {
+  width: 100%;
+  margin: 20px auto !important;
+}
+
+.tutores-expertos-container .tutor-cont .tutor-description {
+  text-align: center;
+  line-height: 22px;
+}
+
+.tutores-expertos-container .tutor-cont .tutor-description div {
+  margin-top: 20px;
+}
+
+.tutores-expertos-container .tutor-cont .tutor-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tutores-expertos-container .tutor-cont .tutor-desc .tutor-imagen img {
+  width: 116px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.tutores-expertos-container .tutor-cont .tutor-desc .tutor-data {
+  width: 100%;
+  margin-left: 0;
+  max-width: 200px;
+}
+
+.tutores-expertos-container .tutor-cont .tutor-desc .tutor-data div:nth-child(1) {
+  line-height: 31px;
+  text-align: center;
+}
+
+.tutores-expertos-container .tutor-cont .tutor-desc .tutor-data div:nth-child(2) {
+  line-height: 22px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .tutor-cont {
+    margin: 10px auto;
+    padding: 60px !important;
+  }
+  .tutor-cont hr {
+    width: 100%;
+    margin: 20px auto !important;
+  }
+  .tutor-cont .tutor-description {
+    text-align: center;
+    line-height: 22px;
+  }
+  .tutor-cont .tutor-description div {
+    margin-top: 20px;
+  }
+  .tutor-cont .tutor-desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+  }
+  .tutor-cont .tutor-desc .tutor-imagen img {
+    width: 116px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .tutor-cont .tutor-desc .tutor-data {
+    margin-left: 20px !important;
+  }
+  .tutor-cont .tutor-desc .tutor-data div:nth-child(1) {
+    line-height: 31px;
+    text-align: left !important;
+  }
+  .tutor-cont .tutor-desc .tutor-data div:nth-child(2) {
+    line-height: 22px;
+    margin-top: 5px;
+    text-align: left !important;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */
