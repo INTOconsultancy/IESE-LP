@@ -106,6 +106,10 @@ img {
   font-size: 12px;
 }
 
+.fs13 {
+  font-size: 13px;
+}
+
 .fs14 {
   font-size: 14px;
 }
@@ -518,7 +522,7 @@ header {
   border-bottom: none !important;
   display: block;
   font-size: 16px;
-  font-family: "Helvetica","Arial",sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
   margin: 0;
   padding: 4px 0;
   width: 100%;
@@ -558,7 +562,9 @@ header {
   text-align: left;
 }
 
-.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
   color: #68746E !important;
   font-size: 12px;
   top: 0px !important;
@@ -574,7 +580,7 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   display: block;
   font-size: 16px;
-  font-family: "Helvetica","Arial",sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
   margin: 0;
   padding: 4px 15px !important;
   width: 100%;
@@ -815,7 +821,7 @@ hr {
     height: 1px !important;
   }
   .new-world-container {
-    padding: 80px 17px;
+    padding: 90px 17px;
   }
   .new-world-container .new-world-title {
     text-align: center;
@@ -941,7 +947,7 @@ hr {
 
 @media only screen and (min-width: 1024px) {
   .el-certificado-container {
-    padding: 40px 17px 0;
+    padding: 90px 17px 0;
   }
   .el-certificado-container .el-certificado-title {
     text-align: center;
@@ -976,7 +982,7 @@ hr {
   }
   .el-certificado-container hr {
     display: block;
-    margin: 50px auto 0 !important;
+    margin: 90px auto 0 !important;
   }
 }
 
@@ -1084,6 +1090,9 @@ hr {
 }
 
 @media only screen and (min-width: 1024px) {
+  .profesor-container {
+    padding: 90px 17px;
+  }
   .profesor-title {
     text-align: center !important;
   }
@@ -1225,6 +1234,9 @@ hr {
 }
 
 @media only screen and (min-width: 1024px) {
+  .tutores-expertos-container {
+    padding: 90px 17px;
+  }
   .tutor-cont {
     margin: 10px auto;
     padding: 60px !important;
@@ -1270,6 +1282,324 @@ hr {
     line-height: 22px;
     margin-top: 5px;
     text-align: left !important;
+  }
+}
+
+.rankings-title {
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rankings-container {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 40px 17px;
+}
+
+.rankings-container .ranking-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  max-width: 1135px;
+}
+
+.rankings-container .ranking-cont img {
+  margin: 20px auto;
+  width: 197px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .rankings-container {
+    padding: 90px 17px 0;
+  }
+  .rankings-container .ranking-cont {
+    width: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .rankings-container .ranking-cont img {
+    width: 308px;
+  }
+}
+
+.con-certificado-container {
+  width: 100%;
+  padding: 40px 17px;
+  background-color: #ffffff;
+}
+
+.con-certificado-container .con-certificado-title {
+  line-height: 38px;
+  text-align: center;
+}
+
+.con-certificado-container .con-certificado-cont {
+  width: 100%;
+  margin: 20px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1135px;
+}
+
+.con-certificado-container .con-certificado-cont .con-certificado-beneficios {
+  width: 100%;
+  height: 100%;
+  padding: 30px 14px;
+  margin: 0 auto 10px;
+  background-color: #EEEEEE;
+  max-width: 558px;
+}
+
+.con-certificado-container .con-certificado-cont .con-certificado-beneficios .con-certificado-beneficios-img {
+  width: auto;
+}
+
+.con-certificado-container .con-certificado-cont .con-certificado-beneficios .con-certificado-beneficios-img img {
+  width: 80px;
+  height: 81px;
+  margin: 0 auto;
+}
+
+.con-certificado-container .con-certificado-cont .con-certificado-beneficios .con-certificado-beneficios-description {
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .con-certificado-container {
+    width: 100%;
+    padding: 90px 17px;
+  }
+  .con-certificado-beneficios {
+    padding: 65px 40px !important;
+    margin: 0 auto 30px !important;
+    max-width: 530px !important;
+    height: 300px !important;
+  }
+  .con-certificado-beneficios .con-certificado-beneficios-description {
+    line-height: 24px;
+    margin-top: 20px;
+  }
+}
+
+.modulos-container {
+  width: 100%;
+  padding: 35px 14px;
+  margin: 0 auto;
+  max-width: 745px;
+}
+
+.modulos-container .collapsible .modulo-cont:last-child .collapsible-header {
+  border-bottom: none;
+}
+
+.modulo-cont .collapsible-header {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.modulo-cont .collapsible-header.active {
+  border-bottom: none;
+}
+
+.modulo-cont .collapsible-header .module-title {
+  margin-left: 20px;
+}
+
+.collapsible-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  line-height: 1.5;
+  background-color: #fff;
+  border-bottom: 2px solid #C5CBC0;
+}
+
+.collapsible-body {
+  border-bottom: 2px solid #C5CBC0;
+}
+
+.collapsible-header-img {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  width: 21px;
+  height: 21px;
+  background-image: url("../img/svg/icon-expand.svg");
+  background-repeat: no-repeat;
+}
+
+.active .collapsible-header-img {
+  width: 21px;
+  height: 21px;
+  background-image: url("../img/svg/icon-collapse.svg");
+}
+
+.collapsible-header {
+  position: relative;
+  padding: 18px;
+}
+
+.collapsible-header.active {
+  border-bottom: none;
+}
+
+.collapsible .collection {
+  margin: 0;
+  border: none;
+}
+
+.collection-item span.badge {
+  margin-top: calc(0.75rem - 11px);
+}
+
+.collapsible span.badge {
+  margin-left: auto;
+}
+
+.collapsible {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.collapsible-header:focus {
+  outline: 0;
+}
+
+.collapsible-header i {
+  width: 2rem;
+  font-size: 1.6rem;
+  display: inline-block;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.keyboard-focused .collapsible-header:focus {
+  background-color: #eee;
+}
+
+.collapsible-body {
+  display: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.sidenav .collapsible,
+.sidenav.fixed .collapsible {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.sidenav .collapsible li,
+.sidenav.fixed .collapsible li {
+  padding: 0;
+}
+
+.sidenav .collapsible-header,
+.sidenav.fixed .collapsible-header {
+  background-color: transparent;
+  border: none;
+  line-height: inherit;
+  height: inherit;
+  padding: 0 16px;
+}
+
+.sidenav .collapsible-header:hover,
+.sidenav.fixed .collapsible-header:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sidenav .collapsible-header i,
+.sidenav.fixed .collapsible-header i {
+  line-height: inherit;
+}
+
+.sidenav .collapsible-body,
+.sidenav.fixed .collapsible-body {
+  border: 0;
+  background-color: #fff;
+}
+
+.sidenav .collapsible-body li a,
+.sidenav.fixed .collapsible-body li a {
+  padding: 0 23.5px 0 31px;
+}
+
+.collapsible.popout {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.collapsible.popout > li {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin: 0 24px;
+  -webkit-transition: margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.collapsible.popout > li.active {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  margin: 16px 0;
+}
+
+.sidenav .collapsible {
+  margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .sidenav.sidenav-fixed {
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+  }
+  .sidenav.sidenav-fixed.right-aligned {
+    -webkit-transform: translateX(105%);
+    transform: translateX(105%);
+  }
+  .sidenav > a {
+    padding: 0 16px;
+  }
+  .sidenav .user-view {
+    padding: 16px 16px 0;
+  }
+  .sidenav .collapsible-body > ul:not(.collapsible) > li.active,
+  .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active {
+    background-color: #ee6e73;
+  }
+  .sidenav .collapsible-body > ul:not(.collapsible) > li.active a,
+  .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active a {
+    color: #fff;
+  }
+  .sidenav .collapsible-body {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */
