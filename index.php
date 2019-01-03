@@ -17,6 +17,13 @@
     <!-- MATERIALIZE -->
     <script src="assets/js/materialize.js"></script>
     <script src="assets/js/materialize.min.js"></script>
+    <!-- Jquery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/libs/slick/slick.css">
+    <link rel="stylesheet" href="assets/libs/slick/slick-theme.css">
+    <script type="text/javascript" src="assets/libs/slick/slick.js"></script>
 </head>
 
 <body>
@@ -373,6 +380,9 @@
     </div>
     <!-- Sección Plan de estudios -->
     <div class="plan-de-estudios-container">
+        <div class="plan-de-estudios-title grapBo fs30 negro19">
+            Plan de estudios
+        </div>
         <div class="modulos-container">
             <ul class="collapsible">
                     <li class="active modulo-cont">
@@ -458,10 +468,356 @@
             </ul>
         </div>
     </div>
+    <!-- Sección Beneficios para el alumno -->
+    <div class="beneficios-container">
+        <div class="beneficios-title grapBo fs32 negro19">Beneficios para el alumno</div>
+        <div class="beneficios-cont">
+            <div class="beneficio">
+                <div class="beneficio-img">
+                    <img src="assets/img/svg/icon-beneficio-1.svg" alt="Capital intelectual">
+                </div>
+                <div class="beneficio-title grapBo fs20 negro19">
+                    Capital intelectual
+                </div>
+                <div class="beneficio-desc grapRe fs14 gris66">
+                    Educacion globalmente.
+                    <br>
+                    <br>
+                    Plan de estudios riguroso y empírico.
+                    <br>
+                    <br>
+                    Profesorado mundialmente reconocido.
+                    <br>
+                    <br>
+                    Aula globalmente conectada: círculos de aprendizaje entre pares.
+                    <br>
+                    <br>
+                    Aprendizaje para la acción: aprender haciendo.
+                </div>
+            </div>
+            <div class="beneficio">
+                <div class="beneficio-img">
+                    <img src="assets/img/svg/icon-beneficio-2.svg" alt="Capital de marca">
+                </div>
+                <div class="beneficio-title grapBo fs20 negro19">
+                    Capital de marca
+                </div>
+                <div class="beneficio-desc grapRe fs14 gris66">
+                    Certificado de estudios expedido por IESE 
+                    Business School, Executive Education.
+                </div>
+            </div>
+            <div class="beneficio">
+                <div class="beneficio-img">
+                    <img src="assets/img/svg/icon-beneficio-3.svg" alt="Capital social">
+                </div>
+                <div class="beneficio-title grapBo fs20 negro19">
+                    Capital social
+                </div>
+                <div class="beneficio-desc grapRe fs14 gris66">
+                    Creación de nuevas redes y relaciones a 
+                    través de la interacción entre pares de 
+                    distintos países de habla hispana.
+                    <br>
+                    <br>
+                    Enriquecimiento de la experiencia de 
+                    aprendizaje por la interacción con 
+                    participantes de diversos perfiles y 
+                    trayectorias profesionales.
+                </div>
+            </div>
+            <div class="beneficio">
+                <div class="beneficio-img">
+                    <img src="assets/img/svg/icon-capital-carrera.svg" alt="Capital de carrera">
+                </div>
+                <div class="beneficio-title grapBo fs20 negro19">
+                    Capital de carrera
+                </div>
+                <div class="beneficio-desc grapRe fs14 gris66">
+                    Aceleramiento del crecimiento profesional a 
+                    través de nuestro perfeccionado juego de 
+                    herramientas para el liderazgo.
+                    <br>
+                    <br>
+                    Aprende mientras trabajas.
+                    <br>
+                    <br>
+                    Destaca, toma la delantera.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sección Tu viaje de aprendizaje -->
+    <div class="tu-viaje-container">
+        <div class="tu-viaje-title grapBo fs32 negro19">Tu viaje de aprendizaje</div>
+        <div class="tu-viaje-cont">
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="assets/img/svg/icon-viaje-aprendizaje-1.svg" alt="Clases en video">
+                </div>
+                <div class="tu-viaje-numero grapBo fs30 negro19">
+                    80
+                </div>
+                <div class="tu-viaje-name grapRe fs18 negro19">
+                    Clases en video
+                </div>
+            </div>
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="assets/img/svg/icon-viaje-aprendizaje-2.svg" alt="Aplicaciones del mundo real">
+                </div>
+                <div class="tu-viaje-numero grapBo fs30 negro19">
+                    10
+                </div>
+                <div class="tu-viaje-name grapRe fs18 negro19">
+                    Aplicaciones del mundo real
+                </div>
+            </div>
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="assets/img/svg/icon-viaje-aprendizaje-3.svg" alt="Discusiones">
+                </div>
+                <div class="tu-viaje-numero grapBo fs30 negro19">
+                    7
+                </div>
+                <div class="tu-viaje-name grapRe fs18 negro19">
+                    Discusiones
+                </div>
+            </div>
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="assets/img/svg/icon-viaje-aprendizaje-4.svg" alt="Estudios de caso">
+                </div>
+                <div class="tu-viaje-numero grapBo fs30 negro19">
+                    2
+                </div>
+                <div class="tu-viaje-name grapRe fs18 negro19">
+                    Estudios de caso
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sección Cómo funciona -->
+    <div class="como-funciona-container">
+        <div class="como-funciona-title grapBo fs30 negro19">Cómo funciona</div>
+        <div class="como-funciona-cont">
+            <div class="como-funciona-paso">
+                <div class="paso-numero grapBo fs50 blanco">1</div>
+                <div class="paso-title grapBo fs16 negro19">Ingresa a la plataforma</div>
+                <div class="paso-desc grapRe fs16 negro19">
+                    Canvas es la plataforma de 
+                    aprendizaje que elegimos 
+                    por su facilidad de uso, 
+                    accesibilidad, confiabilidad, 
+                    movilidad y por albergar el 
+                    contenido en la nube.
+                    <br> 
+                    Después de inscribirte y 
+                    efectuar el pago del curso, 
+                    recibirás un correo de 
+                    bienvenida para comenzar 
+                    tu certificado.
+                </div>
+            </div>
+            <div class="como-funciona-paso">
+                <div class="paso-numero grapBo fs50 blanco">2</div>
+                <div class="paso-title grapBo fs16 negro19">Toma los cursos en línea donde te encuentres</div>
+                <div class="paso-desc grapRe fs16 negro19">
+                    El tablero muestra tus 
+                    cursos, tareas y webinars. 
+                    <br>
+                    Todos los materiales de los 
+                    módulos están en un solo 
+                    lugar y puedes acceder a 
+                    ellos desde cualquier 
+                    dispositivo.
+                </div>
+            </div>
+            <div class="como-funciona-paso">
+                <div class="paso-numero grapBo fs50 blanco">3</div>
+                <div class="paso-title grapBo fs16 negro19">Completa el programa</div>
+                <div class="paso-desc grapRe fs16 negro19">
+                    Con la ayuda de nuestros 
+                    anuncios y recordatorios, 
+                    aprueba las asignaciones y 
+                    el proyecto final 
+                    satisfactoriamente.
+                </div>
+            </div>
+            <div class="como-funciona-paso">
+                <div class="paso-numero grapBo fs50 blanco">4</div>
+                <div class="paso-title grapBo fs16 negro19">Logra tu meta: obtén el certificado digital del programa</div>
+                <div class="paso-desc grapRe fs16 negro19">
+                    Al terminar con éxito el plan 
+                    de estudios, recibirás un 
+                    certificado electrónico que 
+                    avala los conocimientos que 
+                    has adquirido en el 
+                    programa.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sección Certificado -->
+    <div class="certificado-container">
+        <div class="certificado-cont">
+            <!-- Link to open the modal -->
+            <a class="certificado-img" href="#ex1" rel="modal:open">
+                <div >
+                    <img src="assets/img/jpg/certificado-IESE-abril-2019.jpg" alt="Certificado">
+                </div>
+            </a>
+        <!-- Modal HTML embedded directly into document -->
+        <div id="ex1" class="modal">
+            <img src="assets/img/jpg/certificado-IESE-abril-big.jpg" alt="Certificado">
+        </div>
+            <div class="certificado-datos">
+                <div class="certificado-title grapBo fs32 blanco">
+                    Executive Education Certificate
+                </div>
+                <div class="certificado-subtitle grapRe fs20 blanco">
+                    Al concluir satisfactoriamente el programa, los participantes 
+                    son reconocidos con un certificado oficial de conclusión de 
+                    estudios respaldado por IESE Business School.
+                </div>
+                <div class="certificado-button">
+                    <a class="grapBo fs16 blanco" href="#" target="_blank" rel="noopener noreferrer">
+                        INSCRIBIRTE
+                        <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sección Slider -->
+    <div class="slider-container">
+        <div class="silder-container-title grapBo fs32 negro19">
+            Testimonios de estudiantes
+        </div>
+        <div class="slide-testimonio">
+            <div class="testimonio">
+                <div class="testimonio-img">
+                    <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
+                </div>
+                <div class="testimonio-desc grapRe fs15 negro19">
+                    But I must explain to you how all this mistaken 
+                    idea of denouncing pleasure and praising 
+                    pain was born and I will give you a complete 
+                    account
+                </div>
+                <div class="testimonio-name grapBo fs20 gris66">
+                    NOMBRE APELLIDO
+                </div>
+                <div class="testimonio-work grapRe fs14 negro3D">
+                    BREVE DESCRIPCIÓN DE PUESTO
+                </div>
+            </div>
+            <div class="testimonio add-border">
+                <div class="testimonio-img">
+                    <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
+                </div>
+                <div class="testimonio-desc grapRe fs15 negro19">
+                    But I must explain to you how all this mistaken 
+                    idea of denouncing pleasure and praising 
+                    pain was born and I will give you a complete 
+                    account
+                </div>
+                <div class="testimonio-name grapBo fs20 gris66">
+                    NOMBRE APELLIDO
+                </div>
+                <div class="testimonio-work grapRe fs14 negro3D">
+                    BREVE DESCRIPCIÓN DE PUESTO
+                </div>
+            </div>
+            <div class="testimonio">
+                <div class="testimonio-img">
+                    <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
+                </div>
+                <div class="testimonio-desc grapRe fs15 negro19">
+                    But I must explain to you how all this mistaken 
+                    idea of denouncing pleasure and praising 
+                    pain was born and I will give you a complete 
+                    account
+                </div>
+                <div class="testimonio-name grapBo fs20 gris66">
+                    NOMBRE APELLIDO
+                </div>
+                <div class="testimonio-work grapRe fs14 negro3D">
+                    BREVE DESCRIPCIÓN DE PUESTO
+                </div>
+            </div>
+            <div class="testimonio">
+                <div class="testimonio-img">
+                    <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
+                </div>
+                <div class="testimonio-desc grapRe fs15 negro19">
+                    But I must explain to you how all this mistaken 
+                    idea of denouncing pleasure and praising 
+                    pain was born and I will give you a complete 
+                    account
+                </div>
+                <div class="testimonio-name grapBo fs20 gris66">
+                    NOMBRE APELLIDO
+                </div>
+                <div class="testimonio-work grapRe fs14 negro3D">
+                    BREVE DESCRIPCIÓN DE PUESTO
+                </div>
+            </div>
+            <div class="testimonio add-border">
+                <div class="testimonio-img">
+                    <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
+                </div>
+                <div class="testimonio-desc grapRe fs15 negro19">
+                    But I must explain to you how all this mistaken 
+                    idea of denouncing pleasure and praising 
+                    pain was born and I will give you a complete 
+                    account
+                </div>
+                <div class="testimonio-name grapBo fs20 gris66">
+                    NOMBRE APELLIDO
+                </div>
+                <div class="testimonio-work grapRe fs14 negro3D">
+                    BREVE DESCRIPCIÓN DE PUESTO
+                </div>
+            </div>
+            <div class="testimonio">
+                <div class="testimonio-img">
+                    <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
+                </div>
+                <div class="testimonio-desc grapRe fs15 negro19">
+                    But I must explain to you how all this mistaken 
+                    idea of denouncing pleasure and praising 
+                    pain was born and I will give you a complete 
+                    account
+                </div>
+                <div class="testimonio-name grapBo fs20 gris66">
+                    NOMBRE APELLIDO
+                </div>
+                <div class="testimonio-work grapRe fs14 negro3D">
+                    BREVE DESCRIPCIÓN DE PUESTO
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer>
-
+        <div class="footer-cont">
+            <div class="left">
+                <div class="footer-logo">
+                    <img src="assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
+                </div>
+                <div class="copyright grapRe fs12 blanco">
+                    IESE Business School Universidad de Navarra <?php echo date('Y'); ?>
+                </div>
+            </div>
+            <div class="right">
+                <div class="terminos-politicas-cont">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Términos de servicio</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Política de privacidad</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
-
+    <script src="assets/js/main.js"></script>
 </html>
