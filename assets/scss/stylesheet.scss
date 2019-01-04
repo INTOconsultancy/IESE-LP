@@ -427,16 +427,21 @@ header {
                 cursor: pointer;
                 width: 100%;
                 padding: 20px;
-                background-color: #FB5151;
+                background-color: #FF0000;
 
                 &:hover {
-                    background-color: #FF0000;
+                    img{
+                        margin-left: 20px;
+                    }
                 }
 
                 img {
                     width: 14px;
                     margin-top: -5px;
                     margin-left: 5px;
+                    -webkit-transition: all 300ms;
+                    -moz-transition: all 300ms;
+                    -o-transition: all 300ms;
                 }
             }
         }
@@ -1753,7 +1758,7 @@ hr {
         max-width: 1135px;
 
         .tu-viaje-icon {
-            margin: 35px 30px;
+            margin: 20px 30px;
 
             .tu-viaje-img {
                 width: 85px;
@@ -1978,7 +1983,7 @@ hr {
 
             .certificado-button {
                 margin-top: 10px;
-                width: 165px;
+                width: 180px;
                 margin: 0 auto;
 
                 a {
@@ -1987,10 +1992,17 @@ hr {
                     align-items: center;
                     padding: 13px 20px;
                     background-color: #F15D29;
-
+                    &:hover{
+                        img{
+                            margin-left: 20px;
+                        }
+                    }
                     img {
                         width: 12px;
                         margin-left: 10px;
+                        -webkit-transition: all 300ms;
+                        -moz-transition: all 300ms;
+                        -o-transition: all 300ms;
                     }
                 }
             }
@@ -2024,7 +2036,6 @@ hr {
 
                 .certificado-button {
                     margin-top: 10px;
-                    width: 165px;
                     margin: 0;
 
                     a {

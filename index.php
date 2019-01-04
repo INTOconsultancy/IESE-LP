@@ -31,7 +31,7 @@
     <header>
         <div class="header-container">
             <img src="assets/img/svg/IESE-Business-School.svg" alt="IESE">
-            <img src="assets/img/svg/IESE-Business-School.svg" alt="Executive Education">
+            <img src="assets/img/png/logo-execed-150x81.png" alt="Executive Education">
         </div>
     </header>
     <!-- Body -->

@@ -439,17 +439,20 @@ header {
   cursor: pointer;
   width: 100%;
   padding: 20px;
-  background-color: #FB5151;
+  background-color: #FF0000;
 }
 
-.form-container .form-cont .button-container button:hover {
-  background-color: #FF0000;
+.form-container .form-cont .button-container button:hover img {
+  margin-left: 20px;
 }
 
 .form-container .form-cont .button-container button img {
   width: 14px;
   margin-top: -5px;
   margin-left: 5px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
 }
 
 .private-data {
@@ -1763,7 +1766,7 @@ hr {
 }
 
 .tu-viaje-container .tu-viaje-cont .tu-viaje-icon {
-  margin: 35px 30px;
+  margin: 20px 30px;
 }
 
 .tu-viaje-container .tu-viaje-cont .tu-viaje-icon .tu-viaje-img {
@@ -1989,7 +1992,7 @@ hr {
 
 .certificado-container .certificado-cont .certificado-datos .certificado-button {
   margin-top: 10px;
-  width: 165px;
+  width: 180px;
   margin: 0 auto;
 }
 
@@ -2005,9 +2008,16 @@ hr {
   background-color: #F15D29;
 }
 
+.certificado-container .certificado-cont .certificado-datos .certificado-button a:hover img {
+  margin-left: 20px;
+}
+
 .certificado-container .certificado-cont .certificado-datos .certificado-button a img {
   width: 12px;
   margin-left: 10px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -2035,7 +2045,6 @@ hr {
   }
   .certificado-container .certificado-cont .certificado-datos .certificado-button {
     margin-top: 10px;
-    width: 165px;
     margin: 0;
   }
   .certificado-container .certificado-cont .certificado-datos .certificado-button a {
