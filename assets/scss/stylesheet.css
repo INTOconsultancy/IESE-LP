@@ -258,6 +258,10 @@ img {
   color: #ffffff;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   width: 100%;
   padding: 18px 38px;
@@ -284,12 +288,144 @@ header {
 }
 
 .header-container img {
-  width: 116px;
+  width: 85px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header-container img {
+    width: 116px;
+  }
+}
+
+.header-container .remove {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-container .remove {
+    display: block !important;
+  }
+}
+
+.header-container .add {
+  display: block !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-container .add {
+    display: none !important;
+  }
+}
+
+.header-container .dinamic {
+  display: none;
+}
+
+.header-container .header-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-container .header-button a {
+  cursor: pointer;
+  width: 270px;
+  padding: 15px;
+  background-color: #FF0000;
+}
+
+.header-container .header-button a:hover img {
+  margin-left: 20px;
+}
+
+.header-container .header-button a img {
+  width: 14px;
+  margin-top: -5px;
+  margin-left: 5px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+.button-movil-container {
+  display: none;
+  position: initial;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 4px 15px -2px gray;
+          box-shadow: 0 4px 15px -2px gray;
+  bottom: 0;
+  z-index: 2;
+}
+
+.button-movil-container .button-movil-title {
+  width: 100%;
+  text-align: center;
+}
+
+.button-movil-container .movil-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button-movil-container .movil-button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  width: 260px;
+  padding: 5px 0;
+  background-color: #FF0000;
+}
+
+.button-movil-container .movil-button a:hover img {
+  margin-left: 20px;
+}
+
+.button-movil-container .movil-button a img {
+  width: 14px;
+  margin-top: -5px;
+  margin-left: 5px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+.add-mov {
+  display: block;
+  position: fixed;
+}
+
+@media only screen and (min-width: 1024px) {
+  .add-mov {
+    display: none !important;
+  }
+}
+
+.add-header {
+  width: 60px;
 }
 
 .space {
   width: 100%;
-  height: 97px;
+  height: 85px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .space {
+    height: 97px;
+  }
 }
 
 .movil {
@@ -1080,7 +1216,7 @@ hr {
 .profesor-cont .profesor-desc .profesor-desc-cont .profesor-data {
   width: 100%;
   margin: 20px 0 0 0;
-  max-width: 240px;
+  max-width: 260px;
 }
 
 .profesor-cont .profesor-desc .profesor-desc-cont .profesor-data div {
@@ -1092,6 +1228,11 @@ hr {
 }
 
 .profesor-cont .profesor-desc .profesor-desc-cont .profesor-data div:nth-child(2) {
+  margin-top: 5px;
+  line-height: 21px;
+}
+
+.profesor-cont .profesor-desc .profesor-desc-cont .profesor-data div:nth-child(3) {
   margin-top: 5px;
   line-height: 21px;
 }
@@ -1159,6 +1300,10 @@ hr {
     line-height: 31px;
   }
   .profesor-desc .profesor-desc-cont .profesor-data div:nth-child(2) {
+    margin-top: 5px;
+    line-height: 21px;
+  }
+  .profesor-desc .profesor-desc-cont .profesor-data div:nth-child(3) {
     margin-top: 5px;
     line-height: 21px;
   }
@@ -2181,7 +2326,7 @@ hr {
 
 footer {
   width: 100%;
-  padding: 35px 30px;
+  padding: 35px 30px 95px;
   background-color: #3D3D3D;
 }
 

@@ -27,14 +27,35 @@
     <script type="text/javascript" src="assets/libs/slick/slick.js"></script>
     <!-- AOS animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/png/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/png/favicon.png" />
 </head>
 
 <body>
+    <!-- BUTTON MOVIL -->
+    <div class="button-movil-container">
+        <div class="button-movil-title grapBo fs14 negro3D">OBTÉN MÁS INFORMACIÓN</div>
+        <div class="movil-button">
+            <a target="_blank" rel="noopener noreferrer" class="grapBo fs16 blanco">
+                DESCARGAR EL FOLLETO
+                <img src="assets/img/svg/icon-descargar.svg" alt="Download">
+            </a>
+        </div>
+    </div>
     <!-- Header Fixed -->
     <header>
         <div class="header-container">
-            <img src="assets/img/svg/IESE-Business-School.svg" alt="IESE">
-            <img src="assets/img/png/logo-execed-150x81.png" alt="Executive Education">
+            <img class="Logo-one" src="assets/img/svg/IESE-Business-School.svg" alt="IESE">
+            <img class="Logo-two" src="assets/img/png/logo-execed-150x81.png" alt="Executive Education">
+            <div class="dinamic">
+                <div class="header-button">
+                    <a target="_blank" rel="noopener noreferrer" class="grapBo fs16 blanco">
+                        DESCARGAR EL FOLLETO
+                        <img src="assets/img/svg/icon-descargar.svg" alt="Download">
+                    </a>
+                </div>
+            </div>
         </div>
     </header>
     <!-- Body -->
@@ -57,7 +78,7 @@
             <img class="desktop" src="assets/img/jpg/Group-mov.jpg" alt="Joven & Movil">
             <img class="movil" src="assets/img/jpg/Group-desk.jpg" alt="Joven & Movil">
         </div>
-        <div class="form-container">
+        <div class="form-container" id="form">
             <div class="form-title grapRe fs18 negro23">Para obtener más información, llena el formulario</div>
             <form class="form-cont" action="">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -133,7 +154,8 @@
         </div>
         <hr>
         <div class="new-world-desc-cont">
-            <div class="new-world-desc grapRe fs18 gris66" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="new-world-desc grapRe fs18 gris66" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
                 Se necesita, a nivel individual y
                 organizacional, de un <i>digital
                     mindset</i>: <span class="grapBo">una “mentalidad digital”
@@ -141,7 +163,8 @@
                     las puertas para acceder a todo
                     nuestro potencial.</span>
             </div>
-            <div class="new-world-desc grapRe gris70" data-aos="fade-right" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="new-world-desc grapRe gris70" data-aos="fade-right" data-aos-offset="50" data-aos-delay="200"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
                 <span class="grapBo">Descubre las claves para desarrollar esta forma de
                     pensamiento de la mano de Sandra Sieber, experta
                     en cambios digitales y cultura organizacional.</span>
@@ -154,7 +177,8 @@
             </div>
         </div>
         <div class="new-world-dates-container">
-            <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100" data-aos-duration="400" data-aos-easing="ease-in-out">
+            <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100"
+                data-aos-duration="400" data-aos-easing="ease-in-out">
                 <p class="grapBo fs44 rojoFF">
                     En el 2020
                 </p>
@@ -168,7 +192,8 @@
                     Fuente: IDC FutureScape
                 </p>
             </div>
-            <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out">
+            <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="200"
+                data-aos-duration="400" data-aos-easing="ease-in-out">
                 <p class="grapBo fs44 rojoFF">
                     Para 2021
                 </p>
@@ -179,7 +204,8 @@
                     Fuente: “IDC FutureScape
                 </p>
             </div>
-            <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300" data-aos-duration="400" data-aos-easing="ease-in-out">
+            <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
+                data-aos-duration="400" data-aos-easing="ease-in-out">
                 <p class="grapBo fs44 rojoFF">
                     En el 2022
                 </p>
@@ -203,25 +229,29 @@
             El Certificado en Mindset Digital es para ti si:
         </div>
         <div class="el-certificado-cont">
-            <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500">
+            <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
+                data-aos-delay="100" data-aos-duration="500">
                 Necesitas llevar a cabo la
                 transición entre viejas y nuevas
                 formas de trabajo dentro de tu
                 empresa u organización.
             </div>
-            <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500">
+            <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
+                data-aos-delay="200" data-aos-duration="500">
                 Por tus responsabilidades
                 debes aplicar estrategias
                 efectivas para la implementación de cambios
                 en tu cultura organizacional.
             </div>
-            <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500">
+            <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
+                data-aos-delay="300" data-aos-duration="500">
                 Eres emprendedor y necesitas
                 claves estratégicas para
                 desarrollar o competir con
                 modelos de negocio disruptivos.
             </div>
-            <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50" data-aos-delay="400" data-aos-duration="500">
+            <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
+                data-aos-delay="400" data-aos-duration="500">
                 Necesitas complementar tus
                 conocimientos para poder
                 plantear modelos de negocio y
@@ -244,7 +274,8 @@
                     </div>
                     <div class="profesor-data">
                         <div class="grapRe fs24 negro19">Dra. Sandra Sieber</div>
-                        <div class="grapRe fs16 negro4D">Investigadora y profesora titular IESE Business School</div>
+                        <div class="grapBo fs16 negro4D">Investigadora y profesora titular</div>
+                        <div class="grapRe fs16 negro4D">IESE Business School</div>
                     </div>
                 </div>
                 <hr>
@@ -328,9 +359,12 @@
     <div class="rankings-container">
         <div class="rankings-title grapBo fs32 negro19">Rankings</div>
         <div class="ranking-cont">
-            <img  data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-First.png" alt="First">
-            <img  data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-Second.png" alt="Second">
-            <img  data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500" data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-Thir.png" alt="Thir">
+            <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
+                data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-First.png" alt="First">
+            <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
+                data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-Second.png" alt="Second">
+            <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
+                data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-Thir.png" alt="Thir">
         </div>
     </div>
     <!-- Sección Con Certificado... -->
@@ -338,7 +372,8 @@
         <div class="con-certificado-title grapBo fs32 negro19">
             Con un Certificado en Mindset Digital aprenderás a:
             <div class="con-certificado-cont">
-                <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="100"
+                    data-aos-duration="500" data-aos-easing="ease-in-out">
                     <div class="con-certificado-beneficios-img">
                         <img src="assets/img/svg/icono-aprender-1.svg" alt="icono aprender 1">
                     </div>
@@ -349,7 +384,8 @@
                         sector, industria y negocio.
                     </div>
                 </div>
-                <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="200"
+                    data-aos-duration="500" data-aos-easing="ease-in-out">
                     <div class="con-certificado-beneficios-img">
                         <img src="assets/img/svg/icono-aprender-2.svg" alt="icono aprender 2">
                     </div>
@@ -360,7 +396,8 @@
                         organizacional.
                     </div>
                 </div>
-                <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="300"
+                    data-aos-duration="500" data-aos-easing="ease-in-out">
                     <div class="con-certificado-beneficios-img">
                         <img src="assets/img/svg/icono-aprender-3.svg" alt="icono aprender 3">
                     </div>
@@ -371,7 +408,8 @@
                         futuro.
                     </div>
                 </div>
-                <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="400" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="400"
+                    data-aos-duration="500" data-aos-easing="ease-in-out">
                     <div class="con-certificado-beneficios-img">
                         <img src="assets/img/svg/icono-aprender-4.svg" alt="icono aprender 4">
                     </div>
@@ -478,7 +516,8 @@
     <div class="beneficios-container">
         <div class="beneficios-title grapBo fs32 negro19">Beneficios para el alumno</div>
         <div class="beneficios-cont">
-            <div class="beneficio" data-aos="fade-down-right" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="beneficio" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
+                data-aos-easing="ease-in-out">
                 <div class="beneficio-img">
                     <img src="assets/img/svg/icon-beneficio-1.svg" alt="Capital intelectual">
                 </div>
@@ -501,7 +540,8 @@
                     Aprendizaje para la acción: aprender haciendo.
                 </div>
             </div>
-            <div class="beneficio" data-aos="fade-down-right" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="beneficio" data-aos="fade-right" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
+                data-aos-easing="ease-in-out">
                 <div class="beneficio-img">
                     <img src="assets/img/svg/icon-beneficio-2.svg" alt="Capital de marca">
                 </div>
@@ -513,7 +553,8 @@
                     Business School, Executive Education.
                 </div>
             </div>
-            <div class="beneficio" data-aos="fade-down-right" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="beneficio" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
+                data-aos-easing="ease-in-out">
                 <div class="beneficio-img">
                     <img src="assets/img/svg/icon-beneficio-3.svg" alt="Capital social">
                 </div>
@@ -532,7 +573,8 @@
                     trayectorias profesionales.
                 </div>
             </div>
-            <div class="beneficio" data-aos="fade-down-right" data-aos-offset="50" data-aos-delay="400" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="beneficio" data-aos="fade-right" data-aos-offset="50" data-aos-delay="400" data-aos-duration="500"
+                data-aos-easing="ease-in-out">
                 <div class="beneficio-img">
                     <img src="assets/img/svg/icon-capital-carrera.svg" alt="Capital de carrera">
                 </div>
@@ -607,7 +649,8 @@
     <div class="como-funciona-container">
         <div class="como-funciona-title grapBo fs30 negro19">Cómo funciona</div>
         <div class="como-funciona-cont">
-            <div class="como-funciona-paso" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="como-funciona-paso" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="paso-numero grapBo fs50 blanco">1</div>
                 <div class="paso-title grapBo fs16 negro19">Ingresa a la plataforma</div>
                 <div class="paso-desc grapRe fs16 negro19">
@@ -625,7 +668,8 @@
                     tu certificado.
                 </div>
             </div>
-            <div class="como-funciona-paso" data-aos="fade-right" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="como-funciona-paso" data-aos="fade-right" data-aos-offset="50" data-aos-delay="200"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="paso-numero grapBo fs50 blanco">2</div>
                 <div class="paso-title grapBo fs16 negro19">Toma los cursos en línea donde te encuentres</div>
                 <div class="paso-desc grapRe fs16 negro19">
@@ -639,7 +683,8 @@
                     dispositivo.
                 </div>
             </div>
-            <div class="como-funciona-paso" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="como-funciona-paso" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="paso-numero grapBo fs50 blanco">3</div>
                 <div class="paso-title grapBo fs16 negro19">Completa el programa</div>
                 <div class="paso-desc grapRe fs16 negro19">
@@ -650,7 +695,8 @@
                     satisfactoriamente.
                 </div>
             </div>
-            <div class="como-funciona-paso" data-aos="fade-right" data-aos-offset="50" data-aos-delay="400" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="como-funciona-paso" data-aos="fade-right" data-aos-offset="50" data-aos-delay="400"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="paso-numero grapBo fs50 blanco">4</div>
                 <div class="paso-title grapBo fs16 negro19">Logra tu meta: obtén el certificado digital del programa</div>
                 <div class="paso-desc grapRe fs16 negro19">
