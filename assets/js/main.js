@@ -15,14 +15,14 @@ jQuery(document).ready(function () {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 700,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 680,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -37,9 +37,15 @@ jQuery(document).ready(function () {
             jQuery('.Logo-two').removeClass('remove');
             jQuery('.dinamic').removeClass('add');
             jQuery('.button-movil-container').removeClass('add-mov');
+            jQuery('.Logo-one').removeClass('size');
+            jQuery('.Logo-two').removeClass('size');
+            jQuery('header').removeClass('header-size');
 
 
         } else {
+            jQuery('header').addClass('header-size');
+            jQuery('.Logo-one').addClass('size');
+            jQuery('.Logo-two').addClass('size');
             jQuery('.Logo-two').addClass('remove');
             jQuery('.dinamic').addClass('add');
             jQuery('.button-movil-container').addClass('add-mov');

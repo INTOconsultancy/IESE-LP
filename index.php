@@ -34,7 +34,7 @@
 
 <body>
     <!-- BUTTON MOVIL -->
-    <div class="button-movil-container">
+    <!-- <div class="button-movil-container">
         <div class="button-movil-title grapBo fs14 negro3D">OBTÉN MÁS INFORMACIÓN</div>
         <div class="movil-button">
             <a target="_blank" rel="noopener noreferrer" class="grapBo fs16 blanco">
@@ -42,7 +42,7 @@
                 <img src="assets/img/svg/icon-descargar.svg" alt="Download">
             </a>
         </div>
-    </div>
+    </div> -->
     <!-- Header Fixed -->
     <header>
         <div class="header-container">
@@ -51,8 +51,7 @@
             <div class="dinamic">
                 <div class="header-button">
                     <a target="_blank" rel="noopener noreferrer" class="grapBo fs16 blanco">
-                        DESCARGAR EL FOLLETO
-                        <img src="assets/img/svg/icon-descargar.svg" alt="Download">
+                        MÁS INFORMACIÓN
                     </a>
                 </div>
             </div>
@@ -747,7 +746,7 @@
             Testimonios de estudiantes
         </div>
         <div class="slide-testimonio">
-            <div class="testimonio">
+            <div class="testimonio add-border">
                 <div class="testimonio-img">
                     <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
                 </div>
@@ -781,24 +780,7 @@
                     BREVE DESCRIPCIÓN DE PUESTO
                 </div>
             </div>
-            <div class="testimonio">
-                <div class="testimonio-img">
-                    <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
-                </div>
-                <div class="testimonio-desc grapRe fs15 negro19">
-                    But I must explain to you how all this mistaken
-                    idea of denouncing pleasure and praising
-                    pain was born and I will give you a complete
-                    account
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    NOMBRE APELLIDO
-                </div>
-                <div class="testimonio-work grapRe fs14 negro3D">
-                    BREVE DESCRIPCIÓN DE PUESTO
-                </div>
-            </div>
-            <div class="testimonio">
+            <div class="testimonio add-border">
                 <div class="testimonio-img">
                     <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
                 </div>
@@ -832,7 +814,24 @@
                     BREVE DESCRIPCIÓN DE PUESTO
                 </div>
             </div>
-            <div class="testimonio">
+            <div class="testimonio add-border">
+                <div class="testimonio-img">
+                    <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
+                </div>
+                <div class="testimonio-desc grapRe fs15 negro19">
+                    But I must explain to you how all this mistaken
+                    idea of denouncing pleasure and praising
+                    pain was born and I will give you a complete
+                    account
+                </div>
+                <div class="testimonio-name grapBo fs20 gris66">
+                    NOMBRE APELLIDO
+                </div>
+                <div class="testimonio-work grapRe fs14 negro3D">
+                    BREVE DESCRIPCIÓN DE PUESTO
+                </div>
+            </div>
+            <div class="testimonio add-border">
                 <div class="testimonio-img">
                     <img src="assets/img/jpg/test-slide.jpg" alt="Persona">
                 </div>
