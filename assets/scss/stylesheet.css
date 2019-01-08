@@ -1655,9 +1655,9 @@ hr {
   align-items: center;
   margin: 0 auto;
   background-color: #F7F7F4;
-  max-width: 360px;
 }
 .tu-viaje-container .tu-viaje-cont .tu-viaje-icon {
+  width: 240px;
   margin: 20px 30px;
 }
 .tu-viaje-container .tu-viaje-cont .tu-viaje-icon .tu-viaje-img {
@@ -1689,7 +1689,7 @@ hr {
     max-width: 1135px;
   }
   .tu-viaje-container .tu-viaje-cont .tu-viaje-icon {
-    margin: 40px 30px 90px;
+    margin: 40px 15px 90px;
   }
   .tu-viaje-container .tu-viaje-cont .tu-viaje-icon .tu-viaje-img {
     width: 85px;
@@ -2110,6 +2110,10 @@ footer .footer-cont .right .terminos-politicas-cont a {
     margin: 0 0 0 25px;
     text-align: center;
   }
+}
+.gracias-container {
+  background-image: linear-gradient(white, #805f58);
+  height: 100vh;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

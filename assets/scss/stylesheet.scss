@@ -1880,9 +1880,9 @@ hr {
         align-items: center;
         margin: 0 auto;
         background-color: #F7F7F4;
-        max-width: 360px;
 
         .tu-viaje-icon {
+            width: 240px;
             margin: 20px 30px;
 
             .tu-viaje-img {
@@ -1919,7 +1919,7 @@ hr {
         .tu-viaje-cont {
             max-width: 1135px;
             .tu-viaje-icon {
-                margin: 40px 30px 90px;
+                margin: 40px 15px 90px;
 
                 .tu-viaje-img {
                     width: 85px;
@@ -2391,5 +2391,11 @@ footer{
             }
         }
     }
+}
+//
+//THANK YOU PAGE
+.gracias-container{
+    background-image: linear-gradient(white, #805f58);
+    height: 100vh;
 }
 //
