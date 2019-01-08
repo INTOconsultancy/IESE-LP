@@ -222,8 +222,8 @@
         </div>
     </div>
     <!-- Sección El Certificado... -->
+    <div class="el-certificado-media"></div>
     <div class="el-certificado-container">
-        <div class="el-certificado-media"></div>
         <div class="el-certificado-title grapBo fs32 negro19">
             El Certificado en Mindset Digital es para ti si:
         </div>
