@@ -1412,6 +1412,10 @@ hr {
         font-size: 32px;
         line-height: 48px;
     }
+    .module-title {
+        width: 75%!important;
+        margin-left: 20px!important;
+    }
 }
 
 .modulos-container {
@@ -1439,7 +1443,7 @@ hr {
         }
         .module-title {
             width: 70%;
-            margin-left: 20px;
+            margin-left: 10px;
         }
         .No {}
     }
