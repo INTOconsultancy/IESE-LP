@@ -98,7 +98,9 @@ img {
 .MinRe {
     font-family: MinionPro-Regular;
 }
-
+.hide{
+    display: none!important;
+}
 //FONT SIZE
 .fs10 {
     font-size: 10px;
@@ -1439,7 +1441,8 @@ hr {
         position: relative;
         padding: 2rem 0;
         &.active {
-            border-bottom: none;
+            // border-bottom: none;
+            border-bottom: 2px solid #C5CBC0;
         }
         .module-title {
             width: 70%;

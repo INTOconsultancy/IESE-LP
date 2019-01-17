@@ -98,6 +98,10 @@ img {
   font-family: MinionPro-Regular;
 }
 
+.hide {
+  display: none !important;
+}
+
 .fs10 {
   font-size: 10px;
 }
@@ -1619,7 +1623,7 @@ hr {
 }
 
 .modulo-cont .collapsible-header.active {
-  border-bottom: none;
+  border-bottom: 2px solid #C5CBC0;
 }
 
 .modulo-cont .collapsible-header .module-title {
