@@ -1441,8 +1441,7 @@ hr {
         position: relative;
         padding: 2rem 0;
         &.active {
-            // border-bottom: none;
-            border-bottom: 2px solid #C5CBC0;
+            border-bottom: none;
         }
         .module-title {
             width: 70%;
@@ -1907,7 +1906,7 @@ hr {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        max-width: 1135px;
+        max-width: 1000px;
         .certificado-img {
             width: 330px;
             div {
@@ -1963,7 +1962,6 @@ hr {
         padding: 90px 18px;
         .certificado-cont {
             justify-content: space-between;
-            max-width: 1135px;
             .certificado-datos {
                 width: 100%;
                 margin: 0;
@@ -2079,10 +2077,12 @@ hr {
         }
         .testimonio-name {
             text-align: center;
+            text-transform: uppercase;
             margin-top: 20px;
         }
         .testimonio-work {
             text-align: center;
+            text-transform: uppercase;
             margin-top: 2px;
         }
     }
