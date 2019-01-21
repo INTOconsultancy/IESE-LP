@@ -1395,7 +1395,7 @@ hr {
   padding: 2rem 0;
 }
 .modulo-cont .collapsible-header.active {
-  border-bottom: none;
+  border-bottom: 2px solid #C5CBC0;
 }
 .modulo-cont .collapsible-header .module-title {
   width: 70%;
@@ -1404,7 +1404,6 @@ hr {
 .collapsible-header {
   width: 100%;
   display: flex;
-  cursor: pointer;
   line-height: 1.5;
   background-color: #fff;
   border-bottom: 2px solid #C5CBC0;
