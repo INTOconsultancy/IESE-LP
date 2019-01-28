@@ -446,7 +446,7 @@ header {
   margin: 0 auto;
 }
 .hero-img img:nth-child(1) {
-  max-width: 825px;
+  max-width: 890px;
   width: 100%;
 }
 .hero-img img:nth-child(2) {
@@ -668,7 +668,7 @@ header {
   }
 
   .hero-container {
-    padding: 10px 0 0 0;
+    padding: 40px 0 0 0;
   }
 
   .hero-title-time {
@@ -994,7 +994,7 @@ hr {
 
 @media only screen and (min-width: 1024px) {
   .el-certificado-container {
-    padding: 90px 17px 0;
+    padding: 0 17px;
   }
   .el-certificado-container .el-certificado-title {
     text-align: center;
@@ -1968,6 +1968,11 @@ hr {
   z-index: 1;
 }
 
+.slick-initialized .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+}
+
 .slider-container {
   width: 100%;
   padding: 0;
@@ -2000,6 +2005,9 @@ hr {
 }
 .slide-testimonio .testimonio {
   padding: 0 28px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 580px;
 }
 .slide-testimonio .testimonio .testimonio-img img {
   width: 112px;
@@ -2031,6 +2039,7 @@ hr {
 
   .testimonio {
     padding: 20px 28px;
+    margin: 0 auto;
   }
 
   .add-border {

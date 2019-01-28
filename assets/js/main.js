@@ -6,12 +6,12 @@ jQuery(document).ready(function () {
         arrows: true,
         autoplay: true,
         autoplaySpeed: 5000,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [{
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
                 }
@@ -19,7 +19,7 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 700,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 2
                 }
             },
