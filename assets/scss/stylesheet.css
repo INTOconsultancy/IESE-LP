@@ -98,6 +98,10 @@ img {
   font-size: 10px;
 }
 
+.fs11 {
+  font-size: 11px;
+}
+
 .fs12 {
   font-size: 12px;
 }
@@ -240,6 +244,14 @@ img {
 
 .negro4D {
   color: #4D4D4D;
+}
+
+.grisCE {
+  color: #CECECE;
+}
+
+.gris99 {
+  color: #999999;
 }
 
 .gris66 {
@@ -394,85 +406,6 @@ header {
   line-height: 22px;
 }
 
-.form-container {
-  width: 100%;
-  max-width: 395px;
-  background-color: #EEEEEE;
-  padding: 40px 48px;
-  position: relative;
-  margin: 0 auto;
-}
-@media only screen and (max-width: 1024px) {
-  .form-container {
-    max-width: 100%;
-  }
-}
-.form-container .form-title {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.form-container .form-cont {
-  width: 100%;
-  max-width: 415px;
-  margin: 0 auto;
-}
-.form-container .form-cont .mdl-textfield {
-  width: 100%;
-  margin: 5px auto;
-}
-.form-container .form-cont .mdl-textfield select {
-  text-align: left;
-  align-items: flex-end;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* remove default arrow */
-  background-image: url("assets/img/svg/flecha-desplegar.svg") !important;
-  background-repeat: no-repeat;
-  background-position-x: 95%;
-  background-position-y: 15px;
-  background-size: 10px;
-}
-.form-container .form-cont .button-container {
-  margin-top: 12px;
-  display: flex;
-  justify-content: center;
-}
-.form-container .form-cont .button-container button {
-  cursor: pointer;
-  width: 100%;
-  padding: 20px;
-  background-color: #FF0000;
-}
-.form-container .form-cont .button-container button:hover img {
-  margin-left: 5px;
-}
-.form-container .form-cont .button-container button img {
-  width: 14px;
-  margin-top: -5px;
-  margin-left: 5px;
-  -webkit-transition: all 300ms;
-  -moz-transition: all 300ms;
-  -o-transition: all 300ms;
-}
-
-.private-data {
-  width: auto;
-}
-.private-data .data {
-  width: 90%;
-}
-.private-data div {
-  margin: 10px auto 0;
-  text-align: center;
-}
-.private-data div a {
-  cursor: pointer;
-}
-.private-data div a:hover {
-  color: #FF0000;
-}
-
 .mdl-textfield.is-invalid .mdl-textfield__input {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
   box-shadow: none;
@@ -595,6 +528,88 @@ header {
   color: rgba(0, 0, 0, 0.4) !important;
 }
 
+.form-container {
+  width: 100%;
+  max-width: 410px;
+  background-color: #EEEEEE;
+  padding: 30px;
+  position: relative;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1024px) {
+  .form-container {
+    max-width: 100%;
+  }
+}
+.form-container .form-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.form-container .form-cont {
+  width: 100%;
+  max-width: 410px;
+  margin: 0 auto;
+}
+.form-container .form-cont .mdl-textfield {
+  width: 100%;
+  margin: 5px auto;
+}
+.form-container .form-cont .mdl-textfield select {
+  text-align: left;
+  align-items: flex-end;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* remove default arrow */
+  background-image: url("assets/img/svg/flecha-desplegar.svg") !important;
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 15px;
+  background-size: 10px;
+}
+.form-container .form-cont .button-container {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+.form-container .form-cont .button-container button {
+  cursor: pointer;
+  width: 100%;
+  padding: 20px;
+  background-color: #FF0000;
+}
+.form-container .form-cont .button-container button:hover img {
+  margin-left: 5px;
+}
+.form-container .form-cont .button-container button img {
+  width: 14px;
+  margin-top: -5px;
+  margin-left: 5px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+.private-data {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 410px;
+  position: relative;
+}
+.private-data .data {
+  width: 100%;
+}
+.private-data div {
+  margin: 10px auto 0;
+  text-align: center;
+}
+.private-data div a {
+  cursor: pointer;
+}
+.private-data div a:hover {
+  color: #FF0000;
+}
+
 @media only screen and (min-width: 1024px) {
   .movil {
     display: none;
@@ -604,13 +619,19 @@ header {
     display: block;
   }
 
+  .private-data {
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+  }
+
   .hero-container {
     padding: 40px 0 0 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/hero-image-iese-desktop.jpg");
     background-repeat: no-repeat;
     background-position-x: 40%;
     background-size: cover;
-    height: 665px;
+    height: 715px;
   }
   .hero-container .hero-title {
     background: linear-gradient(0deg, rgba(217, 222, 242, 0.5), rgba(217, 222, 242, 0.5) 25%, rgba(217, 222, 242, 0.3) 40%, rgba(217, 222, 242, 0) 75%), url("");
@@ -738,13 +759,6 @@ header {
     margin: 0 0 0 15%;
   }
 }
-hr {
-  width: 90%;
-  margin: 30px auto !important;
-  background-color: #707070 !important;
-  height: 2px !important;
-}
-
 .new-world-container {
   width: 100%;
   background-color: #ffffff;
@@ -763,38 +777,12 @@ hr {
   margin: 0 auto;
 }
 
-.new-world-desc-cont {
-  width: 100%;
-  max-width: 1140px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-.new-world-desc-cont .new-world-desc {
-  width: 100%;
-  margin: 10px auto;
-  text-align: center;
-  padding: 10px;
-}
-.new-world-desc-cont .new-world-desc:nth-child(1) {
-  border: 1px solid #FF0000;
-  line-height: 24px;
-  max-width: 522px;
-}
-.new-world-desc-cont .new-world-desc:nth-child(2) {
-  line-height: 21px;
-  padding: 0 23px;
-  max-width: 500px;
-}
-
 .new-world-dates-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: initial;
-  margin: 0 auto;
+  margin: 30px auto 0;
   max-width: 1140px;
 }
 .new-world-dates-container .new-world-date-cont {
@@ -802,23 +790,38 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
+  align-items: flex-start;
   margin: 0 auto;
   max-width: 340px;
   padding: 38px 25px;
-  border: 1px solid #FF0000;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px -2px gray;
   margin: 12px auto;
 }
 .new-world-dates-container .new-world-date-cont p {
   margin: 15px auto 0;
   text-align: center !important;
 }
-@media only screen and (min-width: 1024px) {
-  hr {
-    width: 80%;
-    margin: 80px auto 60px !important;
-    height: 1px !important;
-  }
+.new-world-dates-container .new-world-date-cont p:nth-child(2) {
+  margin: 0 auto;
+  line-height: 34px;
+}
+.new-world-dates-container .new-world-date-cont p:nth-child(3) {
+  line-height: 24px;
+}
+.new-world-dates-container .new-world-date-cont p:nth-child(4) {
+  margin: 5px auto 0 !important;
+}
+.new-world-dates-container .new-world-date-cont .new-world-date-img {
+  width: 100%;
+}
+.new-world-dates-container .new-world-date-cont .new-world-date-img img {
+  width: 40px;
+  display: block;
+  margin: 0 auto 12px;
+}
 
+@media only screen and (min-width: 1024px) {
   .new-world-container {
     padding: 90px 17px;
   }
@@ -832,40 +835,13 @@ hr {
     line-height: 30px;
   }
 
-  .new-world-desc-cont {
-    width: 100%;
-    max-width: 1187px;
-    margin: 20px auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .new-world-desc-cont .new-world-desc {
-    width: 100%;
-    margin: 10px 0;
-    text-align: left;
-    padding: 30px 42px;
-  }
-  .new-world-desc-cont .new-world-desc:nth-child(1) {
-    border: 1px solid #FF0000;
-    line-height: 32px;
-    max-width: 522px;
-    font-size: 26px;
-  }
-  .new-world-desc-cont .new-world-desc:nth-child(2) {
-    line-height: 26px;
-    padding: 0 23px;
-    max-width: 550px;
-    font-size: 20px;
-  }
-
   .new-world-dates-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: initial;
-    margin: 0 auto;
-    max-width: 1270px;
+    margin: 55px auto 0 !important;
+    max-width: 1200px;
   }
   .new-world-dates-container .new-world-date-cont {
     width: 100%;
@@ -875,23 +851,11 @@ hr {
     margin: 0 auto;
     max-width: 340px;
     padding: 38px 25px;
-    border: 1px solid #FF0000;
     margin: 12px auto;
   }
   .new-world-dates-container .new-world-date-cont p {
     margin: 15px auto 0;
     text-align: center !important;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .new-world-desc-cont {
-    width: 100%;
-    max-width: 1187px;
-    margin: 20px auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
   }
 }
 .el-certificado-media {
@@ -1254,6 +1218,13 @@ hr {
     width: 308px;
   }
 }
+.linea-separadora {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
+  background-color: #EEEEEE;
+}
+
 .con-certificado-container {
   width: 100%;
   padding: 40px 17px;
@@ -1274,23 +1245,35 @@ hr {
 }
 .con-certificado-container .con-certificado-cont .con-certificado-beneficios {
   width: 100%;
-  height: 100%;
-  padding: 30px 14px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 520px;
+  padding: 15px 0;
   margin: 0 auto 20px;
-  background-color: #EEEEEE;
-  max-width: 558px;
 }
 .con-certificado-container .con-certificado-cont .con-certificado-beneficios .con-certificado-beneficios-img {
-  width: auto;
+  width: 50px;
 }
 .con-certificado-container .con-certificado-cont .con-certificado-beneficios .con-certificado-beneficios-img img {
-  width: 80px;
-  height: 81px;
-  margin: 0 auto;
+  width: 50px;
+  height: 40px;
+  margin: 0 10px 0 0;
 }
 .con-certificado-container .con-certificado-cont .con-certificado-beneficios .con-certificado-beneficios-description {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
   line-height: 24px;
-  margin-top: 20px;
+  text-align: left;
+}
+@media only screen and (max-width: 500px) {
+  .con-certificado-container .con-certificado-cont .con-certificado-beneficios .con-certificado-beneficios-description {
+    width: 80%;
+  }
+}
+.con-certificado-container .con-certificado-cont .con-certificado-beneficios .con-certificado-beneficios-description .title {
+  margin: 0 0 10px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1299,15 +1282,13 @@ hr {
     padding: 90px 17px;
   }
 
-  .con-certificado-beneficios {
-    padding: 65px 40px !important;
-    margin: 0 auto 30px !important;
-    max-width: 530px !important;
-    height: 300px !important;
+  .con-certificado-beneficios-img {
+    width: 80px !important;
   }
-  .con-certificado-beneficios .con-certificado-beneficios-description {
-    line-height: 24px;
-    margin-top: 20px;
+  .con-certificado-beneficios-img img {
+    width: 80px !important;
+    height: 81px !important;
+    margin: 0 30px 0 0;
   }
 }
 .plan-de-estudios-title {
@@ -1521,83 +1502,6 @@ hr {
 
   .sidenav .collapsible-body {
     padding: 0;
-  }
-}
-.beneficios-container {
-  width: 100%;
-  padding: 35px 9px;
-  background-color: #fff;
-}
-.beneficios-container .beneficios-title {
-  width: 100%;
-  margin-bottom: 20px;
-  text-align: center;
-  line-height: 38px;
-}
-.beneficios-container .beneficios-cont {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1170px;
-}
-.beneficios-container .beneficios-cont .beneficio {
-  margin: 9px;
-  padding: 40px 18px;
-  background-color: #E9E9E9;
-  width: 330px;
-}
-.beneficios-container .beneficios-cont .beneficio .beneficio-img {
-  width: 75px;
-  height: 75px;
-  margin: 0 auto;
-}
-.beneficios-container .beneficios-cont .beneficio .beneficio-img img {
-  width: 75px;
-  height: 75px;
-}
-.beneficios-container .beneficios-cont .beneficio .beneficio-title {
-  width: 100%;
-  margin: 24px 0;
-  text-align: center;
-  line-height: 27px;
-}
-.beneficios-container .beneficios-cont .beneficio .beneficio-desc {
-  width: 100%;
-  text-align: center;
-  line-height: 20px;
-}
-
-@media only screen and (min-width: 1024px) {
-  .beneficios-container {
-    padding: 0 9px 90px;
-  }
-
-  .beneficio {
-    margin: 0;
-    padding: 40px 15px;
-    width: 270px !important;
-  }
-  .beneficio .beneficio-img {
-    width: 75px;
-    height: 75px;
-    margin: 0 auto;
-  }
-  .beneficio .beneficio-img img {
-    width: 75px;
-    height: 75px;
-  }
-  .beneficio .beneficio-title {
-    width: 100%;
-    margin: 24px 0;
-    text-align: center;
-    line-height: 27px;
-  }
-  .beneficio .beneficio-desc {
-    width: 100%;
-    text-align: center;
-    line-height: 20px;
   }
 }
 .tu-viaje-container {
