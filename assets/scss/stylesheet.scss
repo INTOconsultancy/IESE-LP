@@ -779,11 +779,10 @@ header {
     }
     .new-world-subtitle {
         width: 100%;
-        margin-top: 10px;
         text-align: center;
         line-height: 26px;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 20px auto 0;
     }
 }
 
@@ -894,7 +893,7 @@ header {
         text-align: center;
         line-height: 36px;
         margin-bottom: 10px;
-        max-width: 1190px;
+        max-width: 1140px;
     }
     .el-certificado-cont {
         width: 100%;
@@ -910,20 +909,20 @@ header {
             margin: 10px 5px;
             max-width: 320px;
             line-height: 24px;
-            text-align: center;
-            box-shadow: 0 2px 10px -2px gray;
+            text-align: left;
+            border-left: 1px solid #FF0000;
         }
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .el-certificado-container {
-        padding: 0 17px;
+        padding: 90px 17px;
         .el-certificado-media {}
         .el-certificado-title {
             text-align: center;
             line-height: 38px;
-            margin: 0 auto 10px;
+            margin: 0 auto 30px;
         }
         .el-certificado-cont {
             width: 100%;
@@ -935,165 +934,16 @@ header {
             max-width: 1190px !important;
             .el-certificado-beneficios {
                 width: 100%;
-                padding: 22px 25px;
-                margin: 10px auto;
-                max-width: 270px;
+                padding: 5px 25px;
+                margin: 20px auto!important;
+                max-width: 485px;
                 line-height: 24px;
-                text-align: center;
-                box-shadow: 0 2px 10px -2px gray;
+                text-align: left;
             }
         }
-        hr {
-            display: block;
-            margin: 90px auto 0 !important;
-        }
     }
 }
-
-@media only screen and (min-width: 1200px) {
-    .el-certificado-title {
-        text-align: left !important;
-    }
-}
-
-//SECCIÓN PROFESOR
-.profesor-container {
-    width: 100%;
-    padding: 40px 20px;
-    background-color: #ffffff;
-    .profesor-title {
-        width: 100%;
-        margin: 0 auto;
-        max-width: 1135px;
-        text-align: center;
-        line-height: 38px;
-    }
-}
-
-.profesor-cont {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    .profesor-desc {
-        width: 100%;
-        margin: 0 auto;
-        padding: 15px 0;
-        max-width: 545px;
-        .profesor-desc-cont {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            .profesor-img {
-                width: auto;
-                img {
-                    width: 116px;
-                    border-radius: 50%;
-                }
-            }
-            .profesor-data {
-                width: 100%;
-                margin: 20px 0 0 0;
-                max-width: 260px;
-                div {
-                    text-align: center;
-                    &:nth-child(1) {
-                        line-height: 31px;
-                    }
-                    &:nth-child(2) {
-                        margin-top: 5px;
-                        line-height: 21px;
-                    }
-                    &:nth-child(3) {
-                        margin-top: 5px;
-                        line-height: 21px;
-                    }
-                }
-            }
-        }
-        hr {
-            width: 100% !important;
-            margin: 20px auto !important;
-        }
-        .profesor-description {
-            text-align: center;
-            line-height: 22px;
-        }
-        .profesor-media {}
-    }
-}
-
-@media only screen and (min-width: 396px) {
-    .profesor-data {
-        width: 100%;
-        margin: 0 0 0 20px !important;
-        max-width: 240px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .profesor-container {
-        padding: 90px 17px;
-    }
-    .profesor-title {
-        text-align: center !important;
-    }
-    .profesor-cont {
-        align-items: flex-start;
-    }
-    .profesor-desc {
-        width: 100%;
-        margin: 0 32px 0 0 !important;
-        padding: 15px 0;
-        max-width: 545px;
-        .profesor-desc-cont {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: initial !important;
-            .profesor-img {
-                width: auto;
-                img {
-                    width: 116px;
-                    border-radius: 50%;
-                }
-            }
-            .profesor-data {
-                div {
-                    text-align: left !important;
-                    &:nth-child(1) {
-                        line-height: 31px;
-                    }
-                    &:nth-child(2) {
-                        margin-top: 5px;
-                        line-height: 21px;
-                    }
-                    &:nth-child(3) {
-                        margin-top: 5px;
-                        line-height: 21px;
-                    }
-                }
-            }
-        }
-        hr {
-            margin: 20px auto 10px !important;
-        }
-        .profesor-description {
-            text-align: left !important;
-            line-height: 22px;
-        }
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .profesor-title {
-        text-align: left !important;
-    }
-}
-
+//
 //SECCIÓN TUTORES EXPERTOS
 .tutores-expertos-container {
     width: 100%;
@@ -1237,7 +1087,7 @@ header {
 
 @media only screen and (min-width: 1024px) {
     .rankings-container {
-        padding: 90px 17px 0;
+        padding: 90px 17px;
         .ranking-cont {
             width: auto;
             justify-content: space-between;
@@ -1298,7 +1148,7 @@ header {
                     width: 80%;
                 }
                 .title{
-                    margin: 0 0 10px;
+                    margin: 0 0 5px;
                 }
             }
         }
@@ -1321,13 +1171,29 @@ header {
 }
 
 //SECCIÓN PLAN DE ESTUDIOS
+.plan-de-estudios-container{
+    width: 100%;
+    padding: 35px 0;
+}
 .plan-de-estudios-title {
     text-align: center;
     width: 100%;
+    padding: 35px 0 0;
+    margin: 0 auto;
+    max-width: 745px;
     line-height: 40px;
+    background-color: #F5F5F5;
 }
 
+.modulos-container {
+    padding: 10px;
+}
 @media only screen and (min-width: 1024px) {
+    
+    .plan-de-estudios-container{
+        width: 100%;
+        padding: 90px 0;
+    }
     .plan-de-estudios-title {
         font-size: 32px;
         line-height: 48px;
@@ -1339,8 +1205,9 @@ header {
 }
 
 .modulos-container {
+    background-color: #F5F5F5;
     width: 100%;
-    padding: 35px 14px;
+    padding: 10px 30px 35px;
     margin: 0 auto;
     max-width: 745px;
     .collapsible {
@@ -1375,7 +1242,7 @@ header {
     display: flex;
     // cursor: pointer;
     line-height: 1.5;
-    background-color: #fff;
+    background-color: #F5F5F5;
     border-bottom: 2px solid #C5CBC0;
 }
 
@@ -1482,7 +1349,7 @@ header {
 .sidenav .collapsible-body,
 .sidenav.fixed .collapsible-body {
     border: 0;
-    background-color: #fff;
+    background-color: #F5F5F5!important;
 }
 
 .sidenav .collapsible-body li a,
@@ -1546,43 +1413,61 @@ header {
 // SECCIÓN TU VIAJE DE APRENDIZAJE
 .tu-viaje-container {
     width: 100%;
-    padding: 0 18px;
+    padding: 35px 15px;
     background-color: #FFFFFF;
     .tu-viaje-title {
         width: 100%;
         text-align: center;
         line-height: 38px;
-        padding: 35px 0 30px;
         margin: 0 auto;
-        background-color: #F7F7F4;
+        background-color: #FFFFFF;
         max-width: 1135px;
+    }
+    .tu-viaje-subtitle {
+        width: 100%;
+        text-align: center;
+        line-height: 22px;
+        margin: 10px auto 0;
+        background-color: #FFFFFF;
+        max-width: 600px;
     }
     .tu-viaje-cont {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: center;
         margin: 0 auto;
-        background-color: #F7F7F4;
-        .tu-viaje-icon {
-            width: 240px;
-            margin: 20px 30px;
-            .tu-viaje-img {
-                width: 85px;
-                height: 50px;
-                margin: 0 auto;
-                img {
-                    width: 85px;
-                    height: 50px;
-                    margin: 0 auto;
+        background-color: #FFFFFF;
+        max-width: 1140px;
+        .aprendizaje{
+            width: 100%;
+            margin: 25px auto;
+            display: flex;
+            justify-content: center;
+            max-width: 535px;
+            .aprendizaje-img{
+                width: 80px;
+                height: 80px;
+                margin: 0 5px 0 0;
+                img{
+                    width: 80px;
+                    height: 80px;
                 }
             }
-            .tu-viaje-numero,
-            .tu-viaje-name {
-                text-align: center;
-                margin: 20px auto;
+            .aprendizaje-desc{
                 width: 100%;
+                margin: 0;
+                max-width: 360px;
+                @media only screen and (max-width: 500px){
+                    width: 67%;
+                }
+                .aprendizaje-desc-title{
+                    line-height: 20px;
+                }
+                .aprendizaje-desc-subtitle{
+                    line-height: 22px;
+                    margin: 10px 0 0
+                }
             }
         }
     }
@@ -1590,106 +1475,27 @@ header {
 
 @media only screen and (min-width: 1024px) {
     .tu-viaje-container {
-        padding: 0px 18px;
+        padding: 90px 0;
         .tu-viaje-title {
             line-height: 38px;
-            padding: 90px 0 30px;
         }
         .tu-viaje-cont {
+            align-items: center;
             max-width: 1135px;
-            .tu-viaje-icon {
-                margin: 40px 15px 90px;
-                .tu-viaje-img {
-                    width: 85px;
-                    height: 50px;
-                    img {
-                        width: 85px;
-                        height: 50px;
-                    }
-                }
-                .tu-viaje-numero {
-                    line-height: 39px;
-                    margin: 20px auto 0;
-                }
-                .tu-viaje-name {
-                    line-height: 24px;
-                    margin: 20px auto;
-                }
+        }
+        .aprendizaje{
+            width: 100%;
+            margin: 25px 10px!important;
+        }
+        .aprendizaje-img{
+            width: 151px!important;
+            height: 151px!important;
+            margin: 0 20px 0 0!important;
+            img{
+                width: 151px!important;
+                height: 151px!important;
             }
         }
-    }
-}
-
-//
-//SECCIÓN CÓMO FUNCIONA
-.como-funciona-container {
-    width: 100%;
-    padding: 35px 10px;
-    background-color: #ffffff;
-    .como-funciona-title {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto 20px;
-        max-width: 1135px;
-    }
-    .como-funciona-cont {
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: initial;
-        max-width: 1135px;
-        .como-funciona-paso {
-            width: 313px;
-            margin: 10px;
-            padding: 70px 20px 40px;
-            position: relative;
-            background-color: #EFEFEF;
-            .paso-numero {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 58px;
-                height: 58px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                line-height: 16px;
-                background-color: #191919;
-            }
-            .paso-title,
-            .paso-desc {
-                line-height: 24px;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .como-funciona-container {
-        padding: 90px 10px;
-        .como-funciona-title {
-            text-align: center;
-            margin: 0 auto 40px;
-            max-width: 1090px;
-            font-size: 32px;
-        }
-        .como-funciona-cont {
-            .como-funciona-paso {
-                width: 257px;
-                margin: 10px;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .como-funciona-title {
-        text-align: left;
-        margin: 0 auto 40px;
-        max-width: 1090px;
-        font-size: 32px;
     }
 }
 
