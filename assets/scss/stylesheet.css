@@ -441,7 +441,7 @@ header {
   width: 300px;
   max-width: 100%;
   margin: 0;
-  padding: 20px 0 0 !important;
+  padding: 0 0 !important;
   background-color: white;
   border-radius: 1px;
 }
@@ -455,6 +455,7 @@ header {
   margin: 0;
   padding: 4px 0;
   width: 100%;
+  height: 46px;
   background: 0 0;
   text-align: left;
   color: inherit;
@@ -516,18 +517,6 @@ header {
   color: inherit;
 }
 
-.getmdl-select .mdl-icon-toggle__label {
-  float: right;
-  margin-top: -38px !important;
-  color: rgba(0, 0, 0, 0.4);
-  transform: rotate(0);
-  transition: transform 0.3s;
-}
-
-.getmdl-select.is-focused .mdl-icon-toggle__label {
-  color: rgba(0, 0, 0, 0.4) !important;
-}
-
 .form-container {
   width: 100%;
   max-width: 410px;
@@ -553,19 +542,6 @@ header {
 .form-container .form-cont .mdl-textfield {
   width: 100%;
   margin: 5px auto;
-}
-.form-container .form-cont .mdl-textfield select {
-  text-align: left;
-  align-items: flex-end;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* remove default arrow */
-  background-image: url("assets/img/svg/flecha-desplegar.svg") !important;
-  background-repeat: no-repeat;
-  background-position-x: 95%;
-  background-position-y: 15px;
-  background-size: 10px;
 }
 .form-container .form-cont .button-container {
   margin-top: 12px;
@@ -932,33 +908,32 @@ header {
 .tutores-expertos-container {
   width: 100%;
   padding: 40px 17px;
-  background-color: #EEEEEE;
+  background-color: #ffffff;
 }
 .tutores-expertos-container .tutores-expertos-title {
   text-align: center;
   line-height: 41px;
+  margin-bottom: 20px;
 }
-.tutores-expertos-container .tutores-expertos-subtitle {
-  text-align: center;
-  line-height: 24px;
-  margin: 20px auto 0;
+.tutores-expertos-container .tutor-container {
   width: 100%;
-  max-width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: initial;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
 }
 .tutores-expertos-container .tutor-cont {
   width: 100%;
   margin: 10px auto;
-  max-width: 645px;
+  max-width: 540px;
   padding: 35px 15px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 10px -2px gray;
-}
-.tutores-expertos-container .tutor-cont hr {
-  width: 100%;
-  margin: 20px auto !important;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #FF0000;
 }
 .tutores-expertos-container .tutor-cont .tutor-description {
-  text-align: center;
+  text-align: left;
   line-height: 22px;
 }
 .tutores-expertos-container .tutor-cont .tutor-description div {
@@ -967,22 +942,20 @@ header {
 .tutores-expertos-container .tutor-cont .tutor-desc {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-imagen img {
-  width: 116px;
+  width: 126px;
   margin: 0 auto;
-  border-radius: 50%;
   margin-bottom: 15px;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-data {
   width: 100%;
-  margin-left: 0;
-  max-width: 200px;
+  margin: 20px 0 0;
+  max-width: 330px;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-data div:nth-child(1) {
-  line-height: 31px;
+  text-transform: uppercase;
+  line-height: 20px;
   text-align: center;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-data div:nth-child(2) {
@@ -998,11 +971,7 @@ header {
 
   .tutor-cont {
     margin: 10px auto;
-    padding: 60px !important;
-  }
-  .tutor-cont hr {
-    width: 100%;
-    margin: 20px auto !important;
+    padding: 33px 20px !important;
   }
   .tutor-cont .tutor-description {
     text-align: center;
@@ -1014,24 +983,20 @@ header {
   .tutor-cont .tutor-desc {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: initial;
   }
   .tutor-cont .tutor-desc .tutor-imagen img {
-    width: 116px;
+    width: 126px;
     margin: 0 auto;
-    border-radius: 50%;
     margin-bottom: 15px;
   }
   .tutor-cont .tutor-desc .tutor-data {
-    margin-left: 20px !important;
+    margin: 20px 0 0 20px !important;
   }
   .tutor-cont .tutor-desc .tutor-data div:nth-child(1) {
-    line-height: 31px;
     text-align: left !important;
   }
   .tutor-cont .tutor-desc .tutor-data div:nth-child(2) {
-    line-height: 22px;
     margin-top: 5px;
     text-align: left !important;
   }
@@ -1081,6 +1046,34 @@ header {
   background-color: #EEEEEE;
 }
 
+.video-container {
+  width: 95%;
+  height: 60vh;
+  margin: 0 auto !important;
+  max-width: 800px;
+}
+.video-container iframe {
+  width: 100%;
+  height: 60vh;
+  margin: 0 auto !important;
+  max-width: 800px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .video-container {
+    width: 100% !important;
+    height: 600px !important;
+    margin: 0 auto !important;
+    max-width: 1140px !important;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: 600px !important;
+    margin: 0 auto !important;
+    max-width: 1140px !important;
+  }
+}
 .con-certificado-container {
   width: 100%;
   padding: 40px 17px;
@@ -1680,12 +1673,11 @@ header {
   padding: 0 28px;
   width: 100%;
   margin: 0 auto;
-  max-width: 380px;
+  max-width: 500px;
 }
 .slide-testimonio .testimonio .testimonio-img img {
   width: 112px;
   margin: 0 auto;
-  border-radius: 50%;
 }
 .slide-testimonio .testimonio .testimonio-desc {
   text-align: center;
@@ -1766,8 +1758,8 @@ footer .footer-cont .right .terminos-politicas-cont {
   justify-content: center;
 }
 footer .footer-cont .right .terminos-politicas-cont a {
-  width: 200px;
-  margin: 0;
+  width: auto;
+  margin: 0 10px;
   text-align: center;
 }
 
@@ -1812,7 +1804,7 @@ footer .footer-cont .right .terminos-politicas-cont a {
   }
   footer .footer-cont .right .terminos-politicas-cont a {
     width: auto;
-    margin: 0 0 0 25px;
+    margin: 0 15px;
     text-align: center;
   }
 }

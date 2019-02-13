@@ -8,18 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="canonical" href="https://emeritus.iese.edu/Mindset-Digital/" />
     <link rel="stylesheet" href="assets/scss/stylesheet.css">
-    <script src="assets/libs/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/logs.js"></script>
+    <script type="text/javascript" src="assets/libs/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/logs.js"></script>
+    <script type="text/javascript" src="assets/js/countries-latam.js"></script>
     <!-- MATERIAL DESIGN LITE -->
     <link rel="stylesheet" href="assets/libs/mdl/material.min.css">
     <script src="assets/libs/mdl/material.min.js"></script>
-    <!--getmdl-select-->
-    <link rel="stylesheet" href="assets/libs/mdl/getmdl-select.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script defer src="assets/libs/mdl/getmdl-select.min.js"></script>
     <!-- MATERIALIZE -->
-    <script src="assets/js/materialize.js"></script>
-    <script src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <!-- Jquery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
@@ -27,7 +24,7 @@
     <link rel="stylesheet" href="assets/libs/slick/slick.css">
     <link rel="stylesheet" href="assets/libs/slick/slick-theme.css">
     <script type="text/javascript" src="assets/libs/slick/slick.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <!-- AOS animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Favicon -->
@@ -37,14 +34,14 @@
 
 <body>
     <!-- Getting the querystring -->
-    <!-- <?php
+    <?php
         $queryStringArray = array();
         foreach($_GET as $key=>$value){
         $parameter = $key."=".$value;
             array_push($queryStringArray, $parameter);
         }
         $queryString = implode("&", $queryStringArray);
-    ?> -->
+    ?>
     <!-- Header Fixed -->
     <header>
         <div class="header-container">
@@ -77,45 +74,39 @@
         </div>
         <div class="form-container" id="form">
             <div class="form-title grapRe fs18 negro23">Para obtener más información, llena el formulario</div>
-            <form class="form-cont" action="" method="post">
+            <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-02-12/4wws45" method="post">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="text" id="tb_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
-                    <label class="grapRe mdl-textfield__label" for="tb_name">Nombre(s)</label>
-                </div>
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="text" id="tb_surname" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
-                    <label class="grapRe mdl-textfield__label" for="tb_surname">Apellido(s)</label>
+                    <input class="grapRe mdl-textfield__input" type="text" id="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
+                    <label class="grapRe mdl-textfield__label" for="first_name">Nombre(s)</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="email" id="tb_email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
-                    <label class="grapRe mdl-textfield__label" for="tb_email">Email</label>
-                </div>
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
-                    <input type="text" value="" class="grapRe mdl-textfield__input" id="tb_pais" readonly>
-                    <input type="hidden" value="" name="tb_pais">
-                    <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
-                    <label for="sample3" class="grapRe mdl-textfield__label">País</label>
-                    <ul for="sample3" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-                        <li class="grapRe mdl-menu__item" data-val="DEU">Germany</li>
-                        <li class="grapRe mdl-menu__item" data-val="BLR">Belarus</li>
-                        <li class="grapRe mdl-menu__item" data-val="RUS">Russia</li>
-                    </ul>
-                </div>
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
-                    <input type="text" value="" class="grapRe mdl-textfield__input" id="tb_experience" readonly>
-                    <input type="hidden" value="" name="tb_experience">
-                    <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
-                    <label for="sample3" class="grapRe mdl-textfield__label">Experiencia profesional</label>
-                    <ul for="sample3" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-                        <li class="grapRe mdl-menu__item" data-val="DEU">Menos de 5 años</li>
-                        <li class="grapRe mdl-menu__item" data-val="BLR">5-10 años</li>
-                        <li class="grapRe mdl-menu__item" data-val="RUS">10-15 años</li>
-                    </ul>
+                    <input class="grapRe mdl-textfield__input" type="text" id="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
+                    <label class="grapRe mdl-textfield__label" for="last_name">Apellido(s)</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="tel" id="tb_number" maxlength="15" minlength="5"
+                    <input class="grapRe mdl-textfield__input" type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
+                    <label class="grapRe mdl-textfield__label" for="email">Email</label>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <select id="country" name="Country" class="mdl-textfield__input Country" required>
+                    </select>
+                    <label class="grapRe mdl-textfield__label" for="country">País</label>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <select id="work_experience" name="work_experience" class="grapRe mdl-textfield__input work_experience" required>
+                        <option value=""></option>
+                        <option value="Less than 5 Years">Menos de 5 años</option>
+                        <option value="5-10 Years">5-10 años</option>
+                        <option value="10-15 Years">10-15 años</option>
+                        <option value="15-20 Years">15-20 años</option>
+                        <option value="> 20 Years">&gt; 20 años</option>
+                    </select>
+                    <label class="grapRe mdl-textfield__label" for="work_experience">Experiencia Profesional</label>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="grapRe mdl-textfield__input" type="tel" id="mobile" maxlength="15" minlength="5"
                         onkeypress="return valida(event)" pattern="[0-9]+">
-                    <label class="grapRe mdl-textfield__label" for="tb_number">Teléfono Movíl</label>
+                    <label class="grapRe mdl-textfield__label" for="mobile">Teléfono Movíl</label>
                 </div>
                 <div class="button-container">
                     <input type="hidden" name="lead_source" id="lead_source" value="Web">
@@ -126,7 +117,7 @@
                     <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                     <input type="hidden" name="browser" id="browser" value="">
                     <input type="hidden" name="course" id="course" value="IESE - LP">
-                    <input type="hidden" name="retURL" value="Thanks.php?<?php echo $queryString; ?>">
+                    <input type="hidden" name="retURL" value="https://emeritus.iese.edu/Mindset-Digital/Thanks.php?<?php echo $queryString; ?>">
                     <button class="grapBo fs16 blanco" type="submit">
                         DESCARGAR EL FOLLETO
                         <img src="assets/img/svg/icon-descargar.svg" alt="Download">
@@ -143,7 +134,7 @@
                     del folleto, acceda a:
                 </div>
                 <div>
-                    <a class="grapBo fs14 rosaFB" href="#" target="_blank" rel="noopener noreferrer">
+                    <a class="grapBo fs14 rosaFB" href="#" target="_blank">
                         Política de Privacidad
                     </a>
                 </div>
@@ -274,7 +265,10 @@
             </div>
         </div>
     </div>
-    <hr class="linea-separadora">
+    <!-- Sección Video -->
+    <div class="video-container">
+        <iframe  src="https://www.youtube.com/embed/N_qqHFE7c5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <!-- Sección Plan de estudios -->
     <div class="plan-de-estudios-container">
         <div class="plan-de-estudios-title grapBo fs30 negro3D">
@@ -413,7 +407,7 @@
                         Participa en vivo en debates sobre alternativas y decisiones 
                         de negocio, basadas en casos reales, de la mano de nuestros 
                         profesores y a través de nuestra vanguardista 
-                        <a class="rojoFF" href="#" target="_blank" rel="noopener noreferrer">
+                        <a class="rojoFF" href="https://www.youtube.com/watch?v=Nk35vcV4jaI&t=1s" target="_blank" rel="noopener noreferrer">
                             Aula Virtual.
                         </a>
                     </div>
@@ -463,57 +457,98 @@
 
         </div>
     </div>
+    <hr class="linea-separadora">
     <!-- Sección Tutores Expertos -->
     <div class="tutores-expertos-container">
-        <div class="tutores-expertos-title grapBo fs32 negro19">
-            Tutores expertos
+        <div class="tutores-expertos-title grapBo fs32 negro3D">
+            Claustro y tutores expertos
         </div>
-        <div class="tutores-expertos-subtitle grapBo fs18 gris70">
-            Para culminar tu viaje de aprendizaje con éxito cuentas con la
-            asesoría de Pilar Barrio, experta en Mindset Digital en español:
-        </div>
-        <div class="tutor-cont">
-            <div class="tutor-desc">
-                <div class="tutor-imagen">
-                    <img src="assets/img/jpg/Pilar-barrio.jpg" alt="Pilar Barrio">
-                </div>
-                <div class="tutor-data">
-                    <div class="grapRe fs24 negro19">Pilar Barrio</div>
-                    <div class="grapRe fs16 gris6E">
-                        Moderadora de Emeritus
-                        Institute of Management
+        <div class="tutor-container">
+            <div class="tutor-cont">
+                <div class="tutor-desc">
+                    <div class="tutor-imagen">
+                        <img src="assets/img/jpg/Sandra-Sieber.jpg" alt="PROF. SANDRA SIEBER">
+                    </div>
+                    <div class="tutor-data">
+                        <div class="grapBo fs18 negro19">PROF. SANDRA SIEBER</div>
+                        <div class="grapMe fs14 gris66">
+                            Profesora ordinaria y directora del Departamento
+                            de Sistemas de Información del IESE Business
+                            School.
+                        </div>
                     </div>
                 </div>
+                <div class="tutor-description grapRe fs16 gris66">
+                    La profesora Sieber ha dedicado mucho tiempo al estudio del 
+                    impacto de las TIC en las prácticas de trabajo de las 
+                    organizaciones y las personas, desde una variedad de 
+                    perspectivas. En la actualidad, sus investigaciones se centran 
+                    en el análisis del impacto de la digitalización en las personas, 
+                    empresas, sectores y para la sociedad en su conjunto. 
+                    <br>
+                    <br>
+                    Desde una perspectiva sectorial, la Prof. Sieber está 
+                    especialmente interesada en aquellos sectores que están 
+                    siendo transformados por los avances tecnológicos recientes, 
+                    como las telecomunicaciones, la banca, el sector salud y los 
+                    medios de comunicación y el entretenimiento. 
+                    <br>
+                    <br>
+                    La profesora Sieber tiene amplia experiencia de trabajo con 
+                    audiencias ejecutivas en Europa, el Norte y el Sur de América, 
+                    Asia, Medio Oriente y Africa. Ha impartido clases, dirigido 
+                    Custom Programs y ha hecho consultas con empresas 
+                    multinacionales tales como Oracle, BBVA, La Caixa, Banco 
+                    Santander, Telefónica, Vodafone, BMW, Volkswagen, Bonfiglioli, 
+                    Renta Corporación, Komatsu, Olympus, RTE, Henkel, Erste 
+                    Bank, Boehringer Ingelheim, Boston Scientific o Desigual. 
+                    Realiza de forma regular funciones de mentoría con empresas 
+                    de nueva creación (start-ups), incubadoras y fondos 
+                    tecnológicos.
+                </div>
             </div>
-            <hr>
-            <div class="tutor-description grapRe fs14 negro46">
-                Pilar ha destacado como consultora y
-                formadora de equipos de marketing digital.
-                Directora de Barrio Digital, comunidad de
-                expertos que da servicios de estrategia
-                digital a startups y negocios a nivel mundial,
-                ha colaborado con grandes empresas como
-                Coca Cola, GM, Nestlé, Sony y la BBC.
-                <br>
-                <br>
-                Pilar se desempeña también como
-                facilitadora de las masterclasses de la Google
-                Digital Academy en Europa, en temas como
-                marketing programático, estrategia de
-                móviles y soluciones creativas para marcas.
+            <div class="tutor-cont">
+                <div class="tutor-desc">
+                    <div class="tutor-imagen">
+                        <img src="assets/img/jpg/Pilar-barrio.jpg" alt="Pilar Barrio">
+                    </div>
+                    <div class="tutor-data">
+                        <div class="grapBo fs18 negro19">Pilar Barrio</div>
+                        <div class="grapMe fs14 gris66">
+                            Tutora del programa
+                        </div>
+                    </div>
+                </div>
+                <div class="tutor-description grapRe fs16 gris66">
+                    Pilar ha destacado como consultora y
+                    formadora de equipos de marketing digital.
+                    Directora de Barrio Digital, comunidad de
+                    expertos que da servicios de estrategia
+                    digital a startups y negocios a nivel mundial,
+                    ha colaborado con grandes empresas como
+                    Coca Cola, GM, Nestlé, Sony y la BBC.
+                    <br>
+                    <br>
+                    Pilar se desempeña también como
+                    facilitadora de las masterclasses de la Google
+                    Digital Academy en Europa, en temas como
+                    marketing programático, estrategia de
+                    móviles y soluciones creativas para marcas.
+                </div>
             </div>
         </div>
     </div>
+    <hr class="linea-separadora">
     <!-- Sección Rankings -->
     <div class="rankings-container">
         <div class="rankings-title grapBo fs32 negro19">Rankings</div>
         <div class="ranking-cont">
             <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
-                data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-First.png" alt="First">
+                data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-Custom-1.png" alt="First">
             <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
-                data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-Second.png" alt="Second">
+                data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-ExecEd.png" alt="Second">
             <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
-                data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-Thir.png" alt="Thir">
+                data-aos-easing="ease-in-out" src="assets/img/jpg/Ranking-FT-Open-Programs-1.jpg" alt="Thir">
         </div>
     </div>
     <!-- Sección Certificado -->
@@ -569,81 +604,6 @@
                     National Account Manager Bacardi
                 </div>
             </div>
-            <!-- <div class="testimonio add-border">
-                <div class="testimonio-img">
-                    <img src="assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-                </div>
-                <div class="testimonio-desc grapRe fs15 negro19">
-                    Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en mi carrera profesional.
-                    Quedé muy satisfecho y lo recomiendo ampliamente. 
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    Salvador Valderas Campos
-                </div>
-                <div class="testimonio-work grapRe fs14 negro3D">
-                    National Account Manager Bacardi
-                </div>
-            </div>
-            <div class="testimonio add-border">
-                <div class="testimonio-img">
-                    <img src="assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-                </div>
-                <div class="testimonio-desc grapRe fs15 negro19">
-                    Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en mi carrera profesional.
-                    Quedé muy satisfecho y lo recomiendo ampliamente. 
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    Salvador Valderas Campos
-                </div>
-                <div class="testimonio-work grapRe fs14 negro3D">
-                    National Account Manager Bacardi
-                </div>
-            </div>
-            <div class="testimonio add-border">
-                <div class="testimonio-img">
-                    <img src="assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-                </div>
-                <div class="testimonio-desc grapRe fs15 negro19">
-                    Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en mi carrera profesional.
-                    Quedé muy satisfecho y lo recomiendo ampliamente. 
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    Salvador Valderas Campos
-                </div>
-                <div class="testimonio-work grapRe fs14 negro3D">
-                    National Account Manager Bacardi
-                </div>
-            </div>
-            <div class="testimonio add-border">
-                <div class="testimonio-img">
-                    <img src="assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-                </div>
-                <div class="testimonio-desc grapRe fs15 negro19">
-                    Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en mi carrera profesional.
-                    Quedé muy satisfecho y lo recomiendo ampliamente. 
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    Salvador Valderas Campos
-                </div>
-                <div class="testimonio-work grapRe fs14 negro3D">
-                    National Account Manager Bacardi
-                </div>
-            </div>
-            <div class="testimonio add-border">
-                <div class="testimonio-img">
-                    <img src="assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-                </div>
-                <div class="testimonio-desc grapRe fs15 negro19">
-                    Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en mi carrera profesional.
-                    Quedé muy satisfecho y lo recomiendo ampliamente. 
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    Salvador Valderas Campos
-                </div>
-                <div class="testimonio-work grapRe fs14 negro3D">
-                    National Account Manager Bacardi
-                </div>
-            </div> -->
         </div>
     </div>
     <!-- Footer -->
@@ -659,9 +619,10 @@
                 </div>
             </div>
             <div class="right">
-                <div class="terminos-politicas-cont">
+                <div class="terminos-politicas-cont blanco">
                     <a href="#" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Términos de
                         servicio</a>
+                        |
                     <a href="#" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Política de
                         privacidad</a>
                 </div>
@@ -695,6 +656,11 @@
         });
     </script>
 </body>
-<script src="assets/js/onkeypress.js"></script>
+<!-- Script para select de países -->
+<script type="text/javascript">
+    populateCountries("country");
+</script>
+<!-- Script para evitar strings en campos de numeros -->
+<script type="text/javascript" src="assets/js/onkeypress.js"></script>
 
 </html>
