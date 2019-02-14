@@ -495,7 +495,7 @@ header {
 .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
   color: #68746E !important;
   font-size: 12px;
-  top: 0px !important;
+  top: -3px !important;
   left: 5px !important;
   visibility: visible;
 }
