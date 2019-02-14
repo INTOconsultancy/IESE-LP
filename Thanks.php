@@ -18,29 +18,29 @@
         <div class="dialog-container">
             <div class="logos-container">
                 <img src="assets/img/svg/IESE-Business-School.svg" alt="IESE">
-                <img src="assets/img/png/logo-execed-150x81.png" alt="Executive Education">
+                <img src="assets/img/svg/Executive-Education.svg" alt="Executive Education">
             </div>
             <div class="dialog-cont">
                 <div class="grapBo fs30 negro19">
                     ¡Gracias!
                 </div>
-                <div class="grapRe fs16 negro19">
+                <div class="grapRe fs18 negro19">
                     Gracias por tu interés en el programa
                 </div>
-                <div class="grapBo fs16 gris70">
+                <div class="grapBo fs18 gris70">
                     "Mindset Digital: Innovación y liderazgo en la era digital”
                 </div>
-                <div class="grapRe fs16 negro46">
+                <div class="grapRe fs18 negro46">
                     Si tu descarga no comienza <a class=" grapBo rojo39" href="">da click aquí</a>
                 </div>
             </div>
             <div class="gracias-linea"></div>
             <div class="gracias-button">
-                <div class="grapBo fs20 negro19">
+                <div class="grapMe fs30 negro19">
                     ¿Listo para el próximo paso?
                 </div>
                 <a class="btn-gracias grapBo fs16 blanco" href="#" target="_blank" rel="noopener noreferrer">
-                    INSCRIBIRTE
+                    INSCRIBIRME
                     <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>

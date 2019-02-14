@@ -1808,8 +1808,55 @@ footer .footer-cont .right .terminos-politicas-cont a {
     text-align: center;
   }
 }
+.container-terminos {
+  width: 90%;
+  margin: 0px auto 80px auto;
+}
+@media only screen and (max-width: 1024px) {
+  .container-terminos {
+    margin: 0px auto 40px auto;
+  }
+}
+.container-terminos .contenido-general {
+  width: 90%;
+  max-width: 641px;
+  margin: 0 auto;
+  padding-top: 190px;
+}
+@media only screen and (max-width: 1024px) {
+  .container-terminos .contenido-general {
+    padding-top: 125px;
+  }
+}
+.container-terminos .contenido-general .title-terminos h1 {
+  margin-bottom: 8px;
+  line-height: 34px;
+}
+@media only screen and (max-width: 1024px) {
+  .container-terminos .contenido-general .title-terminos h1 {
+    margin-bottom: 15px;
+  }
+}
+.container-terminos .contenido-general .content-terminos p {
+  line-height: 22px;
+}
+.container-terminos .contenido-general .content-terminos p a {
+  line-height: 22px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+  .container-terminos .contenido-general .content-terminos p a {
+    text-decoration: underline red;
+    color: #000000;
+  }
+}
+.container-terminos .contenido-general .content-terminos .title-reglas h1 {
+  margin: 25px 0 5px 0;
+  line-height: 24px;
+}
+
 .gracias-container {
-  background-image: linear-gradient(white, #805f58);
+  background-image: url("../img/jpg/imagen-thank-you.jpg");
   padding: 35px 0;
   height: 100vh;
   display: flex;
@@ -1875,7 +1922,7 @@ footer .footer-cont .right .terminos-politicas-cont a {
   cursor: pointer;
   padding: 13px 10px;
   margin: 0 auto;
-  background-color: #F15D29;
+  background-color: #FF0000;
 }
 .gracias-container .dialog-container .gracias-button .btn-gracias:hover img {
   margin-left: 15px;
@@ -1904,7 +1951,10 @@ footer .footer-cont .right .terminos-politicas-cont a {
 
 @media only screen and (min-width: 1024px) {
   .gracias-container {
-    background-image: linear-gradient(white, #805f58);
+    background-image: url("../img/jpg/imagen-thank-you.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 40px 0;
     height: 100vh;
   }
