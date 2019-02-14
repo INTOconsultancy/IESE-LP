@@ -49,13 +49,13 @@
                     Conéctate con nosotros
                 </div>
                 <div class="icon-redes">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/Iesebusinessschool" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/svg/facebook-f-brands.svg" alt="Facebook">
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/iesebschool" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/svg/twitter-brands.svg" alt="Twiter">
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/school/iese-business-school/" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/svg/linkedin-in-brands.svg" alt="Linkedin">
                     </a>
                 </div>

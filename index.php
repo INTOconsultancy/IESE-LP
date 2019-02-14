@@ -74,17 +74,17 @@
         </div>
         <div class="form-container" id="form">
             <div class="form-title grapRe fs18 negro23">Para obtener más información, llena el formulario</div>
-            <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-02-12/4wws45" method="post">
+            <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-02-12/4wws45" method="post" id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="text" id="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
+                    <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
                     <label class="grapRe mdl-textfield__label" for="first_name">Nombre(s)</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="text" id="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
+                    <input class="grapRe mdl-textfield__input" type="text" id="last_name" name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
                     <label class="grapRe mdl-textfield__label" for="last_name">Apellido(s)</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
+                    <input class="grapRe mdl-textfield__input" type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
                     <label class="grapRe mdl-textfield__label" for="email">Email</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -104,7 +104,7 @@
                     <label class="grapRe mdl-textfield__label" for="work_experience">Experiencia Profesional</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="tel" id="mobile" maxlength="15" minlength="5"
+                    <input class="grapRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="15" minlength="5"
                         onkeypress="return valida(event)" pattern="[0-9]+">
                     <label class="grapRe mdl-textfield__label" for="mobile">Teléfono Movíl</label>
                 </div>
@@ -116,7 +116,7 @@
                     <input type="hidden" name="utm_content" id="utm_content" value="">
                     <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                     <input type="hidden" name="browser" id="browser" value="">
-                    <input type="hidden" name="course" id="course" value="IESE - LP">
+                    <input type="hidden" name="course" id="course" value="IESE - Mindset Digital">
                     <input type="hidden" name="retURL" value="https://emeritus.iese.edu/Mindset-Digital/Thanks.php?<?php echo $queryString; ?>">
                     <button class="grapBo fs16 blanco" type="submit">
                         DESCARGAR EL FOLLETO
@@ -620,7 +620,7 @@
             </div>
             <div class="right">
                 <div class="terminos-politicas-cont blanco">
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Términos de
+                    <a href="https://emeritus.iese.edu/Mindset-Digital/terminos-de-servicio.php" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Términos de
                         servicio</a>
                         |
                     <a href="#" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Política de

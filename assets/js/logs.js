@@ -18,12 +18,11 @@
         return browser;
     }
 
-    jQuery(document).ready(function () {
-        jQuery("#browser").val(checkBrowser());
+    var canSubmit = false;
 
-        jQuery("#fordesk").submit(function () {
 
-            // Constructing the values object.
+    function callRegisterAjax(){
+        // Constructing the values object.
             var dataObject = {
                 "first_name": jQuery("#first_name").val(),
                 "last_name" : jQuery("#last_name").val(),
@@ -54,6 +53,8 @@
                 }
 
             });
+
+            console.log("URL: " + url);
             
 
 
@@ -65,18 +66,34 @@
                 success: function (result) {
                     console.log("success");
                     console.log(result);
+                    canSubmit = true;
+                    jQuery("#formDesk").submit();
 
                 },
                 error: function (xhr, status, error) {
                     console.log("error");
                     console.log(error);
+                    
                 }
 
             });
+    }
 
 
-            return false;
+    jQuery(document).ready(function () {
+        jQuery("#browser").val(checkBrowser());
 
+        jQuery("#formDesk").submit(function () {
+
+            if(!canSubmit){
+                callRegisterAjax();
+                return false;
+
+            }else{
+                return true;
+
+            }
+            
 
         });
     });
