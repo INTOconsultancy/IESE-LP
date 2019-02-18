@@ -1056,8 +1056,9 @@ header {
         .tutor-desc {
             display: flex;
             flex-wrap: wrap;
-
             .tutor-imagen {
+                width: 126px;
+                margin: 0 auto;
                 img {
                     width: 126px;
                     margin: 0 auto;

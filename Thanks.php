@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" CONTENT="1;URL= https://bit.ly/2Ehoosi">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
     <link rel="stylesheet" href="assets/scss/stylesheet.css">
@@ -31,7 +32,7 @@
                     "Mindset Digital: Innovación y liderazgo en la era digital”
                 </div>
                 <div class="grapRe fs18 negro46">
-                    Si tu descarga no comienza <a class=" grapBo rojo39" href="">da click aquí</a>
+                    Si tu descarga no comienza <a class=" grapBo rojo39" href="https://bit.ly/2Ehoosi">da click aquí</a>
                 </div>
             </div>
             <div class="gracias-linea"></div>

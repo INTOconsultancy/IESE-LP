@@ -134,7 +134,7 @@
                     del folleto, acceda a:
                 </div>
                 <div>
-                    <a class="grapBo fs14 rosaFB" href="#" target="_blank">
+                    <a class="grapBo fs14 rosaFB" href="https://latam.emeritus.org/politica-de-privacidad.php" target="_blank">
                         Política de Privacidad
                     </a>
                 </div>
@@ -623,7 +623,7 @@
                     <a href="https://emeritus.iese.edu/Mindset-Digital/terminos-de-servicio.php" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Términos de
                         servicio</a>
                         |
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Política de
+                    <a href="https://latam.emeritus.org/politica-de-privacidad.php" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Política de
                         privacidad</a>
                 </div>
             </div>

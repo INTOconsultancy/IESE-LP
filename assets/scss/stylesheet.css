@@ -943,6 +943,10 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+.tutores-expertos-container .tutor-cont .tutor-desc .tutor-imagen {
+  width: 126px;
+  margin: 0 auto;
+}
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-imagen img {
   width: 126px;
   margin: 0 auto;
