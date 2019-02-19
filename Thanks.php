@@ -40,7 +40,7 @@
                 <div class="grapMe fs30 negro19">
                     ¿Listo para el próximo paso?
                 </div>
-                <a class="btn-gracias grapBo fs16 blanco" href="#" target="_blank" rel="noopener noreferrer">
+                <a class="btn-gracias grapBo fs16 blanco" href="https://bit.ly/2SeUf0o" target="_blank" rel="noopener noreferrer">
                     INSCRIBIRME
                     <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>

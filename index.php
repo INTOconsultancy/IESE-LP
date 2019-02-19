@@ -574,7 +574,7 @@
                     estudios respaldado por IESE Business School.
                 </div>
                 <div class="certificado-button">
-                    <a class="grapBo fs16 blanco" href="#" target="_blank" rel="noopener noreferrer">
+                    <a class="grapBo fs16 blanco" href="https://bit.ly/2SeUf0o" target="_blank" rel="noopener noreferrer">
                         INSCRÍBETE
                         <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>
@@ -620,7 +620,7 @@
             </div>
             <div class="right">
                 <div class="terminos-politicas-cont blanco">
-                    <a href="https://emeritus.iese.edu/Mindset-Digital/terminos-de-servicio.php" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Términos de
+                    <a href="https://latam.emeritus.org/terminos-de-servicio.php" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Términos de
                         servicio</a>
                         |
                     <a href="https://latam.emeritus.org/politica-de-privacidad.php" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Política de
