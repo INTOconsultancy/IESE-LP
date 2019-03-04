@@ -117,7 +117,7 @@
                     <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                     <input type="hidden" name="browser" id="browser" value="">
                     <input type="hidden" name="course" id="course" value="IESE - Mindset Digital">
-                    <input type="hidden" name="retURL" value="https://emeritus.iese.edu/Mindset-Digital/Thanks.php?<?php echo $queryString; ?>">
+                    <input type="hidden" name="retURL" value="https://intoconsultancy.com/sub/LP/Emeritus/IESE-LP/Thanks.php?<?php echo $queryString; ?>">
                     <button class="grapBo fs16 blanco" type="submit">
                         DESCARGAR EL FOLLETO
                         <img src="assets/img/svg/icon-descargar.svg" alt="Download">
@@ -629,6 +629,23 @@
             </div>
         </div>
     </footer>
+    
+    <script type="text/javascript">
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
+            var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        jQuery(document).ready(function () {
+            jQuery('#utm_source').val(getParameterByName("utm_source"));
+            jQuery('#utm_medium').val(getParameterByName("utm_medium"));
+            jQuery('#utm_content').val(getParameterByName("utm_content"));
+            jQuery('#utm_campaign').val(getParameterByName("utm_campaign"));
+            jQuery('#utm_term').val(getParameterByName("utm_term"));
+        })
+    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
