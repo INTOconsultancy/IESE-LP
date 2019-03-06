@@ -42,7 +42,7 @@
         }
         $queryString = implode("&", $queryStringArray);
     ?>
-    <!-- Header Fixed -->
+    <!-- Sección Header Fixed -->
     <header>
         <div class="header-container">
             <img class="Logo-one" src="assets/img/svg/IESE-Business-School.svg" alt="IESE">
@@ -58,13 +58,13 @@
     </header>
     <!-- Body -->
     <div class="space"></div>
-    <!-- Hero Image -->
+    <!-- Sección Hero Image -->
     <div class="hero-container">
         <div class="hero-title">
             <div class="title grapRe fs18 rojoFF">NUEVO PROGRAMA ONLINE</div>
             <div class="title grapBo fs32 negro19">Mindset Digital</div>
             <div class="title grapBo fs20 negro19">Innovación y liderazgo en la era digital</div>
-            <div class="title grapRe fs24 negro23">01 / 04 / 2019</div>
+            <div class="title grapRe fs24 negro23">20 / 05 / 2019</div>
             <div class="hero-title-time">
                 <div class="desc grapRe fs16 negro19">8 SEMANAS</div>
                 <div class="desc movil grapRe fs16 negro19">6-8 HORAS POR SEMANA</div>
