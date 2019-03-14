@@ -104,10 +104,11 @@
                     <label class="grapRe mdl-textfield__label" for="work_experience">Experiencia Profesional</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="15" minlength="5"
+                    <input class="grapRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="12" minlength="5"
                         onkeypress="return valida(event)" pattern="[0-9]+">
                     <label class="grapRe mdl-textfield__label" for="mobile">Teléfono Movíl</label>
                 </div>
+                <div class="mdc-text-field-helper-text fs12 grapRe gris70" aria-hidden="true" style="margin: 0 0 0 10px;">Ej: (+55) 555 555 5555</div>
                 <div class="button-container">
                     <input type="hidden" name="lead_source" id="lead_source" value="Web">
                     <input type="hidden" name="utm_source" id="utm_source" value="">

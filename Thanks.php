@@ -29,10 +29,10 @@
                     Gracias por tu interés en el programa
                 </div>
                 <div class="grapBo fs18 gris70">
-                    "Mindset Digital: Innovación y liderazgo en la era digital”
+                    "Mindset Digital: Innovación y liderazgo en la era digital"
                 </div>
                 <div class="grapRe fs18 negro46">
-                    Para ver el folleto digital <a class=" grapBo rojo39" href="https://fr.zone-secure.net/86686/.iese_mindset_digital/">da click aquí</a>
+                    Para ver el folleto digital <a class=" grapBo rojo39" href="https://fr.zone-secure.net/86686/.iese_mindset_digital/">Haz click aquí</a>
                 </div>
             </div>
             <div class="gracias-linea"></div>

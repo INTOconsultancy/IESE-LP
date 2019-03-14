@@ -597,7 +597,7 @@ header {
 
   .private-data {
     position: absolute;
-    bottom: -150px;
+    bottom: -157px;
     right: 0;
   }
 
@@ -610,7 +610,7 @@ header {
     height: 715px;
   }
   .hero-container .hero-title {
-    background: linear-gradient(0deg, rgba(217, 222, 242, 0.5), rgba(217, 222, 242, 0.5) 25%, rgba(217, 222, 242, 0.3) 40%, rgba(217, 222, 242, 0) 75%), url("");
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6) 25%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0) 75%), url("");
     background-position-x: center;
     height: auto;
   }
@@ -647,7 +647,7 @@ header {
     bottom: 0;
     left: 0;
     padding: 60px 60px 60px 30px !important;
-    background: linear-gradient(0deg, #d9def2, rgba(217, 222, 242, 0.7) 25%, rgba(217, 222, 242, 0.7) 40%, rgba(217, 222, 242, 0.4) 75%, rgba(217, 222, 242, 0) 100%), url("");
+    background: linear-gradient(0deg, white, rgba(255, 255, 255, 0.7) 25%, rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 0.4) 75%, rgba(255, 255, 255, 0) 100%), url("");
   }
   .hero-title .title {
     text-align: left !important;
@@ -679,7 +679,7 @@ header {
   }
   .form-container {
     position: absolute !important;
-    top: 25px;
+    top: 15px;
     right: 0;
   }
 
