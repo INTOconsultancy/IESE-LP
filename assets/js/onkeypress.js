@@ -4,7 +4,11 @@ function valida(e) {
     //Tecla de retroceso para borrar, siempre la permite
     if (tecla == 8) {
       return true;
-    }
+    }  
+    //Tecla de + , siempre la permite  
+    /*if (tecla == 43) {
+      return true;
+    }*/
   
     // Patron de entrada, en este caso solo acepta numeros
     patron = /[0-9]/;

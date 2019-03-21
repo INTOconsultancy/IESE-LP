@@ -2,6 +2,26 @@
 <html lang="en">
 
 <head>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TPB62D3');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <title>IESE | Business School</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -33,6 +53,11 @@
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPB62D3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Getting the querystring -->
     <?php
         $queryStringArray = array();
@@ -76,15 +101,18 @@
             <div class="form-title grapRe fs18 negro23">Para obtener más información, llena el formulario</div>
             <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-02-12/4wws45" method="post" id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
+                    <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                        required>
                     <label class="grapRe mdl-textfield__label" for="first_name">Nombre(s)</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="text" id="last_name" name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
+                    <input class="grapRe mdl-textfield__input" type="text" id="last_name" name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                        required>
                     <label class="grapRe mdl-textfield__label" for="last_name">Apellido(s)</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
+                    <input class="grapRe mdl-textfield__input" type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                        required>
                     <label class="grapRe mdl-textfield__label" for="email">Email</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -93,7 +121,8 @@
                     <label class="grapRe mdl-textfield__label" for="country">País</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <select id="work_experience" name="work_experience" class="grapRe mdl-textfield__input work_experience" required>
+                    <select id="work_experience" name="work_experience" class="grapRe mdl-textfield__input work_experience"
+                        required>
                         <option value=""></option>
                         <option value="Less than 5 Years">Menos de 5 años</option>
                         <option value="5-10 Years">5-10 años</option>
@@ -104,11 +133,13 @@
                     <label class="grapRe mdl-textfield__label" for="work_experience">Experiencia Profesional</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="grapRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="12" minlength="5"
-                        onkeypress="return valida(event)" pattern="[0-9]+">
-                    <label class="grapRe mdl-textfield__label" for="mobile">Teléfono Movíl</label>
+                    <!-- <input class="grapRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="14" minlength="5"
+                        onkeypress="return valida(event)" pattern="[\+][0-9]+" required title="Agrega el simbolo (+) antes del número teléfonico"> -->
+                    <input class="grapRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="14"
+                        minlength="5" onkeypress="return valida(event)" pattern="[0-9]+" required>
+                    <label class="grapRe mdl-textfield__label" for="mobile">Teléfono Móvil</label>
                 </div>
-                <div class="mdc-text-field-helper-text fs12 grapRe gris70" aria-hidden="true" style="margin: 0 0 0 10px;">Ej: (+55) 555 555 5555</div>
+                <!-- <div class="mdc-text-field-helper-text fs12 grapRe gris70" aria-hidden="true" style="margin: 0 0 0 10px;">Ej: +55 555 555 5555</div> -->
                 <div class="button-container">
                     <input type="hidden" name="lead_source" id="lead_source" value="Web">
                     <input type="hidden" name="utm_source" id="utm_source" value="">
@@ -119,7 +150,7 @@
                     <input type="hidden" name="browser" id="browser" value="">
                     <input type="hidden" name="course" id="course" value="IESE - Mindset Digital">
                     <input type="hidden" name="retURL" value="https://intoconsultancy.com/sub/LP/Emeritus/IESE-LP/Thanks.php?<?php echo $queryString; ?>">
-                    <button class="grapBo fs16 blanco" type="submit">
+                    <button class="grapBo fs16 blanco" type="submit" id="btn-download-brochure">
                         DESCARGAR EL FOLLETO
                         <img src="assets/img/svg/icon-descargar.svg" alt="Download">
                     </button>
@@ -127,11 +158,11 @@
             </form>
             <div class="private-data">
                 <div class="grapRe fs11 data negro23">
-                    Tus datos personales no serán compartidos con terceros. Los datos facilitados en el 
-                    presente formulario serán tratados exclusivamente por EMERITUS, sin que IESE tenga 
-                    acceso a ellos, salvo que opte por matricularse en alguno de sus programas, en cuyo 
-                    caso, se le informará debidamente de nuestra política de privacidad en su condición 
-                    de alumnos. Para obtener información sobre el tratamiento de sus datos para la descarga 
+                    Tus datos personales no serán compartidos con terceros. Los datos facilitados en el
+                    presente formulario serán tratados exclusivamente por EMERITUS, sin que IESE tenga
+                    acceso a ellos, salvo que opte por matricularse en alguno de sus programas, en cuyo
+                    caso, se le informará debidamente de nuestra política de privacidad en su condición
+                    de alumnos. Para obtener información sobre el tratamiento de sus datos para la descarga
                     del folleto, acceda a:
                 </div>
                 <div>
@@ -148,10 +179,10 @@
             Nuevo mundo, nueva mentalidad
         </div>
         <div class="new-world-subtitle grapRe fs20 gris70">
-            Los constantes cambios del mundo digital –ya sean sociales, móviles o de cualquier otra índole– 
-            estánderribando barreras de entrada a los mercados, cambiando de arriba abajo modelos de negocio 
-            consolidados, y proponiendo nuevas formas de relacionarse con clientes y empleados. Para identificar 
-            y dar una respuesta efectiva a las oportunidades y retos digitales, es crucial desarrollar una 
+            Los constantes cambios del mundo digital –ya sean sociales, móviles o de cualquier otra índole–
+            estánderribando barreras de entrada a los mercados, cambiando de arriba abajo modelos de negocio
+            consolidados, y proponiendo nuevas formas de relacionarse con clientes y empleados. Para identificar
+            y dar una respuesta efectiva a las oportunidades y retos digitales, es crucial desarrollar una
             mentalidad verdaderamente digital.
         </div>
         <div class="new-world-dates-container">
@@ -222,8 +253,8 @@
                     </div>
                     <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                         <div class="title grapBo fs18 negro19">
-                                Emplear las dimensiones del Mindset Digital
-                        </div> 
+                            Emplear las dimensiones del Mindset Digital
+                        </div>
                         Determinar cómo la digitalización está afectando a tu sector, industria y negocio.
                     </div>
                 </div>
@@ -234,8 +265,8 @@
                     </div>
                     <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                         <div class="title grapBo fs18 negro19">
-                                Identificar las competencias necesarias
-                        </div> 
+                            Identificar las competencias necesarias
+                        </div>
                         Replantear propuestas de valor y ejecutar una visión de futuro.
                     </div>
                 </div>
@@ -246,8 +277,8 @@
                     </div>
                     <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                         <div class="title grapBo fs18 negro19">
-                                Incorporar metodologías y procesos ágiles e iterativos
-                        </div> 
+                            Incorporar metodologías y procesos ágiles e iterativos
+                        </div>
                         Contribución a la transformación de tu cultura organizacional.
                     </div>
                 </div>
@@ -258,8 +289,8 @@
                     </div>
                     <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                         <div class="title grapBo fs18 negro19">
-                                Identificar las cualidades, prácticas y enfoques
-                        </div> 
+                            Identificar las cualidades, prácticas y enfoques
+                        </div>
                         Los que forman a un líder con mentalidad digital.
                     </div>
                 </div>
@@ -268,7 +299,8 @@
     </div>
     <!-- Sección Video -->
     <div class="video-container">
-        <iframe  src="https://www.youtube.com/embed/N_qqHFE7c5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/N_qqHFE7c5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
     <!-- Sección Plan de estudios -->
     <div class="plan-de-estudios-container">
@@ -289,7 +321,8 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 2</div>
-                        <div class="module-title grapRe negro23">Renconfiguración de sectores y adaptación de modelos de
+                        <div class="module-title grapRe negro23">Renconfiguración de sectores y adaptación de modelos
+                            de
                             negocio</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
@@ -330,7 +363,8 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 7</div>
-                        <div class="module-title grapRe negro23">Mindset Digital - creando organizaciones diseñadas para
+                        <div class="module-title grapRe negro23">Mindset Digital - creando organizaciones diseñadas
+                            para
                             cambiar</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
@@ -381,7 +415,8 @@
     <!-- Sección Tu viaje de aprendizaje -->
     <div class="tu-viaje-container">
         <div class="tu-viaje-title grapBo fs32 negro3D">Tu viaje de aprendizaje</div>
-        <div class="tu-viaje-subtitle grapRe fs16 gris66">Un estimulante itinerario de aprendizaje que te llevará desde la reflexión sobre los retos a la definición de un plan de acción para alcanzarlos.</div>
+        <div class="tu-viaje-subtitle grapRe fs16 gris66">Un estimulante itinerario de aprendizaje que te llevará desde
+            la reflexión sobre los retos a la definición de un plan de acción para alcanzarlos.</div>
         <div class="tu-viaje-cont">
 
             <div class="aprendizaje">
@@ -391,8 +426,8 @@
                 <div class="aprendizaje-desc">
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">CONOCIMIENTO PUNTERO:</div>
                     <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                        Descubre lo conceptos más relevantes y actuales a través de 
-                        video-conferencias, presentaciones interactivas y otros 
+                        Descubre lo conceptos más relevantes y actuales a través de
+                        video-conferencias, presentaciones interactivas y otros
                         contenidos completamente adaptados al consumo online.
                     </div>
                 </div>
@@ -405,9 +440,9 @@
                 <div class="aprendizaje-desc">
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">DISCUSIONES EN DIRECTO:</div>
                     <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                        Participa en vivo en debates sobre alternativas y decisiones 
-                        de negocio, basadas en casos reales, de la mano de nuestros 
-                        profesores y a través de nuestra vanguardista 
+                        Participa en vivo en debates sobre alternativas y decisiones
+                        de negocio, basadas en casos reales, de la mano de nuestros
+                        profesores y a través de nuestra vanguardista
                         <a class="rojoFF" href="https://www.youtube.com/watch?v=Nk35vcV4jaI&t=1s" target="_blank" rel="noopener noreferrer">
                             Aula Virtual.
                         </a>
@@ -422,7 +457,7 @@
                 <div class="aprendizaje-desc">
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">INSPIRACIÓN DE DIRECTIVOS DE PRIMER NIVEL:</div>
                     <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                        Escucha las experiencias que comparten altos directivos de 
+                        Escucha las experiencias que comparten altos directivos de
                         compañías líderes, en video-entrevistas realizadas con ellos.
                     </div>
                 </div>
@@ -435,8 +470,8 @@
                 <div class="aprendizaje-desc">
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">NUEVOS PUNTOS DE VISTA:</div>
                     <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                        Cuestiona tus propias ideas compartiéndolas con otros 
-                        participantes, a través de foros de debate o trabajos 
+                        Cuestiona tus propias ideas compartiéndolas con otros
+                        participantes, a través de foros de debate o trabajos
                         en equipo.
                     </div>
                 </div>
@@ -449,8 +484,8 @@
                 <div class="aprendizaje-desc">
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">PLAN DE ACCIÓN:</div>
                     <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                        Traslada tus aprendizajes a un plan de acción concreto 
-                        – para ti y para tu empresa, con la ayuda de un tutor 
+                        Traslada tus aprendizajes a un plan de acción concreto
+                        – para ti y para tu empresa, con la ayuda de un tutor
                         que te guiará con ejercicios específicos.
                     </div>
                 </div>
@@ -480,31 +515,31 @@
                     </div>
                 </div>
                 <div class="tutor-description grapRe fs16 gris66">
-                    La profesora Sieber ha dedicado mucho tiempo al estudio del 
-                    impacto de las TIC en las prácticas de trabajo de las 
-                    organizaciones y las personas, desde una variedad de 
-                    perspectivas. En la actualidad, sus investigaciones se centran 
-                    en el análisis del impacto de la digitalización en las personas, 
-                    empresas, sectores y para la sociedad en su conjunto. 
+                    La profesora Sieber ha dedicado mucho tiempo al estudio del
+                    impacto de las TIC en las prácticas de trabajo de las
+                    organizaciones y las personas, desde una variedad de
+                    perspectivas. En la actualidad, sus investigaciones se centran
+                    en el análisis del impacto de la digitalización en las personas,
+                    empresas, sectores y para la sociedad en su conjunto.
                     <br>
                     <br>
-                    Desde una perspectiva sectorial, la Prof. Sieber está 
-                    especialmente interesada en aquellos sectores que están 
-                    siendo transformados por los avances tecnológicos recientes, 
-                    como las telecomunicaciones, la banca, el sector salud y los 
-                    medios de comunicación y el entretenimiento. 
+                    Desde una perspectiva sectorial, la Prof. Sieber está
+                    especialmente interesada en aquellos sectores que están
+                    siendo transformados por los avances tecnológicos recientes,
+                    como las telecomunicaciones, la banca, el sector salud y los
+                    medios de comunicación y el entretenimiento.
                     <br>
                     <br>
-                    La profesora Sieber tiene amplia experiencia de trabajo con 
-                    audiencias ejecutivas en Europa, el Norte y el Sur de América, 
-                    Asia, Medio Oriente y Africa. Ha impartido clases, dirigido 
-                    Custom Programs y ha hecho consultas con empresas 
-                    multinacionales tales como Oracle, BBVA, La Caixa, Banco 
-                    Santander, Telefónica, Vodafone, BMW, Volkswagen, Bonfiglioli, 
-                    Renta Corporación, Komatsu, Olympus, RTE, Henkel, Erste 
-                    Bank, Boehringer Ingelheim, Boston Scientific o Desigual. 
-                    Realiza de forma regular funciones de mentoría con empresas 
-                    de nueva creación (start-ups), incubadoras y fondos 
+                    La profesora Sieber tiene amplia experiencia de trabajo con
+                    audiencias ejecutivas en Europa, el Norte y el Sur de América,
+                    Asia, Medio Oriente y Africa. Ha impartido clases, dirigido
+                    Custom Programs y ha hecho consultas con empresas
+                    multinacionales tales como Oracle, BBVA, La Caixa, Banco
+                    Santander, Telefónica, Vodafone, BMW, Volkswagen, Bonfiglioli,
+                    Renta Corporación, Komatsu, Olympus, RTE, Henkel, Erste
+                    Bank, Boehringer Ingelheim, Boston Scientific o Desigual.
+                    Realiza de forma regular funciones de mentoría con empresas
+                    de nueva creación (start-ups), incubadoras y fondos
                     tecnológicos.
                 </div>
             </div>
@@ -575,7 +610,7 @@
                     estudios respaldado por IESE Business School.
                 </div>
                 <div class="certificado-button">
-                    <a class="grapBo fs16 blanco" href="https://bit.ly/2SeUf0o" target="_blank" rel="noopener noreferrer">
+                    <a class="grapBo fs16 blanco" href="https://bit.ly/2SeUf0o" target="_blank" rel="noopener noreferrer" id="btn-apply-now">
                         INSCRÍBETE
                         <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>
@@ -621,16 +656,18 @@
             </div>
             <div class="right">
                 <div class="terminos-politicas-cont blanco">
-                    <a href="https://latam.emeritus.org/terminos-de-servicio.php" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Términos de
+                    <a href="https://latam.emeritus.org/terminos-de-servicio.php" target="_blank" rel="noopener noreferrer"
+                        class="grapRe fs12 blanco">Términos de
                         servicio</a>
-                        |
-                    <a href="https://latam.emeritus.org/politica-de-privacidad.php" target="_blank" rel="noopener noreferrer" class="grapRe fs12 blanco">Política de
+                    |
+                    <a href="https://latam.emeritus.org/politica-de-privacidad.php" target="_blank" rel="noopener noreferrer"
+                        class="grapRe fs12 blanco">Política de
                         privacidad</a>
                 </div>
             </div>
         </div>
     </footer>
-    
+
     <script type="text/javascript">
         function getParameterByName(name) {
             name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
