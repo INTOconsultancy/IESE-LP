@@ -149,7 +149,7 @@
                     <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                     <input type="hidden" name="browser" id="browser" value="">
                     <input type="hidden" name="course" id="course" value="IESE - Mindset Digital">
-                    <input type="hidden" name="retURL" value="https://intoconsultancy.com/sub/LP/Emeritus/IESE-LP/Thanks.php?<?php echo $queryString; ?>">
+                    <input type="hidden" name="retURL" value="https://emeritus.iese.edu/Mindset-Digital/Thanks.php">
                     <button class="grapBo fs16 blanco" type="submit" id="btn-download-brochure">
                         DESCARGAR EL FOLLETO
                         <img src="assets/img/svg/icon-descargar.svg" alt="Download">
