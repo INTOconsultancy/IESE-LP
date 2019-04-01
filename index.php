@@ -31,6 +31,9 @@
     <script type="text/javascript" src="assets/libs/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/js/logs.js"></script>
     <script type="text/javascript" src="assets/js/countries-latam.js"></script>
+    <script type="text/javascript" src="assets/js/utm_populate.js"></script>
+
+
     <!-- MATERIAL DESIGN LITE -->
     <link rel="stylesheet" href="assets/libs/mdl/material.min.css">
     <script src="assets/libs/mdl/material.min.js"></script>
@@ -668,22 +671,7 @@
         </div>
     </footer>
 
-    <script type="text/javascript">
-        function getParameterByName(name) {
-            name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
-            var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
-                results = regex.exec(location.search);
-            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-        }
-
-        jQuery(document).ready(function () {
-            jQuery('#utm_source').val(getParameterByName("utm_source"));
-            jQuery('#utm_medium').val(getParameterByName("utm_medium"));
-            jQuery('#utm_content').val(getParameterByName("utm_content"));
-            jQuery('#utm_campaign').val(getParameterByName("utm_campaign"));
-            jQuery('#utm_term').val(getParameterByName("utm_term"));
-        })
-    </script>
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
