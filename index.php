@@ -144,7 +144,7 @@
                 </div>
                 <!-- <div class="mdc-text-field-helper-text fs12 grapRe gris70" aria-hidden="true" style="margin: 0 0 0 10px;">Ej: +55 555 555 5555</div> -->
                 <div class="button-container">
-                    <input type="hidden" name="lead_source" id="lead_source" value="Web">
+                    <input type="hidden" name="lead_source" id="lead_source" value="">
                     <input type="hidden" name="utm_source" id="utm_source" value="">
                     <input type="hidden" name="utm_medium" id="utm_medium" value="">
                     <input type="hidden" name="utm_term" id="utm_term" value="">
