@@ -359,9 +359,28 @@ header {
   padding: 210px 31px 15px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/hero-image-mobile.jpg") no-repeat;
   background-position-x: center;
-  height: 465px;
+  height: 500px;
   background-size: cover;
   position: relative;
+}
+.hero-container .hero-title .notas {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  line-height: 22px;
+}
+@media only screen and (min-width: 1024px) {
+  .hero-container .hero-title .notas {
+    justify-content: initial;
+  }
+}
+.hero-container .hero-title .notas a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.hero-container .hero-title .notas a img {
+  width: 23px;
+  margin-right: 5px;
 }
 .hero-container .hero-title .title {
   text-align: center;
@@ -381,8 +400,83 @@ header {
   line-height: 31px;
 }
 
+.modal-certificado {
+  max-width: 600px !important;
+  width: 95% !important;
+  background: transparent !important;
+  padding: 5px !important;
+  border-radius: 0px !important;
+  box-shadow: 0 0 10px transparent !important;
+}
+.modal-certificado .close-modal {
+  top: -5px !important;
+  right: -5px !important;
+}
+
+.modal-pagos-flexibles {
+  width: 100% !important;
+  margin: 0 auto !important;
+  max-width: 745px !important;
+  padding: 17px !important;
+  border-radius: 0px !important;
+}
+.modal-pagos-flexibles .modal-pagos-title {
+  line-height: 28px;
+}
+.modal-pagos-flexibles .modal-pagos-descripcion {
+  margin: 10px 0;
+  line-height: 22px;
+}
+.modal-pagos-flexibles .modal-pagos-subtitle {
+  line-height: 26px;
+}
+.modal-pagos-flexibles .no-border {
+  border-bottom: none !important;
+}
+.modal-pagos-flexibles .pagos {
+  width: 100%;
+  padding: 10px;
+  max-width: 550px;
+}
+.modal-pagos-flexibles .pagos .pagos-title {
+  line-height: 41px;
+}
+.modal-pagos-flexibles .pagos .precio-pago {
+  display: -webkit-box;
+  line-height: 22px;
+}
+.modal-pagos-flexibles .pagos .precio-pago .dot-pagos {
+  width: 3px;
+  height: 3px;
+  margin-top: 7px;
+  margin-right: 5px;
+  border-radius: 1px;
+  background-color: #171717;
+}
+
+@media only screen and (min-width: 1024px) {
+  .modal-pagos-flexibles {
+    padding: 40px !important;
+  }
+  .modal-pagos-flexibles .modal-pagos-title {
+    line-height: 41px;
+  }
+  .modal-pagos-flexibles .modal-pagos-descripcion {
+    margin: 15px 0;
+    line-height: 22px;
+  }
+  .modal-pagos-flexibles .modal-pagos-subtitle {
+    line-height: 26px;
+  }
+  .modal-pagos-flexibles .pagos .pagos-title {
+    line-height: 41px;
+  }
+  .modal-pagos-flexibles .pagos .precio-pago {
+    line-height: 22px;
+  }
+}
 .hero-title-time {
-  margin-top: 30px;
+  margin-top: 15px;
   display: block;
 }
 .hero-title-time .desc {
@@ -1491,7 +1585,6 @@ header {
   box-sizing: border-box;
   width: 90%;
   background: #fff;
-  padding: 0 !important;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -o-border-radius: 8px;

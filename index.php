@@ -92,13 +92,71 @@
             <div class="title grapRe fs18 rojoFF">NUEVO PROGRAMA ONLINE</div>
             <div class="title grapBo fs32 negro19">Mindset Digital</div>
             <div class="title grapBo fs20 negro19">Innovación y liderazgo en la era digital</div>
-            <div class="title grapRe fs24 negro23">20 / 05 / 2019</div>
+            <div class="title grapRe fs24 negro23">27 / 05 / 2019</div>
             <div class="hero-title-time">
                 <div class="desc grapRe fs16 negro19">8 SEMANAS</div>
                 <div class="desc movil grapRe fs16 negro19">6-8 HORAS POR SEMANA</div>
                 <div class="desc desktop grapRe fs16 negro19">6-8 HORAS POR SEMANA</div>
                 <div class="desc grapBo fs16 negro19">PRECIO: $ 1,950 USD</div>
             </div>
+            <div class="notas grapBo fs16 rojo39">
+                <a class="rojo39" href="#ex2" rel="modal:open">
+                    <img src="assets/img/svg/info-circle-solid.svg" alt="información">
+                    Pagos flexibles disponibles
+                </a>
+            </div>
+            <!-- Modal pagos flexibles -->
+            <div id="ex2" class="modal modal-pagos-flexibles">
+                <div class="modal-pagos-title fs24 grapBo negro19">
+                    Plan de pagos flexibles
+                </div>
+                <div class="modal-pagos-descripcion fs18 grapBo negro19">
+                    Esta opción permite al alumno pagar la cuota del curso en parcialidades. 
+                    Está disponible en la solicitud de inscripción y deberá seleccionarse 
+                    antes de realizar el pago.
+                </div>
+                <div class="modal-pagos-subtitle fs16 grapRe negro19">
+                    Las siguientes opciones de pago están disponibles para el Curso de Mindset Digital:
+                </div>
+                <div class="pagos">
+                    <div class="pagos-title fs16 grapBo negro19">
+                        Pago total
+                    </div>
+                    <div class="precio-pago fs14 robotoRe negro23">
+                        <div class="dot-pagos"></div>La cuota completa del curso $1,950 USD.
+                    </div>
+                </div>
+                <div class="pagos">
+                    <div class="pagos-title fs16 grapBo negro19">
+                        Pago en dos parcialidades
+                    </div>
+                    <div class="precio-pago fs14 robotoRe negro23">
+                        <div class="dot-pagos"></div>La primera parcialidad de $,1055 USD
+                        se paga al inicio.
+                    </div>
+                    <div class="precio-pago">
+                        <div class="dot-pagos"></div>La segunda parcialidad de $934 USD.
+                        a pagar del 21 de junio del 2019.
+                    </div>
+                </div>
+                <div class="pagos no-border">
+                    <div class="pagos-title fs16 grapBo negro19">
+                        Pago en 3 parcialidades
+                    </div>
+                    <div class="precio-pago fs14 robotoRe negro23">
+                        <div class="dot-pagos"></div>La primera parcialidad de $778 USD.
+                        se paga al inicio.
+                    </div>
+                    <div class="precio-pago">
+                        <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
+                        a pagar del 21 de junio del 2019.
+                    </div>
+                    <div class="precio-pago">
+                        <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 6 de julio: $635 USD.
+                    </div>
+                </div>
+            </div>
+            <!--  -->
         </div>
         <div class="form-container" id="form">
             <div class="form-title grapRe fs18 negro23">Para obtener más información, llena el formulario</div>
@@ -600,7 +658,7 @@
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
-            <div id="ex1" class="modal">
+            <div id="ex1" class="modal modal-certificado">
                 <img src="assets/img/jpg/certificado-IESE-abril-big.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
