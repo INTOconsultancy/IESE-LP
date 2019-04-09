@@ -92,7 +92,7 @@
             <div class="title grapRe fs18 rojoFF">NUEVO PROGRAMA ONLINE</div>
             <div class="title grapBo fs32 negro19">Mindset Digital</div>
             <div class="title grapBo fs20 negro19">Innovación y liderazgo en la era digital</div>
-            <div class="title grapRe fs24 negro23">27 / 05 / 2019</div>
+            <div class="title grapRe fs24 negro23">03 / junio / 2019</div>
             <div class="hero-title-time">
                 <div class="desc grapRe fs16 negro19">8 SEMANAS</div>
                 <div class="desc movil grapRe fs16 negro19">6-8 HORAS POR SEMANA</div>
@@ -136,7 +136,7 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>La segunda parcialidad de $934 USD.
-                        a pagar del 21 de junio del 2019.
+                        a pagar del 28 de junio del 2019.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -149,10 +149,10 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
-                        a pagar del 21 de junio del 2019.
+                        a pagar del 28 de junio del 2019.
                     </div>
                     <div class="precio-pago">
-                        <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 6 de julio: $635 USD.
+                        <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 13 de julio: $635 USD.
                     </div>
                 </div>
             </div>
