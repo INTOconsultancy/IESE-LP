@@ -360,7 +360,7 @@
     </div>
     <!-- Sección Video -->
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/N_qqHFE7c5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        <iframe src="https://www.youtube.com/embed/S8FTljd0wVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
     <!-- Sección Plan de estudios -->
