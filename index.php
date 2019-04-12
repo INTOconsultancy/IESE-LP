@@ -241,7 +241,7 @@
         </div>
         <div class="new-world-subtitle grapRe fs20 gris70">
             Los constantes cambios del mundo digital –ya sean sociales, móviles o de cualquier otra índole–
-            estánderribando barreras de entrada a los mercados, cambiando de arriba abajo modelos de negocio
+            están derribando barreras de entrada a los mercados, cambiando de arriba abajo modelos de negocio
             consolidados, y proponiendo nuevas formas de relacionarse con clientes y empleados. Para identificar
             y dar una respuesta efectiva a las oportunidades y retos digitales, es crucial desarrollar una
             mentalidad verdaderamente digital.
@@ -382,7 +382,7 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 2</div>
-                        <div class="module-title grapRe negro23">Renconfiguración de sectores y adaptación de modelos
+                        <div class="module-title grapRe negro23">Reconfiguración de sectores y adaptación de modelos
                             de
                             negocio</div>
                         <div class="collapsible-header-img hide"></div>
@@ -488,7 +488,7 @@
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">CONOCIMIENTO PUNTERO:</div>
                     <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
                         Descubre lo conceptos más relevantes y actuales a través de
-                        video-conferencias, presentaciones interactivas y otros
+                        vídeo-conferencias, presentaciones interactivas y otros
                         contenidos completamente adaptados al consumo online.
                     </div>
                 </div>
