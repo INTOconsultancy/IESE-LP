@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="assets/scss/stylesheet.css">
     <script type="text/javascript" src="assets/libs/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/js/logs.js"></script>
-    <script type="text/javascript" src="assets/js/countries-latam.js"></script>
+    <script type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js"></script>
     <script type="text/javascript" src="assets/js/utm_populate.js"></script>
 
 
@@ -163,12 +163,12 @@
             <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-02-12/4wws45" method="post" id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
-                        required>
+                        required style="text-transform: capitalize;">
                     <label class="grapRe mdl-textfield__label" for="first_name">Nombre(s)</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <input class="grapRe mdl-textfield__input" type="text" id="last_name" name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
-                        required>
+                        required style="text-transform: capitalize;">
                     <label class="grapRe mdl-textfield__label" for="last_name">Apellido(s)</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -201,6 +201,15 @@
                     <label class="grapRe mdl-textfield__label" for="mobile">Teléfono Móvil</label>
                 </div>
                 <!-- <div class="mdc-text-field-helper-text fs12 grapRe gris70" aria-hidden="true" style="margin: 0 0 0 10px;">Ej: +55 555 555 5555</div> -->
+                <div class="">
+                  <div class="form-group" id="gdpr-consent" style="display:none;">
+                    <label class="checkbox-inline fs14 grapRe negro23">
+                      <input type="checkbox" value="Yes I Agree" name="agree" id="agree" required>
+                      Me gustaría recibir un correo electrónico y otras comunicaciones de EMERITUS y
+                      Sus socios universitarios sobre este curso y otros cursos relevantes.
+                    </label>
+                  </div>
+                </div>
                 <div class="button-container">
                     <input type="hidden" name="lead_source" id="lead_source" value="">
                     <input type="hidden" name="utm_source" id="utm_source" value="">
@@ -671,7 +680,7 @@
                     estudios respaldado por IESE Business School.
                 </div>
                 <div class="certificado-button">
-                    <a class="grapBo fs16 blanco" href="https://bit.ly/2SeUf0o" target="_blank" rel="noopener noreferrer" id="btn-apply-now">
+                    <a class="grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer" id="btn-apply-now">
                         INSCRÍBETE
                         <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>
@@ -729,7 +738,7 @@
         </div>
     </footer>
 
-    
+    <script async type="text/javascript" src="assets/js/gdpr.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
