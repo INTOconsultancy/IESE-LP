@@ -204,7 +204,7 @@
                 <div class="">
                   <div class="form-group" id="gdpr-consent" style="display:none;">
                     <label class="checkbox-inline fs14 grapRe negro23">
-                      <input type="checkbox" value="Yes I Agree" name="agree" id="agree" required>
+                      <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
                       Me gustaría recibir un correo electrónico y otras comunicaciones de EMERITUS y
                       Sus socios universitarios sobre este curso y otros cursos relevantes.
                     </label>

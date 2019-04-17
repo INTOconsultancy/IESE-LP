@@ -9,9 +9,11 @@ $("#country").change(function(){
 		if(checkFlg != -1)
 		{
 			$('#gdpr-consent').show();
+			$('#agree').prop('required', true); 
 		}
 		else{
 			$('#gdpr-consent').hide();
+			$('#agree').prop('required', false); 
 		}
 	}
 
