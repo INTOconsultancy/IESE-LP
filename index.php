@@ -27,29 +27,26 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="canonical" href="https://emeritus.iese.edu/Mindset-Digital/" />
+
     <link rel="stylesheet" href="assets/scss/stylesheet.css">
-    <script type="text/javascript" src="assets/libs/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/logs.js"></script>
-    <script type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js"></script>
-    <script type="text/javascript" src="assets/js/utm_populate.js"></script>
-
-
-    <!-- MATERIAL DESIGN LITE -->
     <link rel="stylesheet" href="assets/libs/mdl/material.min.css">
-    <script src="assets/libs/mdl/material.min.js"></script>
-    <!-- MATERIALIZE -->
-    <script type="text/javascript" src="assets/js/materialize.js"></script>
-    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-    <!-- Jquery Modal -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    <!-- Slick -->
-    <link rel="stylesheet" href="assets/libs/slick/slick.css">
-    <link rel="stylesheet" href="assets/libs/slick/slick-theme.css">
-    <script type="text/javascript" src="assets/libs/slick/slick.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <!-- AOS animation -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="assets/libs/slick/slick.css"> -->
+    <!-- <link rel="stylesheet" href="assets/libs/slick/slick-theme.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type="text/javascript" src="assets/js/logs.js"></script>
+    <script type="text/javascript" src="assets/js/utm_populate.js"></script>
+    <script type="text/javascript" src="assets/js/check_input_values.js"></script>
+    <script type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/libs/slick/slick.js"></script> -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/img/png/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="assets/img/png/favicon.png" />
@@ -222,7 +219,7 @@
                     <input type="hidden" name="retURL" value="https://emeritus.iese.edu/Mindset-Digital/Thanks.php">
                     <button class="grapBo fs16 blanco" type="submit" id="btn-download-brochure">
                         DESCARGAR EL FOLLETO
-                        <img src="assets/img/svg/icon-descargar.svg" alt="Download">
+                        <img class="descargar" src="assets/img/svg/icon-descargar.svg" alt="Download">
                     </button>
                 </div>
             </form>

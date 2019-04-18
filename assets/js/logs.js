@@ -87,6 +87,8 @@
 
             if(!canSubmit){
                 callRegisterAjax();
+                jQuery("button").text("CARGANDO...");
+                jQuery(".descargar").hide();
                 return false;
 
             }else{

@@ -1774,6 +1774,7 @@ header {
 }
 .slide-testimonio .testimonio .testimonio-img img {
   width: 112px;
+  display: block;
   margin: 0 auto;
 }
 .slide-testimonio .testimonio .testimonio-desc {
