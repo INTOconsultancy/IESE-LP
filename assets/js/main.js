@@ -1,4 +1,6 @@
 jQuery(document).ready(function () {
+
+    /*
     jQuery('.slide-testimonio').slick({
         dots: false,
         infinite: true,
@@ -32,7 +34,11 @@ jQuery(document).ready(function () {
             }
         ]
     });
+    */
 });
+
+
+
 jQuery(document).ready(function () {
     jQuery(window).scroll(function () {
         if (jQuery(this).scrollTop() < 5) {
