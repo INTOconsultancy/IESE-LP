@@ -23,7 +23,7 @@
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
-    <title>IESE | Business School</title>
+    <title>IESE | Mindset Digital</title>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -593,9 +593,9 @@
                 <div class="tutor-data">
                     <div class="grapBo fs18 negro19">PROF. SANDRA SIEBER</div>
                     <div class="grapMe fs14 gris66">
-                        Profesora ordinaria y directora del Departamento
-                        de Sistemas de Información del IESE Business
-                        School.
+                        Directora Académica, Profesora ordinaria y directora 
+                        del Departamento de Sistemas de Información del IESE 
+                        Business School.
                     </div>
                 </div>
             </div>
@@ -626,6 +626,53 @@
                 Realiza de forma regular funciones de mentoría con empresas
                 de nueva creación (start-ups), incubadoras y fondos
                 tecnológicos.
+            </div>
+        </div>
+        <div class="tutor-cont">
+            <div class="tutor-desc">
+                <div class="tutor-imagen">
+                    <img src="assets/img/jpg/Alex-lago.jpg" alt="ALEX LAGO">
+                </div>
+                <div class="tutor-data">
+                    <div class="grapBo fs18 negro19">ALEX LAGO</div>
+                    <div class="grapMe fs14 gris66">
+                        Profesor Ordinario y director del departamento de Dirección de 
+                        Producción, Tecnología y Operaciones, y codirector de The Africa 
+                        Initiative en el IESE.
+                    </div>
+                </div>
+            </div>
+            <div class="tutor-description grapRe fs16 gris66">
+            Alejandro Lago es Profesor Ordinario y director del departamento de 
+            Dirección de Producción, Tecnología y Operaciones, y codirector de 
+            The Africa Initiative en el IESE. Cuenta con un PhD en Ingeniería 
+            por la University of California en Berkeley, donde obtuvo la Gordon 
+            F. Newell Fellow. También es Ingeniero de Caminos, Canales y Puertos 
+            por la Universitat Politècnica de Catalunya y cursó el Program for 
+            Management Development en el IESE.
+            <br>
+            <br>
+            Los intereses del profesor Lago se centran en la dirección de sistemas 
+            de operaciones complejas, tanto en el sector industrial como en el ámbito 
+            de los servicios. Actualmente se está centrando en el estudio del diseño 
+            de sistemas de servicios, especialmente en el estudio de la implicación 
+            de proveedores y clientes en las operaciones mediante el uso de nuevas 
+            tecnologías. También tiene un interés especial en la gestión de sistemas 
+            de operaciones que tengan que ver con la economía colaborativa (Bicing, 
+            Avancar, Uber, etc).
+            <br>
+            <br>
+            Cuenta también con una amplia experiencia como consultor en el campo de 
+            la gestión de operaciones y servicios, al haber trabajado para grandes 
+            empresas industriales y distribuidoras, compañías aéreas y autoridades 
+            aeroportuarias y, más recientemente, bancos y compañías aseguradoras, 
+            entre otras.
+            <br>
+            <br>
+            El profesor Lago ha desarrollado su espíritu emprendedor al incorporarse 
+            en el año 2000 a una start-up californiana en plena burbuja de Internet. 
+            En la actualidad es socio de varias iniciativas relacionadas con el uso 
+            de nuevas tecnologías móviles, con interés especial en “mobile money”. 
             </div>
         </div>
         <div class="tutor-cont">

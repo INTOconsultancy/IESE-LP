@@ -1036,6 +1036,7 @@ header {
 .tutores-expertos-container .tutor-cont .tutor-desc {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-imagen {
   width: 126px;
@@ -1089,7 +1090,7 @@ header {
     margin-bottom: 15px;
   }
   .tutor-cont .tutor-desc .tutor-data {
-    margin: 20px 0 0 20px !important;
+    margin: 0px 0 0 20px !important;
   }
   .tutor-cont .tutor-desc .tutor-data div:nth-child(1) {
     text-align: left !important;

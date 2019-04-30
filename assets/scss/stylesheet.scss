@@ -1155,6 +1155,7 @@ header {
         .tutor-desc {
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
             .tutor-imagen {
                 width: 126px;
                 margin: 0 auto;
@@ -1220,7 +1221,7 @@ header {
             }
 
             .tutor-data {
-                margin: 20px 0 0 20px !important;
+                margin: 0px 0 0 20px !important;
 
                 div {
                     &:nth-child(1) {
