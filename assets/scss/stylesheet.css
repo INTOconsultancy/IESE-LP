@@ -44,26 +44,32 @@ img {
 
 @font-face {
   font-family: Graphik-Bold;
+  font-display: swap;
   src: url("../fonts/Graphik-Bold.otf");
 }
 @font-face {
   font-family: Graphik-Medium;
+  font-display: swap;
   src: url("../fonts/Graphik-Medium.otf");
 }
 @font-face {
   font-family: Graphik-Regular;
+  font-display: swap;
   src: url("../fonts/Graphik-Regular.otf");
 }
 @font-face {
   font-family: Graphik-RegularItalic;
+  font-display: swap;
   src: url("../fonts/Graphik-RegularItalic.otf");
 }
 @font-face {
   font-family: Graphik-Semibold;
+  font-display: swap;
   src: url("../fonts/Graphik-Semibold.otf");
 }
 @font-face {
   font-family: MinionPro-Regular;
+  font-display: swap;
   src: url("../fonts/MinionPro-Regular.otf");
 }
 .grapBo {
@@ -797,7 +803,7 @@ header {
 }
 @media only screen and (min-width: 1200px) {
   .hero-title {
-    padding: 60px 60px 120px 80px !important;
+    padding: 60px 60px 130px 80px !important;
   }
 
   .hero-img {
@@ -1732,11 +1738,6 @@ header {
   z-index: 1;
 }
 
-.slick-initialized .slick-slide {
-  display: flex !important;
-  justify-content: center !important;
-}
-
 .slider-container {
   width: 100%;
   padding: 0;
@@ -1769,14 +1770,12 @@ header {
 }
 .slide-testimonio .testimonio {
   padding: 0 28px;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 500px;
 }
 .slide-testimonio .testimonio .testimonio-img img {
   width: 112px;
   display: block;
   margin: 0 auto;
+  border-radius: 50%;
 }
 .slide-testimonio .testimonio .testimonio-desc {
   text-align: center;

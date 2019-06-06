@@ -43,6 +43,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
             integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 
 
@@ -100,7 +101,7 @@
         </div>
         <div class="notas grapBo fs16 rojo39">
             <a class="rojo39" href="#ex2" rel="modal:open">
-                <img src="../../assets/img/svg/info-circle-solid.svg" alt="información">
+                <img class="lazyload" data-src="../../assets/img/svg/info-circle-solid.svg" alt="información">
                 Pagos flexibles disponibles
             </a>
         </div>
@@ -115,7 +116,7 @@
                 antes de realizar el pago.
             </div>
             <div class="modal-pagos-subtitle fs16 grapRe negro19">
-                Las siguientes opciones de pago están disponibles para el Curso de Mindset Digital:
+                Las siguientes opciones de pago están disponibles para el Curso de Mujer y liderazgo:
             </div>
             <div class="pagos">
                 <div class="pagos-title fs16 grapBo negro19">
@@ -267,7 +268,7 @@
         <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100"
              data-aos-duration="400" data-aos-easing="ease-in-out">
             <div class="new-world-date-img">
-                <img src="../../assets/img/svg/icono-destacado-1.svg" alt="Icono Destacado">
+                <img class="lazyload" data-src="../../assets/img/svg/icono-destacado-1.svg" alt="Icono Destacado">
             </div>
             <p class="grapBo fs30 negro19">
                 En el 2020
@@ -285,7 +286,7 @@
         <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
              data-aos-duration="400" data-aos-easing="ease-in-out">
             <div class="new-world-date-img">
-                <img src="../../assets/img/svg/icono-destacado-2.svg" alt="Icono Destacado">
+                <img class="lazyload" data-src="../../assets/img/svg/icono-destacado-2.svg" alt="Icono Destacado">
             </div>
             <p class="grapBo fs30 negro19">
                 Para 2021
@@ -300,7 +301,7 @@
         <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
              data-aos-duration="400" data-aos-easing="ease-in-out">
             <div class="new-world-date-img">
-                <img src="../../assets/img/svg/icono-destacado-3.svg" alt="Icono Destacado">
+                <img class="lazyload" data-src="../../assets/img/svg/icono-destacado-3.svg" alt="Icono Destacado">
             </div>
             <p class="grapBo fs30 negro19">
                 En el 2022
@@ -322,54 +323,59 @@
 <!-- Sección Con Certificado... -->
 <div class="con-certificado-container">
     <div class="con-certificado-title grapBo fs32 negro3D">
-        Con un Certificado en Mindset Digital aprenderás a:
+        En el programa Mujer y liderazgo aprenderás a:
         <div class="con-certificado-cont">
             <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="100"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="../../assets/img/svg/icono-aprender-1.svg" alt="icono aprender 1">
+                    <img class="lazyload" data-src="../../assets/img/svg/icono-aprender-1.svg" alt="icono aprender 1">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
-                        Emplear las dimensiones del Mindset Digital
+                        Realizar un diagnóstico personal de competencias
                     </div>
-                    Determinar cómo la digitalización está afectando a tu sector, industria y negocio.
+                        Para identificar tus fortalezas y diseñar un plan de mejora 
+                        con la ayuda de un coach que te apoya para reforzar tu 
+                        estilo de liderazgo.
                 </div>
             </div>
             <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="200"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="../../assets/img/svg/icono-aprender-3.svg" alt="icono aprender 3">
+                    <img class="lazyload" data-src="../../assets/img/svg/icono-aprender-3.svg" alt="icono aprender 3">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
-                        Identificar las competencias necesarias
+                        Mejorar habilidades y capacidades para reforzar el liderazgo
                     </div>
-                    Replantear propuestas de valor y ejecutar una visión de futuro.
+                        Para implementar herramientas de negociación, trabajo en equipo, 
+                        gestión de conflictos y toma de decisiones. 
                 </div>
             </div>
             <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="300"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="../../assets/img/svg/icono-aprender-2.svg" alt="icono aprender 2">
+                    <img class="lazyload" data-src="../../assets/img/svg/icono-aprender-2.svg" alt="icono aprender 2">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
-                        Incorporar metodologías y procesos ágiles e iterativos
+                        Compartir experiencias y generar una networking
                     </div>
-                    Contribución a la transformación de tu cultura organizacional.
+                        Para crear una red de relaciones efectivas con otras mujeres directivas 
+                        e identificar tus retos y los factores que obstaculizan tu progreso. 
                 </div>
             </div>
             <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="400"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="../../assets/img/svg/icono-aprender-4.svg" alt="icono aprender 4">
+                    <img class="lazyload" data-src="../../assets/img/svg/icono-aprender-4.svg" alt="icono aprender 4">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
-                        Identificar las cualidades, prácticas y enfoques
+                        Equilibrar tu vida personal y profesional
                     </div>
-                    Los que forman a un líder con mentalidad digital.
+                    Para gestionar tu tiempo con eficacia y emplear estrategias para lograr 
+                    un equilibrio entre el trabajo y la familia.
                 </div>
             </div>
         </div>
@@ -485,37 +491,27 @@
 <!-- Sección El Certificado... -->
 <div class="el-certificado-container">
     <div class="el-certificado-title grapBo fs32 negro3D">
-        El programa Mindset Digital es para ti si:
+        El programa Mujer y liderazgo es para ti si:
     </div>
     <div class="el-certificado-cont">
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="100" data-aos-duration="500">
-            Necesitas llevar a cabo la
-            transición entre viejas y nuevas
-            formas de trabajo dentro de tu
-            empresa u organización.
+            Te interesa conocerte mejor y desarrollar tus 
+            competencias.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="200" data-aos-duration="500">
-            Por tus responsabilidades
-            debes aplicar estrategias
-            efectivas para la implementación de cambios
-            en tu cultura organizacional.
+            Eres una directora de alto nivel en tu organización.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="300" data-aos-duration="500">
-            Eres emprendedor y necesitas
-            claves estratégicas para
-            desarrollar o competir con
-            modelos de negocio disruptivos.
+            Ocupas un puesto directivo de nivel medio y deseas 
+            progresar en tu vida profesional.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="400" data-aos-duration="500">
-            Necesitas complementar tus
-            conocimientos para poder
-            plantear modelos de negocio y
-            propuestas de valor adecuadas
-            para la era digital.
+            Eres empresaria o dueña de tu propio negocio y 
+            necesitas mejorar tus capacidades de liderazgo.
         </div>
     </div>
 </div>
@@ -523,14 +519,14 @@
 <!-- Sección Tu viaje de aprendizaje -->
 <div class="tu-viaje-container">
     <div class="tu-viaje-title grapBo fs32 negro3D">Tu viaje de aprendizaje</div>
-    <div class="tu-viaje-subtitle grapRe fs16 gris66">Un estimulante itinerario de aprendizaje que te llevará desde
-        la reflexión sobre los retos a la definición de un plan de acción para alcanzarlos.
+    <div class="tu-viaje-subtitle grapRe fs16 gris66">
+        El programa aplica varios métodos docentes dinámicos e interactivos, entre los que se incluyen: 
     </div>
     <div class="tu-viaje-cont">
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-1.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../../assets/img/jpg/viaje-aprendizaje-1.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">CONOCIMIENTO PUNTERO:</div>
@@ -544,7 +540,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-2.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../../assets/img/jpg/viaje-aprendizaje-2.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">DISCUSIONES EN DIRECTO:</div>
@@ -562,7 +558,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-3.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../../assets/img/jpg/viaje-aprendizaje-3.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">INSPIRACIÓN DE DIRECTIVOS DE PRIMER NIVEL:</div>
@@ -575,7 +571,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-4.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../../assets/img/jpg/viaje-aprendizaje-4.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">NUEVOS PUNTOS DE VISTA:</div>
@@ -589,7 +585,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-5.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../../assets/img/jpg/viaje-aprendizaje-5.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">PLAN DE ACCIÓN:</div>
@@ -613,7 +609,7 @@
         <div class="tutor-cont">
             <div class="tutor-desc">
                 <div class="tutor-imagen">
-                    <img src="../../assets/img/jpg/Sandra-Sieber.jpg" alt="PROF. SANDRA SIEBER">
+                    <img class="lazyload" data-src="../../assets/img/jpg/Sandra-Sieber.jpg" alt="PROF. SANDRA SIEBER">
                 </div>
                 <div class="tutor-data">
                     <div class="grapBo fs18 negro19">PROF. SANDRA SIEBER</div>
@@ -656,7 +652,7 @@
         <div class="tutor-cont">
             <div class="tutor-desc">
                 <div class="tutor-imagen">
-                    <img src="../../assets/img/jpg/Alex-lago.jpg" alt="ALEX LAGO">
+                    <img class="lazyload" data-src="../../assets/img/jpg/Alex-lago.jpg" alt="ALEX LAGO">
                 </div>
                 <div class="tutor-data">
                     <div class="grapBo fs18 negro19">ALEX LAGO</div>
@@ -703,7 +699,7 @@
         <div class="tutor-cont">
             <div class="tutor-desc">
                 <div class="tutor-imagen">
-                    <img src="../../assets/img/jpg/Pilar-barrio.jpg" alt="Pilar Barrio">
+                    <img class="lazyload" data-src="../../assets/img/jpg/Pilar-barrio.jpg" alt="Pilar Barrio">
                 </div>
                 <div class="tutor-data">
                     <div class="grapBo fs18 negro19">Pilar Barrio</div>
@@ -731,6 +727,7 @@
         </div>
     </div>
 </div>
+<!-- Line -->
 <hr class="linea-separadora">
 <!-- Sección Rankings -->
 <div class="rankings-container">
@@ -750,12 +747,12 @@
         <!-- Link to open the modal -->
         <a class="certificado-img" href="#ex1" rel="modal:open">
             <div>
-                <img src="../../assets/img/jpg/certificado-IESE-abril-2019.jpg" alt="Certificado">
+                <img class="lazyload" data-src="../../assets/img/jpg/certificado-IESE-abril-2019.jpg" alt="Certificado">
             </div>
         </a>
         <!-- Modal HTML embedded directly into document -->
         <div id="ex1" class="modal modal-certificado">
-            <img src="../../assets/img/jpg/certificado-IESE-abril-big.jpg" alt="Certificado">
+            <img class="lazyload" data-src="../../assets/img/jpg/certificado-IESE-abril-big.jpg" alt="Certificado">
         </div>
         <div class="certificado-datos">
             <div class="certificado-title grapBo fs32 blanco">
@@ -770,7 +767,7 @@
                 <a class="grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer"
                    id="btn-apply-now">
                     INSCRÍBETE
-                    <img src="../../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
+                    <img class="lazyload" data-src="../../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>
         </div>
@@ -784,18 +781,54 @@
     <div class="slide-testimonio">
         <div class="testimonio">
             <div class="testimonio-img">
-                <img src="../../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+                <img class="lazyload" data-src="../../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
             </div>
             <div class="testimonio-desc grapRe fs15 negro19">
-                Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en
-                mi carrera profesional.
-                Quedé muy satisfecho y lo recomiendo ampliamente.
+                "Ha sido un programa fantástico, con grandes profesores y compañeras. 
+                Muy inspirador, estoy convencida que me ayudará a evolucionar como 
+                persona. Este es el inicio de un camino".
             </div>
             <div class="testimonio-name grapBo fs20 gris66">
-                Salvador Valderas Campos
+                Mireuchu Echeverría
             </div>
-            <div class="testimonio-work grapRe fs14 negro3D">
-                National Account Manager Bacardi
+        </div>
+        <div class="testimonio">
+            <div class="testimonio-img">
+                <img class="lazyload" data-src="../../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+            </div>
+            <div class="testimonio-desc grapRe fs15 negro19">
+            "Es un programa muy completo desde el punto de vista de la mujer en los 
+            ámbitos de cómo liderar, negociar y gestionar conflictos sin perder de 
+            vista el foco de la unidad familiar y empresarial".
+            </div>
+            <div class="testimonio-name grapBo fs20 gris66">
+                Anna Triola Hir
+            </div>
+        </div>
+        <div class="testimonio">
+            <div class="testimonio-img">
+                <img class="lazyload" data-src="../../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+            </div>
+            <div class="testimonio-desc grapRe fs15 negro19">
+            "Este programa me ha hecho reflexionar sobre mi estilo directivo y 
+            replantearme el modo de trabajar, de desarrollar a las personas, de dar 
+            feedback y pedir tiempo para mí".
+            </div>
+            <div class="testimonio-name grapBo fs20 gris66">
+                Miriam Latorre Izquierdo
+            </div>
+        </div>
+        <div class="testimonio">
+            <div class="testimonio-img">
+                <img class="lazyload" data-src="../../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+            </div>
+            <div class="testimonio-desc grapRe fs15 negro19">
+                "Excelente programa, solo tengo palabras de agradecimiento para la 
+                organización y los profesores. Es de valor, útil y necesario para 
+                el desarrollo personal y profesional". 
+            </div>
+            <div class="testimonio-name grapBo fs20 gris66">
+                Carmen Muñoz
             </div>
         </div>
     </div>
@@ -805,7 +838,7 @@
     <div class="footer-cont">
         <div class="left">
             <div class="footer-logo">
-                <img src="../../assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
+                <img class="lazyload" data-src="../../assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
             </div>
             <div class="copyright grapRe fs12 blanco">
                 IESE Business School Universidad de Navarra
@@ -827,7 +860,6 @@
     </div>
 </footer>
 
-
 <!-- Script to handle the form population -->
 <script type="text/javascript" src="../../assets/js/form-input-manager.js"></script>
 
@@ -837,11 +869,11 @@
 <!-- AOS Animations -->
 <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script defer src="../../assets/js/aos-animations-manager.js"></script>
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 <script defer type="text/javascript" src="../../assets/js/logs.js"></script>
 <script async type="text/javascript" src="../../assets/js/utm_populate.js"></script>
-<!-- <script asyn type="text/javascript" src="../../assets/js/check_input_values.js"></script> -->
+<script type="text/javascript" src="../../assets/js/lazysizes.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <script async type="text/javascript" src="../../assets/js/main.js"></script>

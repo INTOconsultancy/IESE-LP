@@ -30,15 +30,15 @@
     <link rel="canonical" href="https://emeritus.iese.edu/Mindset-Digital/"/>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/img/png/favicon.png"/>
-    <link rel="shortcut icon" type="image/png" href="assets/img/png/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="../../assets/img/png/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="../../assets/img/png/favicon.png"/>
 
 
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
-    <link rel="stylesheet" href="assets/scss/stylesheet.css">
-    <link rel="stylesheet" href="assets/libs/mdl/material.min.css">
+    <link rel="stylesheet" href="../../assets/scss/stylesheet.css">
+    <link rel="stylesheet" href="../../assets/libs/mdl/material.min.css">
 
 
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
@@ -72,8 +72,8 @@
 <!-- Sección Header Fixed -->
 <header>
     <div class="header-container">
-        <img class="Logo-one" src="assets/img/svg/IESE-Business-School.svg" alt="IESE">
-        <img class="Logo-two" src="assets/img/svg/Executive-Education.svg" alt="Executive Education">
+        <img class="Logo-one" src="../../assets/img/svg/IESE-Business-School.svg" alt="IESE">
+        <img class="Logo-two" src="../../assets/img/svg/Executive-Education.svg" alt="Executive Education">
         <div class="dinamic">
             <div class="header-button">
                 <a target="_blank" rel="noopener noreferrer" class="grapBo fs16 blanco">
@@ -100,7 +100,7 @@
         </div>
         <div class="notas grapBo fs16 rojo39">
             <a class="rojo39" href="#ex2" rel="modal:open">
-                <img src="assets/img/svg/info-circle-solid.svg" alt="información">
+                <img src="../../assets/img/svg/info-circle-solid.svg" alt="información">
                 Pagos flexibles disponibles
             </a>
         </div>
@@ -230,7 +230,7 @@
                 <input type="hidden" name="retURL" value="https://emeritus.iese.edu/Mindset-Digital/Thanks.php">
                 <button class="grapBo fs16 blanco" type="submit" id="btn-download-brochure">
                     DESCARGAR EL FOLLETO
-                    <img class="descargar" src="assets/img/svg/icon-descargar.svg" alt="Download">
+                    <img class="descargar" src="../../assets/img/svg/icon-descargar.svg" alt="Download">
                 </button>
             </div>
         </form>
@@ -268,7 +268,7 @@
         <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100"
              data-aos-duration="400" data-aos-easing="ease-in-out">
             <div class="new-world-date-img">
-                <img src="assets/img/svg/icono-destacado-1.svg" alt="Icono Destacado">
+                <img src="../../assets/img/svg/icono-destacado-1.svg" alt="Icono Destacado">
             </div>
             <p class="grapBo fs30 negro19">
                 En el 2020
@@ -286,7 +286,7 @@
         <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
              data-aos-duration="400" data-aos-easing="ease-in-out">
             <div class="new-world-date-img">
-                <img src="assets/img/svg/icono-destacado-2.svg" alt="Icono Destacado">
+                <img src="../../assets/img/svg/icono-destacado-2.svg" alt="Icono Destacado">
             </div>
             <p class="grapBo fs30 negro19">
                 Para 2021
@@ -301,7 +301,7 @@
         <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
              data-aos-duration="400" data-aos-easing="ease-in-out">
             <div class="new-world-date-img">
-                <img src="assets/img/svg/icono-destacado-3.svg" alt="Icono Destacado">
+                <img src="../../assets/img/svg/icono-destacado-3.svg" alt="Icono Destacado">
             </div>
             <p class="grapBo fs30 negro19">
                 En el 2022
@@ -328,7 +328,7 @@
             <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="100"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="assets/img/svg/icono-aprender-1.svg" alt="icono aprender 1">
+                    <img src="../../assets/img/svg/icono-aprender-1.svg" alt="icono aprender 1">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
@@ -340,7 +340,7 @@
             <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="200"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="assets/img/svg/icono-aprender-3.svg" alt="icono aprender 3">
+                    <img src="../../assets/img/svg/icono-aprender-3.svg" alt="icono aprender 3">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
@@ -352,7 +352,7 @@
             <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="300"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="assets/img/svg/icono-aprender-2.svg" alt="icono aprender 2">
+                    <img src="../../assets/img/svg/icono-aprender-2.svg" alt="icono aprender 2">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
@@ -364,7 +364,7 @@
             <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="400"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="assets/img/svg/icono-aprender-4.svg" alt="icono aprender 4">
+                    <img src="../../assets/img/svg/icono-aprender-4.svg" alt="icono aprender 4">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
@@ -505,7 +505,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="assets/img/jpg/viaje-aprendizaje-1.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img src="../../assets/img/jpg/viaje-aprendizaje-1.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">CONOCIMIENTO PUNTERO:</div>
@@ -519,7 +519,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="assets/img/jpg/viaje-aprendizaje-2.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img src="../../assets/img/jpg/viaje-aprendizaje-2.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">DISCUSIONES EN DIRECTO:</div>
@@ -537,7 +537,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="assets/img/jpg/viaje-aprendizaje-3.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img src="../../assets/img/jpg/viaje-aprendizaje-3.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">INSPIRACIÓN DE DIRECTIVOS DE PRIMER NIVEL:</div>
@@ -550,7 +550,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="assets/img/jpg/viaje-aprendizaje-4.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img src="../../assets/img/jpg/viaje-aprendizaje-4.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">NUEVOS PUNTOS DE VISTA:</div>
@@ -564,7 +564,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="assets/img/jpg/viaje-aprendizaje-5.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img src="../../assets/img/jpg/viaje-aprendizaje-5.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">PLAN DE ACCIÓN:</div>
@@ -588,7 +588,7 @@
         <div class="tutor-cont">
             <div class="tutor-desc">
                 <div class="tutor-imagen">
-                    <img src="assets/img/jpg/Sandra-Sieber.jpg" alt="PROF. SANDRA SIEBER">
+                    <img src="../../assets/img/jpg/Sandra-Sieber.jpg" alt="PROF. SANDRA SIEBER">
                 </div>
                 <div class="tutor-data">
                     <div class="grapBo fs18 negro19">PROF. SANDRA SIEBER</div>
@@ -631,7 +631,7 @@
         <div class="tutor-cont">
             <div class="tutor-desc">
                 <div class="tutor-imagen">
-                    <img src="assets/img/jpg/Alex-lago.jpg" alt="ALEX LAGO">
+                    <img src="../../assets/img/jpg/Alex-lago.jpg" alt="ALEX LAGO">
                 </div>
                 <div class="tutor-data">
                     <div class="grapBo fs18 negro19">ALEX LAGO</div>
@@ -678,7 +678,7 @@
         <div class="tutor-cont">
             <div class="tutor-desc">
                 <div class="tutor-imagen">
-                    <img src="assets/img/jpg/Pilar-barrio.jpg" alt="Pilar Barrio">
+                    <img src="../../assets/img/jpg/Pilar-barrio.jpg" alt="Pilar Barrio">
                 </div>
                 <div class="tutor-data">
                     <div class="grapBo fs18 negro19">Pilar Barrio</div>
@@ -712,11 +712,11 @@
     <div class="rankings-title grapBo fs32 negro19">Rankings</div>
     <div class="ranking-cont">
         <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
-             data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-Custom-1.png" alt="First">
+             data-aos-easing="ease-in-out" src="../../assets/img/png/Ranking-FT-Custom-1.png" alt="First">
         <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
-             data-aos-easing="ease-in-out" src="assets/img/png/Ranking-FT-ExecEd.png" alt="Second">
+             data-aos-easing="ease-in-out" src="../../assets/img/png/Ranking-FT-ExecEd.png" alt="Second">
         <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
-             data-aos-easing="ease-in-out" src="assets/img/jpg/Ranking-FT-Open-Programs-1.jpg" alt="Thir">
+             data-aos-easing="ease-in-out" src="../../assets/img/jpg/Ranking-FT-Open-Programs-1.jpg" alt="Thir">
     </div>
 </div>
 <!-- Sección Certificado -->
@@ -725,12 +725,12 @@
         <!-- Link to open the modal -->
         <a class="certificado-img" href="#ex1" rel="modal:open">
             <div>
-                <img src="assets/img/jpg/certificado-IESE-abril-2019.jpg" alt="Certificado">
+                <img src="../../assets/img/jpg/certificado-IESE-abril-2019.jpg" alt="Certificado">
             </div>
         </a>
         <!-- Modal HTML embedded directly into document -->
         <div id="ex1" class="modal modal-certificado">
-            <img src="assets/img/jpg/certificado-IESE-abril-big.jpg" alt="Certificado">
+            <img src="../../assets/img/jpg/certificado-IESE-abril-big.jpg" alt="Certificado">
         </div>
         <div class="certificado-datos">
             <div class="certificado-title grapBo fs32 blanco">
@@ -745,7 +745,7 @@
                 <a class="grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer"
                    id="btn-apply-now">
                     INSCRÍBETE
-                    <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
+                    <img src="../../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>
         </div>
@@ -759,7 +759,7 @@
     <div class="slide-testimonio">
         <div class="testimonio">
             <div class="testimonio-img">
-                <img src="assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+                <img src="../../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
             </div>
             <div class="testimonio-desc grapRe fs15 negro19">
                 Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en
@@ -780,7 +780,7 @@
     <div class="footer-cont">
         <div class="left">
             <div class="footer-logo">
-                <img src="assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
+                <img src="../../assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
             </div>
             <div class="copyright grapRe fs12 blanco">
                 IESE Business School Universidad de Navarra
@@ -804,22 +804,22 @@
 
 
 <!-- Script to handle the form population -->
-<script type="text/javascript" src="assets/js/form-input-manager.js"></script>
+<script type="text/javascript" src="../../assets/js/form-input-manager.js"></script>
 
 <!-- Script to prevent user from typing letters in the phone number -->
-<script type="text/javascript" src="assets/js/onkeypress.js"></script>
+<script type="text/javascript" src="../../assets/js/onkeypress.js"></script>
 
 <!-- AOS Animations -->
 <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script defer src="assets/js/aos-animations-manager.js"></script>
+<script defer src="../../assets/js/aos-animations-manager.js"></script>
 
 <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-<script defer type="text/javascript" src="assets/js/logs.js"></script>
-<script async type="text/javascript" src="assets/js/utm_populate.js"></script>
-<!-- <script asyn type="text/javascript" src="assets/js/check_input_values.js"></script> -->
+<script defer type="text/javascript" src="../../assets/js/logs.js"></script>
+<script async type="text/javascript" src="../../assets/js/utm_populate.js"></script>
+<!-- <script asyn type="text/javascript" src="../../assets/js/check_input_values.js"></script> -->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-<script async type="text/javascript" src="assets/js/main.js"></script>
+<script async type="text/javascript" src="../../assets/js/main.js"></script>
 
 
 </body>
