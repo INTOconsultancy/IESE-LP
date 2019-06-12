@@ -23,26 +23,28 @@
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
-    <title>IESE | Mindset Digital</title>
+    <title>IESE | Mujer y liderazgo</title>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="canonical" href="https://emeritus.iese.edu/Mindset-Digital/"/>
+    <link rel="canonical" href="https://emeritus.iese.edu/mujer-y-liderazgo/"/>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="../../assets/img/png/favicon.png"/>
-    <link rel="shortcut icon" type="image/png" href="../../assets/img/png/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png"/>
 
 
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
-    <link rel="stylesheet" href="../../assets/scss/stylesheet.css">
-    <link rel="stylesheet" href="../../assets/libs/mdl/material.min.css">
+    <link rel="stylesheet" href="../assets/scss/stylesheet.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 
 
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
             integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 
 
@@ -72,8 +74,8 @@
 <!-- Sección Header Fixed -->
 <header>
     <div class="header-container">
-        <img class="Logo-one" src="../../assets/img/svg/IESE-Business-School.svg" alt="IESE">
-        <img class="Logo-two" src="../../assets/img/svg/Executive-Education.svg" alt="Executive Education">
+        <img class="Logo-one" src="../assets/img/svg/IESE-Business-School.svg" alt="IESE">
+        <img class="Logo-two" src="../assets/img/svg/Executive-Education.svg" alt="Executive Education">
         <div class="dinamic">
             <div class="header-button">
                 <a target="_blank" rel="noopener noreferrer" class="grapBo fs16 blanco">
@@ -89,18 +91,18 @@
 <div class="hero-container">
     <div class="hero-title">
         <div class="title grapRe fs18 rojoFF">NUEVO PROGRAMA ONLINE</div>
-        <div class="title grapBo fs32 negro19">Mindset Digital</div>
-        <div class="title grapBo fs20 negro19">Innovación y liderazgo en la era digital</div>
-        <div class="title grapRe fs24 negro23">03 / junio / 2019</div>
+        <div class="title grapBo fs32 negro19">Mujer y liderazgo</div>
+        <div class="title grapBo fs20 negro19">Refuerza tu estilo de liderazgo</div>
+        <div class="title grapRe fs24 negro23">30 / septiembre / 2019</div>
         <div class="hero-title-time">
-            <div class="desc grapRe fs16 negro19">8 SEMANAS</div>
-            <div class="desc movil grapRe fs16 negro19">6-8 HORAS POR SEMANA</div>
-            <div class="desc desktop grapRe fs16 negro19">6-8 HORAS POR SEMANA</div>
+            <div class="desc grapRe fs16 negro19">10 SEMANAS</div>
+            <div class="desc movil grapRe fs16 negro19">6 HORAS POR SEMANA</div>
+            <div class="desc desktop grapRe fs16 negro19">6 HORAS POR SEMANA</div>
             <div class="desc grapBo fs16 negro19">PRECIO: $ 1,950 USD</div>
         </div>
         <div class="notas grapBo fs16 rojo39">
             <a class="rojo39" href="#ex2" rel="modal:open">
-                <img src="../../assets/img/svg/info-circle-solid.svg" alt="información">
+                <img class="lazyload" data-src="../assets/img/svg/info-circle-solid.svg" alt="información">
                 Pagos flexibles disponibles
             </a>
         </div>
@@ -115,7 +117,7 @@
                 antes de realizar el pago.
             </div>
             <div class="modal-pagos-subtitle fs16 grapRe negro19">
-                Las siguientes opciones de pago están disponibles para el Curso de Mindset Digital:
+                Las siguientes opciones de pago están disponibles para el Curso de Mujer y liderazgo:
             </div>
             <div class="pagos">
                 <div class="pagos-title fs16 grapBo negro19">
@@ -132,13 +134,13 @@
                 </div>
                 <div class="precio-pago fs14 robotoRe negro23">
                     <div class="dot-pagos"></div>
-                    La primera parcialidad de $,1055 USD
+                    La primera parcialidad de $,1054 USD
                     se paga al inicio.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La segunda parcialidad de $934 USD.
-                    a pagar del 28 de junio del 2019.
+                    La segunda parcialidad de $935 USD.
+                    a pagar del 25 de octubre del 2019.
                 </div>
             </div>
             <div class="pagos no-border">
@@ -153,19 +155,19 @@
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
                     La segunda parcialidad de $635 USD.
-                    a pagar del 28 de junio del 2019.
+                    a pagar del 25 de octubre del 2019.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La tercera parcialidad se paga a más tardar el 13 de julio: $635 USD.
+                    La tercera parcialidad se paga a más tardar el 09 de noviembre: $635 USD.
                 </div>
             </div>
         </div>
         <!--  -->
     </div>
     <div class="form-container" id="form">
-        <div class="form-title grapRe fs18 negro23">Para obtener más información, llena el formulario</div>
-        <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-02-12/4wws45" method="post"
+        <div class="form-title grapRe fs14 negro23">Para obtener más información, llena el formulario</div>
+        <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-06-11/545njl" method="post"
               id="formDesk">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name"
@@ -230,7 +232,7 @@
                 <input type="hidden" name="retURL" value="https://emeritus.iese.edu/Mindset-Digital/Thanks.php">
                 <button class="grapBo fs16 blanco" type="submit" id="btn-download-brochure">
                     DESCARGAR EL FOLLETO
-                    <img class="descargar" src="../../assets/img/svg/icon-descargar.svg" alt="Download">
+                    <img class="descargar" src="../assets/img/svg/icon-descargar.svg" alt="Download">
                 </button>
             </div>
         </form>
@@ -255,133 +257,148 @@
 <!-- Sección Nuevo Mundo -->
 <div class="new-world-container">
     <div class="new-world-title grapBo fs32 negro3D">
-        Nuevo mundo, nueva mentalidad
+        Refuerza tu estilo de liderazgo
     </div>
     <div class="new-world-subtitle grapRe fs20 gris70">
-        Los constantes cambios del mundo digital –ya sean sociales, móviles o de cualquier otra índole–
-        están derribando barreras de entrada a los mercados, cambiando de arriba abajo modelos de negocio
-        consolidados, y proponiendo nuevas formas de relacionarse con clientes y empleados. Para identificar
-        y dar una respuesta efectiva a las oportunidades y retos digitales, es crucial desarrollar una
-        mentalidad verdaderamente digital.
+        Las organizaciones que cuentan con ejecutivas formadas en alta dirección 
+        consiguen mejorar su competitividad y promover competencias que 
+        contribuyen a humanizar su organización y a mejorar el compromiso de los 
+        equipos.
     </div>
-    <div class="new-world-dates-container">
-        <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100"
-             data-aos-duration="400" data-aos-easing="ease-in-out">
-            <div class="new-world-date-img">
-                <img src="../../assets/img/svg/icono-destacado-1.svg" alt="Icono Destacado">
+    <div class="choose-efforts-container">
+            <div class="choose-efforts-title grapRe fs18 negro19">
+                Las mujeres quieren elegir dónde centrar sus esfuerzos:
             </div>
-            <p class="grapBo fs30 negro19">
-                En el 2020
-            </p>
-            <p class="grapRe fs18 negro19">
-                el 75% de los profesionales
-                que usen aplicaciones
-                empresariales tendrán
-                asistentes inteligentes.
-            </p>
-            <p class="grapRe fs14 negro3D">
-                Fuente: IDC FutureScape
-            </p>
-        </div>
-        <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
-             data-aos-duration="400" data-aos-easing="ease-in-out">
-            <div class="new-world-date-img">
-                <img src="../../assets/img/svg/icono-destacado-2.svg" alt="Icono Destacado">
+            <div class="efforts-container">
+                <div class="effort">
+                    <div class="logo-effort">
+                        <img src="../assets/img/svg/icon-highlights-1.svg" alt="">
+                    </div>
+                    <div class="title-effort grapBo fs30 negro19">
+                        60%
+                    </div>
+                    <div class="subtitle-effort grapRe fs18 negro23">
+                        Desea compatibilizar el trabajo 
+                        con su vida familiar.
+                    </div>
+                </div>
+                
+                <div class="effort">
+                    <div class="logo-effort">
+                        <img src="../assets/img/svg/icon-highlights-2.svg" alt="">
+                    </div>
+                    <div class="title-effort grapBo fs30 negro19">
+                        20%
+                    </div>
+                    <div class="subtitle-effort grapRe fs18 negro23">
+                        Opta, en exclusiva, por atender a su familia.
+                    </div>
+                </div>
+                
+                <div class="effort">
+                    <div class="logo-effort">
+                        <img src="../assets/img/svg/icon-highlights-3.svg" alt="">
+                    </div>
+                    <div class="title-effort grapBo fs30 negro19">
+                        20%
+                    </div>
+                    <div class="subtitle-effort grapRe fs18 negro23">
+                        Tiende a priorizar su trabajo por encima de otros ámbitos.
+                    </div>
+                </div>
             </div>
-            <p class="grapBo fs30 negro19">
-                Para 2021
-            </p>
-            <p class="grapRe fs18 negro19">
-                el 50% del PIB mundial será digital.
-            </p>
-            <p class="grapRe fs14 negro3D">
-                Fuente: “IDC FutureScape
-            </p>
-        </div>
-        <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
-             data-aos-duration="400" data-aos-easing="ease-in-out">
-            <div class="new-world-date-img">
-                <img src="../../assets/img/svg/icono-destacado-3.svg" alt="Icono Destacado">
+            <div class="efforts-source grapRe fs14 negro3D">
+                (IESE Business School – Índice de Liderazgo Femenino I-Wil 2018)
             </div>
-            <p class="grapBo fs30 negro19">
-                En el 2022
-            </p>
-            <p class="grapRe fs18 negro19">
-                el 72% de las
-                interacciones con
-                consumidores se realizarán
-                por medio de tecnologías
-                emergentes como chatbots.
-            </p>
-            <p class="grapRe fs14 negro3D">
-                Fuente: Dimension Data
-            </p>
-        </div>
+    </div>
+    
+    <div class="choose-efforts-container">
+            <div class="efforts-container" style="margin: 20px auto; padding: 0 35px">
+                <div class="effort-large">
+                    <div class="logo-effort">
+                        <img src="../assets/img/svg/Trazado.svg" alt="">
+                    </div>
+                    <div class="title-effort grapBo fs30 negro19">
+                        En 2018 menos del 5%
+                    </div>
+                    <div class="subtitle-effort grapRe fs18 negro23">
+                        De las mujeres ocupaban posiciones de alta dirección de las grandes corporaciones.
+                    </div>
+                    <div class="source-effort grapRe fs14 negro3D">
+                        The New Yorker
+                    </div>
+                </div>
+            </div>
     </div>
 </div>
 <hr class="linea-separadora">
 <!-- Sección Con Certificado... -->
 <div class="con-certificado-container">
     <div class="con-certificado-title grapBo fs32 negro3D">
-        Con un Certificado en Mindset Digital aprenderás a:
+        En el programa Mujer y liderazgo aprenderás a:
         <div class="con-certificado-cont">
             <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="100"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="../../assets/img/svg/icono-aprender-1.svg" alt="icono aprender 1">
+                    <img class="lazyload" data-src="../assets/img/svg/icon-programa-1.svg" alt="icono aprender 1">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
-                        Emplear las dimensiones del Mindset Digital
+                        Realizar un diagnóstico personal de competencias
                     </div>
-                    Determinar cómo la digitalización está afectando a tu sector, industria y negocio.
-                </div>
-            </div>
-            <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="200"
-                 data-aos-duration="500" data-aos-easing="ease-in-out">
-                <div class="con-certificado-beneficios-img">
-                    <img src="../../assets/img/svg/icono-aprender-3.svg" alt="icono aprender 3">
-                </div>
-                <div class="con-certificado-beneficios-description grapRe fs16 negro19">
-                    <div class="title grapBo fs18 negro19">
-                        Identificar las competencias necesarias
-                    </div>
-                    Replantear propuestas de valor y ejecutar una visión de futuro.
+                    Para identificar tus fortalezas y diseñar un plan de mejora.
                 </div>
             </div>
             <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="300"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="../../assets/img/svg/icono-aprender-2.svg" alt="icono aprender 2">
+                    <img class="lazyload" data-src="../assets/img/svg/icon-programa-2.svg" alt="icono aprender 2">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
-                        Incorporar metodologías y procesos ágiles e iterativos
+                        Compartir experiencias y generar una networking
                     </div>
-                    Contribución a la transformación de tu cultura organizacional.
+                        Para crear una red de relaciones efectivas con otras mujeres 
+                        directivas e identificar tus retos y los factores que 
+                        obstaculizan tu progreso.
+                </div>
+            </div>
+            <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="200"
+                 data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="con-certificado-beneficios-img">
+                    <img class="lazyload" data-src="../assets/img/svg/icon-programa-3.svg" alt="icono aprender 3">
+                </div>
+                <div class="con-certificado-beneficios-description grapRe fs16 negro19">
+                    <div class="title grapBo fs18 negro19">
+                        Mejorar habilidades y capacidades para reforzar el liderazgo
+                    </div>
+                        Para implementar herramientas de negociación, trabajo en equipo, 
+                        gestión de conflictos y toma de decisiones. 
                 </div>
             </div>
             <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="400"
                  data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="con-certificado-beneficios-img">
-                    <img src="../../assets/img/svg/icono-aprender-4.svg" alt="icono aprender 4">
+                    <img class="lazyload" data-src="../assets/img/svg/icon-programa-4.svg" alt="icono aprender 4">
                 </div>
                 <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                     <div class="title grapBo fs18 negro19">
-                        Identificar las cualidades, prácticas y enfoques
+                        Equilibrar tu vida personal y profesional
                     </div>
-                    Los que forman a un líder con mentalidad digital.
+                        Para gestionar tu tiempo con eficacia y emplear estrategias 
+                        para lograr un equilibrio entre el trabajo y la familia.
                 </div>
             </div>
         </div>
     </div>
 </div>
+<hr class="linea-separadora">
 <!-- Sección Video -->
-<div class="video-container">
+<!-- <div class="video-container">
     <iframe src="https://www.youtube.com/embed/S8FTljd0wVk" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
-</div>
+</div> -->
 <!-- Sección Plan de estudios -->
 <div class="plan-de-estudios-container">
     <div class="plan-de-estudios-title grapBo fs30 negro3D">
@@ -392,8 +409,8 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 1</div>
-                    <div class="module-title grapRe negro23">Entendiendo el contexto más allá de las tendencias
-                        tecnológicas
+                    <div class="module-title grapRe negro23">
+                        Liderazgo y perfil de la mujer directiva.
                     </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
@@ -402,9 +419,8 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 2</div>
-                    <div class="module-title grapRe negro23">Reconfiguración de sectores y adaptación de modelos
-                        de
-                        negocio
+                    <div class="module-title grapRe negro23">
+                        Competencias directivas.
                     </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
@@ -413,7 +429,9 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 3</div>
-                    <div class="module-title grapRe negro23">Impactos de densidad digital</div>
+                    <div class="module-title grapRe negro23">
+                        Liderazgo y networking.
+                    </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -421,7 +439,9 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 4</div>
-                    <div class="module-title grapRe negro23">Pasos hacia tu transformación digital</div>
+                    <div class="module-title grapRe negro23">
+                        Desarrollo de la competencia de negociación.
+                    </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -429,7 +449,9 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 5</div>
-                    <div class="module-title grapRe negro23">Cómo conseguir nuevos modelos de negocio</div>
+                    <div class="module-title grapRe negro23">
+                        Delegación y gestión de reuniones.
+                    </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -437,7 +459,9 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 6</div>
-                    <div class="module-title grapRe negro23">Aptitudes y capacidades para un Mindset Digital</div>
+                    <div class="module-title grapRe negro23">
+                        Gestión del conflicto.
+                    </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -445,9 +469,28 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 7</div>
-                    <div class="module-title grapRe negro23">Mindset Digital - creando organizaciones diseñadas
-                        para
-                        cambiar
+                    <div class="module-title grapRe negro23">
+                        Análisis y toma de decisiones.
+                    </div>
+                    <div class="collapsible-header-img hide"></div>
+                </div>
+                <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li class="active modulo-cont">
+                <div class="collapsible-header grapRe fs16">
+                    <div class="No grapMe negro19">Módulo 8</div>
+                    <div class="module-title grapRe negro23">
+                        Gestión del tiempo.
+                    </div>
+                    <div class="collapsible-header-img hide"></div>
+                </div>
+                <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li class="active modulo-cont">
+                <div class="collapsible-header grapRe fs16">
+                    <div class="No grapMe negro19">Módulo 9</div>
+                    <div class="module-title grapRe negro23">
+                        Conciliación trabajo-familia. 
                     </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
@@ -460,37 +503,24 @@
 <!-- Sección El Certificado... -->
 <div class="el-certificado-container">
     <div class="el-certificado-title grapBo fs32 negro3D">
-        El programa Mindset Digital es para ti si:
+        El programa Mujer y liderazgo es para ti si:
     </div>
     <div class="el-certificado-cont">
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="100" data-aos-duration="500">
-            Necesitas llevar a cabo la
-            transición entre viejas y nuevas
-            formas de trabajo dentro de tu
-            empresa u organización.
+            Quieres desarrollar tus competencias gerenciales e incrementar tu valor profesional.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="200" data-aos-duration="500">
-            Por tus responsabilidades
-            debes aplicar estrategias
-            efectivas para la implementación de cambios
-            en tu cultura organizacional.
+            Eres una directora de alto nivel en tu organización.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="300" data-aos-duration="500">
-            Eres emprendedor y necesitas
-            claves estratégicas para
-            desarrollar o competir con
-            modelos de negocio disruptivos.
+            Ocupas un puesto directivo de nivel medio y deseas progresar en tu vida profesional.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="400" data-aos-duration="500">
-            Necesitas complementar tus
-            conocimientos para poder
-            plantear modelos de negocio y
-            propuestas de valor adecuadas
-            para la era digital.
+            Eres empresaria o dueña de tu propio negocio y necesitas mejorar tus capacidades de liderazgo.
         </div>
     </div>
 </div>
@@ -498,14 +528,14 @@
 <!-- Sección Tu viaje de aprendizaje -->
 <div class="tu-viaje-container">
     <div class="tu-viaje-title grapBo fs32 negro3D">Tu viaje de aprendizaje</div>
-    <div class="tu-viaje-subtitle grapRe fs16 gris66">Un estimulante itinerario de aprendizaje que te llevará desde
-        la reflexión sobre los retos a la definición de un plan de acción para alcanzarlos.
+    <div class="tu-viaje-subtitle grapRe fs16 gris66">
+        El programa aplica varios métodos docentes dinámicos e interactivos, entre los que se incluyen:
     </div>
     <div class="tu-viaje-cont">
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-1.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-1.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">CONOCIMIENTO PUNTERO:</div>
@@ -519,7 +549,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-2.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-2.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">DISCUSIONES EN DIRECTO:</div>
@@ -537,7 +567,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-3.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-3.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">INSPIRACIÓN DE DIRECTIVOS DE PRIMER NIVEL:</div>
@@ -550,7 +580,7 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-4.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-4.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">NUEVOS PUNTOS DE VISTA:</div>
@@ -564,13 +594,13 @@
 
         <div class="aprendizaje">
             <div class="aprendizaje-img">
-                <img src="../../assets/img/jpg/viaje-aprendizaje-5.jpg" alt="CONOCIMIENTO PUNTERO">
+                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-5.jpg" alt="CONOCIMIENTO PUNTERO">
             </div>
             <div class="aprendizaje-desc">
                 <div class="aprendizaje-desc-title grapBo fs18 negro19">PLAN DE ACCIÓN:</div>
                 <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                    Traslada tus aprendizajes a un plan de acción concreto
-                    – para ti y para tu empresa, con la ayuda de un tutor
+                    Aplica tus aprendizajes a un plan de acción concreto 
+                    -para ti y para tu empresa-, con la ayuda de un tutor 
                     que te guiará con ejercicios específicos.
                 </div>
             </div>
@@ -588,135 +618,128 @@
         <div class="tutor-cont">
             <div class="tutor-desc">
                 <div class="tutor-imagen">
-                    <img src="../../assets/img/jpg/Sandra-Sieber.jpg" alt="PROF. SANDRA SIEBER">
+                    <img class="lazyload" data-src="../assets/img/jpg/M&L/Nuria-Chinchilla-IESE.jpg" alt="NURIA-CHINCHILLA">
                 </div>
                 <div class="tutor-data">
-                    <div class="grapBo fs18 negro19">PROF. SANDRA SIEBER</div>
+                    <div class="grapBo fs18 negro19">NURIA CHINCHILLA</div>
                     <div class="grapMe fs14 gris66">
-                        Directora Académica, Profesora ordinaria y directora 
-                        del Departamento de Sistemas de Información del IESE 
-                        Business School.
+                        Profesora Ordinaria de Dirección de Personas en las 
+                        Organizaciones; Titular de la Cátedra Carmina Roca 
+                        y Rafael Pich Aguilera de Mujer y liderazgo; Doctora 
+                        en Dirección de Empresas, IESE, Universidad de 
+                        Navarra; MBA, IESE, Universidad de Navarra.
                     </div>
                 </div>
             </div>
             <div class="tutor-description grapRe fs16 gris66">
-                La profesora Sieber ha dedicado mucho tiempo al estudio del
-                impacto de las TIC en las prácticas de trabajo de las
-                organizaciones y las personas, desde una variedad de
-                perspectivas. En la actualidad, sus investigaciones se centran
-                en el análisis del impacto de la digitalización en las personas,
-                empresas, sectores y para la sociedad en su conjunto.
+                La doctora Chinchilla es profesora, investigadora y consultora 
+                en dirección de personas, está especializada en consejos de 
+                administración, competencias de liderazgo, mujer y 
+                conciliación trabajo-familia. 
                 <br>
                 <br>
-                Desde una perspectiva sectorial, la Prof. Sieber está
-                especialmente interesada en aquellos sectores que están
-                siendo transformados por los avances tecnológicos recientes,
-                como las telecomunicaciones, la banca, el sector salud y los
-                medios de comunicación y el entretenimiento.
+                Forma parte de varios consejos de administración y de 
+                numerosos organismos internacionales y nacionales de impulso 
+                a la mujer directiva, como el International Women’s Forum o el 
+                consejo asesor de la European Professional Women’s Network. 
                 <br>
                 <br>
-                La profesora Sieber tiene amplia experiencia de trabajo con
-                audiencias ejecutivas en Europa, el Norte y el Sur de América,
-                Asia, Medio Oriente y Africa. Ha impartido clases, dirigido
-                Custom Programs y ha hecho consultas con empresas
-                multinacionales tales como Oracle, BBVA, La Caixa, Banco
-                Santander, Telefónica, Vodafone, BMW, Volkswagen, Bonfiglioli,
-                Renta Corporación, Komatsu, Olympus, RTE, Henkel, Erste
-                Bank, Boehringer Ingelheim, Boston Scientific o Desigual.
-                Realiza de forma regular funciones de mentoría con empresas
-                de nueva creación (start-ups), incubadoras y fondos
-                tecnológicos.
+                Asesora a gobiernos y empresas sobre cuestiones relacionadas 
+                con el desarrollo profesional de las mujeres. Desde 2012 es la 
+                candidata española para el Comité Contra la Discriminación de 
+                las Naciones Unidas. Ha escrito numerosos artículos y libros, 
+                entre los que destacan: Dueños de nuestro destino, del que es 
+                coautora junto con Maruja Moragas (Ariel, 2007); Paradigmas 
+                de liderazgo (2002); La ambición femenina (Aguilar, 2004). 
+                <br>
+                <br>
+                La doctora Chinchilla ha sido nombrada “Mejor ejecutiva del 
+                año” (2001) por la Federación Española de Mujeres Ejecutivas, 
+                Profesionales y Emprendedores (FEDEPE); premio “Most 
+                valuable speaker 2007” de Interban Network; y ha sido 
+                reconocida durante tres años consecutivos como una de las 
+                “100 mujeres españolas del siglo XXI”.
             </div>
         </div>
-        <div class="tutor-cont">
-            <div class="tutor-desc">
-                <div class="tutor-imagen">
-                    <img src="../../assets/img/jpg/Alex-lago.jpg" alt="ALEX LAGO">
-                </div>
-                <div class="tutor-data">
-                    <div class="grapBo fs18 negro19">ALEX LAGO</div>
-                    <div class="grapMe fs14 gris66">
-                        Profesor Ordinario y director del departamento de Dirección de 
-                        Producción, Tecnología y Operaciones, y codirector de The Africa 
-                        Initiative en el IESE.
+        <div class="tutor-cont" style="padding: 0!important; background-color: #FFFFFF; border-bottom: none;">
+            <div class="tutor-cont small-cont" style="padding: 20px!important;">
+                <div class="tutor-desc">
+                    <div class="tutor-imagen">
+                        <img class="lazyload" data-src="../assets/img/jpg/M&L/Miguel-Angel-Arino.jpg" alt="MIGUEL-ÁNGEL-ARIÑO">
+                    </div>
+                    <div class="tutor-data">
+                        <div class="grapBo fs18 negro19">MIGUEL ÁNGEL ARIÑO</div>
+                        <div class="grapMe fs14 gris66">
+                            Profesor de Análisis de Decisiones 
+                            <br>
+                            <br>
+                            Doctor en Ciencias Matemáticas, Universitat de Barcelona
+                        </div>
                     </div>
                 </div>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                    Ver más
+                </a>
             </div>
-            <div class="tutor-description grapRe fs16 gris66">
-            Alejandro Lago es Profesor Ordinario y director del departamento de 
-            Dirección de Producción, Tecnología y Operaciones, y codirector de 
-            The Africa Initiative en el IESE. Cuenta con un PhD en Ingeniería 
-            por la University of California en Berkeley, donde obtuvo la Gordon 
-            F. Newell Fellow. También es Ingeniero de Caminos, Canales y Puertos 
-            por la Universitat Politècnica de Catalunya y cursó el Program for 
-            Management Development en el IESE.
-            <br>
-            <br>
-            Los intereses del profesor Lago se centran en la dirección de sistemas 
-            de operaciones complejas, tanto en el sector industrial como en el ámbito 
-            de los servicios. Actualmente se está centrando en el estudio del diseño 
-            de sistemas de servicios, especialmente en el estudio de la implicación 
-            de proveedores y clientes en las operaciones mediante el uso de nuevas 
-            tecnologías. También tiene un interés especial en la gestión de sistemas 
-            de operaciones que tengan que ver con la economía colaborativa (Bicing, 
-            Avancar, Uber, etc).
-            <br>
-            <br>
-            Cuenta también con una amplia experiencia como consultor en el campo de 
-            la gestión de operaciones y servicios, al haber trabajado para grandes 
-            empresas industriales y distribuidoras, compañías aéreas y autoridades 
-            aeroportuarias y, más recientemente, bancos y compañías aseguradoras, 
-            entre otras.
-            <br>
-            <br>
-            El profesor Lago ha desarrollado su espíritu emprendedor al incorporarse 
-            en el año 2000 a una start-up californiana en plena burbuja de Internet. 
-            En la actualidad es socio de varias iniciativas relacionadas con el uso 
-            de nuevas tecnologías móviles, con interés especial en “mobile money”. 
-            </div>
-        </div>
-        <div class="tutor-cont">
-            <div class="tutor-desc">
-                <div class="tutor-imagen">
-                    <img src="../../assets/img/jpg/Pilar-barrio.jpg" alt="Pilar Barrio">
-                </div>
-                <div class="tutor-data">
-                    <div class="grapBo fs18 negro19">Pilar Barrio</div>
-                    <div class="grapMe fs14 gris66">
-                        Tutora del programa
+            <div class="tutor-cont small-cont" style="padding: 20px!important;">
+                <div class="tutor-desc">
+                    <div class="tutor-imagen">
+                        <img class="lazyload" data-src="../assets/img/jpg/M&L/Esther-Jimenez.jpg" alt="ESTHER-JIMÉNEZ">
+                    </div>
+                    <div class="tutor-data">
+                        <div class="grapBo fs18 negro19">ESTHER JIMÉNEZ</div>
+                        <div class="grapMe fs14 gris66">
+                            Colaboradora científica de Dirección de Personas en las Organizaciones 
+                            <br>
+                            <br>
+                            Doctora en Economía y Dirección de Empresas, Universidad de Navarra 
+                            <br>
+                            <br>
+                            MBA, Universitat Oberta de Catalunya
+                        </div>
                     </div>
                 </div>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                    Ver más
+                </a>
             </div>
-            <div class="tutor-description grapRe fs16 gris66">
-                Pilar ha destacado como consultora y
-                formadora de equipos de marketing digital.
-                Directora de Barrio Digital, comunidad de
-                expertos que da servicios de estrategia
-                digital a startups y negocios a nivel mundial,
-                ha colaborado con grandes empresas como
-                Coca Cola, GM, Nestlé, Sony y la BBC.
-                <br>
-                <br>
-                Pilar se desempeña también como
-                facilitadora de las masterclasses de la Google
-                Digital Academy en Europa, en temas como
-                marketing programático, estrategia de
-                móviles y soluciones creativas para marcas.
+            <div class="tutor-cont small-cont" style="padding: 20px!important;">
+                <div class="tutor-desc">
+                    <div class="tutor-imagen">
+                        <img class="lazyload" data-src="../assets/img/jpg/M&L/Kandarp-Mehta.jpg" alt="KANDARP-MEHTA">
+                    </div>
+                    <div class="tutor-data">
+                        <div class="grapBo fs18 negro19">KANDARP MEHTA</div>
+                        <div class="grapMe fs14 gris66">
+                            Senior Lecturer de Iniciativa Emprendedora y Unidad Docente de Negociación 
+                            <br>
+                            <br>
+                            Doctor en Administración, IESE, Universidad de Navarra 
+                            <br>
+                            <br>
+                            MBA K.S. School of Business Management, Gujarat University
+                        </div>
+                    </div>
+                </div>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                    Ver más
+                </a>
             </div>
         </div>
     </div>
 </div>
+<!-- Line -->
 <hr class="linea-separadora">
 <!-- Sección Rankings -->
 <div class="rankings-container">
     <div class="rankings-title grapBo fs32 negro19">Rankings</div>
     <div class="ranking-cont">
         <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
-             data-aos-easing="ease-in-out" src="../../assets/img/png/Ranking-FT-Custom-1.png" alt="First">
+             data-aos-easing="ease-in-out" src="../assets/img/png/Ranking-FT-Custom-1.png" alt="First">
         <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
-             data-aos-easing="ease-in-out" src="../../assets/img/png/Ranking-FT-ExecEd.png" alt="Second">
+             data-aos-easing="ease-in-out" src="../assets/img/png/Ranking-FT-ExecEd.png" alt="Second">
         <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
-             data-aos-easing="ease-in-out" src="../../assets/img/jpg/Ranking-FT-Open-Programs-1.jpg" alt="Thir">
+             data-aos-easing="ease-in-out" src="../assets/img/jpg/Ranking-FT-Open-Programs-1.jpg" alt="Thir">
     </div>
 </div>
 <!-- Sección Certificado -->
@@ -725,12 +748,12 @@
         <!-- Link to open the modal -->
         <a class="certificado-img" href="#ex1" rel="modal:open">
             <div>
-                <img src="../../assets/img/jpg/certificado-IESE-abril-2019.jpg" alt="Certificado">
+                <img class="lazyload" data-src="../assets/img/jpg/Certificado ML.jpg" alt="Certificado">
             </div>
         </a>
         <!-- Modal HTML embedded directly into document -->
         <div id="ex1" class="modal modal-certificado">
-            <img src="../../assets/img/jpg/certificado-IESE-abril-big.jpg" alt="Certificado">
+            <img class="lazyload" data-src="../assets/img/jpg/Certificado ML.jpg" alt="Certificado">
         </div>
         <div class="certificado-datos">
             <div class="certificado-title grapBo fs32 blanco">
@@ -745,7 +768,7 @@
                 <a class="grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer"
                    id="btn-apply-now">
                     INSCRÍBETE
-                    <img src="../../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
+                    <img class="lazyload" data-src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>
         </div>
@@ -753,24 +776,62 @@
 </div>
 <!-- Sección Slider -->
 <div class="slider-container">
-    <div class="silder-container-title grapBo fs32 negro19">
+    <div class="silder-container-title grapBo fs32 negro3D">
         Testimonios de estudiantes
     </div>
-    <div class="slide-testimonio">
+    <div class="slide-testimonio-ML">
         <div class="testimonio">
-            <div class="testimonio-img">
-                <img src="../../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-            </div>
-            <div class="testimonio-desc grapRe fs15 negro19">
-                Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en
-                mi carrera profesional.
-                Quedé muy satisfecho y lo recomiendo ampliamente.
+            <!-- <div class="testimonio-img">
+                <img class="lazyload" data-src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+            </div> -->
+            <div class="testimonio-desc grapRe fs16 negro3D">
+                “Ha sido un programa fantástico, con grandes profesores y compañeras. 
+                Muy inspirador, estoy convencida que me ayudará a evolucionar como 
+                persona. Este es el inicio de un camino".
             </div>
             <div class="testimonio-name grapBo fs20 gris66">
-                Salvador Valderas Campos
+                MIREUCHU ECHEVERRÍA
             </div>
-            <div class="testimonio-work grapRe fs14 negro3D">
-                National Account Manager Bacardi
+            <div class="testimonio-work grapMe fs18 gris66">
+                ACCENTURE, S.L.U 
+                <br>
+                Managing Director
+            </div>
+        </div>
+        <div class="testimonio">
+            <!-- <div class="testimonio-img">
+                <img class="lazyload" data-src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+            </div> -->
+            <div class="testimonio-desc grapRe fs16 negro3D">
+                “Ha sido un programa fantástico, con grandes profesores y compañeras. 
+                Muy inspirador, estoy convencida que me ayudará a evolucionar como 
+                persona. Este es el inicio de un camino".
+            </div>
+            <div class="testimonio-name grapBo fs20 gris66">
+                MIREUCHU ECHEVERRÍA
+            </div>
+            <div class="testimonio-work grapMe fs18 gris66">
+                ACCENTURE, S.L.U 
+                <br>
+                Managing Director
+            </div>
+        </div>
+        <div class="testimonio">
+            <!-- <div class="testimonio-img">
+                <img class="lazyload" data-src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+            </div> -->
+            <div class="testimonio-desc grapRe fs16 negro3D">
+                “Ha sido un programa fantástico, con grandes profesores y compañeras. 
+                Muy inspirador, estoy convencida que me ayudará a evolucionar como 
+                persona. Este es el inicio de un camino".
+            </div>
+            <div class="testimonio-name grapBo fs20 gris66">
+                MIREUCHU ECHEVERRÍA
+            </div>
+            <div class="testimonio-work grapMe fs18 gris66">
+                ACCENTURE, S.L.U 
+                <br>
+                Managing Director
             </div>
         </div>
     </div>
@@ -780,7 +841,7 @@
     <div class="footer-cont">
         <div class="left">
             <div class="footer-logo">
-                <img src="../../assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
+                <img class="lazyload" data-src="../assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
             </div>
             <div class="copyright grapRe fs12 blanco">
                 IESE Business School Universidad de Navarra
@@ -802,24 +863,23 @@
     </div>
 </footer>
 
-
 <!-- Script to handle the form population -->
-<script type="text/javascript" src="../../assets/js/form-input-manager.js"></script>
+<script type="text/javascript" src="../assets/js/form-input-manager.js"></script>
 
 <!-- Script to prevent user from typing letters in the phone number -->
-<script type="text/javascript" src="../../assets/js/onkeypress.js"></script>
+<script type="text/javascript" src="../assets/js/onkeypress.js"></script>
 
 <!-- AOS Animations -->
 <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script defer src="../../assets/js/aos-animations-manager.js"></script>
-
+<script defer src="../assets/js/aos-animations-manager.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-<script defer type="text/javascript" src="../../assets/js/logs.js"></script>
-<script async type="text/javascript" src="../../assets/js/utm_populate.js"></script>
-<!-- <script asyn type="text/javascript" src="../../assets/js/check_input_values.js"></script> -->
+<script defer type="text/javascript" src="../assets/js/logs.js"></script>
+<script async type="text/javascript" src="../assets/js/utm_populate.js"></script>
+<script type="text/javascript" src="../assets/js/lazysizes.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-<script async type="text/javascript" src="../../assets/js/main.js"></script>
+<script async type="text/javascript" src="../assets/js/main.js"></script>
 
 
 </body>

@@ -515,7 +515,7 @@ header {
 .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
 .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
   color: #3f51b5;
-  font-size: 12px;
+  font-size: 12px !important;
   top: 4px;
   visibility: visible;
 }
@@ -535,7 +535,7 @@ header {
 
 .mdl-textfield {
   position: relative;
-  font-size: 16px;
+  font-size: 16px !important;
   display: inline-block;
   box-sizing: border-box;
   width: 300px;
@@ -550,7 +550,7 @@ header {
   border: none;
   border-bottom: none !important;
   display: block;
-  font-size: 16px;
+  font-size: 16px !important;
   font-family: "Helvetica", "Arial", sans-serif;
   margin: 0;
   padding: 4px 0;
@@ -577,7 +577,7 @@ header {
 .mdl-textfield__label {
   bottom: 0;
   color: #464646 !important;
-  font-size: 16px;
+  font-size: 16px !important;
   left: 15px !important;
   right: 0;
   pointer-events: none;
@@ -896,6 +896,70 @@ header {
   margin: 0 auto 12px;
 }
 
+.choose-efforts-container {
+  width: 100%;
+  margin: 30px auto;
+  max-width: 845px;
+  padding: 30px 0;
+  box-shadow: 0 2px 10px -2px #000000;
+}
+.choose-efforts-container .choose-efforts-title {
+  width: 80%;
+  text-align: center;
+  line-height: 22px;
+  margin: 0 auto;
+}
+.choose-efforts-container .efforts-container {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+.choose-efforts-container .efforts-container .effort {
+  width: 100%;
+  margin: 10px;
+  max-width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+.choose-efforts-container .efforts-container .effort .logo-effort img {
+  width: 40px;
+  height: 40px;
+}
+.choose-efforts-container .efforts-container .effort .title-effort {
+  margin: 15px auto;
+  line-height: 34px;
+}
+.choose-efforts-container .efforts-container .effort .subtitle-effort {
+  line-height: 24px;
+}
+.choose-efforts-container .efforts-container .effort-large {
+  width: 100%;
+  margin: 10px auto;
+  max-width: 715px;
+  display: inline-block;
+  vertical-align: top;
+}
+.choose-efforts-container .efforts-container .effort-large .logo-effort img {
+  width: 40px;
+  height: 40px;
+}
+.choose-efforts-container .efforts-container .effort-large .title-effort {
+  margin: 15px auto;
+  line-height: 34px;
+}
+.choose-efforts-container .efforts-container .effort-large .subtitle-effort {
+  line-height: 24px;
+}
+.choose-efforts-container .efforts-container .effort-large .source-effort {
+  line-height: 24px;
+  margin: 15px auto 0;
+}
+.choose-efforts-container .efforts-source {
+  text-align: center;
+  line-height: 22px;
+}
+
 @media only screen and (min-width: 1024px) {
   .new-world-container {
     padding: 90px 17px;
@@ -931,6 +995,13 @@ header {
   .new-world-dates-container .new-world-date-cont p {
     margin: 15px auto 0;
     text-align: center !important;
+  }
+
+  .choose-efforts-container {
+    box-shadow: 0 2px 10px -2px gray;
+  }
+  .choose-efforts-container .efforts-container {
+    margin: 20px auto 120px;
   }
 }
 .el-certificado-media {
@@ -1024,6 +1095,42 @@ header {
   margin: 0 auto;
   max-width: 1140px;
 }
+.tutores-expertos-container .small-cont {
+  width: 100%;
+  margin: 18px auto !important;
+  max-width: 540px;
+  height: auto;
+  position: relative;
+  padding: 35px 15px;
+  background-color: #F5F5F5;
+}
+.tutores-expertos-container .small-cont:first-child {
+  margin: 0 auto 18px !important;
+}
+.tutores-expertos-container .small-cont:last-child {
+  margin: 18px auto 0 !important;
+}
+.tutores-expertos-container .small-cont .btn-see-more {
+  display: block;
+  position: initial;
+  text-align: right;
+  margin: 40px auto 0;
+}
+@media only screen and (min-width: 1114px) {
+  .tutores-expertos-container .small-cont {
+    height: 230px;
+  }
+  .tutores-expertos-container .small-cont .tutor-desc {
+    align-items: initial !important;
+  }
+  .tutores-expertos-container .small-cont .btn-see-more {
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    margin: 0;
+  }
+}
 .tutores-expertos-container .tutor-cont {
   width: 100%;
   margin: 10px auto;
@@ -1043,20 +1150,21 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-imagen {
   width: 126px;
-  margin: 0 auto;
+  margin: 0;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-imagen img {
   width: 126px;
   margin: 0 auto;
-  margin-bottom: 15px;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-data {
   width: 100%;
-  margin: 20px 0 0;
-  max-width: 330px;
+  margin: 20px auto 0;
+  max-width: 345px;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-data div:nth-child(1) {
   text-transform: uppercase;
@@ -1064,7 +1172,7 @@ header {
   text-align: center;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc .tutor-data div:nth-child(2) {
-  line-height: 22px;
+  line-height: 18px;
   margin-top: 5px;
   text-align: center;
 }
@@ -1072,6 +1180,10 @@ header {
 @media only screen and (min-width: 1024px) {
   .tutores-expertos-container {
     padding: 90px 17px;
+  }
+
+  .small-cont {
+    margin: 10px auto;
   }
 
   .tutor-cont {
@@ -1089,6 +1201,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: initial;
+    align-items: center;
   }
   .tutor-cont .tutor-desc .tutor-imagen img {
     width: 126px;
@@ -1096,7 +1209,7 @@ header {
     margin-bottom: 15px;
   }
   .tutor-cont .tutor-desc .tutor-data {
-    margin: 0px 0 0 20px !important;
+    margin: 0 auto !important;
   }
   .tutor-cont .tutor-desc .tutor-data div:nth-child(1) {
     text-align: left !important;
@@ -1738,6 +1851,35 @@ header {
   z-index: 1;
 }
 
+.slick-dots {
+  bottom: 0 !important;
+}
+@media only screen and (min-width: 1024px) {
+  .slick-dots {
+    bottom: 25px !important;
+  }
+}
+
+.slide-testimonio-ML .slick-dots li button::before, .slide-testimonio-MD .slick-dots li button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: url("../img/svg/square-regular.svg") !important;
+  width: 10px !important;
+  height: 10px !important;
+  font-family: "slick";
+  font-size: 12px;
+  line-height: 0px;
+  text-align: center;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slide-testimonio-ML .slick-dots li.slick-active button::before, .slide-testimonio-MD .slick-dots li.slick-active button::before {
+  opacity: 0.75;
+  content: url("../img/svg/square-solid.svg") !important;
+}
+
 .slider-container {
   width: 100%;
   padding: 0;
@@ -1753,40 +1895,44 @@ header {
   max-width: 1135px;
 }
 
-.slide-testimonio {
+.slide-testimonio-MD, .slide-testimonio-ML {
   width: 100%;
   padding: 35px 0;
   margin: 0 auto;
   background-color: #E9E9E9;
   max-width: 1135px;
 }
-.slide-testimonio .add-border {
+.slide-testimonio-MD .add-border, .slide-testimonio-ML .add-border {
   border-right: 1px solid #666666;
 }
 @media only screen and (max-width: 680px) {
-  .slide-testimonio .add-border {
+  .slide-testimonio-MD .add-border, .slide-testimonio-ML .add-border {
     border-right: 1px solid transparent;
   }
 }
-.slide-testimonio .testimonio {
+.slide-testimonio-MD .testimonio, .slide-testimonio-ML .testimonio {
+  margin: 0 auto;
   padding: 0 28px;
 }
-.slide-testimonio .testimonio .testimonio-img img {
+.slide-testimonio-MD .testimonio .testimonio-img img, .slide-testimonio-ML .testimonio .testimonio-img img {
   width: 112px;
   display: block;
   margin: 0 auto;
   border-radius: 50%;
 }
-.slide-testimonio .testimonio .testimonio-desc {
+.slide-testimonio-MD .testimonio .testimonio-desc, .slide-testimonio-ML .testimonio .testimonio-desc {
   text-align: center;
   margin-top: 10px;
+  width: 85%;
+  margin: 0 auto;
+  max-width: 500px;
 }
-.slide-testimonio .testimonio .testimonio-name {
+.slide-testimonio-MD .testimonio .testimonio-name, .slide-testimonio-ML .testimonio .testimonio-name {
   text-align: center;
   text-transform: uppercase;
   margin-top: 20px;
 }
-.slide-testimonio .testimonio .testimonio-work {
+.slide-testimonio-MD .testimonio .testimonio-work, .slide-testimonio-ML .testimonio .testimonio-work {
   text-align: center;
   text-transform: uppercase;
   margin-top: 2px;
@@ -1797,12 +1943,19 @@ header {
     padding: 90px 18px;
   }
   .slider-container .silder-container-title {
-    padding: 40px 0 10px;
+    padding: 70px 0 10px;
+  }
+
+  .slide-testimonio-ML {
+    padding: 70px 0;
+  }
+  .slide-testimonio-ML .testimonio {
+    padding: 20px 28px;
+    margin: 0px auto 20px !important;
   }
 
   .testimonio {
     padding: 20px 28px;
-    margin: 0 auto;
   }
 
   .add-border {

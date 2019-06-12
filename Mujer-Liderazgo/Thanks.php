@@ -16,10 +16,10 @@
     <!-- <meta http-equiv="refresh" CONTENT="1;URL= https://bit.ly/2Ehoosi"> -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
-    <link rel="stylesheet" href="../../assets/scss/stylesheet.css">
+    <link rel="stylesheet" href="../assets/scss/stylesheet.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="../../assets/img/png/favicon.png" />
-    <link rel="shortcut icon" type="image/png" href="../../assets/img/png/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
 
 </head>
 
@@ -33,8 +33,8 @@
     <div class="gracias-container">
         <div class="dialog-container">
             <div class="logos-container">
-                <img src="../../assets/img/svg/IESE-Business-School.svg" alt="IESE">
-                <img src="../../assets/img/svg/Executive-Education.svg" alt="Executive Education">
+                <img src="../assets/img/svg/IESE-Business-School.svg" alt="IESE">
+                <img src="../assets/img/svg/Executive-Education.svg" alt="Executive Education">
             </div>
             <div class="dialog-cont">
                 <div class="grapBo fs30 negro19">
@@ -57,7 +57,7 @@
                 </div>
                 <a class="btn-gracias grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer">
                     INSCRIBIRME
-                    <img src="../../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
+                    <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>
             <div class="gracias-redes">
@@ -66,13 +66,13 @@
                 </div>
                 <div class="icon-redes">
                     <a href="https://www.facebook.com/Iesebusinessschool" target="_blank" rel="noopener noreferrer">
-                        <img src="../../assets/img/svg/facebook-f-brands.svg" alt="Facebook">
+                        <img src="../assets/img/svg/facebook-f-brands.svg" alt="Facebook">
                     </a>
                     <a href="https://twitter.com/iesebschool" target="_blank" rel="noopener noreferrer">
-                        <img src="../../assets/img/svg/twitter-brands.svg" alt="Twiter">
+                        <img src="../assets/img/svg/twitter-brands.svg" alt="Twiter">
                     </a>
                     <a href="https://www.linkedin.com/school/iese-business-school/" target="_blank" rel="noopener noreferrer">
-                        <img src="../../assets/img/svg/linkedin-in-brands.svg" alt="Linkedin">
+                        <img src="../assets/img/svg/linkedin-in-brands.svg" alt="Linkedin">
                     </a>
                 </div>
             </div>
