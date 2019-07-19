@@ -81,10 +81,14 @@ jQuery(document).ready(function () {
                 $('#gdpr-consent').show();
                 $('#agree').prop('required', true);
 
+                $('.hero-container').css("height", "765px");
+
             }
             else {
                 $('#gdpr-consent').hide();
                 $('#agree').prop('required', false);
+
+                $('.hero-container').css("height", "700px");
 
             }
         }

@@ -44,10 +44,10 @@
                     Gracias por tu interés en el programa
                 </div>
                 <div class="grapBo fs18 gris70">
-                    "Mindset Digital: Innovación y liderazgo en la era digital"
+                    "Mujer y liderazgo"
                 </div>
                 <div class="grapRe fs18 negro46">
-                    Para ver el folleto digital <a class=" grapBo rojo39" href="https://fr.zone-secure.net/86686/.iese_mindset_digital/">Haz click aquí</a>
+                    Para ver el folleto digital <a class=" grapBo rojo39" href="http://bit.ly/2YQgHBc">Haz click aquí</a>
                 </div>
             </div>
             <div class="gracias-linea"></div>
@@ -55,7 +55,7 @@
                 <div class="grapMe fs30 negro19">
                     ¿Listo para el próximo paso?
                 </div>
-                <a class="btn-gracias grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer">
+                <a class="btn-gracias grapBo fs16 blanco" href="http://bit.ly/2YSy7NL" target="_blank" rel="noopener noreferrer">
                     INSCRIBIRME
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
