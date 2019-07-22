@@ -102,14 +102,6 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
     <div class="hero-container banner-ML">
         <div class="hero-title padding-ML">
             <div class="title grapRe fs16 rojoFF">NUEVO PROGRAMA ONLINE</div>
-            <!-- <div class="title grapBo fs20 negro19">Refuerza tu estilo de liderazgo</div> -->
-            <!-- <div class="title grapRe fs24 negro23">30 / septiembre / 2019</div>
-            <div class="hero-title-time">
-                <div class="desc grapRe fs16 negro19">10 SEMANAS</div>
-                <div class="desc movil grapRe fs16 negro19">6 HORAS POR SEMANA</div>
-                <div class="desc desktop grapRe fs16 negro19">6 HORAS POR SEMANA</div>
-                <div class="desc grapBo fs16 negro19">PRECIO: $ 1,950 USD</div>
-            </div> -->
             <div class="course-information">
                 <div class="title grapBo fs30 negro19">Mujer y liderazgo</div>
                 <div class="details">
@@ -128,7 +120,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                         <div class="fees grapMe fs14 negro23">
                             Cuota Miembros del IESE: $1,755 USD
                         </div>
-                        <div class="flexible-payments grapBo fs16 rojo39">
+                        <div class="flexible-payments grapBo fs14 rojo39">
                             <a class="rojo39" href="#ex2" rel="modal:open">
                                 <img class="lazyload" data-src="../assets/img/svg/info-circle-solid.svg"
                                     alt="información">
@@ -200,7 +192,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             <!--  -->
         </div>
         <div class="form-container" id="form">
-            <div class="form-title grapRe fs14 negro23">Para obtener más información, rellena el formulario</div>
+            <div class="form-title grapRe fs16 negro23">Para obtener más información, rellena el formulario</div>
             <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-06-11/545njl" method="post"
                 id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -247,7 +239,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     <div class="form-group" id="gdpr-consent" style="display:none;">
                         <label class="checkbox-inline fs14 grapRe negro23">
                             <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
-                            Me gustaría recibir un correo electrónico y otras comunicaciones de EMERITUS y
+                            Me gustaría recibir un correo electrónico y otras comunicaciones de IESE y
                             Sus socios universitarios sobre este curso y otros cursos relevantes.
                         </label>
                     </div>
@@ -299,7 +291,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             equipos.
         </div>
         <div class="choose-efforts-container">
-            <div class="choose-efforts-title grapRe fs18 negro19">
+            <div class="choose-efforts-title grapSe-Bo fs18 negro19">
                 Las mujeres quieren elegir dónde centrar sus esfuerzos:
             </div>
             <div class="efforts-container">
@@ -364,7 +356,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </div>
         </div>
     </div>
-    <hr class="linea-separadora">
+    <!-- <hr class="linea-separadora"> -->
     <!-- Sección Con Certificado... -->
     <div class="con-certificado-container">
         <div class="con-certificado-title grapBo fs32 negro3D">
@@ -425,7 +417,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </div>
         </div>
     </div>
-    <hr class="linea-separadora">
+    <hr class="linea-separadora desktop">
     <!-- Sección Plan de estudios -->
     <div class="plan-de-estudios-container">
         <div class="plan-de-estudios-title grapBo fs30 negro3D">
@@ -456,9 +448,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Competencias directivas.
                             <br>
                             <span class="grapRe">
-                                Aplicación de un sistema de autoevaluación para identificar los puntos
+                                Aplicación de un sistema de autoevaluación para identificar los puntos 
                                 fuertes y las áreas en las que cada participante puede desarrollarse.
-                                Los resultados se trabajarán individualmente con un coach.
                             </span>
                         </div>
                         <div class="collapsible-header-img hide"></div>
@@ -468,12 +459,12 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 3</div>
-                        <div class="module-title grapRe negro23">
+                        <div class="module-title grapMe negro23">
                             Liderazgo y networking.
                             <br>
                             <span class="grapRe">
-                                Conocimiento de los obstáculos a los que se enfrenta la mujer para entrar
-                                en los círculos de poder empresarial.
+                                Conocimiento de los obstáculos a los que se enfrenta la mujer para 
+                                entrar en los círculos de poder empresarial.
                             </span>
                         </div>
                         <div class="collapsible-header-img hide"></div>
@@ -483,13 +474,13 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 4</div>
-                        <div class="module-title grapRe negro23">
+                        <div class="module-title grapMe negro23">
                             Desarrollo de la competencia de negociación.
                             <br>
                             <span class="grapRe">
-                                Desarrollo de habilidades de negociación con base en la colaboración o la
-                                empatía; así como en principios y técnicas que permitan negociar con
-                                eficacia en todos los contextos.
+                                Desarrollo de habilidades de negociación con base en la colaboración 
+                                o la empatía; así como en principios y técnicas que permitan negociar 
+                                con eficacia en todos los contextos.
                             </span>
                         </div>
                         <div class="collapsible-header-img hide"></div>
@@ -499,12 +490,12 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 5</div>
-                        <div class="module-title grapRe negro23">
+                        <div class="module-title grapMe negro23">
                             Delegación y gestión de reuniones.
                             <br>
                             <span class="grapRe">
-                                Repaso de aspectos básicos sobre la gestión de equipos y la delegación de
-                                tareas.
+                                Repaso de aspectos básicos sobre la gestión de equipos y la delegación 
+                                de tareas.
                             </span>
                         </div>
                         <div class="collapsible-header-img hide"></div>
@@ -514,11 +505,11 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 6</div>
-                        <div class="module-title grapRe negro23">
+                        <div class="module-title grapMe negro23">
                             Gestión del conflicto.
                             <br>
                             <span class="grapRe">
-                                Conocimiento de las distintas dimensiones y la dinámica de los conflictos,
+                                Conocimiento de las distintas dimensiones y la dinámica de los conflictos, 
                                 así como las maneras de prevenirlos y resolverlos.
                             </span>
                         </div>
@@ -529,11 +520,11 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 7</div>
-                        <div class="module-title grapRe negro23">
+                        <div class="module-title grapMe negro23">
                             Análisis y toma de decisiones.
                             <br>
                             <span class="grapRe">
-                                Conocimiento y aplicación de los principios del proceso de toma de decisiones
+                                Conocimiento y aplicación de los principios del proceso de toma de decisiones 
                                 en equipo y sus reglas.
                             </span>
                         </div>
@@ -544,12 +535,12 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 8</div>
-                        <div class="module-title grapRe negro23">
+                        <div class="module-title grapMe negro23">
                             Gestión del tiempo.
                             <br>
                             <span class="grapRe">
-                                Utilización y manejo de herramientas prácticas y útiles para gestionar el
-                                tiempo con eficacia para poder combinar, sin presión, la agenda profesional
+                                Utilización y manejo de herramientas prácticas y útiles para gestionar el 
+                                tiempo con eficacia para poder combinar, sin presión, la agenda profesional 
                                 con la personal y familiar.
                             </span>
                         </div>
@@ -560,14 +551,13 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 9</div>
-                        <div class="module-title grapRe negro23">
+                        <div class="module-title grapMe negro23">
                             Conciliación trabajo-familia.
                             <br>
                             <span class="grapRe">
-                                Conocimiento de las mejores prácticas y herramientas en conciliación, de
-                                modo que permitan a las participantes reducir los niveles de estrés que
-                                repercuten en su gestión, y hasta en su salud o en su vida personal y
-                                familiar.
+                                Conocimiento de las mejores prácticas y herramientas en conciliación, de modo 
+                                que permitan a las participantes reducir los niveles de estrés que repercuten 
+                                en su gestión, y hasta en su salud o en su vida personal y familiar.
                             </span>
                         </div>
                         <div class="collapsible-header-img hide"></div>
@@ -577,7 +567,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </ul>
         </div>
     </div>
-    <hr class="linea-separadora">
+    <hr class="linea-separadora desktop">
     <!-- Sección El Certificado... -->
     <div class="el-certificado-container">
         <div class="el-certificado-title grapBo fs32 negro3D">
@@ -614,9 +604,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             En donde estés, estás adentro
         </div>
         <div class="description grapRe fs18 negro19">
-            Participa en debates en vivo e interactúa con los profesores de manera directa.
-            Rompe las barreras entre el aprendizaje presencial y online por medio de
-            herramientas como encuestas., software estadístico y blackboards digitales.
+            Participa en debates en vivo e interactúa con los profesores de manera directa. 
+            Rompe las barreras entre el aprendizaje presencial y online.
         </div>
     </div>
     <hr class="linea-separadora">
@@ -784,7 +773,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
     </div>
     <hr class="linea-separadora">
     <!-- Sección Tu viaje de aprendizaje -->
-    <div class="tu-viaje-container">
+    <!-- <div class="tu-viaje-container">
         <div class="tu-viaje-title grapBo fs32 negro3D">Tu viaje de aprendizaje</div>
         <div class="tu-viaje-subtitle grapMe fs16 negro19">
             El programa aplica varios métodos docentes dinámicos e interactivos, entre los que se incluyen:
@@ -816,10 +805,6 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                         Aplica tus aprendizajes a un plan de acción concreto -para
                         ti y para tu empresa-, con la ayuda de un tutor que te
                         guiará con ejercicios específicos.
-                        <!-- <a class="rojoFF" href="https://www.youtube.com/watch?v=Nk35vcV4jaI&t=1s" target="_blank"
-                    rel="noopener noreferrer">
-                        Aula Virtual.
-                    </a> -->
                     </div>
                 </div>
             </div>
@@ -855,7 +840,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </div>
         </div>
     </div>
-    <hr class="linea-separadora">
+    <hr class="linea-separadora"> -->
     <!-- Sección Tutores Expertos -->
     <div class="tutores-expertos-container">
         <div class="tutores-expertos-title grapBo fs32 negro3D">
@@ -987,7 +972,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
         <div class="ranking-cont">
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/Ranking-FT-Custom-1.png" alt="First">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Executive-Edudcation.png" alt="First">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -1005,7 +990,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </div>
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/Ranking-FT-ExecEd.png" alt="Second">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Custom-Programs.png" alt="Second">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -1023,7 +1008,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </div>
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/jpg/Ranking-FT-Open-Programs-1.jpg" alt="Thir">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/3rd-Ranking-FT-Open-Programs.png" alt="Thir">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -1089,7 +1074,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     persona. Este es el inicio de un camino".
                 </div>
                 <div class="testimonio-name grapBo fs20 gris66">
-                    MIREUCHU ECHEVERRÍA
+                    Mirenchu Echeverri López
                 </div>
                 <div class="testimonio-work grapMe fs18 gris66">
                     ACCENTURE, S.L.U
@@ -1103,8 +1088,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </div> -->
                 <div class="testimonio-desc grapRe fs16 negro3D">
                     "Es un programa muy completo desde el punto de vista de la mujer en los ámbitos de
-                    cómo liderar, <strong>negociar y gestionar conflictos sin perder de vista el foco de
-                        la unidad familiar y empresarial".</strong>
+                    cómo liderar, negociar y gestionar conflictos sin perder de vista el foco de
+                        la unidad familiar y empresarial".
                 </div>
                 <div class="testimonio-name grapBo fs20 gris66">
                     Anna Triola Mir
@@ -1150,6 +1135,14 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     Responsable Departamento /Jefe Grupo Investigación
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- Sección colaboración -->
+    <div class="colaboration-container">
+        <div class="description grapMe fs14 blanco">
+            IESE Business School colabora con el proveedor de formación online, EMERITUS 
+            Institute of Management para ofrecer un portafolio de programas online de alto 
+            impacto.
         </div>
     </div>
     <!-- Footer -->

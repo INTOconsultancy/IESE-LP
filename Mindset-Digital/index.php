@@ -102,21 +102,36 @@
     <!-- Sección Hero Image -->
     <div class="hero-container">
         <div class="hero-title">
-            <div class="title grapRe fs18 rojoFF">NUEVO PROGRAMA ONLINE</div>
-            <div class="title grapBo fs32 negro19">Mindset Digital</div>
-            <div class="title grapBo fs20 negro19">Innovación y liderazgo en la era digital</div>
-            <div class="title grapRe fs24 negro23">30 / octubre / 2019</div>
-            <div class="hero-title-time">
-                <div class="desc grapRe fs16 negro19">8 SEMANAS</div>
-                <div class="desc movil grapRe fs16 negro19">6-8 HORAS POR SEMANA</div>
-                <div class="desc desktop grapRe fs16 negro19">6-8 HORAS POR SEMANA</div>
-                <div class="desc grapBo fs16 negro19">PRECIO: $ 1,950 USD</div>
-            </div>
-            <div class="notas grapBo fs16 rojo39">
-                <a class="rojo39" href="#ex2" rel="modal:open">
-                    <img src="../assets/img/svg/info-circle-solid.svg" alt="información">
-                    Pagos flexibles disponibles
-                </a>
+            <div class="title grapRe fs16 rojoFF">NUEVO PROGRAMA ONLINE</div>
+            <div class="course-information">
+                <div class="title grapBo fs30 negro19">Mindset Digital</div>
+                <div class="subtitle grapBo fs20 negro19">Innovación y liderazgo en la era digital</div>
+                <div class="details">
+                    <div class="date-hours">
+                        <div class="date grapRe fs18 negro23">
+                            30 / octubre / 2019
+                        </div>
+                        <div class="hours grapRe fs14 negro23">
+                            8 SEMANAS | 6-8 HORAS POR SEMANA
+                        </div>
+                    </div>
+                    <div class="price-fees">
+                        <div class="price grapBo fs16 negro19">
+                            COSTO: $ 1,950 USD
+                        </div>
+                        <div class="fees grapMe fs14 negro23">
+                            Cuota Miembros del IESE: $1,755 USD
+                        </div>
+                        <div class="flexible-payments grapBo fs16 rojo39">
+                            <a class="rojo39" href="#ex2" rel="modal:open">
+                                <img class="lazyload" src="../assets/img/svg/info-circle-solid.svg"
+                                    alt="información">
+                                Pagos flexibles disponibles
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <!-- Modal pagos flexibles -->
             <div id="ex2" class="modal modal-pagos-flexibles">
@@ -178,7 +193,7 @@
             <!--  -->
         </div>
         <div class="form-container" id="form">
-            <div class="form-title grapRe fs18 negro23">Para obtener más información, llena el formulario</div>
+            <div class="form-title grapRe fs14 negro23">Para obtener más información, rellena el formulario</div>
             <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-02-12/4wws45" method="post"
                 id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -225,7 +240,7 @@
                     <div class="form-group" id="gdpr-consent" style="display:none;">
                         <label class="checkbox-inline fs14 grapRe negro23">
                             <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
-                            Me gustaría recibir un correo electrónico y otras comunicaciones de EMERITUS y
+                            Me gustaría recibir un correo electrónico y otras comunicaciones de IESE y
                             Sus socios universitarios sobre este curso y otros cursos relevantes.
                         </label>
                     </div>
@@ -762,6 +777,14 @@
                     National Account Manager Bacardi
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- Sección colaboración -->
+    <div class="colaboration-container">
+        <div class="description grapMe fs14 blanco">
+            IESE Business School colabora con el proveedor de formación online, EMERITUS 
+            Institute of Management para ofrecer un portafolio de programas online de alto 
+            impacto.
         </div>
     </div>
     <!-- Footer -->

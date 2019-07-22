@@ -355,7 +355,7 @@ header {
 
 .hero-container {
   width: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("");
+  background-image: url("");
   position: relative;
   padding: 10px 0 0 0;
 }
@@ -363,55 +363,31 @@ header {
   padding-left: 15px !important;
   padding-right: 15px !important;
   max-width: 1180px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/M&L/hero-image-mobile-2.jpg") no-repeat !important;
+  background-image: url("../img/jpg/M&L/hero-image-mobile-2.jpg") !important;
+  background-repeat: no-repeat;
   background-position-x: center !important;
   background-size: cover !important;
 }
 .hero-container .hero-title {
   width: 100%;
   margin: 0 auto;
-  padding: 210px 31px 15px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/hero-image-mobile.jpg") no-repeat;
+  padding: 345px 15px 15px;
+  background-image: url("../img/jpg/hero-image-mobile.jpg");
+  background-repeat: no-repeat;
   background-position-x: center;
-  height: 500px;
+  background-position-y: bottom;
   background-size: cover;
   position: relative;
 }
-.hero-container .hero-title .notas {
-  display: flex;
-  justify-content: center;
-  margin: 15px 0;
-  line-height: 22px;
-}
-@media only screen and (min-width: 1024px) {
-  .hero-container .hero-title .notas {
-    justify-content: initial;
-  }
-}
-.hero-container .hero-title .notas a {
-  cursor: pointer;
-  text-decoration: underline;
-}
-.hero-container .hero-title .notas a img {
-  width: 23px;
-  margin-right: 5px;
-}
 .hero-container .hero-title .title {
   text-align: center;
-}
-.hero-container .hero-title .title:nth-child(1) {
   line-height: 24px;
 }
-.hero-container .hero-title .title:nth-child(2) {
-  line-height: 38px;
-}
-.hero-container .hero-title .title:nth-child(3) {
-  margin: 0;
-  line-height: 24px;
-}
-.hero-container .hero-title .title:nth-child(4) {
-  margin: 0;
-  line-height: 31px;
+@media only screen and (min-width: 700px) {
+  .hero-container .hero-title .title {
+    margin: 0 0 0 30px;
+    text-align: left;
+  }
 }
 .hero-container .hero-title .course-information {
   width: 100%;
@@ -425,6 +401,13 @@ header {
   margin: 0 auto;
   text-align: center;
   line-height: 34px;
+  max-width: 655px;
+}
+.hero-container .hero-title .course-information .subtitle {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 24px;
   max-width: 655px;
 }
 .hero-container .hero-title .course-information .details {
@@ -486,6 +469,10 @@ header {
     text-align: left;
     padding: 0 10px;
   }
+  .hero-container .hero-title .course-information .subtitle {
+    text-align: left;
+    padding: 0 10px;
+  }
   .hero-container .hero-title .course-information .details {
     text-align: left;
   }
@@ -501,6 +488,9 @@ header {
   .hero-container .hero-title .course-information .details .price-fees .flexible-payments {
     margin: 0;
   }
+  .hero-container .hero-title .course-information .details .price-fees .flexible-payments a {
+    font-size: 16px;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .hero-container .hero-title .course-information {
@@ -512,14 +502,18 @@ header {
     font-size: 60px;
     line-height: 70px !important;
   }
+  .hero-container .hero-title .course-information .subtitle {
+    font-size: 30px;
+    line-height: 38px !important;
+  }
 }
 @media only screen and (min-width: 1134px) {
   .hero-container .hero-title .course-information {
     max-width: 700px;
-    padding: 10px 8px;
+    padding: 10px 0;
   }
   .hero-container .hero-title .course-information .title {
-    padding: 0;
+    padding: 0 5px;
   }
   .hero-container .hero-title .course-information .details {
     text-align: left;
@@ -528,7 +522,7 @@ header {
   }
   .hero-container .hero-title .course-information .details .date-hours {
     width: 100%;
-    max-width: 345px;
+    max-width: 355px;
   }
   .hero-container .hero-title .course-information .details .date-hours .date {
     margin-top: 0;
@@ -541,7 +535,7 @@ header {
   }
   .hero-container .hero-title .course-information .details .price-fees {
     width: 100%;
-    max-width: 310px;
+    max-width: 270px;
   }
 }
 
@@ -817,6 +811,7 @@ header {
 .private-data div {
   margin: 10px auto 0;
   text-align: center;
+  line-height: 15px;
 }
 .private-data div a {
   cursor: pointer;
@@ -836,30 +831,31 @@ header {
 
   .private-data {
     position: absolute;
-    bottom: -157px;
+    bottom: -125px;
     right: 0;
   }
 
   .banner-ML {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/M&L/hero-image-iese-desktopv2.jpg") !important;
+    background-image: url("../img/jpg/M&L/hero-image-iese-desktopv2.jpg") !important;
     background-repeat: no-repeat !important;
     background-position-x: 40% !important;
+    background-position-y: bottom !important;
     background-size: cover !important;
   }
   .banner-ML .padding-ML {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 75%), url("") !important;
+    background-image: url("") !important;
   }
 
   .hero-container {
     padding: 40px 0 0 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/hero-image-iese-desktop.jpg");
+    background-image: url("../img/jpg/hero-image-iese-desktop.jpg");
     background-repeat: no-repeat;
     background-position-x: 40%;
     background-size: cover;
-    height: 700px;
+    height: 660px;
   }
   .hero-container .hero-title {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6) 25%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0) 75%), url("");
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 25%, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0) 75%), url("");
     background-position-x: center;
     height: auto;
   }
@@ -901,28 +897,7 @@ header {
     bottom: 0;
     left: 0;
     padding: 60px 60px 60px 30px !important;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%), url("");
-  }
-  .hero-title .title {
-    text-align: left !important;
-  }
-  .hero-title .title:nth-child(1) {
-    font-size: 20px;
-    line-height: 26px !important;
-  }
-  .hero-title .title:nth-child(2) {
-    font-size: 60px;
-    line-height: 54px !important;
-  }
-  .hero-title .title:nth-child(3) {
-    margin: 5px 0 0 !important;
-    font-size: 30px;
-    line-height: 38px !important;
-  }
-  .hero-title .title:nth-child(4) {
-    margin: 10px 0 !important;
-    font-size: 30px;
-    line-height: 22px !important;
+    background-image: url("");
   }
 
   .hero-img {
@@ -935,6 +910,9 @@ header {
     position: absolute !important;
     top: 15px;
     right: 0;
+  }
+  .form-container .form-title {
+    font-size: 14px;
   }
 
   .button-container button {
@@ -957,7 +935,7 @@ header {
 }
 @media only screen and (min-width: 1200px) {
   .hero-title {
-    padding: 60px 60px 60px 80px !important;
+    padding: 50px 60px 50px 60px !important;
   }
 
   .hero-img {
@@ -2406,6 +2384,27 @@ header {
     z-index: 1;
   }
 }
+.colaboration-container {
+  width: 100%;
+  background-color: #232323;
+  padding: 30px 15px;
+}
+.colaboration-container .description {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 22px;
+  max-width: 690px;
+}
+@media only screen and (min-width: 700px) {
+  .colaboration-container {
+    padding: 45px 15px;
+  }
+  .colaboration-container .description {
+    font-size: 16px;
+  }
+}
+
 footer {
   width: 100%;
   padding: 35px 30px;
