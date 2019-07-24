@@ -23,11 +23,24 @@
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
-    <title>IESE | Mujer y liderazgo</title>
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="HandheldFriendly" content="true" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="canonical" href="https://emeritus.iese.edu/mujer-y-liderazgo/" />
+
+    <link rel="canonical" href="https://emeritus.iese.edu/Mujer-Liderazgo/" />
+
+    <title>IESE | Mujer y liderazgo</title>
+    
+    <meta property="og:title" content="IESE | Mujer y Liderazgo" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://emeritus.iese.edu/Mujer-Liderazgo/" />
+    <meta property="og:image" content="../assets/img/jpg/IESE.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="500" />
+    <meta property="og:image:alt" content="Mujer y Liderazgo" />
+    <meta property="fb:app_id" content="467662454062015" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
@@ -115,7 +128,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="price-fees">
                         <div class="price grapBo fs16 negro19">
-                            COSTO: $ 1,950 USD
+                            PRECIO: $ 1,950 USD
                         </div>
                         <div class="fees grapMe fs14 negro23">
                             Cuota Miembros del IESE: $1,755 USD
@@ -711,7 +724,9 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             <div class="profiles">
                 <img src="../assets/img/svg/icono-ejecutivos-c-suite.svg" alt="Ejecutivos-C-Suite">
                 <div class="title grapBo fs24 negro19">
-                    Ejecutivos C-Suite
+                    Ejecutivos 
+                    <br>
+                    C-Suite
                 </div>
             </div>
             <div class="description grapRe fs18 negro19">
@@ -855,7 +870,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="tutor-data">
                         <div class="grapBo fs18 negro19">NURIA CHINCHILLA</div>
-                        <div class="grapMe fs14 gris66">
+                        <div class="grapMe fs15 gris66">
                             Profesora Ordinaria de Dirección de Personas en las
                             Organizaciones; Titular de la Cátedra Carmina Roca
                             y Rafael Pich Aguilera de Mujer y liderazgo; Doctora
@@ -903,7 +918,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                         </div>
                         <div class="tutor-data">
                             <div class="grapBo fs18 negro19">MIGUEL ÁNGEL ARIÑO</div>
-                            <div class="grapMe fs14 gris66">
+                            <div class="grapMe fs15 gris66">
                                 Profesor de Análisis de Decisiones
                                 <br>
                                 <br>
@@ -923,7 +938,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                         </div>
                         <div class="tutor-data">
                             <div class="grapBo fs18 negro19">ESTHER JIMÉNEZ</div>
-                            <div class="grapMe fs14 gris66">
+                            <div class="grapMe fs15 gris66">
                                 Colaboradora científica de Dirección de Personas en las Organizaciones
                                 <br>
                                 <br>
@@ -946,7 +961,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                         </div>
                         <div class="tutor-data">
                             <div class="grapBo fs18 negro19">KANDARP MEHTA</div>
-                            <div class="grapMe fs14 gris66">
+                            <div class="grapMe fs15 gris66">
                                 Senior Lecturer de Iniciativa Emprendedora y Unidad Docente de Negociación
                                 <br>
                                 <br>

@@ -346,7 +346,6 @@
             </div>
         </div>
     </div>
-    <hr class="linea-separadora">
     <!-- Sección Con Certificado... -->
     <div class="con-certificado-container">
         <div class="con-certificado-title grapBo fs32 negro3D">
@@ -619,7 +618,7 @@
                     </div>
                     <div class="tutor-data">
                         <div class="grapBo fs18 negro19">PROF. SANDRA SIEBER</div>
-                        <div class="grapMe fs14 gris66">
+                        <div class="grapMe fs15 gris66">
                             Directora Académica, Profesora ordinaria y directora
                             del Departamento de Sistemas de Información del IESE
                             Business School.
@@ -662,7 +661,7 @@
                     </div>
                     <div class="tutor-data">
                         <div class="grapBo fs18 negro19">ALEX LAGO</div>
-                        <div class="grapMe fs14 gris66">
+                        <div class="grapMe fs15 gris66">
                             Profesor Ordinario y director del departamento de Dirección de
                             Producción, Tecnología y Operaciones, y codirector de The Africa
                             Initiative en el IESE.
