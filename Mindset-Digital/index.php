@@ -109,7 +109,7 @@
                 <div class="details">
                     <div class="date-hours">
                         <div class="date grapRe fs18 negro23">
-                            30 / octubre / 2019
+                            28 / octubre / 2019
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             8 SEMANAS | 6-8 HORAS POR SEMANA
@@ -117,7 +117,7 @@
                     </div>
                     <div class="price-fees">
                         <div class="price grapBo fs16 negro19">
-                            COSTO: $ 1,950 USD
+                            PRECIO: $ 1,950 USD
                         </div>
                         <div class="fees grapMe fs14 negro23">
                             Cuota Miembros del IESE: $1,755 USD
@@ -139,12 +139,12 @@
                     Plan de pagos flexibles
                 </div>
                 <div class="modal-pagos-descripcion fs18 grapBo negro19">
-                    Esta opción permite al alumno pagar la cuota del curso en parcialidades.
+                    Esta opción permite al alumno pagar la cuota del programa en parcialidades.
                     Está disponible en la solicitud de inscripción y deberá seleccionarse
                     antes de realizar el pago.
                 </div>
                 <div class="modal-pagos-subtitle fs16 grapRe negro19">
-                    Las siguientes opciones de pago están disponibles para el Curso de Mindset Digital:
+                    Las siguientes opciones de pago están disponibles para el Programa de Mindset Digital:
                 </div>
                 <div class="pagos">
                     <div class="pagos-title fs16 grapBo negro19">
@@ -152,7 +152,7 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La cuota completa del curso $1,950 USD.
+                        La cuota completa del programa $1,950 USD.
                     </div>
                 </div>
                 <div class="pagos">
@@ -166,27 +166,27 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $934 USD.
-                        a pagar del 28 de junio del 2019.
+                        La segunda parcialidad de $934 USD
+                        a pagar del 22 de noviembre del 2019.
                     </div>
                 </div>
                 <div class="pagos no-border">
                     <div class="pagos-title fs16 grapBo negro19">
-                        Pago en 3 parcialidades
+                        Pago en tres parcialidades
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $778 USD.
+                        La primera parcialidad de $778 USD
                         se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $635 USD.
-                        a pagar del 28 de junio del 2019.
+                        La segunda parcialidad de $635 USD
+                        a pagar del 22 de noviembre del 2019.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga a más tardar el 13 de julio: $635 USD.
+                        La tercera parcialidad se paga a más tardar el 07 de diciembre: $635 USD.
                     </div>
                 </div>
             </div>
@@ -240,8 +240,8 @@
                     <div class="form-group" id="gdpr-consent" style="display:none;">
                         <label class="checkbox-inline fs14 grapRe negro23">
                             <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
-                            Me gustaría recibir un correo electrónico y otras comunicaciones de IESE y
-                            Sus socios universitarios sobre este curso y otros cursos relevantes.
+                            Recibir un correo electrónico y otras comunicaciones de IESE y
+                            Sus socios universitarios sobre este programa y otros programas relevantes.
                         </label>
                     </div>
                 </div>
@@ -418,7 +418,7 @@
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 1</div>
                         <div class="module-title grapRe negro23">Entendiendo el contexto más allá de las tendencias
-                            tecnológicas
+                            tecnológicas.
                         </div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
@@ -429,7 +429,7 @@
                         <div class="No grapMe negro19">Módulo 2</div>
                         <div class="module-title grapRe negro23">Reconfiguración de sectores y adaptación de modelos
                             de
-                            negocio
+                            negocio.
                         </div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
@@ -438,7 +438,7 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 3</div>
-                        <div class="module-title grapRe negro23">Impactos de densidad digital</div>
+                        <div class="module-title grapRe negro23">Impacto de la densidad digital.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -446,7 +446,7 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 4</div>
-                        <div class="module-title grapRe negro23">Pasos hacia tu transformación digital</div>
+                        <div class="module-title grapRe negro23">Pasos hacia tu transformación digital.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -454,7 +454,7 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 5</div>
-                        <div class="module-title grapRe negro23">Cómo conseguir nuevos modelos de negocio</div>
+                        <div class="module-title grapRe negro23">Cómo construir nuevos modelos de negocio.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -462,7 +462,7 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 6</div>
-                        <div class="module-title grapRe negro23">Aptitudes y capacidades para un Mindset Digital</div>
+                        <div class="module-title grapRe negro23">Aptitudes y capacidades para un Mindset Digital.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -470,10 +470,7 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header grapRe fs16">
                         <div class="No grapMe negro19">Módulo 7</div>
-                        <div class="module-title grapRe negro23">Mindset Digital - creando organizaciones diseñadas
-                            para
-                            cambiar
-                        </div>
+                        <div class="module-title grapRe negro23">Creando organizaciones diseñadas para cambiar.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -520,17 +517,200 @@
         </div>
     </div>
     <hr class="linea-separadora">
+    <!-- Sección Video -->
+    <div class="video-container">
+        <div class="title grapBo fs32 negro3D">
+            Aula Virtual
+        </div>
+        <iframe src="https://www.youtube.com/embed/Nk35vcV4jaI" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="subtitle grapBo fs18 negro19">
+            En donde estés, estás adentro
+        </div>
+        <div class="description grapRe fs18 negro19">
+            Participa en debates en vivo e interactúa con los profesores de manera directa. 
+            Rompe las barreras entre el aprendizaje presencial y online.
+        </div>
+    </div>
+    <hr class="linea-separadora">
+    <!-- Sección Negocios globales -->
+    <div class="global-business-container">
+        <div class="title grapSe-Bo fs24 negro3D">
+            IESE, escuela de negocios global
+        </div>
+        <div class="business-cont">
+            <div class="business">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-5-campus.svg" alt="Alrededor del mundo">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    5 campus
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Alrededor del mundo
+                </div>
+            </div>
+            <div class="business">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-educacion-ejecutiva.svg" alt="Ranking del Financial Times">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    #1 en educación ejecutiva
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Ranking del Financial Times
+                </div>
+            </div>
+            <div class="business">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-16-escuelas.svg" alt="Escuelas de negocios asociadas">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    +16
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Escuelas de negocios asociadas
+                </div>
+            </div>
+            <div class="business">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-50000-alumni.svg" alt="Alumni">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    +50,000
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Alumni
+                </div>
+            </div>
+            <div class="business">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-130-nacionalidades.svg" alt="Nacionalidades">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    +130
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Nacionalidades
+                </div>
+            </div>
+            <div class="business">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-100-profesores.svg" alt="Profesores de tiempo completo">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    +100
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Profesores de tiempo completo
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="linea-separadora">
+    <!-- Sección Perfiles Directivos -->
+    <div class="profiles-container">
+        <div class="title grapSe-Bo fs24 negro3D">
+            Formación para todos los perfiles directivos
+        </div>
+        <div class="profiles-cont">
+            <div class="profiles">
+                <img src="../assets/img/svg/icono-directores-funcionales.svg" alt="Directores-funcionales">
+                <div class="title grapBo fs24 negro19">
+                    Directores funcionales
+                </div>
+            </div>
+            <div class="profiles">
+                <img src="../assets/img/svg/icono-emprendedores.svg" alt="Emprendedores">
+                <div class="title grapBo fs24 negro19">
+                    Emprendedores
+                </div>
+            </div>
+            <div class="profiles">
+                <img src="../assets/img/svg/icono-ejecutivos-senior.svg" alt="Ejecutivos-senior">
+                <div class="title grapBo fs24 negro19">
+                    Ejecutivos senior
+                </div>
+            </div>
+            <div class="profiles">
+                <img src="../assets/img/svg/icono-ejecutivos-c-suite.svg" alt="Ejecutivos-C-Suite">
+                <div class="title grapBo fs24 negro19">
+                    Ejecutivos 
+                    <br>
+                    C-Suite
+                </div>
+            </div>
+            <div class="description grapRe fs18 negro19">
+                <span>
+                    En cualquier etapa de tu carrera en los programas online del IESE 
+                    eres el protagonista de tu aprendizaje. De los pasos que das. De 
+                    lo que logras.
+                </span>
+            </div>
+        </div>
+    </div>
+    <hr class="linea-separadora">
+    <!-- Sección Metodología -->
+    <div class="metodology-container">
+        <div class="title grapSe-Bo fs24 negro3D">
+            Metodología
+        </div>
+        <div class="subtitle grapRe fs18 negro19">
+            Un estimulante itinerario de aprendizaje que te llevará desde la reflexión 
+            sobre los retos a la definición de un plan de acción para alcanzarlos.
+        </div>
+        <div class="metodology-cont">
+            <div class="metodology">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-aprendizaje-interactivo.svg" alt="Aprendizaje-interactivo">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    Aprendizaje interactivo
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Video-conferencias, entrevistas con expertos, 
+                    presentaciones interactivas y sesiones en 
+                    vivo.
+                </div>
+            </div>
+            <div class="metodology">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Inspiración-de-primer-nivel">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    Inspiración de primer nivel
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Entrevistas con los expertos en la transformación digital, directores 
+                    de empresas como Google, BBVA, Televisa, Microsoft, entre otras.
+                </div>
+            </div>
+            <div class="metodology">
+                <div class="img">
+                    <img src="../assets/img/svg/icono-plan-accion.svg" alt="Plan-de-acción">
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    Plan de acción
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Aplica lo aprendido en un plan de acción para ti y para tu empresa.
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="linea-separadora">
     <!-- Sección Tu viaje de aprendizaje -->
-    <div class="tu-viaje-container">
+    <!-- <div class="tu-viaje-container">
         <div class="tu-viaje-title grapBo fs32 negro3D">Tu viaje de aprendizaje</div>
-        <div class="tu-viaje-subtitle grapRe fs16 gris66">Un estimulante itinerario de aprendizaje que te llevará desde
-            la reflexión sobre los retos a la definición de un plan de acción para alcanzarlos.
+        <div class="tu-viaje-subtitle grapMe fs16 negro19">
+            El programa aplica varios métodos docentes dinámicos e interactivos, entre los que se incluyen:
         </div>
         <div class="tu-viaje-cont">
 
             <div class="aprendizaje">
                 <div class="aprendizaje-img">
-                    <img src="../assets/img/jpg/viaje-aprendizaje-1.jpg" alt="CONOCIMIENTO PUNTERO">
+                    <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-1.jpg"
+                        alt="CONOCIMIENTO-PUNTERO">
                 </div>
                 <div class="aprendizaje-desc">
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">CONOCIMIENTO PUNTERO:</div>
@@ -544,39 +724,37 @@
 
             <div class="aprendizaje">
                 <div class="aprendizaje-img">
-                    <img src="../assets/img/jpg/viaje-aprendizaje-2.jpg" alt="CONOCIMIENTO PUNTERO">
+                    <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-5.jpg" alt="PLAN-DE-ACCIÓN">
                 </div>
                 <div class="aprendizaje-desc">
-                    <div class="aprendizaje-desc-title grapBo fs18 negro19">DISCUSIONES EN DIRECTO:</div>
+                    <div class="aprendizaje-desc-title grapBo fs18 negro19">PLAN DE ACCIÓN:</div>
                     <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                        Participa en vivo en debates sobre alternativas y decisiones
-                        de negocio, basadas en casos reales, de la mano de nuestros
-                        ../assetses y a través de nuestra vanguardista
-                        <a class="rojoFF" href="https://www.youtube.com/watch?v=Nk35vcV4jaI&t=1s" target="_blank"
-                            rel="noopener noreferrer">
-                            Aula Virtual.
-                        </a>
+                        Aplica tus aprendizajes a un plan de acción concreto -para
+                        ti y para tu empresa-, con la ayuda de un tutor que te
+                        guiará con ejercicios específicos.
                     </div>
                 </div>
             </div>
 
             <div class="aprendizaje">
                 <div class="aprendizaje-img">
-                    <img src="../assets/img/jpg/viaje-aprendizaje-3.jpg" alt="CONOCIMIENTO PUNTERO">
+                    <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-3.jpg"
+                        alt="INSPIRACIÓN-DE-DIRECTIVOS-DE-PRIMER-NIVEL">
                 </div>
                 <div class="aprendizaje-desc">
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">INSPIRACIÓN DE DIRECTIVOS DE PRIMER NIVEL:
                     </div>
                     <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
                         Escucha las experiencias que comparten altos directivos de
-                        compañías líderes, en video-entrevistas realizadas con ellos.
+                        compañías líderes, a través de video-entrevistas.
                     </div>
                 </div>
             </div>
 
             <div class="aprendizaje">
                 <div class="aprendizaje-img">
-                    <img src="../assets/img/jpg/viaje-aprendizaje-4.jpg" alt="CONOCIMIENTO PUNTERO">
+                    <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-4.jpg"
+                        alt="NUEVOS-PUNTOS-DE-VISTA">
                 </div>
                 <div class="aprendizaje-desc">
                     <div class="aprendizaje-desc-title grapBo fs18 negro19">NUEVOS PUNTOS DE VISTA:</div>
@@ -587,24 +765,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="aprendizaje">
-                <div class="aprendizaje-img">
-                    <img src="../assets/img/jpg/viaje-aprendizaje-5.jpg" alt="CONOCIMIENTO PUNTERO">
-                </div>
-                <div class="aprendizaje-desc">
-                    <div class="aprendizaje-desc-title grapBo fs18 negro19">PLAN DE ACCIÓN:</div>
-                    <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                        Traslada tus aprendizajes a un plan de acción concreto
-                        – para ti y para tu empresa, con la ayuda de un tutor
-                        que te guiará con ejercicios específicos.
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
-    <hr class="linea-separadora">
+    </div> -->
     <!-- Sección Tutores Expertos -->
     <div class="tutores-expertos-container">
         <div class="tutores-expertos-title grapBo fs32 negro3D">
@@ -654,53 +816,6 @@
                     tecnológicos.
                 </div>
             </div>
-            <div class="tutor-cont">
-                <div class="tutor-desc">
-                    <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/Alex-lago.jpg" alt="ALEX LAGO">
-                    </div>
-                    <div class="tutor-data">
-                        <div class="grapBo fs18 negro19">ALEX LAGO</div>
-                        <div class="grapMe fs15 gris66">
-                            Profesor Ordinario y director del departamento de Dirección de
-                            Producción, Tecnología y Operaciones, y codirector de The Africa
-                            Initiative en el IESE.
-                        </div>
-                    </div>
-                </div>
-                <div class="tutor-description grapRe fs16 gris66">
-                    Alejandro Lago es Profesor Ordinario y director del departamento de
-                    Dirección de Producción, Tecnología y Operaciones, y codirector de
-                    The Africa Initiative en el IESE. Cuenta con un PhD en Ingeniería
-                    por la University of California en Berkeley, donde obtuvo la Gordon
-                    F. Newell Fellow. También es Ingeniero de Caminos, Canales y Puertos
-                    por la Universitat Politècnica de Catalunya y cursó el Program for
-                    Management Development en el IESE.
-                    <br>
-                    <br>
-                    Los intereses del profesor Lago se centran en la dirección de sistemas
-                    de operaciones complejas, tanto en el sector industrial como en el ámbito
-                    de los servicios. Actualmente se está centrando en el estudio del diseño
-                    de sistemas de servicios, especialmente en el estudio de la implicación
-                    de proveedores y clientes en las operaciones mediante el uso de nuevas
-                    tecnologías. También tiene un interés especial en la gestión de sistemas
-                    de operaciones que tengan que ver con la economía colaborativa (Bicing,
-                    Avancar, Uber, etc).
-                    <br>
-                    <br>
-                    Cuenta también con una amplia experiencia como consultor en el campo de
-                    la gestión de operaciones y servicios, al haber trabajado para grandes
-                    empresas industriales y distribuidoras, compañías aéreas y autoridades
-                    aeroportuarias y, más recientemente, bancos y compañías aseguradoras,
-                    entre otras.
-                    <br>
-                    <br>
-                    El profesor Lago ha desarrollado su espíritu emprendedor al incorporarse
-                    en el año 2000 a una start-up californiana en plena burbuja de Internet.
-                    En la actualidad es socio de varias iniciativas relacionadas con el uso
-                    de nuevas tecnologías móviles, con interés especial en “mobile money”.
-                </div>
-            </div>
         </div>
     </div>
     <hr class="linea-separadora">
@@ -710,15 +825,57 @@
         <div class="ranking-cont">
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/Ranking-FT-Custom-1.png" alt="First">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Executive-Edudcation.png" alt="First">
+                <!-- <div class="title grapMe fs24 gris66">
+                in world
+            </div>
+            <div class="year grapBo fs18 negro19">
+                2019
+            </div>
+            <div class="subtitle grapRe fs18 gris66">
+                Executive Education Programs
+            </div>
+            <div class="source grapRe fs18 gris66">
+                <i>
+                    Financial Times
+                </i>
+            </div> -->
             </div>
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/Ranking-FT-ExecEd.png" alt="Second">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Custom-Programs.png" alt="Second">
+                <!-- <div class="title grapMe fs24 gris66">
+                in world
+            </div>
+            <div class="year grapBo fs18 negro19">
+                2019
+            </div>
+            <div class="subtitle grapRe fs18 gris66">
+                Open Enrollment Programs
+            </div>
+            <div class="source grapRe fs18 gris66">
+                <i>
+                    Financial Times
+                </i>
+            </div> -->
             </div>
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/jpg/Ranking-FT-Open-Programs-1.jpg" alt="Thir">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/3rd-Ranking-FT-Open-Programs.png" alt="Thir">
+                <!-- <div class="title grapMe fs24 gris66">
+                in world
+            </div>
+            <div class="year grapBo fs18 negro19">
+                2019
+            </div>
+            <div class="subtitle grapRe fs18 gris66">
+                Custom Programs
+            </div>
+            <div class="source grapRe fs18 gris66">
+                <i>
+                    Financial Times
+                </i>
+            </div> -->
             </div>
         </div>
     </div>
@@ -728,12 +885,12 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex1" rel="modal:open">
                 <div>
-                    <img src="../assets/img/jpg/certificado-IESE-abril-2019.jpg" alt="Certificado">
+                    <img src="../assets/img/jpg/Certificado-Digital-Mindset-octubre.jpg" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex1" class="modal modal-certificado">
-                <img src="../assets/img/jpg/certificado-IESE-abril-big.jpg" alt="Certificado">
+                <img src="../assets/img/jpg/Certificado-Digital-Mindset-octubre.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title grapBo fs32 blanco">
@@ -756,8 +913,8 @@
     </div>
     <!-- Sección Slider -->
     <div class="slider-container">
-        <div class="silder-container-title grapBo fs32 negro19">
-            Testimonios de estudiantes
+        <div class="silder-container-title grapBo fs32 negro3D">
+            Testimonios de participantes
         </div>
         <div class="slide-testimonio-MD">
             <div class="testimonio">

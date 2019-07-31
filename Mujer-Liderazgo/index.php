@@ -151,7 +151,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     Plan de pagos flexibles
                 </div>
                 <div class="modal-pagos-descripcion fs18 grapBo negro19">
-                    Esta opción permite al alumno pagar la cuota del curso en parcialidades.
+                    Esta opción permite al alumno pagar la cuota del programa en parcialidades.
                     Está disponible en la solicitud de inscripción y deberá seleccionarse
                     antes de realizar el pago.
                 </div>
@@ -164,7 +164,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La cuota completa del curso $1,950 USD.
+                        La cuota completa del programa $1,950 USD.
                     </div>
                 </div>
                 <div class="pagos">
@@ -178,22 +178,22 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $935 USD.
+                        La segunda parcialidad de $935 USD
                         a pagar del 25 de octubre del 2019.
                     </div>
                 </div>
                 <div class="pagos no-border">
                     <div class="pagos-title fs16 grapBo negro19">
-                        Pago en 3 parcialidades
+                        Pago en tres parcialidades
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $778 USD.
+                        La primera parcialidad de $778 USD
                         se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $635 USD.
+                        La segunda parcialidad de $635 USD
                         a pagar del 25 de octubre del 2019.
                     </div>
                     <div class="precio-pago">
@@ -252,8 +252,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     <div class="form-group" id="gdpr-consent" style="display:none;">
                         <label class="checkbox-inline fs14 grapRe negro23">
                             <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
-                            Me gustaría recibir un correo electrónico y otras comunicaciones de IESE y
-                            Sus socios universitarios sobre este curso y otros cursos relevantes.
+                            Recibir un correo electrónico y otras comunicaciones de IESE y
+                            Sus socios universitarios sobre este programa y otros programas relevantes.
                         </label>
                     </div>
                 </div>
@@ -394,7 +394,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="con-certificado-beneficios-description grapRe fs16 negro19">
                         <div class="title grapBo fs18 negro19">
-                            Compartir experiencias y generar una networking
+                            Compartir experiencias y generar un network
                         </div>
                         Para crear una red de relaciones efectivas con otras mujeres
                         directivas e identificar tus retos y los factores que
@@ -744,6 +744,10 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
         <div class="title grapSe-Bo fs24 negro3D">
             Metodología
         </div>
+        <div class="subtitle grapRe fs18 negro19">
+            Un estimulante itinerario de aprendizaje que te llevará desde la reflexión 
+            sobre los retos a la definición de un plan de acción para alcanzarlos.
+        </div>
         <div class="metodology-cont">
             <div class="metodology">
                 <div class="img">
@@ -763,7 +767,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Inspiración-de-primer-nivel">
                 </div>
                 <div class="title grapBo fs30 negro19">
-                    Inspiración de primer nivel
+                    Voces expertas
                 </div>
                 <div class="subtitle grapRe fs18 negro23">
                     Entrevistas con exitosas directivas con 

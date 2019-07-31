@@ -521,15 +521,15 @@ header {
                 max-width: 700px;
                 padding: 10px 0;
                 .title{
-                    padding: 0 5px;
+                    padding: 0;
                 }
                 .details{
                     text-align: left;
-                    max-width: 660px;
+                    max-width: 670px;
                     margin-top: 10px;
                     .date-hours{
                         width: 100%;
-                        max-width: 345px;
+                        max-width: 355px;
                         .date{
                             margin-top: 0;
                             font-size: 30px;
@@ -2104,6 +2104,13 @@ header {
         line-height: 28px;
         text-align: center;
         margin: 0 auto 10px;
+    }
+    .subtitle{
+        width: 100%;
+        line-height: 24px;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 685px;
     }
     .metodology-cont{
         width: 100%;

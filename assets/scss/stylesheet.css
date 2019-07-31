@@ -513,16 +513,16 @@ header {
     padding: 10px 0;
   }
   .hero-container .hero-title .course-information .title {
-    padding: 0 5px;
+    padding: 0;
   }
   .hero-container .hero-title .course-information .details {
     text-align: left;
-    max-width: 660px;
+    max-width: 670px;
     margin-top: 10px;
   }
   .hero-container .hero-title .course-information .details .date-hours {
     width: 100%;
-    max-width: 345px;
+    max-width: 355px;
   }
   .hero-container .hero-title .course-information .details .date-hours .date {
     margin-top: 0;
@@ -1933,6 +1933,13 @@ header {
   line-height: 28px;
   text-align: center;
   margin: 0 auto 10px;
+}
+.metodology-container .subtitle {
+  width: 100%;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 685px;
 }
 .metodology-container .metodology-cont {
   width: 100%;
