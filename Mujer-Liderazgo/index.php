@@ -224,9 +224,9 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     <label class="grapRe mdl-textfield__label" for="email">Email</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <select id="country" name="Country" class="mdl-textfield__input Country" required>
+                    <select id="Country" name="Country" class="mdl-textfield__input Country" required>
                     </select>
-                    <label class="grapRe mdl-textfield__label" for="country">País</label>
+                    <label class="grapRe mdl-textfield__label" for="Country">País</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <select id="work_experience" name="work_experience"

@@ -26,7 +26,7 @@
             var dataObject = {
                 "first_name": jQuery("#first_name").val(),
                 "last_name" : jQuery("#last_name").val(),
-                "country" : jQuery("#country").val(),
+                "Country" : jQuery("#Country").val(),
                 "email" : jQuery("#email").val(),
                 "work_experience" : jQuery("#work_experience").val(),
                 "mobile" : jQuery("#mobile").val(),
@@ -93,6 +93,7 @@
 
             }else{
                 return true;
+
 
             }
             
