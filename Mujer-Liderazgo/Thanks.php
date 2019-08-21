@@ -13,7 +13,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta http-equiv="refresh" CONTENT="1;URL= https://bit.ly/2Ehoosi"> -->
+    <meta http-equiv="refresh" CONTENT="1;URL= http://bit.ly/2YQgHBc">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
     <link rel="stylesheet" href="../assets/scss/stylesheet.css">
