@@ -17,6 +17,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
     <link rel="stylesheet" href="../assets/scss/stylesheet.css">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script>
+    
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
@@ -79,5 +83,10 @@
         </div>
     </div>
 </body>
+
+<!-- Whatsapp Scripts -->
+<script src="https://emeritus.org/programmes/common/js/country-code.js"></script>
+<script src="https://whatadmin.emeritus.org/wa.js"></script>
+<script src="../assets/js/whattsapp-controller.js"></script>
 
 </html>

@@ -47,12 +47,10 @@
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
 
 
-
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="../assets/scss/stylesheet.css">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-
 
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
         integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
@@ -206,8 +204,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
         </div>
         <div class="form-container" id="form">
             <div class="form-title grapRe fs16 negro23">Para obtener más información, rellena el formulario</div>
-            <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-06-11/545njl" method="post"
-                id="formDesk">
+            <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-06-11/545njl" method="post" id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name"
                         pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required style="text-transform: capitalize;">
@@ -266,7 +263,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                     <input type="hidden" name="browser" id="browser" value="">
                     <input type="hidden" name="course" id="course" value="IESE - Mujer y Liderazgo">
-                    <input type="hidden" name="retURL"
+                    <input type="hidden" name="retURL" id="retURL"
                         value="<?php echo $current_link . 'Thanks.php?' . $queryString ?>">
                     <button class="grapBo fs16 blanco" type="submit" id="btn-download-brochure">
                         DESCARGAR EL FOLLETO
@@ -1207,6 +1204,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script async type="text/javascript" src="../assets/js/main.js"></script>
+    <script async type="text/javascript" src="../assets/js/whatsapp_querystring_builder.js"></script>
 
 
 </body>
