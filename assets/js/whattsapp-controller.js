@@ -16,10 +16,7 @@
         });
     }
 
-
-    jQuery(document).ready(function () {
-
-
+    function sendWhatsAppMessage(){
         var fname = $.trim(getParameterByName("first_name"));
         var lname = $.trim(getParameterByName("last_name"));
         var src = $.trim(getParameterByName("src"));
@@ -27,9 +24,6 @@
         var allow = $.trim(getParameterByName("agree"));
         var countryNm = $.trim(getParameterByName("country"));
         var emailadd = $.trim(getParameterByName("email"));
-
-
-
 
         if (mobile != '') {
             //check if GDPR Country
@@ -86,4 +80,10 @@
 
             }
         }
+    }
+
+    jQuery(document).ready(function () {
+
+        jQuery('#btn-chat-whatsapp').click(sendWhatsAppMessage);
+
     });

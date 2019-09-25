@@ -2809,14 +2809,14 @@ footer {
 .gracias-container {
     // background-image: linear-gradient(white, #805f58);
     background-image: url("../img/jpg/imagen-thank-you.jpg");
-    padding: 35px 0;
+    padding: 30px 0;
     height: 100vh;
     display: flex;
     align-items: center;
 
     .dialog-container {
         width: 90%;
-        padding: 35px 7px;
+        padding: 30px 7px;
         margin: 0 auto;
         background-color: #FFFFFF;
         max-width: 625px;
@@ -2905,6 +2905,47 @@ footer {
             }
         }
 
+        .gracias-button-beca {
+            margin-top: 15px;
+
+            .title {
+                text-align: center;
+                line-height: 34px;
+                margin-bottom: 15px;
+            }
+
+            .button {
+                text-align: center;
+
+                .btn-economic-request {
+                    cursor: pointer;
+                    display: block;
+                    text-align: center;
+                    width: 190px;
+                    margin: 0 auto;
+                    padding: 13px 10px;
+                    background-color: #3D3D3D;
+    
+                    &:hover {
+    
+                        img {
+                            margin-left: 15px;
+                        }
+    
+                    }
+    
+                    img {
+                        width: 12px;
+                        margin-left: 5px;
+                        -webkit-transition: all 300ms;
+                        -moz-transition: all 300ms;
+                        -o-transition: all 300ms;
+                    }
+                }
+            }
+
+        }
+
         .gracias-redes {
             div {
                 &:nth-child(1) {
@@ -2915,14 +2956,37 @@ footer {
             }
 
             .icon-redes {
-                width: 195px;
+                width: 90%;
                 margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
 
                 img {
                     width: 22px;
                     height: 22px;
                     margin: 0 20px;
                 }
+
+                .btn-chat-whatsapp {
+
+                    img {
+                        width: 20px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin: 10px auto;
+                    }
+
+                    span {
+                        width: auto;
+                        display: inline-block;
+                        vertical-align: middle;
+                        color: #0AA753;
+                    }
+
+                }
+
             }
         }
     }
@@ -2993,7 +3057,7 @@ footer {
                 div {
                     &:nth-child(1) {
                         line-height: 22px;
-                        margin: 30px auto 10px;
+                        margin: 25px auto 10px;
                     }
                 }
 

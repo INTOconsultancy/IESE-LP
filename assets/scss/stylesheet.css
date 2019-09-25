@@ -2547,14 +2547,14 @@ footer .footer-cont .right .terminos-politicas-cont a {
 
 .gracias-container {
   background-image: url("../img/jpg/imagen-thank-you.jpg");
-  padding: 35px 0;
+  padding: 30px 0;
   height: 100vh;
   display: flex;
   align-items: center;
 }
 .gracias-container .dialog-container {
   width: 90%;
-  padding: 35px 7px;
+  padding: 30px 7px;
   margin: 0 auto;
   background-color: #FFFFFF;
   max-width: 625px;
@@ -2624,19 +2624,65 @@ footer .footer-cont .right .terminos-politicas-cont a {
   -moz-transition: all 300ms;
   -o-transition: all 300ms;
 }
+.gracias-container .dialog-container .gracias-button-beca {
+  margin-top: 15px;
+}
+.gracias-container .dialog-container .gracias-button-beca .title {
+  text-align: center;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+.gracias-container .dialog-container .gracias-button-beca .button {
+  text-align: center;
+}
+.gracias-container .dialog-container .gracias-button-beca .button .btn-economic-request {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  width: 190px;
+  margin: 0 auto;
+  padding: 13px 10px;
+  background-color: #3D3D3D;
+}
+.gracias-container .dialog-container .gracias-button-beca .button .btn-economic-request:hover img {
+  margin-left: 15px;
+}
+.gracias-container .dialog-container .gracias-button-beca .button .btn-economic-request img {
+  width: 12px;
+  margin-left: 5px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+}
 .gracias-container .dialog-container .gracias-redes div:nth-child(1) {
   text-align: center;
   line-height: 22px;
   margin: 10px auto;
 }
 .gracias-container .dialog-container .gracias-redes .icon-redes {
-  width: 195px;
+  width: 90%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .gracias-container .dialog-container .gracias-redes .icon-redes img {
   width: 22px;
   height: 22px;
   margin: 0 20px;
+}
+.gracias-container .dialog-container .gracias-redes .icon-redes .btn-chat-whatsapp img {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px auto;
+}
+.gracias-container .dialog-container .gracias-redes .icon-redes .btn-chat-whatsapp span {
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  color: #0AA753;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -2685,7 +2731,7 @@ footer .footer-cont .right .terminos-politicas-cont a {
   }
   .gracias-container .dialog-container .gracias-redes div:nth-child(1) {
     line-height: 22px;
-    margin: 30px auto 10px;
+    margin: 25px auto 10px;
   }
   .gracias-container .dialog-container .gracias-redes .icon-redes {
     margin: 0 auto;
