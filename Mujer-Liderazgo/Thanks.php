@@ -69,7 +69,7 @@
                     Requiero apoyo económico para poder cursar el programa
                 </div>
                 <div class="button">
-                    <a href="" class="btn-economic-request grapBo fs16 blanco" id="btn-economic-request">
+                    <a href="https://forms.gle/yn2iT2zU3GmSsdNf9" class="btn-economic-request grapBo fs16 blanco" id="btn-economic-request">
                         SOLICITAR BECA
                         <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>

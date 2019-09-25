@@ -2548,7 +2548,7 @@ footer .footer-cont .right .terminos-politicas-cont a {
 .gracias-container {
   background-image: url("../img/jpg/imagen-thank-you.jpg");
   padding: 30px 0;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
 }
@@ -2691,8 +2691,8 @@ footer .footer-cont .right .terminos-politicas-cont a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 40px 0;
-    height: 100vh;
+    padding: 10px 0;
+    height: 100%;
   }
   .gracias-container .dialog-container .logos-container img {
     width: 116px;

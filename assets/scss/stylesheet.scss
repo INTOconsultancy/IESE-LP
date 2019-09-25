@@ -2810,7 +2810,7 @@ footer {
     // background-image: linear-gradient(white, #805f58);
     background-image: url("../img/jpg/imagen-thank-you.jpg");
     padding: 30px 0;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
 
@@ -2999,8 +2999,8 @@ footer {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 40px 0;
-        height: 100vh;
+        padding: 10px 0;
+        height: 100%;
 
         .dialog-container {
             .logos-container {

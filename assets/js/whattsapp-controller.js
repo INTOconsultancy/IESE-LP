@@ -76,6 +76,7 @@
                 console.log("Full Name: " + fname + " " + lname);
                 console.log("Email Add: " + emailadd);
                 WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YQgHBc'], 'Spanish-IESE-ML-Brochure', emailadd, 'es');
+                
                 setTimeout(WA.sendMessage(countryCode + mobile, 'ask_apply_time_spanish', ['curso'], '', '', 'es'), 100)
 
             }
@@ -84,6 +85,8 @@
 
     jQuery(document).ready(function () {
 
-        jQuery('#btn-chat-whatsapp').click(sendWhatsAppMessage);
+        jQuery('#btn-chat-whatsapp').click(function(){
+            sendWhatsAppMessage();
+        });
 
     });
