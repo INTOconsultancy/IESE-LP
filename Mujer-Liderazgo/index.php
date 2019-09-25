@@ -980,6 +980,11 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </div>
         </div>
     </div>
+    <!-- Sección Video -->
+    <div class="video-container" style="padding-top: 0!important;">
+        <iframe src="https://www.youtube.com/embed/xOy9d-UtyNA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <!-- Line -->
     <hr class="linea-separadora">
     <!-- Sección Rankings -->
