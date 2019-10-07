@@ -1193,7 +1193,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
     </footer>
 
     <!-- Script to handle the form population -->
-    <script type="text/javascript" src="../assets/js/form-input-manager.js"></script>
+    <script type="text/javascript" src="../assets/js/form-input-manager-ML.js"></script>
 
     <!-- Script to prevent user from typing letters in the phone number -->
     <script type="text/javascript" src="../assets/js/onkeypress.js"></script>

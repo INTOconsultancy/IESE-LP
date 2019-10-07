@@ -89,7 +89,7 @@
                     <a href="https://www.linkedin.com/school/iese-business-school/" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/img/svg/linkedin-in-brands.svg" alt="Linkedin">
                     </a>
-                    <a class="btn-chat-whatsapp" id="btn-chat-whatsapp">
+                    <a class="btn-chat-whatsapp" id="btn-chat-whatsapp" style="cursor: pointer;">
                         <img src="../assets/img/svg/whatsapp-brands.svg" alt="">    
                         <span class="grapMe fs18">Whatsapp</span>
                     </a>
