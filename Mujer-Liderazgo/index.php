@@ -118,10 +118,10 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <div class="details">
                     <div class="date-hours">
                         <div class="date grapRe fs18 negro23">
-                            30 / septiembre / 2019
+                            27 / enero / 2020
                         </div>
                         <div class="hours grapRe fs14 negro23">
-                            10 SEMANAS | 6 HORAS POR SEMANA
+                            3 MESES | 6 HORAS POR SEMANA
                         </div>
                     </div>
                     <div class="price-fees">
@@ -177,7 +177,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
                         La segunda parcialidad de $935 USD
-                        a pagar del 25 de octubre del 2019.
+                        a pagar del 21 de febrero del 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -192,11 +192,11 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
                         La segunda parcialidad de $635 USD
-                        a pagar del 25 de octubre del 2019.
+                        a pagar del 21 de febrero del 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga a más tardar el 09 de noviembre: $635 USD.
+                        La tercera parcialidad se paga a más tardar el 07 de marzo de 2020: $635 USD.
                     </div>
                 </div>
             </div>
@@ -1053,12 +1053,12 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex1" rel="modal:open">
                 <div>
-                    <img class="lazyload" data-src="../assets/img/jpg/Certificado ML.jpg" alt="Certificado">
+                    <img class="lazyload" data-src="../assets/img/jpg/Certificado-Mujer-y-liderazgo-ene2020.jpg" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex1" class="modal modal-certificado">
-                <img class="lazyload" data-src="../assets/img/jpg/Certificado ML.jpg" alt="Certificado">
+                <img class="lazyload" data-src="../assets/img/jpg/Certificado-Mujer-y-liderazgo-ene2020.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title grapBo fs32 blanco">
