@@ -67,7 +67,7 @@
                     console.log("Sending message to (GDPR): " + countryCode + mobile);
                     console.log("Full Name: " + fname + " " + lname);
                     console.log("Email Add: " + emailadd);
-                    WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YQgHBc'], 'ES_Mujer-y-liderazgo_Sept2019-Brochure', emailadd, 'es');
+                    WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YSy7NL'], 'ES_Mujer-y-liderazgo_Sept2019-Brochure', emailadd, 'es');
                     setTimeout(WA.sendMessage(countryCode + mobile, 'ask_apply_time_spanish', ['curso'], '', '', 'es'), 100)
 
                 }
@@ -75,7 +75,7 @@
                 console.log("Sending message to (Not GDPR): " + countryCode + mobile);
                 console.log("Full Name: " + fname + " " + lname);
                 console.log("Email Add: " + emailadd);
-                WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YQgHBc'], 'ES_Mujer-y-liderazgo_Sept2019-Brochure', emailadd, 'es');
+                WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YSy7NL'], 'ES_Mujer-y-liderazgo_Sept2019-Brochure', emailadd, 'es');
                 
                 setTimeout(WA.sendMessage(countryCode + mobile, 'ask_apply_time_spanish', ['curso'], '', '', 'es'), 100)
 
