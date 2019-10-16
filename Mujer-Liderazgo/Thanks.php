@@ -64,7 +64,7 @@
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>
-            <div class="gracias-button-beca">
+            <!-- <div class="gracias-button-beca">
                 <div class="title grapMe fs18 negro19">
                     Requiero apoyo económico para poder cursar el programa
                 </div>
@@ -74,7 +74,7 @@
                         <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>
                 </div>
-            </div>
+            </div> -->
             <div class="gracias-redes">
                 <div class="grapRe fs14 negro3D">
                     Conéctate con nosotros
