@@ -109,7 +109,7 @@
                 <div class="details">
                     <div class="date-hours">
                         <div class="date grapRe fs18 negro23">
-                            28 / octubre / 2019
+                            27 / ENERO / 2020
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             8 SEMANAS | 6-8 HORAS POR SEMANA
@@ -167,7 +167,7 @@
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
                         La segunda parcialidad de $934 USD
-                        a pagar del 22 de noviembre del 2019.
+                        a pagar del 21 de febrero del 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -182,11 +182,11 @@
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
                         La segunda parcialidad de $635 USD
-                        a pagar del 22 de noviembre del 2019.
+                        a pagar del 21 de febrero del 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga a más tardar el 07 de diciembre: $635 USD.
+                        La tercera parcialidad se paga de $635 USD a pagar el 7 de marzo de 2020.
                     </div>
                 </div>
             </div>
@@ -885,12 +885,12 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex1" rel="modal:open">
                 <div>
-                    <img src="../assets/img/jpg/Certificado-Digital-Mindset-octubre.jpg" alt="Certificado">
+                    <img src="../assets/img/jpg/certificado-mindset-digital.jpg" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex1" class="modal modal-certificado">
-                <img src="../assets/img/jpg/Certificado-Digital-Mindset-octubre.jpg" alt="Certificado">
+                <img src="../assets/img/jpg/certificado-mindset-digital.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title grapBo fs32 blanco">
