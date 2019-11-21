@@ -126,10 +126,10 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="price-fees">
                         <div class="price grapBo fs16 negro19">
-                            PRECIO: $ 1,950 USD
+                            PRECIO: $ 2,450 USD
                         </div>
                         <div class="fees grapMe fs14 negro23">
-                            Cuota Miembros del IESE: $1,755 USD
+                            Cuota Miembros del IESE: $2,205 USD
                         </div>
                         <div class="flexible-payments grapBo fs14 rojo39">
                             <a class="rojo39" href="#ex2" rel="modal:open">
@@ -162,7 +162,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La cuota completa del programa $1,950 USD.
+                        La cuota completa del programa $2,450 USD.
                     </div>
                 </div>
                 <div class="pagos">
@@ -171,13 +171,11 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $,1054 USD
-                        se paga al inicio.
+                        La primera parcialidad de $,1324 USD se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $935 USD
-                        a pagar del 21 de febrero del 2020.
+                        La segunda parcialidad de $1,175 USD a pagar del 21 de febrero del 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -186,17 +184,15 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $778 USD
-                        se paga al inicio.
+                        La primera parcialidad de $978 USD se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $635 USD
-                        a pagar del 21 de febrero del 2020.
+                        La segunda parcialidad de $797 USD a pagar del 21 de febrero del 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga a más tardar el 07 de marzo de 2020: $635 USD.
+                        La tercera parcialidad se paga a más tardar el 07 de marzo de 2020: $797 USD.
                     </div>
                 </div>
             </div>
@@ -772,6 +768,21 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     incluyendo ex ministras y directoras de 
                     empresas como HP, VERTISUB, Grupo 
                     Santander, entre otras.
+                </div>
+            </div>
+        </div>
+        <div class="metodology-cont">
+            <div class="metodology">
+                <div class="img">
+                    <!-- <img src="../assets/img/svg/icono-plan-accion.svg" alt="Test 360 y coaching"> -->
+                </div>
+                <div class="title grapBo fs30 negro19">
+                    Test 360 y coaching
+                </div>
+                <div class="subtitle grapRe fs18 negro23">
+                    Desarrolla un plan de mejora personal y de competencias directivas 
+                    a través del cuestionario IESE 360°, e impleméntalo con ayuda de un 
+                    coach que te guiará a lo largo del programa.
                 </div>
             </div>
             <div class="metodology">

@@ -522,7 +522,7 @@ header {
   }
   .hero-container .hero-title .course-information .details .date-hours {
     width: 100%;
-    max-width: 355px;
+    max-width: 345px;
   }
   .hero-container .hero-title .course-information .details .date-hours .date {
     margin-top: 0;
@@ -535,7 +535,7 @@ header {
   }
   .hero-container .hero-title .course-information .details .price-fees {
     width: 100%;
-    max-width: 310px;
+    max-width: 320px;
   }
   .hero-container .hero-title .course-information .details .price-fees .fees {
     font-size: 16px;
