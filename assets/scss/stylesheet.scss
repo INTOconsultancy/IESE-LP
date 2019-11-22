@@ -518,18 +518,18 @@ header {
                 }
             }
             @media only screen and (min-width: 1134px){
-                max-width: 700px;
+                max-width: 720px;
                 padding: 10px 0;
                 .title{
                     padding: 0;
                 }
                 .details{
                     text-align: left;
-                    max-width: 670px;
+                    max-width: 690px;
                     margin-top: 10px;
                     .date-hours{
                         width: 100%;
-                        max-width: 345px;
+                        max-width: 355px;
                         .date{
                             margin-top: 0;
                             font-size: 30px;
@@ -542,7 +542,7 @@ header {
                     }
                     .price-fees{
                         width: 100%;
-                        max-width: 320px;
+                        max-width: 325px;
                         .fees {
                             font-size: 16px;
                         }

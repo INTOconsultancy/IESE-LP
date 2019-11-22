@@ -509,7 +509,7 @@ header {
 }
 @media only screen and (min-width: 1134px) {
   .hero-container .hero-title .course-information {
-    max-width: 700px;
+    max-width: 720px;
     padding: 10px 0;
   }
   .hero-container .hero-title .course-information .title {
@@ -517,12 +517,12 @@ header {
   }
   .hero-container .hero-title .course-information .details {
     text-align: left;
-    max-width: 670px;
+    max-width: 690px;
     margin-top: 10px;
   }
   .hero-container .hero-title .course-information .details .date-hours {
     width: 100%;
-    max-width: 345px;
+    max-width: 355px;
   }
   .hero-container .hero-title .course-information .details .date-hours .date {
     margin-top: 0;
@@ -535,7 +535,7 @@ header {
   }
   .hero-container .hero-title .course-information .details .price-fees {
     width: 100%;
-    max-width: 320px;
+    max-width: 325px;
   }
   .hero-container .hero-title .course-information .details .price-fees .fees {
     font-size: 16px;
