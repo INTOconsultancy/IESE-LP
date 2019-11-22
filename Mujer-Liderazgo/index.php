@@ -30,7 +30,7 @@
     <link rel="canonical" href="https://emeritus.iese.edu/Mujer-Liderazgo/" />
 
     <title>IESE | Mujer y liderazgo</title>
-    
+
     <meta property="og:title" content="IESE | Mujer y Liderazgo" />
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
@@ -454,7 +454,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Competencias directivas.
                             <br>
                             <span class="grapRe">
-                                Aplicación de un sistema de autoevaluación para identificar los puntos 
+                                Aplicación de un sistema de autoevaluación para identificar los puntos
                                 fuertes y las áreas en las que cada participante puede desarrollarse.
                             </span>
                         </div>
@@ -469,7 +469,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Liderazgo y networking.
                             <br>
                             <span class="grapRe">
-                                Conocimiento de los obstáculos a los que se enfrenta la mujer para 
+                                Conocimiento de los obstáculos a los que se enfrenta la mujer para
                                 entrar en los círculos de poder empresarial.
                             </span>
                         </div>
@@ -484,8 +484,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Desarrollo de la competencia de negociación.
                             <br>
                             <span class="grapRe">
-                                Desarrollo de habilidades de negociación con base en la colaboración 
-                                o la empatía; así como en principios y técnicas que permitan negociar 
+                                Desarrollo de habilidades de negociación con base en la colaboración
+                                o la empatía; así como en principios y técnicas que permitan negociar
                                 con eficacia en todos los contextos.
                             </span>
                         </div>
@@ -500,7 +500,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Delegación y gestión de reuniones.
                             <br>
                             <span class="grapRe">
-                                Repaso de aspectos básicos sobre la gestión de equipos y la delegación 
+                                Repaso de aspectos básicos sobre la gestión de equipos y la delegación
                                 de tareas.
                             </span>
                         </div>
@@ -515,7 +515,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Gestión del conflicto.
                             <br>
                             <span class="grapRe">
-                                Conocimiento de las distintas dimensiones y la dinámica de los conflictos, 
+                                Conocimiento de las distintas dimensiones y la dinámica de los conflictos,
                                 así como las maneras de prevenirlos y resolverlos.
                             </span>
                         </div>
@@ -530,7 +530,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Análisis y toma de decisiones.
                             <br>
                             <span class="grapRe">
-                                Conocimiento y aplicación de los principios del proceso de toma de decisiones 
+                                Conocimiento y aplicación de los principios del proceso de toma de decisiones
                                 en equipo y sus reglas.
                             </span>
                         </div>
@@ -545,8 +545,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Gestión del tiempo.
                             <br>
                             <span class="grapRe">
-                                Utilización y manejo de herramientas prácticas y útiles para gestionar el 
-                                tiempo con eficacia para poder combinar, sin presión, la agenda profesional 
+                                Utilización y manejo de herramientas prácticas y útiles para gestionar el
+                                tiempo con eficacia para poder combinar, sin presión, la agenda profesional
                                 con la personal y familiar.
                             </span>
                         </div>
@@ -561,8 +561,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                             Conciliación trabajo-familia.
                             <br>
                             <span class="grapRe">
-                                Conocimiento de las mejores prácticas y herramientas en conciliación, de modo 
-                                que permitan a las participantes reducir los niveles de estrés que repercuten 
+                                Conocimiento de las mejores prácticas y herramientas en conciliación, de modo
+                                que permitan a las participantes reducir los niveles de estrés que repercuten
                                 en su gestión, y hasta en su salud o en su vida personal y familiar.
                             </span>
                         </div>
@@ -610,7 +610,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             En donde estés, estás adentro
         </div>
         <div class="description grapRe fs18 negro19">
-            Participa en debates en vivo e interactúa con los profesores de manera directa. 
+            Participa en debates en vivo e interactúa con los profesores de manera directa.
             Rompe las barreras entre el aprendizaje presencial y online.
         </div>
     </div>
@@ -717,15 +717,15 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             <div class="profiles">
                 <img src="../assets/img/svg/icono-ejecutivos-c-suite.svg" alt="Ejecutivos-C-Suite">
                 <div class="title grapBo fs24 negro19">
-                    Ejecutivos 
+                    Ejecutivos
                     <br>
                     C-Suite
                 </div>
             </div>
             <div class="description grapRe fs18 negro19">
                 <span>
-                    En cualquier etapa de tu carrera en los programas online del IESE 
-                    eres el protagonista de tu aprendizaje. De los pasos que das. De 
+                    En cualquier etapa de tu carrera en los programas online del IESE
+                    eres el protagonista de tu aprendizaje. De los pasos que das. De
                     lo que logras.
                 </span>
             </div>
@@ -738,7 +738,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             Metodología
         </div>
         <div class="subtitle grapRe fs18 negro19">
-            Un estimulante itinerario de aprendizaje que te llevará desde la reflexión 
+            Un estimulante itinerario de aprendizaje que te llevará desde la reflexión
             sobre los retos a la definición de un plan de acción para alcanzarlos.
         </div>
         <div class="metodology-cont">
@@ -750,8 +750,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     Aprendizaje interactivo
                 </div>
                 <div class="subtitle grapRe fs18 negro23">
-                    Video-conferencias, entrevistas con expertos, 
-                    presentaciones interactivas y sesiones en 
+                    Video-conferencias, entrevistas con expertos,
+                    presentaciones interactivas y sesiones en
                     vivo.
                 </div>
             </div>
@@ -763,10 +763,10 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     Voces expertas
                 </div>
                 <div class="subtitle grapRe fs18 negro23">
-                    Entrevistas con exitosas directivas con 
-                    experiencia en diferentes sectores, 
-                    incluyendo ex ministras y directoras de 
-                    empresas como HP, VERTISUB, Grupo 
+                    Entrevistas con exitosas directivas con
+                    experiencia en diferentes sectores,
+                    incluyendo ex ministras y directoras de
+                    empresas como HP, VERTISUB, Grupo
                     Santander, entre otras.
                 </div>
             </div>
@@ -774,14 +774,14 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
         <div class="metodology-cont">
             <div class="metodology">
                 <div class="img">
-                    <!-- <img src="../assets/img/svg/icono-plan-accion.svg" alt="Test 360 y coaching"> -->
+                    <img src="../assets/img/svg/icon-360.svg" alt="Test 360 y coaching">
                 </div>
                 <div class="title grapBo fs30 negro19">
                     Test 360 y coaching
                 </div>
                 <div class="subtitle grapRe fs18 negro23">
-                    Desarrolla un plan de mejora personal y de competencias directivas 
-                    a través del cuestionario IESE 360°, e impleméntalo con ayuda de un 
+                    Desarrolla un plan de mejora personal y de competencias directivas
+                    a través del cuestionario IESE 360°, e impleméntalo con ayuda de un
                     coach que te guiará a lo largo del programa.
                 </div>
             </div>
@@ -1172,8 +1172,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
     <!-- Sección colaboración -->
     <div class="colaboration-container">
         <div class="description grapMe fs14 blanco">
-            IESE Business School colabora con el proveedor de formación online, EMERITUS 
-            Institute of Management para ofrecer un portafolio de programas online de alto 
+            IESE Business School colabora con el proveedor de formación online, EMERITUS
+            Institute of Management para ofrecer un portafolio de programas online de alto
             impacto.
         </div>
     </div>
