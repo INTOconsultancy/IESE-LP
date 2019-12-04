@@ -117,8 +117,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <div class="title grapBo fs30 negro19">Mujer y liderazgo</div>
                 <div class="details">
                     <div class="date-hours">
-                        <div class="date grapRe fs18 negro23">
-                            27 / enero / 2020
+                        <div class="dates grapMe fs16 negro23">
+                            27 enero / 16 marzo / 25 mayo / 2020
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             3 MESES | 6 HORAS POR SEMANA
@@ -198,6 +198,19 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             </div>
             <!--  -->
         </div>
+
+        <!-- Counter -->
+        <div class="counter-container movil">
+            <div class="counter">
+                <div class="counter-number grapMe fs36 negro19">
+                    75
+                </div>
+            </div>
+            <div class="counter-title grapMe fs28 negro19">
+                LUGARES DISPONIBLES
+            </div>
+        </div>
+
         <div class="form-container" id="form">
             <div class="form-title grapRe fs16 negro23">Para obtener más información, rellena el formulario</div>
             <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-06-11/545njl" method="post" id="formDesk">
@@ -283,6 +296,17 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </a>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- Counter -->
+    <div class="counter-container desktop">
+        <div class="counter">
+            <div class="counter-number grapMe fs36 negro19">
+                75
+            </div>
+        </div>
+        <div class="counter-title grapMe fs28 negro19">
+            LUGARES DISPONIBLES
         </div>
     </div>
     <!-- Sección Nuevo Mundo -->

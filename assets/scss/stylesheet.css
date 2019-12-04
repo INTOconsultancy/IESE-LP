@@ -383,7 +383,7 @@ header {
   text-align: center;
   line-height: 24px;
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1024px) {
   .hero-container .hero-title .title {
     margin: 0 0 0 30px;
     text-align: left;
@@ -394,7 +394,7 @@ header {
   margin: 0 auto;
   max-width: 655px;
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 10px 35px;
+  padding: 10px 20px;
 }
 .hero-container .hero-title .course-information .title {
   width: 100%;
@@ -425,6 +425,10 @@ header {
 .hero-container .hero-title .course-information .details .date-hours .date {
   margin-top: 5px;
   line-height: 24px;
+}
+.hero-container .hero-title .course-information .details .date-hours .dates {
+  margin-top: 5px;
+  line-height: 21px;
 }
 .hero-container .hero-title .course-information .details .date-hours .hours {
   margin-top: 5px;
@@ -527,6 +531,10 @@ header {
   .hero-container .hero-title .course-information .details .date-hours .date {
     margin-top: 0;
     font-size: 30px;
+  }
+  .hero-container .hero-title .course-information .details .date-hours .dates {
+    margin-top: 0;
+    font-size: 18px;
   }
   .hero-container .hero-title .course-information .details .date-hours .hours {
     margin-top: 10px;
@@ -970,10 +978,46 @@ header {
     margin: 0 0 0 15%;
   }
 }
+.counter-container {
+  width: 100%;
+  margin: 15px auto 15px;
+  max-width: 1150px;
+  text-align: center;
+}
+.counter-container .counter {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.counter-container .counter .counter-number {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.counter-container .counter-title {
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 1024px) {
+  .counter-container {
+    text-align: left;
+    margin: 15px auto -30px;
+  }
+}
+
 .new-world-container {
   width: 100%;
   background-color: #ffffff;
-  padding: 40px 17px;
+  padding: 40px 17px 40px;
 }
 .new-world-container .new-world-title {
   text-align: center;
