@@ -203,11 +203,12 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
         <div class="counter-container movil">
             <div class="counter">
                 <div class="counter-number grapMe fs36 negro19">
-                    75
+                    60
                 </div>
             </div>
+            <br><br>
             <div class="counter-title grapMe fs28 negro19">
-                LUGARES DISPONIBLES
+                Plazas máximo en el grupo
             </div>
         </div>
 
@@ -302,11 +303,11 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
     <div class="counter-container desktop">
         <div class="counter">
             <div class="counter-number grapMe fs36 negro19">
-                75
+                60
             </div>
         </div>
         <div class="counter-title grapMe fs28 negro19">
-            LUGARES DISPONIBLES
+            Plazas máximo en el grupo
         </div>
     </div>
     <!-- Sección Nuevo Mundo -->
@@ -723,25 +724,25 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
             <div class="profiles">
                 <img src="../assets/img/svg/icono-directores-funcionales.svg" alt="Directores-funcionales">
                 <div class="title grapBo fs24 negro19">
-                    Directores funcionales
+                    Directoras funcionales
                 </div>
             </div>
             <div class="profiles">
                 <img src="../assets/img/svg/icono-emprendedores.svg" alt="Emprendedores">
                 <div class="title grapBo fs24 negro19">
-                    Emprendedores
+                    Emprendedoras
                 </div>
             </div>
             <div class="profiles">
                 <img src="../assets/img/svg/icono-ejecutivos-senior.svg" alt="Ejecutivos-senior">
                 <div class="title grapBo fs24 negro19">
-                    Ejecutivos senior
+                    Ejecutivas senior
                 </div>
             </div>
             <div class="profiles">
                 <img src="../assets/img/svg/icono-ejecutivos-c-suite.svg" alt="Ejecutivos-C-Suite">
                 <div class="title grapBo fs24 negro19">
-                    Ejecutivos
+                    Ejecutivas
                     <br>
                     C-Suite
                 </div>

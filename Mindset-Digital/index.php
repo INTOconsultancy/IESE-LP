@@ -191,6 +191,20 @@
                 </div>
             </div>
             <!--  -->
+
+            <!-- Counter -->
+            <div class="counter-container movil">
+                <div class="counter">
+                    <div class="counter-number grapMe fs36 negro19">
+                        60
+                    </div>
+                </div>
+                <br><br>
+                <div class="counter-title grapMe fs28 negro19">
+                    Plazas máximo en el grupo
+                </div>
+            </div>
+
         </div>
         <div class="form-container" id="form">
             <div class="form-title grapRe fs14 negro23">Para obtener más información, rellena el formulario</div>
@@ -277,6 +291,17 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- Counter -->
+    <div class="counter-container desktop">
+        <div class="counter">
+            <div class="counter-number grapMe fs36 negro19">
+                60
+            </div>
+        </div>
+        <div class="counter-title grapMe fs28 negro19">
+            Plazas máximo en el grupo
         </div>
     </div>
     <!-- Sección Nuevo Mundo -->
