@@ -47,7 +47,7 @@
                     "Mindset Digital: Innovación y liderazgo en la era digital"
                 </div>
                 <div class="grapRe fs18 negro46">
-                    Para ver el folleto digital <a class=" grapBo rojo39" href="http://bit.ly/2Ehoosi">Haz click aquí</a>
+                    Si tu descarga no comienza <a class=" grapBo rojo39" href="http://bit.ly/2Ehoosi">Haz click aquí</a>
                 </div>
             </div>
             <div class="gracias-linea"></div>
@@ -56,7 +56,7 @@
                     ¿Listo para el próximo paso?
                 </div>
                 <a class="btn-gracias grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer">
-                    INSCRIBIRME
+                    APLICAR
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>

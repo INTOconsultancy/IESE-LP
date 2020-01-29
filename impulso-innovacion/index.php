@@ -354,6 +354,44 @@
         </div>
     </div> -->
 
+    <!-- Sección Sé un motor... -->
+    <div class="be-engine-container">
+
+        <div class="be-engine-cont">
+
+            <div class="be-engine-title grapBo fs30 negro19">
+                Sé un motor de cambio e innovación en tu empresa
+            </div>
+
+            <div class="be-engine-subtitle grapRe fs20 negro19">
+                Aprende en un ambiente “hands on” y genera proyectos 
+                de innovación con base en un modelo probado
+            </div>
+
+            <div class="be-engine-testimonial">
+
+                <div class="be-engine-icon">
+                    “
+                </div>
+
+                <div class="be-engine-content">
+
+                    <div class="be-engine-description grapRe fs30 negro19">
+                        Más del 70% de los líderes innovadores lograron incrementar los beneficios de su empresa en los últimos 12 meses, y una tercera parte impulsaron el crecimiento de su Ebitda en más del 10%.
+                    </div>
+                
+                    <div class="be-engine-source grapRe fs22 negro19">
+                        Forbes México, 2017
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
     <!-- Sección Al estudiar... -->
     <div class="by-studying-container">
         <div class="by-studying-title grapBo fs28 negro19">
@@ -666,7 +704,7 @@
                     C-Suite
                 </div>
             </div>
-            <div class="description grapRe fs18 negro19">
+            <div class="description grapMe fs18 negro19">
                 <span>
                     En cualquier etapa de tu carrera en los programas online del IESE
                     eres el protagonista de tu aprendizaje. De los pasos que das. De
@@ -802,47 +840,29 @@
             Profesores
         </div>
         <div class="tutor-container">
-            <div class="tutor-cont">
+            <div class="tutor-cont" style="border: 0;">
                 <div class="tutor-desc">
                     <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/Sandra-Sieber.jpg" alt="PROF. SANDRA SIEBER">
+                        <img src="../assets/img/png/IAI/antonio-davila.png" alt="ANTONIO DÁVILA">
                     </div>
                     <div class="tutor-data">
-                        <div class="grapBo fs18 negro19">PROF. SANDRA SIEBER</div>
-                        <div class="grapMe fs15 gris66">
-                            Directora Académica, Profesora ordinaria y directora
-                            del Departamento de Sistemas de Información del IESE
-                            Business School.
+                        <div class="grapBo fs18 negro19">ANTONIO DÁVILA</div>
+                        <div class="grapRe fs15 negro05">
+                            Profesor Ordinario de los departamentos de Iniciativa Emprendedora 
+                            y Contabilidad y Control, y Titular de la Cátedra Seat de Innovación.
                         </div>
                     </div>
                 </div>
-                <div class="tutor-description grapRe fs16 gris66">
-                    La profesora Sieber ha dedicado mucho tiempo al estudio del
-                    impacto de las TIC en las prácticas de trabajo de las
-                    organizaciones y las personas, desde una variedad de
-                    perspectivas. En la actualidad, sus investigaciones se centran
-                    en el análisis del impacto de la digitalización en las personas,
-                    empresas, sectores y para la sociedad en su conjunto.
+                <div class="tutor-description grapRe fs16 negro05">
+                    También fue docente en la Graduate School of Business de 
+                    Stanford University, donde sigue impartiendo clases 
+                    periódicamente y ha sido profesor visitante de la Harvard 
+                    Business School. 
                     <br>
-                    <br>
-                    Desde una perspectiva sectorial, la Prof. Sieber está
-                    especialmente interesada en aquellos sectores que están
-                    siendo transformados por los avances tecnológicos recientes,
-                    como las telecomunicaciones, la banca, el sector salud y los
-                    medios de comunicación y el entretenimiento.
-                    <br>
-                    <br>
-                    La profesora Sieber tiene amplia experiencia de trabajo con
-                    audiencias ejecutivas en Europa, el Norte y el Sur de América,
-                    Asia, Medio Oriente y Africa. Ha impartido clases, dirigido
-                    Custom Programs y ha hecho consultas con empresas
-                    multinacionales tales como Oracle, BBVA, La Caixa, Banco
-                    Santander, Telefónica, Vodafone, BMW, Volkswagen, Bonfiglioli,
-                    Renta Corporación, Komatsu, Olympus, RTE, Henkel, Erste
-                    Bank, Boehringer Ingelheim, Boston Scientific o Desigual.
-                    Realiza de forma regular funciones de mentoría con empresas
-                    de nueva creación (start-ups), incubadoras y fondos
-                    tecnológicos.
+                    <br>                    
+                    Sus intereses se centran en el crecimiento de startups, la 
+                    gestión de la innovación, la gestión deportiva y el control de 
+                    gestión.
                 </div>
             </div>
         </div>

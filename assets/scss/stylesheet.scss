@@ -247,6 +247,10 @@ img {
     color: #000000;
 }
 
+.negro05 {
+    color: #000405;
+}
+
 .negro23 {
     color: #232323;
 }
@@ -1323,6 +1327,137 @@ header {
 
 //
 
+//SE UN MOTOR
+.be-engine-container {
+    padding: 30px 15px;
+
+    .be-engine-cont {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 930px;
+
+        .be-engine-title {
+            text-align: center;
+            line-height: 34px;
+            margin-bottom: 10px;
+        }
+
+        .be-engine-subtitle {
+            text-align: center;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+
+        .be-engine-testimonial {
+
+            .be-engine-icon {
+                text-align: center;
+                width: 145px;
+                margin: 0 auto;
+                height: 145px;
+                background-color: #FF0000;
+
+            }
+
+            .be-engine-content {
+
+                .be-engine-description {
+                    letter-spacing: -0.3px;
+                    line-height: 36px;
+                    margin-bottom: 20px;
+
+                }
+
+                .be-engine-source {
+                    letter-spacing: -0.22px;
+                    line-height: 38px;
+                }
+
+            }
+
+        }
+
+    }
+
+    @media only screen and (min-width: 992px) {
+
+        .be-engine-cont {
+
+            .be-engine-testimonial {
+
+                .be-engine-icon {
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-right: 20px;
+                }
+
+                .be-engine-content {
+                    width: calc(100% - 185px);
+                    display: inline-block;
+                    vertical-align: top;
+
+                    .be-engine-description {
+                        letter-spacing: -0.3px;
+                        line-height: 36px;
+                        margin-bottom: 20px;
+
+                    }
+
+                    .be-engine-source {
+                        text-align: right;
+                        letter-spacing: -0.22px;
+                        line-height: 38px;
+                    }
+
+                }
+
+            }
+
+        }
+    }
+
+    @media only screen and  (min-width: 1024px) {
+    
+        .be-engine-cont {
+    
+            .be-engine-title {
+                font-size: 36px;
+                line-height: 38px;
+                margin-bottom: 25px;
+            }
+    
+            .be-engine-subtitle {
+                font-size: 28px;
+                line-height: 38px;
+                margin-bottom: 40px;
+            }
+    
+            .be-engine-testimonial {
+    
+                .be-engine-content {
+    
+                    .be-engine-description {
+                        font-size: 28px;
+                        letter-spacing: -0.28px;
+                        line-height: 44px;
+    
+                    }
+    
+                    .be-engine-source {
+                        font-size: 30px;
+                        letter-spacing: -0.3px;
+                    }
+    
+                }
+    
+            }
+    
+        }
+    }
+
+}
+//
+
 //SECCIÓN NUEVO MUNDO
 
 .new-world-container {
@@ -1679,7 +1814,7 @@ header {
         margin: 10px auto;
         max-width: 540px;
         padding: 35px 15px;
-        background-color: #F5F5F5;
+        background-color: #EBEBEB;
         border-bottom: 1px solid #FF0000;
 
         .tutor-description {
@@ -1772,6 +1907,7 @@ header {
 
                 div {
                     &:nth-child(1) {
+                        margin-bottom: 20px;
                         text-align: left !important;
                     }
 
@@ -2499,7 +2635,7 @@ header {
                 width: 95%;
                 text-align: center;
                 margin: 0 auto;
-                max-width: 660px;
+                max-width: 905px;
             }
         }
     }
@@ -2541,7 +2677,6 @@ header {
                     width: 95%;
                     text-align: center;
                     margin: 0 auto;
-                    max-width: 660px;
                 }
             }
         }

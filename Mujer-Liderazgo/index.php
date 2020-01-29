@@ -117,8 +117,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <div class="title grapBo fs30 negro19">Mujer y liderazgo</div>
                 <div class="details">
                     <div class="date-hours">
-                        <div class="dates grapMe fs16 negro23">
-                            27 enero / 16 marzo / 25 mayo / 2020
+                        <div class="date grapMe fs16 negro23">
+                            16 / Marzo / 2020
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             3 MESES | 6 HORAS POR SEMANA

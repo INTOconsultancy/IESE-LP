@@ -109,7 +109,7 @@
                 <div class="details">
                     <div class="date-hours">
                         <div class="date grapRe fs18 negro23">
-                            27 / ENERO / 2020
+                            20 / Abril / 2020
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             8 SEMANAS | 6-8 HORAS POR SEMANA

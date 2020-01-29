@@ -51,7 +51,7 @@
                     "Mujer y liderazgo"
                 </div>
                 <div class="grapRe fs18 negro46">
-                    Para ver el folleto digital <a class="grapBo rojo39" id="btn-download-brochure" href="http://bit.ly/2YQgHBc">Haz click aquí</a>
+                Si tu descarga no comienza <a class="grapBo rojo39" id="btn-download-brochure" href="http://bit.ly/2YQgHBc">Haz click aquí</a>
                 </div>
             </div>
             <div class="gracias-linea"></div>
@@ -60,7 +60,7 @@
                     ¿Listo para el próximo paso?
                 </div>
                 <a class="btn-gracias grapBo fs16 blanco" id="btn-apply-now" href="http://bit.ly/2YSy7NL" target="_blank" rel="noopener noreferrer">
-                    INSCRIBIRME
+                    APLICAR
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>

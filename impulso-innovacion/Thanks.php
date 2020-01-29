@@ -13,7 +13,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" CONTENT="1;URL= http://bit.ly/2Ehoosi">
+    <meta http-equiv="refresh" CONTENT="1;URL= ">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
     <link rel="stylesheet" href="../assets/scss/stylesheet.css">
@@ -44,10 +44,10 @@
                     Gracias por tu interés en el programa
                 </div>
                 <div class="grapBo fs18 gris70">
-                    "Mindset Digital: Innovación y liderazgo en la era digital"
+                    "Impulsa la innovación"
                 </div>
                 <div class="grapRe fs18 negro46">
-                    Para ver el folleto digital <a class=" grapBo rojo39" href="http://bit.ly/2Ehoosi">Haz click aquí</a>
+                    Si tu descarga no comienza <a class=" grapBo rojo39" href="">Haz click aquí</a>
                 </div>
             </div>
             <div class="gracias-linea"></div>
@@ -55,8 +55,8 @@
                 <div class="grapMe fs30 negro19">
                     ¿Listo para el próximo paso?
                 </div>
-                <a class="btn-gracias grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer">
-                    INSCRIBIRME
+                <a class="btn-gracias grapBo fs16 blanco" href="" target="_blank" rel="noopener noreferrer">
+                    APLICAR
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
             </div>
