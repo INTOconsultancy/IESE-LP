@@ -167,7 +167,7 @@
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
                         La segunda parcialidad de $934 USD
-                        a pagar del 21 de febrero del 2020.
+                        a pagar del 15 de mayo de 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -182,11 +182,11 @@
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
                         La segunda parcialidad de $635 USD
-                        a pagar del 21 de febrero del 2020.
+                        a pagar del 15 de mayo de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga de $635 USD a pagar el 7 de marzo de 2020.
+                        La tercera parcialidad se paga de $635 USD a pagar el 31 de mayo de 2020.
                     </div>
                 </div>
             </div>
@@ -676,12 +676,12 @@
     </div>
     <hr class="linea-separadora">
     <!-- Sección Metodología -->
-    <div class="metodology-container">
-        <div class="title grapSe-Bo fs24 negro3D">
+    <div class="metodology-container" style="padding: 30px 0!important;">
+        <div class="title grapSe-Bo fs24 negro19">
             Metodología
         </div>
         <div class="subtitle grapRe fs18 negro19">
-            Un estimulante itinerario de aprendizaje que te llevará desde la reflexión 
+            Un estimulante itinerario de aprendizaje que te llevará desde la reflexión
             sobre los retos a la definición de un plan de acción para alcanzarlos.
         </div>
         <div class="metodology-cont">
@@ -689,35 +689,43 @@
                 <div class="img">
                     <img src="../assets/img/svg/icono-aprendizaje-interactivo.svg" alt="Aprendizaje-interactivo">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
                     Aprendizaje interactivo
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
-                    Video-conferencias, entrevistas con expertos, 
-                    presentaciones interactivas y sesiones en 
-                    vivo.
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Voces expertas">
+                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Herramientas de vanguardia">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
+                    Herramientas de vanguardia
+                </div>
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Uso de plataforma específica para la observación y creación de proyectos innovadores durante todo el programa.
+                </div>
+            </div>
+            <div class="metodology">
+                <div class="img">
+                    <img src="../assets/img/png/IAI/icon-chat.png" alt="Voces expertas">
+                </div>
+                <div class="metodology-title grapBo fs28 negro19">
                     Voces expertas
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
-                    Entrevistas con los expertos en la transformación digital, directores 
-                    de empresas como Google, BBVA, Televisa, Microsoft, entre otras.
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales y diversos sectores.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
                     <img src="../assets/img/svg/icono-plan-accion.svg" alt="Plan-de-acción">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
                     Plan de acción
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
+                <div class="metodology-subtitle grapRe fs16 negro23">
                     Aplica lo aprendido en un plan de acción para ti y para tu empresa.
                 </div>
             </div>

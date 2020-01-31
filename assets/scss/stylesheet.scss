@@ -1353,9 +1353,11 @@ header {
             .be-engine-icon {
                 text-align: center;
                 width: 145px;
-                margin: 0 auto;
-                height: 145px;
-                background-color: #FF0000;
+                margin: 0 auto -140px;
+
+                img {
+                    width: 100%;
+                }
 
             }
 
@@ -2003,7 +2005,7 @@ header {
 }
 
 //
-//SECCIÖN CERTIFICADO
+//SECCIÓN CERTIFICADO
 .video-container {
     width: 95%;
     margin: 0 auto !important;
@@ -2700,7 +2702,7 @@ header {
         width: 100%;
         line-height: 24px;
         text-align: center;
-        margin: 0 auto;
+        margin: 0 auto 20px;
         max-width: 685px;
     }
 
@@ -2716,9 +2718,9 @@ header {
         .metodology {
             width: 90%;
             margin: 10px;
-            max-width: 345px;
+            max-width: 255px;
             background-color: #FFFFFF;
-            padding: 35px 30px;
+            padding: 30px 15px;
             box-shadow: 0 0 6px -2px #000000;
 
             .img {
@@ -2729,13 +2731,13 @@ header {
                 }
             }
 
-            .title {
+            .metodology-title {
                 text-align: center;
                 line-height: 34px;
                 margin: 10px 0 20px;
             }
 
-            .subtitle {
+            .metodology-subtitle {
                 text-align: center;
                 line-height: 24px;
             }
@@ -2754,25 +2756,15 @@ header {
         .metodology-cont {
 
             .metodology {
-                margin: 20px;
-                padding: 35px 30px;
-                box-shadow: 0 0 6px -2px #000000;
+                padding: 15px;
 
-                .img {
-                    text-align: center;
-
-                    img {
-                        width: 40px;
-                    }
-                }
-
-                .title {
+                .metodology-title {
                     text-align: center;
                     line-height: 34px;
                     margin: 10px 0 20px;
                 }
 
-                .subtitle {
+                .metodology-subtitle {
                     text-align: center;
                     line-height: 24px;
                 }

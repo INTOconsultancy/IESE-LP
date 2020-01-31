@@ -72,26 +72,26 @@
 
     <!-- Getting the querystring -->
     <?php
-$queryStringArray = array();
-foreach ($_GET as $key => $value) {
-    $parameter = $key . "=" . $value;
-    array_push($queryStringArray, $parameter);
-}
-$queryString = implode("&", $queryStringArray);
-?>
+        $queryStringArray = array();
+        foreach ($_GET as $key => $value) {
+            $parameter = $key . "=" . $value;
+            array_push($queryStringArray, $parameter);
+        }
+        $queryString = implode("&", $queryStringArray);
+    ?>
 
     <!-- Getting the current url (used in the retURL in the form.) -->
     <?php
-if (isset($_SERVER["HTTPS"]) && ($_SERVER["HTTPS"] == "on" || $_SERVER["HTTPS"] == 1) || isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && $_SERVER["HTTP_X_FORWARDED_PROTO"] == "https") {
-    $protocol = "https://";
+        if (isset($_SERVER["HTTPS"]) && ($_SERVER["HTTPS"] == "on" || $_SERVER["HTTPS"] == 1) || isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && $_SERVER["HTTP_X_FORWARDED_PROTO"] == "https") {
+            $protocol = "https://";
 
-} else {
-    $protocol = "http://";
-}
+        } else {
+            $protocol = "http://";
+        }
 
-$current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_URI"])['path'];
+        $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_URI"])['path'];
 
-?>
+    ?>
 
     <!-- Sección Header Fixed -->
     <header>
@@ -175,7 +175,7 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $1,175 USD a pagar del 21 de febrero del 2020.
+                        La segunda parcialidad de $1,175 USD a pagar del 10 de abril de 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -188,11 +188,11 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $797 USD a pagar del 21 de febrero del 2020.
+                        La segunda parcialidad de $797 USD a pagar del 10 de abril de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga a más tardar el 07 de marzo de 2020: $797 USD.
+                        La tercera parcialidad de $797 USD se paga a más tardar el 25 de abril de 2020.
                     </div>
                 </div>
             </div>
@@ -758,8 +758,8 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
     </div>
     <hr class="linea-separadora">
     <!-- Sección Metodología -->
-    <div class="metodology-container">
-        <div class="title grapSe-Bo fs24 negro3D">
+    <div class="metodology-container" style="padding: 30px 0!important;">
+        <div class="title grapSe-Bo fs24 negro19">
             Metodología
         </div>
         <div class="subtitle grapRe fs18 negro19">
@@ -771,53 +771,43 @@ $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_
                 <div class="img">
                     <img src="../assets/img/svg/icono-aprendizaje-interactivo.svg" alt="Aprendizaje-interactivo">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
                     Aprendizaje interactivo
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
-                    Video-conferencias, entrevistas con expertos,
-                    presentaciones interactivas y sesiones en
-                    vivo.
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Inspiración-de-primer-nivel">
+                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Herramientas de vanguardia">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
+                    Herramientas de vanguardia
+                </div>
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Uso de plataforma específica para la observación y creación de proyectos innovadores durante todo el programa.
+                </div>
+            </div>
+            <div class="metodology">
+                <div class="img">
+                    <img src="../assets/img/png/IAI/icon-chat.png" alt="Voces expertas">
+                </div>
+                <div class="metodology-title grapBo fs28 negro19">
                     Voces expertas
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
-                    Entrevistas con exitosas directivas con
-                    experiencia en diferentes sectores,
-                    incluyendo ex ministras y directoras de
-                    empresas como HP, VERTISUB, Grupo
-                    Santander, entre otras.
-                </div>
-            </div>
-        </div>
-        <div class="metodology-cont">
-            <div class="metodology">
-                <div class="img">
-                    <img src="../assets/img/svg/icon-360.svg" alt="Test 360 y coaching">
-                </div>
-                <div class="title grapBo fs30 negro19">
-                    Test 360 y coaching
-                </div>
-                <div class="subtitle grapRe fs18 negro23">
-                    Desarrolla un plan de mejora personal y de competencias directivas
-                    a través del cuestionario IESE 360°, e impleméntalo con ayuda de un
-                    coach que te guiará a lo largo del programa.
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales y diversos sectores.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
                     <img src="../assets/img/svg/icono-plan-accion.svg" alt="Plan-de-acción">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
                     Plan de acción
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
+                <div class="metodology-subtitle grapRe fs16 negro23">
                     Aplica lo aprendido en un plan de acción para ti y para tu empresa.
                 </div>
             </div>

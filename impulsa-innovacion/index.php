@@ -97,36 +97,6 @@
     <!-- Sección Hero Image -->
     <div class="hero-container banner-IAI">
         <div class="hero-title padding-IAI fix-padd">
-            <!-- <div class="course-information">
-                <div class="title grapBo fs30 negro19">Impulso a la innovación</div>
-                <div class="subtitle grapBo fs20 negro19">de la idea al lanzamiento</div>
-                <div class="details">
-                    <div class="date-hours">
-                        <div class="date grapRe fs18 negro23">
-                            20 / ABRIL / 2020
-                        </div>
-                        <div class="hours grapRe fs14 negro23">
-                            8 SEMANAS | 6-8 HORAS POR SEMANA
-                        </div>
-                    </div>
-                    <div class="price-fees">
-                        <div class="price grapBo fs16 negro19">
-                            PRECIO: $ 1,950 USD
-                        </div>
-                        <div class="fees grapMe fs14 negro23">
-                            Cuota Miembros del IESE: $1,755 USD
-                        </div>
-                        <div class="flexible-payments grapBo fs16 rojo39">
-                            <a class="rojo39" href="#ex2" rel="modal:open">
-                                <img class="lazyload" src="../assets/img/svg/info-circle-solid.svg"
-                                    alt="información">
-                                Pagos flexibles disponibles
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
 
             <div class="hero-title-cont">
 
@@ -143,12 +113,17 @@
                     </div>
 
                     <div class="hero-content-dates-hours">
-                        <span class="date-hours grapMe fs13 negro19">27 MAR 2020 | 9 SEMANAS | 6 HORAS POR SEMANA</span>
+                        <span class="date-hours grapMe fs13 negro19">20 MAR 2020 | 9 SEMANAS | 6 HORAS POR SEMANA</span>
                     </div>
 
                     <div class="hero-content-fees">
 
-                        <div class="fee grapRe fs15 negro19">Costo del curso: <span class="grapBo">$2,150 USD</span>
+                        <div class="fee grapBo fs15 negro19">
+                            Precio: <span>$2,150 USD</span>
+                        </div>
+
+                        <div class="fee grapBo fs15 negro19">
+                            Cuota de Miembros del IESE: <span>$1,935 USD</span>
                         </div>
 
                         <a class="grapBo fs14 rojo39" href="#ex2" rel="modal:open">
@@ -181,7 +156,7 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La cuota completa del programa $1,950 USD.
+                        La cuota completa del programa $2,150 USD.
                     </div>
                 </div>
                 <div class="pagos">
@@ -190,13 +165,11 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $1,055 USD
-                        se paga al inicio.
+                        La primera parcialidad de $1,163 USD se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $934 USD
-                        a pagar del 21 de febrero del 2020.
+                        La segunda parcialidad de $1,030 USD a pagar el 17 de abril de 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -205,17 +178,15 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $778 USD
-                        se paga al inicio.
+                        La primera parcialidad de $859 USD se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $635 USD
-                        a pagar del 21 de febrero del 2020.
+                        La segunda parcialidad de $699 USD a pagar 17 de abril de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga de $635 USD a pagar el 7 de marzo de 2020.
+                        La tercera parcialidad se paga de $699 USD a pagar el 2 de mayo de 2020.
                     </div>
                 </div>
             </div>
@@ -371,7 +342,7 @@
             <div class="be-engine-testimonial">
 
                 <div class="be-engine-icon">
-                    “
+                    <img class="quotation-icon" src="../assets/img/svg/quotation.svg" alt="Quotation Marks">
                 </div>
 
                 <div class="be-engine-content">
@@ -729,35 +700,43 @@
                 <div class="img">
                     <img src="../assets/img/svg/icono-aprendizaje-interactivo.svg" alt="Aprendizaje-interactivo">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
                     Aprendizaje interactivo
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
-                    Video-conferencias, entrevistas con expertos,
-                    presentaciones interactivas y sesiones en
-                    vivo.
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Voces expertas">
+                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Herramientas de vanguardia">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
+                    Herramientas de vanguardia
+                </div>
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Uso de plataforma específica para la observación y creación de proyectos innovadores durante todo el programa.
+                </div>
+            </div>
+            <div class="metodology">
+                <div class="img">
+                    <img src="../assets/img/png/IAI/icon-chat.png" alt="Voces expertas">
+                </div>
+                <div class="metodology-title grapBo fs28 negro19">
                     Voces expertas
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
-                    Entrevistas con los expertos en la transformación digital, directores
-                    de empresas como Google, BBVA, Televisa, Microsoft, entre otras.
+                <div class="metodology-subtitle grapRe fs16 negro23">
+                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales y diversos sectores.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
                     <img src="../assets/img/svg/icono-plan-accion.svg" alt="Plan-de-acción">
                 </div>
-                <div class="title grapBo fs30 negro19">
+                <div class="metodology-title grapBo fs28 negro19">
                     Plan de acción
                 </div>
-                <div class="subtitle grapRe fs18 negro23">
+                <div class="metodology-subtitle grapRe fs16 negro23">
                     Aplica lo aprendido en un plan de acción para ti y para tu empresa.
                 </div>
             </div>
@@ -939,12 +918,12 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex1" rel="modal:open">
                 <div>
-                    <img src="../assets/img/jpg/certificado-mindset-digital.jpg" alt="Certificado">
+                    <img src="../assets/img/png/IAI/certificado-impulsa-innovacion.png" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex1" class="modal modal-certificado">
-                <img src="../assets/img/jpg/certificado-mindset-digital.jpg" alt="Certificado">
+                <img src="../assets/img/png/IAI/certificado-impulsa-innovacion.png" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title grapBo fs32 blanco">
@@ -967,7 +946,7 @@
     </div>
 
     <!-- Sección Slider -->
-    <div class="slider-container" style="padding: 30px 0!important;">
+    <!-- <div class="slider-container" style="padding: 30px 0!important;">
         <div class="silder-container-title grapBo fs32 negro19">
             Testimonios de participantes
         </div>
@@ -989,7 +968,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Sección colaboración -->
     <div class="colaboration-container">
