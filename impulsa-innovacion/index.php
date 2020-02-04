@@ -208,7 +208,7 @@
         </div>
         <div class="form-container form-container-absolute" id="form">
             <div class="form-title grapRe fs14 negro23">Para obtener más información, rellena el formulario</div>
-            <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-02-12/4wws45" method="post"
+            <form class="form-cont" action="https://www2.emeritus.org/l/134351/2020-02-03/5brgzg" method="post"
                 id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name"
@@ -269,7 +269,7 @@
                     <input type="hidden" name="browser" id="browser" value="">
                     <input type="hidden" name="course" id="course"
                         value="IESE - Impulso a la innovación de la idea al lanzamiento">
-                    <input type="hidden" name="retURL" value="https://emeritus.iese.edu/Mindset-Digital/Thanks.php">
+                    <input type="hidden" name="retURL" value="https://emeritus.iese.edu/impulsa-innovacion/Thanks.php">
                     <button class="grapBo fs16 blanco" type="submit" id="btn-download-brochure">
                         DESCARGAR EL FOLLETO
                         <img class="descargar" src="../assets/img/svg/icon-descargar.svg" alt="Download">
@@ -935,7 +935,7 @@
                     estudios respaldado por IESE Business School.
                 </div>
                 <div class="certificado-button">
-                    <a class="grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank"
+                    <a class="grapBo fs16 blanco" href="http://bit.ly/3baonFc" target="_blank"
                         rel="noopener noreferrer" id="btn-apply-now">
                         INSCRÍBETE
                         <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
