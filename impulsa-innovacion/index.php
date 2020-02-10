@@ -100,36 +100,38 @@
 
             <div class="hero-title-cont">
 
-                <div class="course-information hero-content">
+                <div class="course-information">
 
                     <div class="hero-content-banner grapSe-Bo rojoFF fs15">
                         Nuevo programa en español
                     </div>
 
-                    <div class="hero-content-title grapBo negro19 fs24">
-                        Impulso la innovación:
-                        <br>
-                        <span class="">de la idea al lanzamiento</span>
-                    </div>
-
-                    <div class="hero-content-dates-hours">
-                        <span class="date-hours grapMe fs13 negro19">20 MAR 2020 | 9 SEMANAS | 6 HORAS POR SEMANA</span>
-                    </div>
-
-                    <div class="hero-content-fees">
-
-                        <div class="fee grapBo fs15 negro19">
-                            Precio: <span>$2,150 USD</span>
+                    <div class="title grapBo fs30 negro19">Impulsa la innovación:</div>
+                    <div class="subtitle grapBo fs20 negro19">de la idea al lanzamiento</div>
+                    <div class="details">
+                        <div class="date-hours">
+                            <div class="date grapRe fs18 negro23">
+                                27 / Marzo / 2020
+                            </div>
+                            <div class="hours grapRe fs14 negro23">
+                                9 SEMANAS | 6 HORAS POR SEMANA
+                            </div>
                         </div>
-
-                        <div class="fee grapBo fs15 negro19">
-                            Cuota de Miembros del IESE: <span>$1,935 USD</span>
+                        <div class="price-fees">
+                            <div class="price grapBo fs16 negro19">
+                                PRECIO: $2,150 USD
+                            </div>
+                            <div class="fees grapMe fs14 negro23">
+                                Cuota Miembros del IESE: $1,935 USD
+                            </div>
+                            <div class="flexible-payments grapBo fs16 rojo39">
+                                <a class="rojo39" href="#ex2" rel="modal:open">
+                                    <img class="lazyload" src="../assets/img/svg/info-circle-solid.svg"
+                                        alt="información">
+                                    Pagos flexibles disponibles
+                                </a>
+                            </div>
                         </div>
-
-                        <a class="grapBo fs14 rojo39" href="#ex2" rel="modal:open">
-                            <img class="lazyload" src="../assets/img/svg/info-circle-solid.svg" alt="información">
-                            Pagos flexibles disponibles
-                        </a>
 
                     </div>
 
@@ -191,19 +193,6 @@
                 </div>
             </div>
             <!--  -->
-
-            <!-- Counter -->
-            <!-- <div class="counter-container movil">
-                <div class="counter">
-                    <div class="counter-number grapMe fs36 negro19">
-                        60
-                    </div>
-                </div>
-                <br><br>
-                <div class="counter-title grapMe fs28 negro19">
-                    Plazas máximo en el grupo
-                </div>
-            </div> -->
 
         </div>
         <div class="form-container form-container-absolute" id="form">
@@ -313,8 +302,22 @@
         </div>
     </div>
 
+
     <!-- Counter -->
-    <!-- <div class="counter-container desktop">
+    <!-- <div class="counter-container movil">
+        <div class="counter">
+            <div class="counter-number grapMe fs36 negro19">
+                60
+            </div>
+        </div>
+        <br><br>
+        <div class="counter-title grapMe fs28 negro19">
+            Plazas máximo en el grupo
+        </div>
+    </div> -->
+
+    <!-- Counter -->
+    <div class="counter-container desktop">
         <div class="counter">
             <div class="counter-number grapMe fs36 negro19">
                 60
@@ -323,10 +326,27 @@
         <div class="counter-title grapMe fs28 negro19">
             Plazas máximo en el grupo
         </div>
-    </div> -->
+    </div>
+
+    <!-- Sección Impulsa la innovación -->
+    <div class="boost-innovation-container">
+
+        <div class="boost-innovation-cont">
+
+            <div class="boost-innovation-title grapBo negro19">
+                Impulsa la innovación en tu empresa
+            </div>
+
+            <div class="boost-innovation-description grapRe negro19">
+                Aprende en un ambiente “hands on” y genera proyectos de innovación con base en un modelo probado
+            </div>
+
+        </div>
+
+    </div>
 
     <!-- Sección Sé un motor... -->
-    <div class="be-engine-container">
+    <!-- <div class="be-engine-container">
 
         <div class="be-engine-cont">
 
@@ -335,7 +355,7 @@
             </div>
 
             <div class="be-engine-subtitle grapRe fs20 negro19">
-                Aprende en un ambiente “hands on” y genera proyectos 
+                Aprende en un ambiente “hands on” y genera proyectos
                 de innovación con base en un modelo probado
             </div>
 
@@ -348,9 +368,10 @@
                 <div class="be-engine-content">
 
                     <div class="be-engine-description grapRe fs30 negro19">
-                        Más del 70% de los líderes innovadores lograron incrementar los beneficios de su empresa en los últimos 12 meses, y una tercera parte impulsaron el crecimiento de su Ebitda en más del 10%.
+                        Más del 70% de los líderes innovadores lograron incrementar los beneficios de su empresa en los
+                        últimos 12 meses, y una tercera parte impulsaron el crecimiento de su Ebitda en más del 10%.
                     </div>
-                
+
                     <div class="be-engine-source grapRe fs22 negro19">
                         Forbes México, 2017
                     </div>
@@ -361,70 +382,70 @@
 
         </div>
 
-    </div>
+    </div> -->
 
     <!-- Sección Al estudiar... -->
     <div class="by-studying-container">
         <div class="by-studying-title grapBo fs28 negro19">
             Al estudiar este certificado aprendes a:
         </div>
-            <div class="by-studying-cont">
-                <div class="by-studying-beneficios" data-aos="zoom-out-right" data-aos-offset="50"
-                    data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="by-studying-beneficios-img">
-                        <img class="sm-studying-size" src="../assets/img/png/IAI/icono-asset-1.png" alt="icono aprender 1">
-                    </div>
-                    <div class="by-studying-beneficios-description grapRe fs16 gris66">
-                        <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
-                            GESTIONAR PROYECTOS DE INNOVACIÓN
-                        </div>
-                        desde la idea hasta el lanzamiento. También te transformas en un 
-                        motor para la generación de una cultura de innovación basada en 
-                        procesos, disciplina y creatividad.
-                    </div>
+        <div class="by-studying-cont">
+            <div class="by-studying-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="100"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="by-studying-beneficios-img">
+                    <img class="sm-studying-size" src="../assets/img/png/IAI/icono-asset-1.png" alt="icono aprender 1">
                 </div>
-                <div class="by-studying-beneficios" data-aos="zoom-out-left" data-aos-offset="50"
-                    data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="by-studying-beneficios-img">
-                        <img class="lg-studying-size" src="../assets/img/png/IAI/icono-asset-2.png" alt="icono aprender 2">
+                <div class="by-studying-beneficios-description grapRe fs16 gris66">
+                    <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
+                        GESTIONAR PROYECTOS DE INNOVACIÓN
                     </div>
-                    <div class="by-studying-beneficios-description grapRe fs16 gris66">
-                        <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
-                            DISEÑAR UN BUSINESS PLAN PARA INNOVAR PRODUCTOS, SERVICIOS Y PROCESOS,
-                        </div>
-                        venciendo la resiliencia en el proceso de innovación e integrando 
-                        tecnología, modelos de negocio, herramientas de desarrollo y
-                        costos.
-                    </div>
-                </div>
-                <div class="by-studying-beneficios" data-aos="zoom-out-right" data-aos-offset="50"
-                    data-aos-delay="300" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="by-studying-beneficios-img">
-                        <img class="md-studying-size" src="../assets/img/png/IAI/icono-asset-3.png" alt="icono aprender 3">
-                    </div>
-                    <div class="by-studying-beneficios-description grapRe fs16 gris66">
-                        <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
-                            APLICAR DIFERENTES TÉCNICAS PARA DESARROLLAR INNOVACIONES
-                        </div>
-                        para luego adaptar la más adecuada a la resolución de problemas 
-                        concretos y medibles en cualquier tipo y tamaño de organización.
-                    </div>
-                </div>
-                <div class="by-studying-beneficios" data-aos="zoom-out-left" data-aos-offset="50"
-                    data-aos-delay="400" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="by-studying-beneficios-img">
-                        <img class="md-studying-size" src="../assets/img/png/IAI/icono-asset-4.png" alt="icono aprender 4">
-                    </div>
-                    <div class="by-studying-beneficios-description grapRe fs16 gris66">
-                        <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
-                            IDENTIFICAR CUALIDADES, PRÁCTICAS Y ENFOQUES
-                        </div>
-                        necesarios para transformarte en un líder con mentalidad 
-                        innovadora, capaz de impulsar la cultura y los proyectos de 
-                        innovación.
-                    </div>
+                    desde la idea hasta el lanzamiento. También te transformas en un
+                    motor para la generación de una cultura de innovación basada en
+                    procesos, disciplina y creatividad.
                 </div>
             </div>
+            <div class="by-studying-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="200"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="by-studying-beneficios-img">
+                    <img class="lg-studying-size" src="../assets/img/png/IAI/icono-asset-2.png" alt="icono aprender 2">
+                </div>
+                <div class="by-studying-beneficios-description grapRe fs16 gris66">
+                    <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
+                        DISEÑAR UN BUSINESS PLAN PARA INNOVAR PRODUCTOS, SERVICIOS Y PROCESOS,
+                    </div>
+                    venciendo la resiliencia en el proceso de innovación e integrando
+                    tecnología, modelos de negocio, herramientas de desarrollo y
+                    costos.
+                </div>
+            </div>
+            <div class="by-studying-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="300"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="by-studying-beneficios-img">
+                    <img class="md-studying-size" src="../assets/img/png/IAI/icono-asset-3.png" alt="icono aprender 3">
+                </div>
+                <div class="by-studying-beneficios-description grapRe fs16 gris66">
+                    <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
+                        APLICAR DIFERENTES TÉCNICAS PARA DESARROLLAR INNOVACIONES
+                    </div>
+                    para luego adaptar la más adecuada a la resolución de problemas
+                    concretos y medibles en cualquier tipo y tamaño de organización.
+                </div>
+            </div>
+            <div class="by-studying-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="400"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="by-studying-beneficios-img">
+                    <img class="md-studying-size" src="../assets/img/png/IAI/icono-asset-4.png" alt="icono aprender 4">
+                </div>
+                <div class="by-studying-beneficios-description grapRe fs16 gris66">
+                    <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
+                        IDENTIFICAR CUALIDADES, PRÁCTICAS Y ENFOQUES
+                    </div>
+                    necesarios para transformarte en un líder con mentalidad
+                    innovadora, capaz de impulsar la cultura y los proyectos de
+                    innovación.
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Sección Plan de estudios -->
@@ -467,7 +488,8 @@
                 <li class="active modulo-cont">
                     <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 4</div>
-                        <div class="module-title grapRe negro23">Aprender a innovar en situaciones de alta incertidumbre.</div>
+                        <div class="module-title grapRe negro23">Aprender a innovar en situaciones de alta
+                            incertidumbre.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -475,7 +497,8 @@
                 <li class="active modulo-cont">
                     <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 5</div>
-                        <div class="module-title grapRe negro23">Aprender a innovar en situaciones de baja incertidumbre.</div>
+                        <div class="module-title grapRe negro23">Aprender a innovar en situaciones de baja
+                            incertidumbre.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -484,7 +507,7 @@
                     <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 6</div>
                         <div class="module-title grapRe negro23">
-                            Planificar la innovación. 
+                            Innovación en grandes empresas
                         </div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
@@ -515,37 +538,25 @@
     <!-- Sección El Certificado... -->
     <div class="el-certificado-container" style="padding: 30px 0!important;">
         <div class="el-certificado-title grapBo fs32 negro19">
-            El programa Impulso a la innovación de la idea al lanzamiento es para ti si:
+            El programa Impulsa la innovación es para ti si:
         </div>
         <div class="el-certificado-cont">
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="100" data-aos-duration="500">
-                Necesitas llevar a cabo la
-                transición entre viejas y nuevas
-                formas de trabajo dentro de tu
-                empresa u organización.
+                Necesitas gestionar proyectos de innovación en tu empresa u organización. 
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="200" data-aos-duration="500">
-                Por tus responsabilidades
-                debes aplicar estrategias
-                efectivas para la implementación de cambios
-                en tu cultura organizacional.
+                Por tus responsabilidades debes aplicar una metodología experimentada para desarrollo de innovaciones incrementales y radicales (startups). 
+                
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="300" data-aos-duration="500">
-                Eres emprendedor y necesitas
-                claves estratégicas para
-                desarrollar o competir con
-                modelos de negocio disruptivos.
+                Requieres implementar técnicas de observación que faciliten el diseño de una innovación en su fase inicial (Design Thinking).
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="400" data-aos-duration="500">
-                Necesitas complementar tus
-                conocimientos para poder
-                plantear modelos de negocio y
-                propuestas de valor adecuadas
-                para la era digital.
+                Necesitas aprender las técnicas que aplican las grandes empresas en sus procesos de innovación.
             </div>
         </div>
     </div>
@@ -715,7 +726,8 @@
                     Herramientas de vanguardia
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Uso de plataforma específica para la observación y creación de proyectos innovadores durante todo el programa.
+                    Uso de plataforma específica para la observación y creación de proyectos innovadores durante todo el
+                    programa.
                 </div>
             </div>
             <div class="metodology">
@@ -726,7 +738,8 @@
                     Voces expertas
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales y diversos sectores.
+                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales y diversos
+                    sectores.
                 </div>
             </div>
             <div class="metodology">
@@ -827,20 +840,20 @@
                     <div class="tutor-data">
                         <div class="grapBo fs18 negro19">ANTONIO DÁVILA</div>
                         <div class="grapRe fs15 negro05">
-                            Profesor Ordinario de los departamentos de Iniciativa Emprendedora 
+                            Profesor Ordinario de los departamentos de Iniciativa Emprendedora
                             y Contabilidad y Control, y Titular de la Cátedra Seat de Innovación.
                         </div>
                     </div>
                 </div>
                 <div class="tutor-description grapRe fs16 negro05">
-                    También fue docente en la Graduate School of Business de 
-                    Stanford University, donde sigue impartiendo clases 
-                    periódicamente y ha sido profesor visitante de la Harvard 
-                    Business School. 
+                    También fue docente en la Graduate School of Business de
+                    Stanford University, donde sigue impartiendo clases
+                    periódicamente y ha sido profesor visitante de la Harvard
+                    Business School.
                     <br>
-                    <br>                    
-                    Sus intereses se centran en el crecimiento de startups, la 
-                    gestión de la innovación, la gestión deportiva y el control de 
+                    <br>
+                    Sus intereses se centran en el crecimiento de startups, la
+                    gestión de la innovación, la gestión deportiva y el control de
                     gestión.
                 </div>
             </div>
@@ -935,8 +948,8 @@
                     estudios respaldado por IESE Business School.
                 </div>
                 <div class="certificado-button">
-                    <a class="grapBo fs16 blanco" href="http://bit.ly/3baonFc" target="_blank"
-                        rel="noopener noreferrer" id="btn-apply-now">
+                    <a class="grapBo fs16 blanco" href="http://bit.ly/3baonFc" target="_blank" rel="noopener noreferrer"
+                        id="btn-apply-now">
                         INSCRÍBETE
                         <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>
@@ -978,7 +991,7 @@
             impacto.
         </div>
     </div>
-    
+
     <!-- Footer -->
     <footer>
         <div class="footer-cont">
