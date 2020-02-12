@@ -111,7 +111,7 @@
                     <div class="details">
                         <div class="date-hours">
                             <div class="date grapRe fs18 negro23">
-                                27 / Marzo / 2020
+                                23 / Marzo / 2020
                             </div>
                             <div class="hours grapRe fs14 negro23">
                                 9 SEMANAS | 6 HORAS POR SEMANA
@@ -149,8 +149,7 @@
                     antes de realizar el pago.
                 </div>
                 <div class="modal-pagos-subtitle fs16 grapRe negro19">
-                    Las siguientes opciones de pago están disponibles para el Programa de Impulso a la innovación de la
-                    idea al lanzamiento:
+                    Las siguientes opciones de pago están disponibles para el programa de Impulsa la innovación:
                 </div>
                 <div class="pagos">
                     <div class="pagos-title fs16 grapBo negro19">
@@ -265,25 +264,8 @@
                     </button>
                 </div>
 
-                <div class="form-private-container">
-
-                    <div class="form-description grapRe fs14 negro23">
-                        Tus datos personales no serán compartidos con terceros.
-                    </div>
-
-                    <div class="form-link">
-
-                        <a class="grapRe fs15 rosa33" href="https://latam.emeritus.org/politica-de-privacidad"
-                            target="_blank">
-                            Política de Privacidad
-                        </a>
-
-                    </div>
-
-                </div>
-
             </form>
-            <!-- <div class="private-data">
+            <div class="private-data">
                 <div class="grapRe fs11 data negro23">
                     Tus datos personales no serán compartidos con terceros. Los datos facilitados en el
                     presente formulario serán tratados exclusivamente por EMERITUS, sin que IESE tenga
@@ -298,10 +280,9 @@
                         Política de Privacidad
                     </a>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
-
 
     <!-- Counter -->
     <!-- <div class="counter-container movil">
@@ -387,7 +368,7 @@
     <!-- Sección Al estudiar... -->
     <div class="by-studying-container">
         <div class="by-studying-title grapBo fs28 negro19">
-            Al estudiar este certificado aprendes a:
+            Al estudiar este programa aprendes a:
         </div>
         <div class="by-studying-cont">
             <div class="by-studying-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="100"
@@ -415,7 +396,7 @@
                     </div>
                     venciendo la resiliencia en el proceso de innovación e integrando
                     tecnología, modelos de negocio, herramientas de desarrollo y
-                    costos.
+                    costes.
                 </div>
             </div>
             <div class="by-studying-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="300"
@@ -425,7 +406,7 @@
                 </div>
                 <div class="by-studying-beneficios-description grapRe fs16 gris66">
                     <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
-                        APLICAR DIFERENTES TÉCNICAS PARA DESARROLLAR INNOVACIONES
+                        APLICAR DIFERENTES TÉCNICAS PARA DESARROLLAR INNOVACIÓN
                     </div>
                     para luego adaptar la más adecuada a la resolución de problemas
                     concretos y medibles en cualquier tipo y tamaño de organización.
@@ -715,7 +696,7 @@
                     Aprendizaje interactivo
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo.
+                    Videoconferencias, entrevistas con expertos, presentaciones interactivas y discusiones de casos en directo (en el Aula Virtual).
                 </div>
             </div>
             <div class="metodology">
@@ -726,8 +707,7 @@
                     Herramientas de vanguardia
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Uso de plataforma específica para la observación y creación de proyectos innovadores durante todo el
-                    programa.
+                    Uso de una de las plataformas más potentes en el mercado para la observación y creación de proyectos innovadores durante todo el programa.
                 </div>
             </div>
             <div class="metodology">
@@ -738,8 +718,7 @@
                     Voces expertas
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales y diversos
-                    sectores.
+                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales de diversos sectores.
                 </div>
             </div>
             <div class="metodology">
@@ -750,7 +729,7 @@
                     Plan de acción
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Aplica lo aprendido en un plan de acción para ti y para tu empresa.
+                    Desarrollo de un plan de acción con la guía de un tutor.
                 </div>
             </div>
         </div>

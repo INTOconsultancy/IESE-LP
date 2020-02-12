@@ -775,7 +775,7 @@
                     Aprendizaje interactivo
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo.
+                    Videoconferencias, entrevistas con expertos, presentaciones interactivas y discusiones de casos en directo (en el Aula Virtual).
                 </div>
             </div>
             <div class="metodology">
@@ -786,7 +786,7 @@
                     Herramientas de vanguardia
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Uso de plataforma específica para la observación y creación de proyectos innovadores durante todo el programa.
+                    Uso de una de las plataformas más potentes en el mercado para la observación y creación de proyectos innovadores durante todo el programa.
                 </div>
             </div>
             <div class="metodology">
@@ -797,7 +797,7 @@
                     Voces expertas
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales y diversos sectores.
+                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales de diversos sectores.
                 </div>
             </div>
             <div class="metodology">
@@ -808,7 +808,7 @@
                     Plan de acción
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Aplica lo aprendido en un plan de acción para ti y para tu empresa.
+                    Desarrollo de un plan de acción con la guía de un tutor.
                 </div>
             </div>
         </div>
