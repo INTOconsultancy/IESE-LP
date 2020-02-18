@@ -910,10 +910,10 @@ header {
   }
 
   .banner-IAI {
-    background-image: url("../img/png/IAI/hero-image-desktop.png") !important;
+    background-image: url("../img/jpg/IAI/hero-image-desktop.jpg") !important;
     background-repeat: no-repeat !important;
     background-position-x: 40% !important;
-    background-position-y: bottom !important;
+    background-position-y: top !important;
     background-size: cover !important;
   }
   .banner-IAI .padding-IAI {
