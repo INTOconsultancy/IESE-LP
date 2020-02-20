@@ -693,18 +693,7 @@
                     Aprendizaje interactivo
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Videoconferencias, entrevistas con expertos, presentaciones interactivas y discusiones de casos en directo (en el Aula Virtual).
-                </div>
-            </div>
-            <div class="metodology">
-                <div class="img">
-                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Herramientas de vanguardia">
-                </div>
-                <div class="metodology-title grapBo fs28 negro19">
-                    Herramientas de vanguardia
-                </div>
-                <div class="metodology-subtitle grapRe fs16 negro23">
-                    Uso de una de las plataformas más potentes en el mercado para la observación y creación de proyectos innovadores durante todo el programa.
+                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo. 
                 </div>
             </div>
             <div class="metodology">
@@ -715,7 +704,7 @@
                     Voces expertas
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales de diversos sectores.
+                    Entrevistas con los expertos en la transformación digital, directores de empresas como Google, BBVA, Televisa, Microsoft, entre otras.
                 </div>
             </div>
             <div class="metodology">
@@ -726,7 +715,7 @@
                     Plan de acción
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Desarrollo de un plan de acción con la guía de un tutor.
+                    Aplica lo aprendido en un plan de acción para ti y para tu empresa.
                 </div>
             </div>
         </div>

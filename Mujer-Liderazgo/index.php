@@ -775,40 +775,40 @@
                     Aprendizaje interactivo
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Videoconferencias, entrevistas con expertos, presentaciones interactivas y discusiones de casos en directo (en el Aula Virtual).
+                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Herramientas de vanguardia">
+                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Inspiración de primer nivel">
                 </div>
                 <div class="metodology-title grapBo fs28 negro19">
-                    Herramientas de vanguardia
+                    Inspiración de primer nivel
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Uso de una de las plataformas más potentes en el mercado para la observación y creación de proyectos innovadores durante todo el programa.
+                    Entrevistas con exitosas directivas con experiencia en diferentes sectores, incluyendo ex ministras y directoras de empresas como HP, VERTISUB, Grupo Santander, entre otras.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/png/IAI/icon-chat.png" alt="Voces expertas">
+                    <img src="../assets/img/svg/icon-360.svg" alt="Test 360º y coaching">
                 </div>
                 <div class="metodology-title grapBo fs28 negro19">
-                    Voces expertas
+                    Test 360º y coaching
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales de diversos sectores.
+                    Desarrolla un plan de mejora personal y de competencias directivas a través del cuestionario IESE 360°, e impleméntalo con ayuda de un coach que te guiará a lo largo del programa.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/svg/icono-plan-accion.svg" alt="Plan-de-acción">
+                    <img src="../assets/img/svg/icono-plan-accion.svg" alt="Plan de acción">
                 </div>
                 <div class="metodology-title grapBo fs28 negro19">
                     Plan de acción
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Desarrollo de un plan de acción con la guía de un tutor.
+                    Aplica lo aprendido en un plan de acción para ti y para tu empresa.
                 </div>
             </div>
         </div>
@@ -1079,12 +1079,12 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex1" rel="modal:open">
                 <div>
-                    <img class="lazyload" data-src="../assets/img/jpg/Certificado-Mujer-y-liderazgo-ene2020.jpg" alt="Certificado">
+                    <img class="lazyload" data-src="../assets/img/jpg/M&L/certificado-mujer-liderazgo.jpg" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex1" class="modal modal-certificado">
-                <img class="lazyload" data-src="../assets/img/jpg/Certificado-Mujer-y-liderazgo-ene2020.jpg" alt="Certificado">
+                <img class="lazyload" data-src="../assets/img/jpg/M&L/certificado-mujer-liderazgo.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title grapBo fs32 blanco">
