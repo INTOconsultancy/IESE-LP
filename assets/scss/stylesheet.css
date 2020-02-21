@@ -294,7 +294,7 @@ header {
   background-color: #ffffff;
   box-shadow: 0 4px 2px -2px gray;
   position: fixed;
-  z-index: 2;
+  z-index: 4;
 }
 
 .header-container {
@@ -366,6 +366,38 @@ header {
   background-image: url("");
   position: relative;
   padding: 10px 0 0 0;
+}
+.hero-container .hero-webinar-button {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1150px;
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+  z-index: 2;
+}
+.hero-container .hero-webinar-button .btn-webinar {
+  width: auto;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.hero-container .hero-webinar-button .btn-webinar:focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+.hero-container .hero-webinar-button .icon-webinar {
+  width: 100%;
+  max-width: 50px;
+}
+@media only screen and (min-width: 1024px) {
+  .hero-container .hero-webinar-button {
+    top: 3px;
+  }
+  .hero-container .hero-webinar-button .icon-webinar {
+    max-width: 125px;
+  }
 }
 .hero-container .padding-ML {
   padding-left: 15px !important;

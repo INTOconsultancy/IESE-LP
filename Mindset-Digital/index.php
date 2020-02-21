@@ -101,7 +101,9 @@
     <div class="space"></div>
     <!-- Sección Hero Image -->
     <div class="hero-container">
+
         <div class="hero-title">
+
             <div class="title grapRe fs16 rojoFF">NUEVO PROGRAMA ONLINE</div>
             <div class="course-information">
                 <div class="title grapBo fs30 negro19">Mindset Digital</div>
@@ -124,8 +126,7 @@
                         </div>
                         <div class="flexible-payments grapBo fs16 rojo39">
                             <a class="rojo39" href="#ex2" rel="modal:open">
-                                <img class="lazyload" src="../assets/img/svg/info-circle-solid.svg"
-                                    alt="información">
+                                <img class="lazyload" src="../assets/img/svg/info-circle-solid.svg" alt="información">
                                 Pagos flexibles disponibles
                             </a>
                         </div>
@@ -553,7 +554,7 @@
             En donde estés, estás adentro
         </div>
         <div class="description grapRe fs18 negro19">
-            Participa en debates en vivo e interactúa con los profesores de manera directa. 
+            Participa en debates en vivo e interactúa con los profesores de manera directa.
             Rompe las barreras entre el aprendizaje presencial y online.
         </div>
     </div>
@@ -660,15 +661,15 @@
             <div class="profiles">
                 <img src="../assets/img/svg/icono-ejecutivos-c-suite.svg" alt="Ejecutivos-C-Suite">
                 <div class="title grapBo fs24 negro19">
-                    Ejecutivos 
+                    Ejecutivos
                     <br>
                     C-Suite
                 </div>
             </div>
             <div class="description grapRe fs18 negro19">
                 <span>
-                    En cualquier etapa de tu carrera en los programas online del IESE 
-                    eres el protagonista de tu aprendizaje. De los pasos que das. De 
+                    En cualquier etapa de tu carrera en los programas online del IESE
+                    eres el protagonista de tu aprendizaje. De los pasos que das. De
                     lo que logras.
                 </span>
             </div>
@@ -693,7 +694,7 @@
                     Aprendizaje interactivo
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo. 
+                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo.
                 </div>
             </div>
             <div class="metodology">
@@ -704,7 +705,8 @@
                     Voces expertas
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con los expertos en la transformación digital, directores de empresas como Google, BBVA, Televisa, Microsoft, entre otras.
+                    Entrevistas con los expertos en la transformación digital, directores de empresas como Google, BBVA,
+                    Televisa, Microsoft, entre otras.
                 </div>
             </div>
             <div class="metodology">
@@ -847,7 +849,8 @@
         <div class="ranking-cont">
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Executive-Edudcation.png" alt="First">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Executive-Edudcation.png"
+                    alt="First">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -865,7 +868,8 @@
             </div>
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Custom-Programs.png" alt="Second">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Custom-Programs.png"
+                    alt="Second">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -883,7 +887,8 @@
             </div>
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/3rd-Ranking-FT-Open-Programs.png" alt="Thir">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/3rd-Ranking-FT-Open-Programs.png"
+                    alt="Thir">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -960,8 +965,8 @@
     <!-- Sección colaboración -->
     <div class="colaboration-container">
         <div class="description grapMe fs14 blanco">
-            IESE Business School colabora con el proveedor de formación online, EMERITUS 
-            Institute of Management para ofrecer un portafolio de programas online de alto 
+            IESE Business School colabora con el proveedor de formación online, EMERITUS
+            Institute of Management para ofrecer un portafolio de programas online de alto
             impacto.
         </div>
     </div>
@@ -1002,7 +1007,7 @@
     <!-- AOS Animations -->
     <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script defer src="../assets/js/aos-animations-manager.js"></script>
-
+    <script type="text/javascript" src="../assets/js/lazysizes.min.js"></script>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script defer type="text/javascript" src="../assets/js/logs.js"></script>
     <script async type="text/javascript" src="../assets/js/utm_populate.js"></script>

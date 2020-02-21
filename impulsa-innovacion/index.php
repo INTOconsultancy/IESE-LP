@@ -96,6 +96,16 @@
 
     <!-- Sección Hero Image -->
     <div class="hero-container banner-IAI">
+
+        <div class="hero-webinar-button">
+
+            <a href="https://emeritus.zoom.us/webinar/register/7815695940064/WN_wrHgYVh0Qe-6RfI387dDSQ"
+                class="btn-webinar" id="btn-webinar" target="_blank">
+                <img class="icon-webinar" src="../assets/img/svg/icon-webinar-MD.svg" alt="webinar">
+            </a>
+
+        </div>
+
         <div class="hero-title padding-IAI fix-padd">
 
             <div class="hero-title-cont">
@@ -524,16 +534,18 @@
         <div class="el-certificado-cont">
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="100" data-aos-duration="500">
-                Necesitas gestionar proyectos de innovación en tu empresa u organización. 
+                Necesitas gestionar proyectos de innovación en tu empresa u organización.
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="200" data-aos-duration="500">
-                Por tus responsabilidades debes aplicar una metodología experimentada para desarrollo de innovaciones incrementales y radicales (startups). 
-                
+                Por tus responsabilidades debes aplicar una metodología experimentada para desarrollo de innovaciones
+                incrementales y radicales (startups).
+
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="300" data-aos-duration="500">
-                Requieres implementar técnicas de observación que faciliten el diseño de una innovación en su fase inicial (Design Thinking).
+                Requieres implementar técnicas de observación que faciliten el diseño de una innovación en su fase
+                inicial (Design Thinking).
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="400" data-aos-duration="500">
@@ -696,7 +708,8 @@
                     Aprendizaje interactivo
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Videoconferencias, entrevistas con expertos, presentaciones interactivas y discusiones de casos en directo (en el Aula Virtual).
+                    Videoconferencias, entrevistas con expertos, presentaciones interactivas y discusiones de casos en
+                    directo (en el Aula Virtual).
                 </div>
             </div>
             <div class="metodology">
@@ -707,7 +720,8 @@
                     Herramientas de vanguardia
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Uso de una de las plataformas más potentes en el mercado para la observación y creación de proyectos innovadores durante todo el programa.
+                    Uso de una de las plataformas más potentes en el mercado para la observación y creación de proyectos
+                    innovadores durante todo el programa.
                 </div>
             </div>
             <div class="metodology">
@@ -718,7 +732,8 @@
                     Voces expertas
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales de diversos sectores.
+                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales de diversos
+                    sectores.
                 </div>
             </div>
             <div class="metodology">
@@ -1008,7 +1023,7 @@
     <!-- AOS Animations -->
     <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script defer src="../assets/js/aos-animations-manager.js"></script>
-
+    <script type="text/javascript" src="../assets/js/lazysizes.min.js"></script>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script defer type="text/javascript" src="../assets/js/logs.js"></script>
     <script async type="text/javascript" src="../assets/js/utm_populate.js"></script>
