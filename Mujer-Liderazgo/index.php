@@ -112,13 +112,13 @@
     <!-- Sección Hero Image -->
     <div class="hero-container banner-ML">
 
-        <div class="hero-webinar-button">
+        <!-- <div class="hero-webinar-button">
 
             <a href="https://emeritus.zoom.us/webinar/register/3615821448768/WN_18CtPna8TcigilPgJs6meA" class="btn-webinar" id="btn-webinar" target="_blank">
                 <img class="icon-webinar" src="../assets/img/svg/icon-webinar-ML.svg" alt="">
             </a>
 
-        </div>
+        </div> -->
 
         <div class="hero-title padding-ML">
 
