@@ -23,7 +23,7 @@
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
-    <title>IESE | Impulso a la innovación de la idea al lanzamiento</title>
+    <title>IESE | Impulsa la innovación de la idea al lanzamiento</title>
 
     <meta property="og:title" content="IESE | Impulso a la innovación de la idea al lanzamiento" />
     <meta property="og:description"
