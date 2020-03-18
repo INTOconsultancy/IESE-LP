@@ -129,7 +129,7 @@
                 <div class="details">
                     <div class="date-hours">
                         <div class="date grapMe fs16 negro23">
-                            16 / Marzo / 2020
+                            25 / Mayo / 2020
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             3 MESES | 6 HORAS POR SEMANA
@@ -186,7 +186,7 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $1,175 USD a pagar del 10 de abril de 2020.
+                        La segunda parcialidad de $1,175 USD a pagar del 19 de junio de 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -199,11 +199,11 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $797 USD a pagar del 10 de abril de 2020.
+                        La segunda parcialidad de $797 USD a pagar del 19 de junio de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad de $797 USD se paga a más tardar el 25 de abril de 2020.
+                        La tercera parcialidad de $797 USD se paga a más tardar el 4 de julio de 2020.
                     </div>
                 </div>
             </div>
