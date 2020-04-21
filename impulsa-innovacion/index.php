@@ -121,7 +121,7 @@
                     <div class="details">
                         <div class="date-hours">
                             <div class="date grapRe fs18 negro23">
-                                23 / Marzo / 2020
+                                08 / Junio / 2020
                             </div>
                             <div class="hours grapRe fs14 negro23">
                                 9 SEMANAS | 6 HORAS POR SEMANA
@@ -180,7 +180,7 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $1,030 USD a pagar el 17 de abril de 2020.
+                        La segunda parcialidad de $1,030 USD a pagar el 3 de julio de 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -193,11 +193,11 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $699 USD a pagar 17 de abril de 2020.
+                        La segunda parcialidad de $699 USD a pagar 3 de julio de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga de $699 USD a pagar el 2 de mayo de 2020.
+                        La tercera parcialidad se paga de $699 USD a pagar el 18 de julio de 2020.
                     </div>
                 </div>
             </div>
