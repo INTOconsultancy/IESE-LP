@@ -635,6 +635,135 @@
         </div>
     </div>
     <hr class="linea-separadora">
+    <!-- Sección Tutores Expertos -->
+    <div class="tutores-expertos-container">
+        <div class="tutores-expertos-title grapBo fs32 negro3D">
+            Profesores
+        </div>
+        <div class="tutor-container">
+            <div class="tutor-cont">
+                <div class="tutor-desc">
+                    <div class="tutor-imagen">
+                        <img class="lazyload" data-src="../assets/img/jpg/M&L/Nuria-Chinchilla-IESE.jpg"
+                            alt="NURIA-CHINCHILLA">
+                    </div>
+                    <div class="tutor-data">
+                        <div class="grapBo fs18 negro19">NURIA CHINCHILLA</div>
+                        <div class="grapMe fs15 gris66">
+                            Profesora Ordinaria de Dirección de Personas en las
+                            Organizaciones; Titular de la Cátedra Carmina Roca
+                            y Rafael Pich Aguilera de Mujer y liderazgo; Doctora
+                            en Dirección de Empresas, IESE, Universidad de
+                            Navarra; MBA, IESE, Universidad de Navarra.
+                        </div>
+                    </div>
+                </div>
+                <div class="tutor-description grapRe fs16 gris66">
+                    La doctora Chinchilla es profesora, investigadora y consultora
+                    en dirección de personas, está especializada en consejos de
+                    administración, competencias de liderazgo, mujer y
+                    conciliación trabajo-familia.
+                    <br>
+                    <br>
+                    Forma parte de varios consejos de administración y de
+                    numerosos organismos internacionales y nacionales de impulso
+                    a la mujer directiva, como el International Women’s Forum o el
+                    consejo asesor de la European Professional Women’s Network.
+                    <br>
+                    <br>
+                    Asesora a gobiernos y empresas sobre cuestiones relacionadas
+                    con el desarrollo profesional de las mujeres. Desde 2012 es la
+                    candidata española para el Comité Contra la Discriminación de
+                    las Naciones Unidas. Ha escrito numerosos artículos y libros,
+                    entre los que destacan: Dueños de nuestro destino, del que es
+                    coautora junto con Maruja Moragas (Ariel, 2007); Paradigmas
+                    de liderazgo (2002); La ambición femenina (Aguilar, 2004).
+                    <br>
+                    <br>
+                    La doctora Chinchilla ha sido nombrada “Mejor ejecutiva del
+                    año” (2001) por la Federación Española de Mujeres Ejecutivas,
+                    Profesionales y Emprendedores (FEDEPE); premio “Most
+                    valuable speaker 2007” de Interban Network; y ha sido
+                    reconocida durante tres años consecutivos como una de las
+                    “100 mujeres españolas del siglo XXI”.
+                </div>
+            </div>
+            <div class="tutor-cont" style="padding: 0!important; background-color: #FFFFFF; border-bottom: none;">
+                <div class="tutor-cont small-cont" style="padding: 20px!important;">
+                    <div class="tutor-desc">
+                        <div class="tutor-imagen">
+                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Miguel-Angel-Arino.jpg"
+                                alt="MIGUEL-ÁNGEL-ARIÑO">
+                        </div>
+                        <div class="tutor-data">
+                            <div class="grapBo fs18 negro19">MIGUEL ÁNGEL ARIÑO</div>
+                            <div class="grapMe fs15 gris66">
+                                Profesor de Análisis de Decisiones
+                                <br>
+                                <br>
+                                Doctor en Ciencias Matemáticas, Universitat de Barcelona
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/miguel-angel-arino/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                        Ver más
+                    </a>
+                </div>
+                <div class="tutor-cont small-cont" style="padding: 20px!important;">
+                    <div class="tutor-desc">
+                        <div class="tutor-imagen">
+                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Esther-Jimenez.jpg"
+                                alt="ESTHER-JIMÉNEZ">
+                        </div>
+                        <div class="tutor-data">
+                            <div class="grapBo fs18 negro19">ESTHER JIMÉNEZ</div>
+                            <div class="grapMe fs15 gris66">
+                                Colaboradora científica de Dirección de Personas en las Organizaciones
+                                <br>
+                                <br>
+                                Doctora en Economía y Dirección de Empresas, Universidad de Navarra
+                                <br>
+                                <br>
+                                MBA, Universitat Oberta de Catalunya
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/esther-jimenez/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                        Ver más
+                    </a>
+                </div>
+                <div class="tutor-cont small-cont" style="padding: 20px!important;">
+                    <div class="tutor-desc">
+                        <div class="tutor-imagen">
+                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Kandarp-Mehta.jpg"
+                                alt="KANDARP-MEHTA">
+                        </div>
+                        <div class="tutor-data">
+                            <div class="grapBo fs18 negro19">KANDARP MEHTA</div>
+                            <div class="grapMe fs15 gris66">
+                                Senior Lecturer de Iniciativa Emprendedora y Unidad Docente de Negociación
+                                <br>
+                                <br>
+                                Doctor en Administración, IESE, Universidad de Navarra
+                                <br>
+                                <br>
+                                MBA K.S. School of Business Management, Gujarat University
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/kandarp-mehta/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sección Video -->
+    <div class="video-container" style="padding-top: 0!important;">
+        <iframe src="https://www.youtube.com/embed/xOy9d-UtyNA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <hr class="linea-separadora">
     <!-- Sección Video -->
     <div class="video-container">
         <div class="title grapBo fs32 negro3D">
@@ -769,7 +898,7 @@
     </div>
     <hr class="linea-separadora">
     <!-- Sección Metodología -->
-    <div class="metodology-container" style="padding: 30px 0!important;">
+    <div class="metodology-container">
         <div class="title grapSe-Bo fs24 negro19">
             Metodología
         </div>
@@ -894,134 +1023,6 @@
         </div>
     </div>
     <hr class="linea-separadora"> -->
-    <!-- Sección Tutores Expertos -->
-    <div class="tutores-expertos-container">
-        <div class="tutores-expertos-title grapBo fs32 negro3D">
-            Profesores
-        </div>
-        <div class="tutor-container">
-            <div class="tutor-cont">
-                <div class="tutor-desc">
-                    <div class="tutor-imagen">
-                        <img class="lazyload" data-src="../assets/img/jpg/M&L/Nuria-Chinchilla-IESE.jpg"
-                            alt="NURIA-CHINCHILLA">
-                    </div>
-                    <div class="tutor-data">
-                        <div class="grapBo fs18 negro19">NURIA CHINCHILLA</div>
-                        <div class="grapMe fs15 gris66">
-                            Profesora Ordinaria de Dirección de Personas en las
-                            Organizaciones; Titular de la Cátedra Carmina Roca
-                            y Rafael Pich Aguilera de Mujer y liderazgo; Doctora
-                            en Dirección de Empresas, IESE, Universidad de
-                            Navarra; MBA, IESE, Universidad de Navarra.
-                        </div>
-                    </div>
-                </div>
-                <div class="tutor-description grapRe fs16 gris66">
-                    La doctora Chinchilla es profesora, investigadora y consultora
-                    en dirección de personas, está especializada en consejos de
-                    administración, competencias de liderazgo, mujer y
-                    conciliación trabajo-familia.
-                    <br>
-                    <br>
-                    Forma parte de varios consejos de administración y de
-                    numerosos organismos internacionales y nacionales de impulso
-                    a la mujer directiva, como el International Women’s Forum o el
-                    consejo asesor de la European Professional Women’s Network.
-                    <br>
-                    <br>
-                    Asesora a gobiernos y empresas sobre cuestiones relacionadas
-                    con el desarrollo profesional de las mujeres. Desde 2012 es la
-                    candidata española para el Comité Contra la Discriminación de
-                    las Naciones Unidas. Ha escrito numerosos artículos y libros,
-                    entre los que destacan: Dueños de nuestro destino, del que es
-                    coautora junto con Maruja Moragas (Ariel, 2007); Paradigmas
-                    de liderazgo (2002); La ambición femenina (Aguilar, 2004).
-                    <br>
-                    <br>
-                    La doctora Chinchilla ha sido nombrada “Mejor ejecutiva del
-                    año” (2001) por la Federación Española de Mujeres Ejecutivas,
-                    Profesionales y Emprendedores (FEDEPE); premio “Most
-                    valuable speaker 2007” de Interban Network; y ha sido
-                    reconocida durante tres años consecutivos como una de las
-                    “100 mujeres españolas del siglo XXI”.
-                </div>
-            </div>
-            <div class="tutor-cont" style="padding: 0!important; background-color: #FFFFFF; border-bottom: none;">
-                <div class="tutor-cont small-cont" style="padding: 20px!important;">
-                    <div class="tutor-desc">
-                        <div class="tutor-imagen">
-                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Miguel-Angel-Arino.jpg"
-                                alt="MIGUEL-ÁNGEL-ARIÑO">
-                        </div>
-                        <div class="tutor-data">
-                            <div class="grapBo fs18 negro19">MIGUEL ÁNGEL ARIÑO</div>
-                            <div class="grapMe fs15 gris66">
-                                Profesor de Análisis de Decisiones
-                                <br>
-                                <br>
-                                Doctor en Ciencias Matemáticas, Universitat de Barcelona
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/miguel-angel-arino/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
-                        Ver más
-                    </a>
-                </div>
-                <div class="tutor-cont small-cont" style="padding: 20px!important;">
-                    <div class="tutor-desc">
-                        <div class="tutor-imagen">
-                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Esther-Jimenez.jpg"
-                                alt="ESTHER-JIMÉNEZ">
-                        </div>
-                        <div class="tutor-data">
-                            <div class="grapBo fs18 negro19">ESTHER JIMÉNEZ</div>
-                            <div class="grapMe fs15 gris66">
-                                Colaboradora científica de Dirección de Personas en las Organizaciones
-                                <br>
-                                <br>
-                                Doctora en Economía y Dirección de Empresas, Universidad de Navarra
-                                <br>
-                                <br>
-                                MBA, Universitat Oberta de Catalunya
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/esther-jimenez/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
-                        Ver más
-                    </a>
-                </div>
-                <div class="tutor-cont small-cont" style="padding: 20px!important;">
-                    <div class="tutor-desc">
-                        <div class="tutor-imagen">
-                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Kandarp-Mehta.jpg"
-                                alt="KANDARP-MEHTA">
-                        </div>
-                        <div class="tutor-data">
-                            <div class="grapBo fs18 negro19">KANDARP MEHTA</div>
-                            <div class="grapMe fs15 gris66">
-                                Senior Lecturer de Iniciativa Emprendedora y Unidad Docente de Negociación
-                                <br>
-                                <br>
-                                Doctor en Administración, IESE, Universidad de Navarra
-                                <br>
-                                <br>
-                                MBA K.S. School of Business Management, Gujarat University
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/kandarp-mehta/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
-                        Ver más
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Sección Video -->
-    <div class="video-container" style="padding-top: 0!important;">
-        <iframe src="https://www.youtube.com/embed/xOy9d-UtyNA" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
     <!-- Line -->
     <hr class="linea-separadora">
     <!-- Sección Rankings -->
