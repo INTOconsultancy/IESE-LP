@@ -680,6 +680,12 @@ header {
 
 @media only screen and (min-width: 1024px) {
   .hero-container .fix-padd {
+    padding: 60px 10px !important;
+  }
+}
+
+@media only screen and (min-width: 1110px) {
+  .hero-container .fix-padd {
     padding: 60px !important;
   }
 }
@@ -1037,7 +1043,8 @@ header {
     right: 0;
   }
   .banner-ML {
-    background-image: url("../img/jpg/M&L/hero-image-iese-desktopv3.jpg") !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.3)), color-stop(25%, rgba(255, 255, 255, 0.1)), color-stop(40%, rgba(255, 255, 255, 0)), color-stop(75%, rgba(255, 255, 255, 0))), url("../img/jpg/M&L/hero-image-iese-desktopv3.jpg") !important;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 75%), url("../img/jpg/M&L/hero-image-iese-desktopv3.jpg") !important;
     background-repeat: no-repeat !important;
     background-position-x: 40% !important;
     background-position-y: bottom !important;
@@ -1047,7 +1054,8 @@ header {
     background-image: url("") !important;
   }
   .banner-IAI {
-    background-image: url("../img/jpg/IAI/hero-image-desktop.jpg") !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.6)), color-stop(25%, rgba(255, 255, 255, 0.3)), color-stop(40%, rgba(255, 255, 255, 0.1)), color-stop(75%, rgba(255, 255, 255, 0))), url("../img/jpg/IAI/hero-image-desktop.jpg") !important;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3) 25%, rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0) 75%), url("../img/jpg/IAI/hero-image-desktop.jpg") !important;
     background-repeat: no-repeat !important;
     background-position-x: 40% !important;
     background-position-y: top !important;
@@ -1058,7 +1066,8 @@ header {
   }
   .hero-container {
     padding: 40px 0 0 0;
-    background-image: url("../img/jpg/hero-image-iese-desktop.jpg");
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.3)), color-stop(25%, rgba(255, 255, 255, 0.1)), color-stop(40%, rgba(255, 255, 255, 0)), color-stop(75%, rgba(255, 255, 255, 0))), url("../img/jpg/hero-image-iese-desktop.jpg") !important;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 75%), url("../img/jpg/hero-image-iese-desktop.jpg") !important;
     background-repeat: no-repeat;
     background-position-x: 40%;
     background-size: cover;

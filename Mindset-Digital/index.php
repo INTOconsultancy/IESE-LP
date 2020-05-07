@@ -251,7 +251,7 @@
                     <label class="grapRe mdl-textfield__label" for="mobile">Teléfono Móvil</label>
                 </div>
                 <!-- <div class="mdc-text-field-helper-text fs12 grapRe gris70" aria-hidden="true" style="margin: 0 0 0 10px;">Ej: +55 555 555 5555</div> -->
-                <!-- <div class="">
+                <div class="">
                     <div class="form-group" id="gdpr-consent" style="display:none;">
                         <label class="checkbox-inline fs14 grapRe negro23">
                             <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
@@ -259,7 +259,7 @@
                             Sus socios universitarios sobre este programa y otros programas relevantes.
                         </label>
                     </div>
-                </div> -->
+                </div>
                 <div class="button-container">
                     <input type="hidden" name="lead_source" id="lead_source" value="">
                     <input type="hidden" name="utm_source" id="utm_source" value="">
@@ -998,7 +998,7 @@
 
 
     <!-- Script to handle the form population -->
-    <!-- <script type="text/javascript" src="../assets/js/form-input-manager.js"></script> -->
+    <script type="text/javascript" src="../assets/js/form-input-manager.js"></script>
     <script src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js"></script>
 
     <!-- Script to prevent user from typing letters in the phone number -->

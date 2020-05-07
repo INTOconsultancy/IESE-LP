@@ -81,14 +81,26 @@ jQuery(document).ready(function () {
                 $('#gdpr-consent').show();
                 $('#agree').prop('required', true);
 
-                // $('.hero-container').css("height", "710px");
+                $(window).on('load resize', function (event) {
+                    if ($(this).width() >= 1024) {
+                        $('.hero-container').css("height", "715px");
+                    } else {
+
+                    }
+                });
 
             }
             else {
                 $('#gdpr-consent').hide();
                 $('#agree').prop('required', false);
 
-                // $('.hero-container').css("height", "660px");
+                $(window).on('load resize', function (event) {
+                    if ($(this).width() >= 1024) {
+                        $('.hero-container').css("height", "715px");
+                    } else {
+
+                    }
+                });
 
             }
         }
