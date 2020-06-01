@@ -296,6 +296,106 @@ body {
   overflow-x: hidden;
 }
 
+.special-modal-container {
+  padding: 20px 15px 15px !important;
+  max-width: 450px !important;
+  border: 1px solid #707070;
+}
+
+.special-modal-container .special-modal-cont .special-modal-title {
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+  line-height: 22px;
+  font-family: Graphik-Bold;
+}
+
+.special-modal-container .special-modal-cont .special-modal-subtitle {
+  text-align: center;
+  font-size: 11px;
+  color: #000201;
+  line-height: 22px;
+  font-family: Graphik-Regular;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form {
+  width: 100%;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .special-modal-flex {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center !important;
+  -webkit-box-align: center !important;
+          align-items: center !important;
+  -ms-flex-pack: justify !important;
+  -webkit-box-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal {
+  margin-top: 10px;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .special-label-title {
+  width: 100%;
+  text-align: left;
+  font-size: 10px;
+  color: #000201;
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-family: Graphik-Regular;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .special-input {
+  width: 100%;
+  border: 1px solid #707070;
+  padding: 5px;
+  text-align: left;
+  font-family: Graphik-Regular;
+  font-size: 14px;
+  color: #000201;
+  line-height: 22px;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .__textarea {
+  font-family: Graphik-Regular;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .__select {
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  padding: 5px;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .mdInput {
+  width: 48%;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .lgInput {
+  width: 100%;
+}
+
+.special-modal-container .special-modal-cont .special-modal-form .button-special-fee-submit {
+  width: auto;
+  margin: 10px auto 0;
+  display: block;
+  background-color: #FF0000;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: Graphik-Bold;
+  line-height: 22px;
+  padding: 10px 20px;
+}
+
 header {
   width: 100%;
   padding: 15px;

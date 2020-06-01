@@ -23,7 +23,8 @@
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="HandheldFriendly" content="true" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -129,7 +130,7 @@
                 <div class="details">
                     <div class="date-hours">
                         <div class="date grapMe fs16 negro23">
-                            25 / Mayo / 2020
+                            14 / Septiembre / 2020
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             3 MESES | 6 HORAS POR SEMANA
@@ -141,6 +142,11 @@
                         </div>
                         <div class="fees grapMe fs14 negro23">
                             Cuota Miembros del IESE: $2,205 USD
+                        </div>
+                        <div class="price-fees" style="padding: 0;">
+                            <a class="price grapBo fs16 negro19" href="#specialFee" rel="modal:open" style="text-transform: uppercase;">
+                                Precio especial para grupos
+                            </a>
                         </div>
                         <div class="flexible-payments grapBo fs14 rojo39">
                             <a class="rojo39" href="#ex2" rel="modal:open">
@@ -186,7 +192,7 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $1,175 USD a pagar del 19 de junio de 2020.
+                        La segunda parcialidad de $1,175 USD a pagar del 9 de octubre de 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -199,13 +205,111 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $797 USD a pagar del 19 de junio de 2020.
+                        La segunda parcialidad de $797 USD a pagar del 9 de octubre de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad de $797 USD se paga a más tardar el 4 de julio de 2020.
+                        La tercera parcialidad de $797 USD se paga a más tardar el 24 de octubre de 2020.
                     </div>
                 </div>
+            </div>
+
+            <!-- Program special fee -->
+            <div id="specialFee" class="modal special-modal-container">
+
+                <div class="special-modal-cont">
+
+                    <div class="special-modal-title robotoBo">
+                        PRECIO ESPECIAL PARA INSCRIPCIÓN EN GRUPO
+                    </div>
+
+                    <div class="special-modal-subtitle robotoBo">
+                        El programa ofrece un descuento hasta de 20% si te inscribes con tus colegas.
+                    </div>
+
+                    <form class="special-modal-form" action="https://www2.emeritus.org/l/134351/2020-03-27/5db1dl"
+                        id="formSpecialFee" method="POST">
+
+                        <div class="special-modal-flex">
+
+                            <div class="input-group-special-modal mdInput">
+
+                                <label for="" class="special-label-title robotoBo">Nombre*</label>
+                                <input type="text" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required name="first_name"
+                                    id="firstName" class="special-input" style="text-transform: capitalize;">
+
+                            </div>
+
+                            <div class="input-group-special-modal mdInput">
+
+                                <label for="" class="special-label-title robotoBo">Email*</label>
+                                <input type="text" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$" required
+                                    name="email" id="Email" class="special-input">
+
+                            </div>
+
+                        </div>
+
+                        <div class="special-modal-flex">
+
+                            <div class="input-group-special-modal mdInput">
+
+                                <label for="" class="special-label-title robotoBo">Compañía*</label>
+                                <input type="text" name="Company" id="Company" class="special-input">
+
+                            </div>
+
+                            <div class="input-group-special-modal mdInput">
+
+                                <label for="" class="special-label-title robotoBo">Puesto*</label>
+                                <input type="text" name="job_title" id="jobTitle" class="special-input">
+
+                            </div>
+
+                        </div>
+
+                        <div class="input-group-special-modal lgInput">
+
+                            <label for="" class="special-label-title robotoBo">¿Cuántas personas te interesa
+                                inscribir?*</label>
+                            <select class="special-input" name="Group_Enrol_No_of_Enrolments" id="groupEnrol" required>
+                                <option value=""></option>
+                                <option value="3">3</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="More than 10">Mas de 10</option>
+                            </select>
+
+                        </div>
+
+                        <div class="input-group-special-modal lgInput">
+
+                            <label for="" class="special-label-title robotoBo">Comentarios y preguntas</label>
+                            <textarea class="special-input __textarea" name="Group_Enrol_Query" id="groupEnrolQuery"
+                                cols="30" rows="5"></textarea>
+
+                        </div>
+
+                        <div class="input-group-button">
+                            <input type="hidden" name="lead_source" id="lead_source" value="">
+                            <input type="hidden" name="utm_source" id="utm_source" value="">
+                            <input type="hidden" name="utm_medium" id="utm_medium" value="">
+                            <input type="hidden" name="utm_term" id="utm_term" value="">
+                            <input type="hidden" name="utm_content" id="utm_content" value="">
+                            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+                            <input type="hidden" name="browser" id="Browser" value="">
+                            <input type="hidden" name="course" id="Course" value="programSpecialFee">
+                            <input type="hidden" name="retURL" value="<?php echo $current_link . $queryString ?>">
+                            <button type="submit" class="button-special-fee-submit robotoBo">
+                                Confirmar
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
             </div>
 
         </div>
@@ -225,7 +329,8 @@
 
         <div class="form-container" id="form">
             <div class="form-title grapRe fs16 negro23">Para obtener más información, rellena el formulario</div>
-            <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-06-11/545njl" method="post" id="formDesk">
+            <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-06-11/545njl" method="post"
+                id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name"
                         pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required style="text-transform: capitalize;">
@@ -705,7 +810,8 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/miguel-angel-arino/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/miguel-angel-arino/"
+                        target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
                         Ver más
                     </a>
                 </div>
@@ -728,7 +834,8 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/esther-jimenez/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/esther-jimenez/" target="_blank"
+                        rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
                         Ver más
                     </a>
                 </div>
@@ -751,7 +858,8 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/kandarp-mehta/" target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
+                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/kandarp-mehta/" target="_blank"
+                        rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
                         Ver más
                     </a>
                 </div>
@@ -926,7 +1034,8 @@
                     Inspiración de primer nivel
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con exitosas directivas con experiencia en diferentes sectores, incluyendo ex ministras y directoras de empresas como HP, VERTISUB, Grupo Santander, entre otras.
+                    Entrevistas con exitosas directivas con experiencia en diferentes sectores, incluyendo ex ministras
+                    y directoras de empresas como HP, VERTISUB, Grupo Santander, entre otras.
                 </div>
             </div>
             <div class="metodology">
@@ -937,7 +1046,8 @@
                     Test 360º y coaching
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Desarrolla un plan de mejora personal y de competencias directivas a través del cuestionario IESE 360°, e impleméntalo con ayuda de un coach que te guiará a lo largo del programa.
+                    Desarrolla un plan de mejora personal y de competencias directivas a través del cuestionario IESE
+                    360°, e impleméntalo con ayuda de un coach que te guiará a lo largo del programa.
                 </div>
             </div>
             <div class="metodology">
@@ -1031,7 +1141,8 @@
         <div class="ranking-cont">
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Executive-Edudcation.png" alt="First">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Executive-Edudcation.png"
+                    alt="First">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -1049,7 +1160,8 @@
             </div>
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="200" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Custom-Programs.png" alt="Second">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/1st-Ranking-FT-Custom-Programs.png"
+                    alt="Second">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -1067,7 +1179,8 @@
             </div>
             <div class="ranking">
                 <img data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
-                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/3rd-Ranking-FT-Open-Programs.png" alt="Thir">
+                    data-aos-easing="ease-in-out" src="../assets/img/png/M&L/3rd-Ranking-FT-Open-Programs.png"
+                    alt="Thir">
                 <!-- <div class="title grapMe fs24 gris66">
                 in world
             </div>
@@ -1091,12 +1204,14 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex1" rel="modal:open">
                 <div>
-                    <img class="lazyload" data-src="../assets/img/jpg/M&L/certificado-mujer-liderazgo.jpg" alt="Certificado">
+                    <img class="lazyload" data-src="../assets/img/jpg/M&L/certificado-mujer-liderazgo.jpg"
+                        alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex1" class="modal modal-certificado">
-                <img class="lazyload" data-src="../assets/img/jpg/M&L/certificado-mujer-liderazgo.jpg" alt="Certificado">
+                <img class="lazyload" data-src="../assets/img/jpg/M&L/certificado-mujer-liderazgo.jpg"
+                    alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title grapBo fs32 blanco">
@@ -1148,7 +1263,7 @@
                 <div class="testimonio-desc grapRe fs16 negro3D">
                     "Es un programa muy completo desde el punto de vista de la mujer en los ámbitos de
                     cómo liderar, negociar y gestionar conflictos sin perder de vista el foco de
-                        la unidad familiar y empresarial".
+                    la unidad familiar y empresarial".
                 </div>
                 <div class="testimonio-name grapBo fs20 gris66">
                     Anna Triola Mir

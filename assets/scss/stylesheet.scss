@@ -299,6 +299,123 @@ body {
     overflow-x: hidden;
 }
 
+//Modal Special Fee
+.special-modal-container {
+    padding: 20px 15px 15px!important;
+    max-width: 450px!important;
+    border: 1px solid #707070;
+    
+    a.close-modal {
+        // border: 5px solid #006D3C!important;
+        // background-color: #006D3C!important;
+    }
+
+    .special-modal-cont {
+
+        .special-modal-title {
+            text-align: center;
+            font-size: 18px;
+            color: #000000;
+            line-height: 22px;
+            font-family: Graphik-Bold;
+        }
+
+        .special-modal-subtitle {
+            text-align: center;
+            font-size: 11px;
+            color: #000201;
+            line-height: 22px;
+            font-family: Graphik-Regular;
+            
+        }
+
+        .special-modal-form {
+            width: 100%;
+
+            .special-modal-flex {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -ms-flex-align: center!important;
+                align-items: center!important;
+                -ms-flex-pack: justify!important;
+                justify-content: space-between!important;
+
+            }
+
+            .input-group-special-modal {
+                margin-top: 10px;
+
+                .special-label-title {
+                    width: 100%;
+                    text-align: left;
+                    font-size: 10px;
+                    color: #000201;
+                    line-height: 22px;
+                    margin-bottom: 5px;
+                    font-family: Graphik-Regular;
+                }
+
+                .special-input {
+                    width: 100%;
+                    border: 1px solid #707070;
+                    padding: 5px;
+                    text-align: left;
+                    font-family: Graphik-Regular;
+                    font-size: 14px;
+                    color: #000201;
+                    line-height: 22px;
+
+                }
+
+                .__textarea {
+                    font-family: Graphik-Regular;
+                    
+                }
+
+                .__select {
+                    width: 100%;
+                    height: 30px;
+                    text-align: left;
+                    padding: 5px;
+                    
+                }
+
+            }
+
+            .mdInput {
+                width: 48%;
+
+            }
+
+            .lgInput {
+                width: 100%;
+            }
+
+            .button-special-fee-submit {
+                width: auto;
+                margin: 10px auto 0;
+                display: block;    
+                background-color: #FF0000;
+                border: none;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: Graphik-Bold;
+                line-height: 22px;
+                padding: 10px 20px;
+            }
+
+        }
+
+    }
+
+}
+//
+
 //HEADER
 header {
     width: 100%;
