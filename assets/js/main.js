@@ -32,7 +32,7 @@ jQuery(document).ready(function () {
                 }
             }
         ]
-    });
+    }); */
     
     jQuery('.slide-testimonio-ML').slick({
         dots: true,
@@ -68,7 +68,7 @@ jQuery(document).ready(function () {
         ]
     });
     
-    jQuery('.slide-testimonio-IAI').slick({
+    /*jQuery('.slide-testimonio-IAI').slick({
         dots: true,
         infinite: true,
         speed: 300,

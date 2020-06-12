@@ -1002,6 +1002,9 @@
                     lo que logras.
                 </span>
             </div>
+            <div class="profiles-fundation _ML-version grapMe negro19">
+                Formación bonificable a través de la FUNDAE
+            </div>
         </div>
     </div>
     <hr class="linea-separadora">

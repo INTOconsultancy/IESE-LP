@@ -2044,7 +2044,7 @@ header {
 
 .video-container iframe {
   width: 100%;
-  height: 60vh;
+  height: 22vh;
   margin: 0 auto !important;
   max-width: 800px;
 }
@@ -2064,6 +2064,7 @@ header {
     margin: 35px auto 10px;
   }
   iframe {
+    height: 60vh;
     width: 100% !important;
     height: 600px !important;
     margin: 0 auto !important;
@@ -2615,6 +2616,7 @@ header {
   -webkit-box-align: initial;
       -ms-flex-align: initial;
           align-items: initial;
+  position: relative;
 }
 
 .profiles-container .profiles-cont .profiles {
@@ -2643,6 +2645,17 @@ header {
   text-align: center;
   margin: 0 auto;
   max-width: 905px;
+}
+
+.profiles-container .profiles-cont .profiles-fundation {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
+  position: absolute;
+  bottom: -25px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -2679,6 +2692,13 @@ header {
     width: 95%;
     text-align: center;
     margin: 0 auto;
+  }
+  .profiles-container .profiles-cont .profiles-fundation {
+    text-align: right;
+    font-size: 18px;
+  }
+  .profiles-container .profiles-cont ._ML-version {
+    bottom: -75px;
   }
 }
 
