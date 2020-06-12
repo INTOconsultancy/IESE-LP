@@ -111,7 +111,7 @@
                 <div class="details">
                     <div class="date-hours">
                         <div class="date grapRe fs18 negro23">
-                            08 / Junio / 2020
+                            28 / Septiembre / 2020
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             8 SEMANAS | 6-8 HORAS POR SEMANA
@@ -123,6 +123,11 @@
                         </div>
                         <div class="fees grapMe fs14 negro23">
                             Cuota Miembros del IESE: $1,755 USD
+                        </div>
+                        <div class="price-fees" style="padding: 0;">
+                            <a class="price grapBo fs16 negro19" href="#specialFee" rel="modal:open" style="text-transform: uppercase;">
+                                Precio especial para grupos
+                            </a>
                         </div>
                         <div class="flexible-payments grapBo fs16 rojo39">
                             <a class="rojo39" href="#ex2" rel="modal:open">
@@ -168,7 +173,7 @@
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
                         La segunda parcialidad de $1,030 USD
-                        a pagar del 3 de julio de 2020.
+                        a pagar del 23 de octubre de 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -183,15 +188,112 @@
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
                         La segunda parcialidad de $699 USD
-                        a pagar del 3 de julio de 2020.
+                        a pagar del 23 de octubre de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga de $699 USD a pagar el 18 de julio de 2020.
+                        La tercera parcialidad se paga de $699 USD a pagar el 7 de noviembre de 2020.
                     </div>
                 </div>
             </div>
-            <!--  -->
+
+            <!-- Program special fee -->
+            <div id="specialFee" class="modal special-modal-container">
+
+                <div class="special-modal-cont">
+
+                    <div class="special-modal-title robotoBo">
+                        PRECIO ESPECIAL PARA INSCRIPCIÓN EN GRUPO
+                    </div>
+
+                    <div class="special-modal-subtitle robotoBo">
+                        El programa ofrece un descuento hasta de 20% si te inscribes con tus colegas.
+                    </div>
+
+                    <form class="special-modal-form" action="https://www2.emeritus.org/l/134351/2020-03-27/5db1dl"
+                        id="formSpecialFee" method="POST">
+
+                        <div class="special-modal-flex">
+
+                            <div class="input-group-special-modal mdInput">
+
+                                <label for="" class="special-label-title robotoBo">Nombre*</label>
+                                <input type="text" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required name="first_name"
+                                    id="firstName" class="special-input" style="text-transform: capitalize;">
+
+                            </div>
+
+                            <div class="input-group-special-modal mdInput">
+
+                                <label for="" class="special-label-title robotoBo">Email*</label>
+                                <input type="text" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$" required
+                                    name="email" id="Email" class="special-input">
+
+                            </div>
+
+                        </div>
+
+                        <div class="special-modal-flex">
+
+                            <div class="input-group-special-modal mdInput">
+
+                                <label for="" class="special-label-title robotoBo">Compañía*</label>
+                                <input type="text" name="Company" id="Company" class="special-input">
+
+                            </div>
+
+                            <div class="input-group-special-modal mdInput">
+
+                                <label for="" class="special-label-title robotoBo">Puesto*</label>
+                                <input type="text" name="job_title" id="jobTitle" class="special-input">
+
+                            </div>
+
+                        </div>
+
+                        <div class="input-group-special-modal lgInput">
+
+                            <label for="" class="special-label-title robotoBo">¿Cuántas personas te interesa
+                                inscribir?*</label>
+                            <select class="special-input" name="Group_Enrol_No_of_Enrolments" id="groupEnrol" required>
+                                <option value=""></option>
+                                <option value="3">3</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="More than 10">Mas de 10</option>
+                            </select>
+
+                        </div>
+
+                        <div class="input-group-special-modal lgInput">
+
+                            <label for="" class="special-label-title robotoBo">Comentarios y preguntas</label>
+                            <textarea class="special-input __textarea" name="Group_Enrol_Query" id="groupEnrolQuery"
+                                cols="30" rows="5"></textarea>
+
+                        </div>
+
+                        <div class="input-group-button">
+                            <input type="hidden" name="lead_source" id="lead_source" value="">
+                            <input type="hidden" name="utm_source" id="utm_source" value="">
+                            <input type="hidden" name="utm_medium" id="utm_medium" value="">
+                            <input type="hidden" name="utm_term" id="utm_term" value="">
+                            <input type="hidden" name="utm_content" id="utm_content" value="">
+                            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+                            <input type="hidden" name="browser" id="Browser" value="">
+                            <input type="hidden" name="course" id="Course" value="programSpecialFee">
+                            <input type="hidden" name="retURL" value="<?php echo $current_link . $queryString ?>">
+                            <button type="submit" class="button-special-fee-submit robotoBo">
+                                Confirmar
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
 
             <!-- Counter -->
             <div class="counter-container movil">
