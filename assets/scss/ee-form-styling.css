@@ -1,0 +1,105 @@
+form {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background: #fb5151;
+  color: #3d3d3d;
+  line-height: 1.42857143;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+form .form-group {
+  margin-bottom: 8px;
+}
+
+form .form-control-label {
+  color: #68746E;
+  font-size: 12px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+form .form-control-label:after {
+  content: none;
+}
+
+form .form-control-label:before {
+  content: none;
+}
+
+form .form-control {
+  border: 0px;
+  border-radius: 8px;
+  height: 48px;
+  padding-top: 20px;
+}
+
+/* Checkbox/radio button padding fix */
+form .form-check {
+  padding: 0 15px;
+}
+
+/* Checkbox/radio button styles */
+form .form-check input[type=checkbox] {
+  height: 20px;
+  margin: 15px 5px 15px 0;
+  opacity: 1;
+  position: static;
+  width: 20px;
+}
+
+/* Checkbox/radio button label styles */
+form .form-group .form-check label.form-check-label {
+  color: #fff !important;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: calc(100% - 25px);
+}
+
+form .form-group .form-check label.form-check-label::before {
+  content: none;
+}
+
+/* Submit button styles */
+form input[type=submit] {
+  background: #105d39;
+  border-radius: 5px;
+  border-width: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 0 15px 0;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  width: 100%;
+}
+
+/* Submit button hover/focus state */
+form input[type=submit]:hover,
+form input[type=submit]:focus {
+  background: #fff;
+  color: #105d39;
+}
+
+/* Submit button focus state */
+form input[type=submit]:focus {
+  outline: 0;
+}
+
+form select {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  -ms-appearance: menulist;
+  -o-appearance: menulist;
+  appearance: menulist;
+}
+
+/*# sourceMappingURL=ee-form-styling.css.map */
