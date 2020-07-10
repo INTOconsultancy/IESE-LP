@@ -119,7 +119,7 @@
                 <div class="course-information">
 
                     <div class="hero-content-banner grapSe-Bo rojoFF fs15">
-                        Nuevo programa en español
+                        NUEVO PROGRAMA ONLINE
                     </div>
 
                     <div class="title grapBo fs30 negro19">Impulsa la innovación:</div>
