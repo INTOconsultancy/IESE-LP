@@ -158,7 +158,7 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La cuota completa del programa $2,150 USD.
+                        La cuota completa del programa $1,950 USD.
                     </div>
                 </div>
                 <div class="pagos">
@@ -167,12 +167,12 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $1,163 USD
+                        La primera parcialidad de $1,054 USD
                         se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $1,030 USD
+                        La segunda parcialidad de $935 USD
                         a pagar del 23 de octubre de 2020.
                     </div>
                 </div>
@@ -182,17 +182,17 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $859 USD
+                        La primera parcialidad de $778 USD
                         se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $699 USD
+                        La segunda parcialidad de $635 USD
                         a pagar del 23 de octubre de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga de $699 USD a pagar el 7 de noviembre de 2020.
+                        La tercera parcialidad se paga de $635 USD a pagar el 7 de noviembre de 2020.
                     </div>
                 </div>
             </div>
