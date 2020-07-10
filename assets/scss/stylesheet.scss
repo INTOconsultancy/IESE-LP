@@ -1265,6 +1265,7 @@ header {
         position: absolute !important;
         top: 15px;
         right: 0;
+        padding: 20px 30px;
 
         .form-title {
             font-size: 14px;
@@ -1320,8 +1321,16 @@ header {
     }
 
     .form-container {
+        right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .form-container {
         right: 80px;
     }
+
 }
 
 @media only screen and (min-width: 1600px) {
@@ -2167,14 +2176,14 @@ header {
         .subtitle {
             margin: 35px auto 10px;
         }
-    }
 
-    iframe {
-        height: 60vh;
-        width: 100% !important;
-        height: 600px !important;
-        margin: 0 auto !important;
-        max-width: 1140px !important;
+        iframe {
+            height: 60vh;
+            width: 100% !important;
+            height: 600px !important;
+            margin: 0 auto !important;
+            max-width: 1140px !important;
+        }
     }
 }
 

@@ -60,6 +60,7 @@
 
 
     <script src="https://staging.emerituss.org/scripts/custom_forms/128.js" async></script>
+    <script src="../assets/js/filterSelect.js" async></script>
 
 </head>
 
@@ -310,6 +311,7 @@
             </div>
 
         </div>
+
         <div class="form-container" id="form">
             <div class="form-title grapRe fs14 negro23">Para obtener más información, rellena el formulario</div>
             <div class="ee-iframe-128"></div>
@@ -403,6 +405,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
     <!-- Counter -->
     <div class="counter-container desktop">
@@ -1108,8 +1111,8 @@
 
 
     <!-- Script to handle the form population -->
-    <script type="text/javascript" src="../assets/js/form-input-manager.js"></script>
-    <script src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js"></script>
+    <!-- <script type="text/javascript" src="../assets/js/form-input-manager.js"></script> -->
+    <!-- <script src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js"></script> -->
 
     <!-- Script to prevent user from typing letters in the phone number -->
     <script type="text/javascript" src="../assets/js/onkeypress.js"></script>
