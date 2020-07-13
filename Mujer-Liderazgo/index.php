@@ -1238,7 +1238,7 @@
                     estudios respaldado por IESE Business School.
                 </div>
                 <div class="certificado-button">
-                    <a class="grapBo fs16 blanco" href="http://bit.ly/2YSy7NL" target="_blank" rel="noopener noreferrer"
+                    <a class="grapBo fs16 blanco" href="https://admissions.emeritus.org/?program_sfid=01t0I000006bFrwQAE&locale=es" target="_blank" rel="noopener noreferrer"
                         id="btn-apply-now">
                         INSCRÍBETE
                         <img class="lazyload" data-src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
