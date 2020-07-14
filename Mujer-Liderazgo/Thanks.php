@@ -8,12 +8,12 @@
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TPB62D3');</script>
+    })(window,document,'script','dataLayer','GTM-P5X7WH8');</script>
     <!-- End Google Tag Manager -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta http-equiv="refresh" CONTENT="1;URL= http://bit.ly/2YQgHBc"> -->
+    <meta http-equiv="refresh" CONTENT="1;URL= http://bit.ly/2YQgHBc">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
     <link rel="stylesheet" href="../assets/scss/stylesheet.css">
@@ -30,7 +30,7 @@
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPB62D3"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5X7WH8"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
