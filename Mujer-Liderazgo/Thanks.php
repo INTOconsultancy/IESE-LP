@@ -3,13 +3,12 @@
 
 <head>
 
-
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-P5X7WH8');</script>
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P5X7WH8');</script>
     <!-- End Google Tag Manager -->
 
     <meta charset="UTF-8">
@@ -18,10 +17,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
     <link rel="stylesheet" href="../assets/scss/stylesheet.css">
-
+    
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script>
-
+    
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
@@ -30,10 +29,10 @@
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5X7WH8"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5X7WH8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="gracias-container">
         <div class="dialog-container">
@@ -60,7 +59,7 @@
                 <div class="grapMe fs30 negro19">
                     ¿Listo para el próximo paso?
                 </div>
-                <a class="btn-gracias grapBo fs16 blanco" id="btn-apply-now" href="https://admissions.emeritus.org/?program_sfid=01t0I000006bFrwQAE&locale=es" target="_blank" rel="noopener noreferrer">
+                <a class="btn-gracias grapBo fs16 blanco" id="btn-apply-now" href="http://bit.ly/2YSy7NL" target="_blank" rel="noopener noreferrer">
                     APLICAR
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
@@ -91,7 +90,7 @@
                         <img src="../assets/img/svg/linkedin-in-brands.svg" alt="Linkedin">
                     </a>
                     <a class="btn-chat-whatsapp" id="btn-chat-whatsapp" style="cursor: pointer;">
-                        <img src="../assets/img/svg/whatsapp-brands.svg" alt="">
+                        <img src="../assets/img/svg/whatsapp-brands.svg" alt="">    
                         <span class="grapMe fs18">Whatsapp</span>
                     </a>
                 </div>
