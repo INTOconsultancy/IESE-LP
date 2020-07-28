@@ -25,10 +25,10 @@
 
 
     <meta charset="utf-8">
-    <title>IESE | Mindset Digital</title>
+    <title>IESE | Desarrolla el talento en la era digital</title>
 
 
-    <meta property="og:title" content="IESE | Mindset Digital"/>
+    <meta property="og:title" content="IESE | Desarrolla el talento en la era digital"/>
     <meta property="og:description"
           content="Los constantes cambios del mundo digital están derribando las barreras de entrada de los mercados y cambiando los modelos de negocio consolidados. Este programa te ayudará a identificar y dar una respuesta efectiva a los retos y oportunidades digitales."/>
     <meta property="og:type" content="website"/>
@@ -168,7 +168,7 @@
                 </div>
                 <div class="precio-pago fs14 robotoRe negro23">
                     <div class="dot-pagos"></div>
-                    La cuota completa del programa $1,950 USD.
+                    La cuota completa del programa $2,150 USD.
                 </div>
             </div>
             <div class="pagos">
@@ -177,13 +177,13 @@
                 </div>
                 <div class="precio-pago fs14 robotoRe negro23">
                     <div class="dot-pagos"></div>
-                    La primera parcialidad de $1,054 USD
+                    La primera parcialidad de $1,163 USD
                     se paga al inicio.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La segunda parcialidad de $935 USD
-                    a pagar del 23 de octubre de 2020.
+                    La segunda parcialidad de $1,030 USD
+                    a pagar del 13 de noviembre de 2020.
                 </div>
             </div>
             <div class="pagos no-border">
@@ -192,17 +192,17 @@
                 </div>
                 <div class="precio-pago fs14 robotoRe negro23">
                     <div class="dot-pagos"></div>
-                    La primera parcialidad de $778 USD
+                    La primera parcialidad de $859 USD
                     se paga al inicio.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La segunda parcialidad de $635 USD
-                    a pagar del 23 de octubre de 2020.
+                    La segunda parcialidad de $699 USD
+                    a pagar del 13 de noviembre de 2020.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La tercera parcialidad se paga de $635 USD a pagar el 7 de noviembre de 2020.
+                    La tercera parcialidad se paga de $699 USD a pagar el 28 de noviembre de 2020.
                 </div>
             </div>
         </div>
@@ -645,8 +645,7 @@
                 Voces expertas
             </div>
             <div class="metodology-subtitle grapRe fs16 negro23">
-                Entrevistas con los expertos en la transformación digital, directores de empresas como Google, BBVA,
-                Televisa, Microsoft, entre otras.
+                Entrevistas con los expertos en la gestión de talento.
             </div>
         </div>
         <div class="metodology">
@@ -736,7 +735,7 @@
             </div>
             <div class="certificado-button">
                 <a class="grapBo fs16 blanco"
-                   href="https://admissions.emeritus.org/?program_sfid=01t0I000009dxlEQAQ&locale=es" target="_blank"
+                   href="https://admissions.emeritus.org/?program_sfid=01t2s0000006RZ9AAM&locale=es" target="_blank"
                    rel="noopener noreferrer" id="btn-apply-now">
                     INSCRÍBETE
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">

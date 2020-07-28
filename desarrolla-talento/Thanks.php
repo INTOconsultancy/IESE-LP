@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <meta http-equiv="refresh" CONTENT="1;URL= http://bit.ly/2Ehoosi">
+    <meta http-equiv="refresh" CONTENT="1;URL= https://bit.ly/3jVyMZI">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>¡Gracias por tu interés!</title>
@@ -50,7 +50,7 @@
                     Desarrolla el talento en la era digital
                 </div>
                 <div class="grapRe fs18 negro46">
-                    Si tu descarga no comienza <a class=" grapBo rojo39" href="http://bit.ly/2Ehoosi">Da click aquí</a>
+                    Si tu descarga no comienza <a class=" grapBo rojo39" href="https://bit.ly/3jVyMZI">Da click aquí</a>
                 </div>
             </div>
             <div class="gracias-linea"></div>
@@ -58,7 +58,7 @@
                 <div class="grapMe fs30 negro19">
                     ¿Listo para el próximo paso?
                 </div>
-                <a class="btn-gracias grapBo fs16 blanco" href="https://admissions.emeritus.org/?program_sfid=01t0I000009dxlEQAQ&locale=es" target="_blank" rel="noopener noreferrer">
+                <a class="btn-gracias grapBo fs16 blanco" href="https://admissions.emeritus.org/?program_sfid=01t2s0000006RZ9AAM&locale=es" target="_blank" rel="noopener noreferrer">
                     APLICAR
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
