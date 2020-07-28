@@ -33,7 +33,7 @@
           content="Los constantes cambios del mundo digital están derribando las barreras de entrada de los mercados y cambiando los modelos de negocio consolidados. Este programa te ayudará a identificar y dar una respuesta efectiva a los retos y oportunidades digitales."/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://emeritus.iese.edu/Mindset-Digital/"/>
-    <meta property="og:image" content="../assets/img/jpg/IESE.jpg"/>
+    <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>
     <meta property="og:image:type" content="image/jpg"/>
     <meta property="og:image:width" content="500"/>
     <meta property="og:image:height" content="500"/>
