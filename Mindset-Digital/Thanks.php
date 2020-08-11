@@ -55,7 +55,7 @@
                 <div class="grapMe fs30 negro19">
                     ¿Listo para el próximo paso?
                 </div>
-                <a class="btn-gracias grapBo fs16 blanco" href="https://bit.ly/2Ue0RND" target="_blank" rel="noopener noreferrer">
+                <a class="btn-gracias grapBo fs16 blanco" href="https://admissions.emeritus.org/?program_sfid=01t0I000006aqqGQAQ&locale=es" target="_blank" rel="noopener noreferrer">
                     APLICAR
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>

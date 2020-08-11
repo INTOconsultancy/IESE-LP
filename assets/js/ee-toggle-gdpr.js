@@ -14,6 +14,8 @@ function checkGDPRChackboxStatus(countryCode){
         gdprCheckbox.checked = true;
 
     }
+
+    console.log("Checkbox set to required="+gdprCheckbox.required+" & checked="+gdprCheckbox.checked);
 }
 
 
@@ -29,5 +31,9 @@ window.onload = function () {
         checkGDPRChackboxStatus(event.target.value);
 
     };
+
+
+    // Updating the cell phone label as requested by IESE.
+    document.querySelector('[for="custom_form_entry_numero_de_celular"]').innerHTML = 'Teléfono Móvil<abbr title="required"></abbr>';
 
 };
