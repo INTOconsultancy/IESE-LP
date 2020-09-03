@@ -30,7 +30,7 @@
 
     <meta property="og:title" content="IESE | Desarrolla el talento en la era digital"/>
     <meta property="og:description"
-          content="Los constantes cambios del mundo digital están derribando las barreras de entrada de los mercados y cambiando los modelos de negocio consolidados. Este programa te ayudará a identificar y dar una respuesta efectiva a los retos y oportunidades digitales."/>
+          content="El Covid-19 acelera la transformación digital y el uso de la Inteligencia Artificial como una vía efectiva para responder a nuevas formas de trabajo, hábitos de consumo y maneras de ejercer un liderazgo resiliente."/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://emeritus.iese.edu/desarrolla-talento/"/>
     <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>

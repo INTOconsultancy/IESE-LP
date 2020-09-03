@@ -27,10 +27,10 @@
 
     <meta property="og:title" content="IESE | Impulso a la innovación de la idea al lanzamiento" />
     <meta property="og:description"
-        content="Los constantes cambios del mundo digital están derribando las barreras de entrada de los mercados y cambiando los modelos de negocio consolidados. Este programa te ayudará a identificar y dar una respuesta efectiva a los retos y oportunidades digitales." />
+        content="Aprende en un ambiente “hands on” y genera proyectos de innovación con base en un modelo probado." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://emeritus.iese.edu/Mindset-Digital/" />
-    <meta property="og:image" content="../assets/img/jpg/IESE.jpg" />
+    <meta property="og:url" content="https://emeritus.iese.edu/impulsa-innovacion" />
+    <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="500" />
@@ -40,7 +40,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="canonical" href="https://emeritus.iese.edu/Mindset-Digital/" />
+    <link rel="canonical" href="https://emeritus.iese.edu/impulsa-innovacion" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
