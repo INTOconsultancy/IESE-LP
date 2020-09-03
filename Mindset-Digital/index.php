@@ -35,9 +35,9 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://emeritus.iese.edu/Mindset-Digital/"/>
     <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>
-    <meta property="og:image:type" content="image/jpg"/>
-    <meta property="og:image:width" content="500"/>
-    <meta property="og:image:height" content="500"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="300"/>
+    <meta property="og:image:height" content="300"/>
     <meta property="og:image:alt" content="Mindset Digital"/>
     <meta property="fb:app_id" content="467662454062015"/>
 

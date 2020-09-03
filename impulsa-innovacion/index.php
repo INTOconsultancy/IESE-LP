@@ -29,9 +29,9 @@
     <meta property="og:description"
         content="Aprende en un ambiente “hands on” y genera proyectos de innovación con base en un modelo probado." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://emeritus.iese.edu/impulsa-innovacion" />
+    <meta property="og:url" content="https://emeritus.iese.edu/impulsa-innovacion/" />
     <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>
-    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="500" />
     <meta property="og:image:alt" content="Impulso a la innovación de la idea al lanzamiento" />
@@ -40,7 +40,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="canonical" href="https://emeritus.iese.edu/impulsa-innovacion" />
+    <link rel="canonical" href="https://emeritus.iese.edu/impulsa-innovacion/" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
