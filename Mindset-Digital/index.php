@@ -31,7 +31,7 @@
 
     <meta property="og:title" content="IESE | Mindset Digital"/>
     <meta property="og:description"
-          content="Los constantes cambios del mundo digital están derribando las barreras de entrada de los mercados y cambiando los modelos de negocio consolidados. Este programa te ayudará a identificar y dar una respuesta efectiva a los retos y oportunidades digitales."/>
+          content="Competencias digitales, redimensionamiento de oportunidades y mitigación de conflictos para la gestión de equipos y la implementación de cambios en la cultura organizacional."/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://emeritus.iese.edu/Mindset-Digital/"/>
     <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>

@@ -22,13 +22,13 @@
     <title>IESE | Mujer y liderazgo</title>
 
     <meta property="og:title" content="IESE | Mujer y Liderazgo" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Identifica fortalezas, diseña de planes de mejora, reafirma el liderazgo y habilidades de negociación. Programa diseñado especialmente para mujeres líderes." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://emeritus.iese.edu/Mujer-Liderazgo/" />
-    <meta property="og:image" content="../assets/img/jpg/IESE.jpg" />
-    <meta property="og:image:type" content="image/jpg" />
-    <meta property="og:image:width" content="500" />
-    <meta property="og:image:height" content="500" />
+    <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
     <meta property="og:image:alt" content="Mujer y Liderazgo" />
     <meta property="fb:app_id" content="467662454062015" />
 

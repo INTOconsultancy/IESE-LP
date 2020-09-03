@@ -30,7 +30,7 @@
 
     <meta property="og:title" content="IESE | Desarrolla el talento en la era digital"/>
     <meta property="og:description"
-          content="El Covid-19 acelera la transformación digital y el uso de la Inteligencia Artificial como una vía efectiva para responder a nuevas formas de trabajo, hábitos de consumo y maneras de ejercer un liderazgo resiliente."/>
+          content="Diseña un plan estratégico para transformar la gestión de RH en el mundo digital."/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://emeritus.iese.edu/desarrolla-talento/"/>
     <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>

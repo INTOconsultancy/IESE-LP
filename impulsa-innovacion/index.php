@@ -27,7 +27,7 @@
 
     <meta property="og:title" content="IESE | Impulso a la innovación de la idea al lanzamiento" />
     <meta property="og:description"
-        content="Aprende en un ambiente “hands on” y genera proyectos de innovación con base en un modelo probado." />
+        content="Métodos y técnicas de innovación para creadores de startups o responsables de la gestión de proyectos de innovación en las empresas." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://emeritus.iese.edu/impulsa-innovacion/" />
     <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>
