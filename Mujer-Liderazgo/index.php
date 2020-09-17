@@ -1225,8 +1225,8 @@
                     estudios respaldado por IESE Business School.
                 </div>
                 <div class="certificado-button">
-                    <a class="grapBo fs16 blanco" href="https://admissions.emeritus.org/?program_sfid=01t0I000006bFrwQAE&locale=es" target="_blank" rel="noopener noreferrer"
-                        id="btn-apply-now">
+                    <a class="grapBo fs16 blanco anchor_apply" target="_blank" rel="noopener noreferrer"
+                        id="btn-apply-now" style="cursor: pointer;">
                         INSCRÍBETE
                         <img class="lazyload" data-src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>
@@ -1364,6 +1364,7 @@
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script async type="text/javascript" src="../assets/js/main.js"></script>
+    <script async type="text/javascript" src="../assets/js/slideWoman.js"></script>
     <script async type="text/javascript" src="../assets/js/whatsapp_querystring_builder.js"></script>
 
 

@@ -34,39 +34,39 @@ jQuery(document).ready(function () {
         ]
     }); */
     
-    jQuery('.slide-testimonio-ML').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        arrows: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                }
-            },
-            {
-                breakpoint: 700,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 680,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
+    // jQuery('.slide-testimonio-ML').slick({
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 300,
+    //     arrows: true,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     responsive: [{
+    //             breakpoint: 1024,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 infinite: true,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 700,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 680,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1
+    //             }
+    //         }
+    //     ]
+    // });
     
     /*jQuery('.slide-testimonio-IAI').slick({
         dots: true,
@@ -123,7 +123,7 @@ jQuery(document).ready(function () {
     });
 
     //When click in btn "ver programas" animate to down
-    jQuery(".header-button,.movil-button").click(function () {
+    jQuery(".header-button,.movil-button, .anchor_apply").click(function () {
         jQuery('html, body').animate({
             scrollTop: jQuery("#form").offset().top - 90
         }, 500);

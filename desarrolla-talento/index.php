@@ -734,9 +734,8 @@
                 estudios respaldado por IESE Business School.
             </div>
             <div class="certificado-button">
-                <a class="grapBo fs16 blanco"
-                   href="https://admissions.emeritus.org/?program_sfid=01t2s0000006RZ9AAM&locale=es" target="_blank"
-                   rel="noopener noreferrer" id="btn-apply-now">
+                <a class="grapBo fs16 blanco anchor_apply" target="_blank"
+                   rel="noopener noreferrer" id="btn-apply-now" style="cursor: pointer;">
                     INSCRÍBETE
                     <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                 </a>
