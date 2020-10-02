@@ -1052,7 +1052,7 @@
                 <div class="certificado-button">
                     <a class="grapBo fs16 blanco anchor_apply" target="_blank" rel="noopener noreferrer"
                         id="btn-apply-now" style="cursor: pointer;">
-                        INSCRÍBETE
+                        REGÍSTRATE
                         <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>
                 </div>
