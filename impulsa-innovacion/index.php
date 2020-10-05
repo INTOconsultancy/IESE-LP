@@ -128,7 +128,7 @@
                     <div class="details">
                         <div class="date-hours">
                             <div class="date grapRe fs18 negro23">
-                                28 / Septiembre / 2020
+                                30 / Noviembre / 2020
                             </div>
                             <div class="hours grapRe fs14 negro23">
                                 9 SEMANAS | 6 HORAS POR SEMANA
@@ -192,7 +192,7 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $1,030 USD a pagar el 23 de octubre de 2020.
+                        La segunda parcialidad de $1,030 USD a pagar el 25 de diciembre de 2020.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -205,11 +205,11 @@
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $699 USD a pagar 23 de octubre de 2020.
+                        La segunda parcialidad de $699 USD a pagar 25 de diciembre de 2020.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad se paga de $699 USD a pagar el 7 de noviembre de 2020.
+                        La tercera parcialidad se paga de $699 USD a pagar el 09 de enero de 2021.
                     </div>
                 </div>
             </div>
