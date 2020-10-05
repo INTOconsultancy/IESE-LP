@@ -400,6 +400,9 @@
         */
         ?>
 
+        <?php
+        /*
+        ?>
         <div class="private-data">
             <div class="grapRe fs11 data negro23">
                 Tus datos personales no serán compartidos con terceros. Los datos facilitados en el
@@ -416,6 +419,10 @@
                 </a>
             </div>
         </div>
+
+        <?php
+        */
+        ?>
     </div>
 
 </div>
