@@ -16,10 +16,7 @@
         });
     }
 
-
-    jQuery(document).ready(function () {
-
-
+    function sendWhatsAppMessage(){
         var fname = $.trim(getParameterByName("first_name"));
         var lname = $.trim(getParameterByName("last_name"));
         var src = $.trim(getParameterByName("src"));
@@ -27,9 +24,6 @@
         var allow = $.trim(getParameterByName("agree"));
         var countryNm = $.trim(getParameterByName("country"));
         var emailadd = $.trim(getParameterByName("email"));
-
-
-
 
         if (mobile != '') {
             //check if GDPR Country
@@ -73,7 +67,7 @@
                     console.log("Sending message to (GDPR): " + countryCode + mobile);
                     console.log("Full Name: " + fname + " " + lname);
                     console.log("Email Add: " + emailadd);
-                    WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YQgHBc'], 'Spanish-IESE-ML-Brochure', emailadd, 'es');
+                    WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YSy7NL'], 'ES_Mujer-y-liderazgo_Sept2019-Brochure', emailadd, 'es');
                     setTimeout(WA.sendMessage(countryCode + mobile, 'ask_apply_time_spanish', ['curso'], '', '', 'es'), 100)
 
                 }
@@ -81,9 +75,18 @@
                 console.log("Sending message to (Not GDPR): " + countryCode + mobile);
                 console.log("Full Name: " + fname + " " + lname);
                 console.log("Email Add: " + emailadd);
-                WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YQgHBc'], 'Spanish-IESE-ML-Brochure', emailadd, 'es');
+                WA.sendMessage(countryCode + mobile, 'thankyou_co_two', [fname + ' ' + lname, 'Mujer y liderazgo', 'http://bit.ly/2YSy7NL'], 'ES_Mujer-y-liderazgo_Sept2019-Brochure', emailadd, 'es');
+                
                 setTimeout(WA.sendMessage(countryCode + mobile, 'ask_apply_time_spanish', ['curso'], '', '', 'es'), 100)
 
             }
         }
+    }
+
+    jQuery(document).ready(function () {
+
+        jQuery('#btn-chat-whatsapp').click(function(){
+            sendWhatsAppMessage();
+        });
+
     });

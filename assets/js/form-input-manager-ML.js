@@ -83,7 +83,7 @@ jQuery(document).ready(function () {
 
                 $(window).on('load resize', function (event) {
                     if ($(this).width() >= 1024) {
-                        $('.hero-container').css("height", "710px");
+                        $('.hero-container').css("height", "715px");
                     } else {
 
                     }
@@ -96,7 +96,7 @@ jQuery(document).ready(function () {
 
                 $(window).on('load resize', function (event) {
                     if ($(this).width() >= 1024) {
-                        $('.hero-container').css("height", "660px");
+                        $('.hero-container').css("height", "715px");
                     } else {
 
                     }

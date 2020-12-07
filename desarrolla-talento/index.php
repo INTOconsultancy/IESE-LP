@@ -24,27 +24,26 @@
     <!-- End Google Tag Manager -->
 
 
-
     <meta charset="utf-8">
-    <title>IESE | Mindset Digital</title>
+    <title>IESE | Desarrolla el talento en la era digital</title>
 
 
-    <meta property="og:title" content="IESE | Mindset Digital"/>
+    <meta property="og:title" content="IESE | Desarrolla el talento en la era digital"/>
     <meta property="og:description"
-          content="Competencias digitales, redimensionamiento de oportunidades y mitigación de conflictos para la gestión de equipos y la implementación de cambios en la cultura organizacional."/>
+          content="Diseña un plan estratégico para transformar la gestión de RH en el mundo digital."/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://emeritus.iese.edu/Mindset-Digital/"/>
+    <meta property="og:url" content="https://emeritus.iese.edu/desarrolla-talento/"/>
     <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>
     <meta property="og:image:type" content="image/png"/>
-    <meta property="og:image:width" content="300"/>
-    <meta property="og:image:height" content="300"/>
-    <meta property="og:image:alt" content="Mindset Digital"/>
+    <meta property="og:image:width" content="500"/>
+    <meta property="og:image:height" content="500"/>
+    <meta property="og:image:alt" content="Desarrolla el talento en la era digital"/>
     <meta property="fb:app_id" content="467662454062015"/>
 
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="canonical" href="https://emeritus.iese.edu/Mindset-Digital/"/>
+    <link rel="canonical" href="https://emeritus.iese.edu/desarrolla-talento/"/>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png"/>
@@ -66,7 +65,7 @@
 
     <!-- Enrollment Engine Script -->
     <script
-            src="https://fast.emeritus.org/scripts/custom_forms/419.js" async>
+            src="https://fast.emeritus.org/scripts/custom_forms/431.js" async>
     </script>
 
 </head>
@@ -79,7 +78,6 @@
             style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
-
 
 
 <!-- Getting the querystring -->
@@ -111,29 +109,29 @@
 <!-- Body -->
 <div class="space"></div>
 <!-- Sección Hero Image -->
-<div class="hero-container">
+<div class="hero-container banner-desarrolla-talento">
 
-    <div class="hero-title">
+    <div class="hero-title padding-desarrolla-talento">
 
-        <div class="title grapRe fs16 rojoFF">NUEVO PROGRAMA ONLINE</div>
+
         <div class="course-information">
-            <div class="title grapBo fs30 negro19">Mindset Digital</div>
-            <div class="subtitle grapBo fs20 negro19">Innovación y liderazgo en la era digital</div>
+            <div class="new-program grapSe-Bo rojoFF">NUEVO PROGRAMA ONLINE</div>
+            <div class="title grapBo fs30 negro19">Desarrolla el talento en la era digital</div>
             <div class="details">
                 <div class="date-hours">
                     <div class="date grapRe fs18 negro23">
-                        08 / marzo / 2021
+                        01 / marzo / 2021
                     </div>
                     <div class="hours grapRe fs14 negro23">
-                        8 SEMANAS | 6-8 HORAS POR SEMANA
+                        7 SEMANAS | 6-8 HORAS POR SEMANA
                     </div>
                 </div>
                 <div class="price-fees">
                     <div class="price grapBo fs16 negro19">
-                        PRECIO: $ 1,950 USD
+                        PRECIO: $ 2,150 USD
                     </div>
                     <div class="fees grapMe fs14 negro23">
-                        Cuota Miembros del IESE: $1,755 USD
+                        Cuota Miembros del IESE: $1,935 USD
                     </div>
                     <div class="price-fees" style="padding: 0;">
                         <a class="price grapBo fs16 negro19" href="#specialFee" rel="modal:open"
@@ -162,7 +160,7 @@
                 antes de realizar el pago.
             </div>
             <div class="modal-pagos-subtitle fs16 grapRe negro19">
-                Las siguientes opciones de pago están disponibles para el Programa de Mindset Digital:
+                Las siguientes opciones de pago están disponibles para el Desarrolla el talento en la era digital:
             </div>
             <div class="pagos">
                 <div class="pagos-title fs16 grapBo negro19">
@@ -170,7 +168,7 @@
                 </div>
                 <div class="precio-pago fs14 robotoRe negro23">
                     <div class="dot-pagos"></div>
-                    La cuota completa del programa $1,950 USD.
+                    La cuota completa del programa $2,150 USD.
                 </div>
             </div>
             <div class="pagos">
@@ -179,13 +177,13 @@
                 </div>
                 <div class="precio-pago fs14 robotoRe negro23">
                     <div class="dot-pagos"></div>
-                    La primera parcialidad de $1,054 USD
+                    La primera parcialidad de $1,163 USD
                     se paga al inicio.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La segunda parcialidad de $935 USD
-                    a pagar del 28 de marzo de 2021.
+                    La segunda parcialidad de $1,030 USD
+                    a pagar del 21 de marzo de 2021.
                 </div>
             </div>
             <div class="pagos no-border">
@@ -194,17 +192,17 @@
                 </div>
                 <div class="precio-pago fs14 robotoRe negro23">
                     <div class="dot-pagos"></div>
-                    La primera parcialidad de $778 USD
+                    La primera parcialidad de $859 USD
                     se paga al inicio.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La segunda parcialidad de $635 USD
-                    a pagar del 28 de marzo de 2021.
+                    La segunda parcialidad de $699 USD
+                    a pagar del 21 de marzo de 2021.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La tercera parcialidad se paga de $635 USD a pagar el 17 de abril de 2021.
+                    La tercera parcialidad se paga de $699 USD a pagar el 4 de abril de 2021.
                 </div>
             </div>
         </div>
@@ -307,26 +305,13 @@
 
         </div>
 
-        <!-- Counter -->
-        <div class="counter-container movil">
-            <div class="counter">
-                <div class="counter-number grapMe fs36 negro19">
-                    60
-                </div>
-            </div>
-            <br><br>
-            <div class="counter-title grapMe fs28 negro19">
-                Plazas máximo en el grupo
-            </div>
-        </div>
-
     </div>
 
     <div class="form-container" id="form">
         <div class="form-title grapRe fs14 negro23">Para obtener más información, rellena el formulario</div>
 
         <!-- Enrollment Engine Form -->
-        <div class="ee-iframe-419"></div>
+        <div class="ee-iframe-431"></div>
         <?php
         /*
         ?>
@@ -419,7 +404,6 @@
                 </a>
             </div>
         </div>
-
         <?php
         */
         ?>
@@ -438,135 +422,85 @@
     </div>
 </div>
 <!-- Sección Nuevo Mundo -->
-<div class="new-world-container">
-    <div class="new-world-title grapBo fs32 negro3D">
-        Nuevo mundo, nueva mentalidad
+<div class="new-world-container desarrolla-talento">
+    <div class="new-world-title grapBo fs36 negro3D">
+        Dirigir personas con inteligencia, ¿artificial?
     </div>
-    <div class="new-world-subtitle grapRe fs20 gris70">
-        Los constantes cambios del mundo digital –ya sean sociales, móviles o de cualquier otra índole–
-        están derribando barreras de entrada a los mercados, cambiando de arriba abajo modelos de negocio
-        consolidados, y proponiendo nuevas formas de relacionarse con clientes y empleados. Para identificar
-        y dar una respuesta efectiva a las oportunidades y retos digitales, es crucial desarrollar una
-        mentalidad verdaderamente digital.
-    </div>
-    <div class="new-world-dates-container">
-        <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="100"
-             data-aos-duration="400" data-aos-easing="ease-in-out">
-            <div class="new-world-date-img">
-                <img src="../assets/img/svg/icono-destacado-1.svg" alt="Icono Destacado">
-            </div>
-            <p class="grapBo fs30 negro19">
-                En el 2020
-            </p>
-            <p class="grapRe fs18 negro19">
-                el 75% de los profesionales
-                que usen aplicaciones
-                empresariales tendrán
-                asistentes inteligentes.
-            </p>
-            <p class="grapRe fs14 negro3D">
-                Fuente: IDC FutureScape
-            </p>
-        </div>
-        <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
-             data-aos-duration="400" data-aos-easing="ease-in-out">
-            <div class="new-world-date-img">
-                <img src="../assets/img/svg/icono-destacado-2.svg" alt="Icono Destacado">
-            </div>
-            <p class="grapBo fs30 negro19">
-                Para 2021
-            </p>
-            <p class="grapRe fs18 negro19">
-                el 50% del PIB mundial será digital.
-            </p>
-            <p class="grapRe fs14 negro3D">
-                Fuente: “IDC FutureScape
-            </p>
-        </div>
-        <div class="new-world-date-cont" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300"
-             data-aos-duration="400" data-aos-easing="ease-in-out">
-            <div class="new-world-date-img">
-                <img src="../assets/img/svg/icono-destacado-3.svg" alt="Icono Destacado">
-            </div>
-            <p class="grapBo fs30 negro19">
-                En el 2022
-            </p>
-            <p class="grapRe fs18 negro19">
-                el 72% de las
-                interacciones con
-                consumidores se realizarán
-                por medio de tecnologías
-                emergentes como chatbots.
-            </p>
-            <p class="grapRe fs14 negro3D">
-                Fuente: Dimension Data
-            </p>
-        </div>
+    <div class="new-world-subtitle larger-container grapRe fs28 negro507">
+        El Covid-19 acelera la transformación digital y el uso de la Inteligencia Artificial como una vía efectiva para
+        responder a nuevas formas de trabajo, hábitos de consumo y maneras de ejercer un liderazgo resiliente desde la
+        dirección de Recursos Humanos.
     </div>
 </div>
+
+<!-- Separador de secciones -->
+<hr class="linea-separadora desktop">
+
 <!-- Sección Con Certificado... -->
-<div class="con-certificado-container">
+<div class="con-certificado-container desarrolla-talento">
     <div class="con-certificado-title grapBo fs32 negro3D">
-        Con un Certificado en Mindset Digital aprenderás a:
+        Con este programa aprenderás a:
         <div class="con-certificado-cont">
             <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50"
                  data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out">
-                <div class="con-certificado-beneficios-img">
-                    <img src="../assets/img/svg/icono-aprender-1.svg" alt="icono aprender 1">
+                <div class="con-certificado-beneficios-img larger-icon">
+                    <img src="../assets/img/png/desarrolla-talento/gestionar_capital_humano.png" alt="icono aprender 1">
                 </div>
-                <div class="con-certificado-beneficios-description grapRe fs16 negro19">
-                    <div class="title grapBo fs18 negro19">
-                        Emplear las dimensiones del Mindset Digital
+                <div class="con-certificado-beneficios-description shorter-container grapRe fs16 gris66">
+                    <div class="title grapBo fs20 negro19">
+                        GESTIONAR EL CAPITAL HUMANO
                     </div>
-                    Determinar cómo la digitalización está afectando a tu sector, industria y negocio.
+                    con una perspectiva distinta y en un ambiente volátil, incierto, complejo y ambiguo (VUCA por sus
+                    siglas en inglés).
                 </div>
             </div>
             <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50"
                  data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out">
-                <div class="con-certificado-beneficios-img">
-                    <img src="../assets/img/svg/icono-aprender-3.svg" alt="icono aprender 3">
+                <div class="con-certificado-beneficios-img larger-icon">
+                    <img src="../assets/img/png/desarrolla-talento/introducir_gestionar_herramientas.png"
+                         alt="icono aprender 3">
                 </div>
-                <div class="con-certificado-beneficios-description grapRe fs16 negro19">
+                <div class="con-certificado-beneficios-description shorter-container grapRe fs16 gris66">
                     <div class="title grapBo fs18 negro19">
-                        Identificar las competencias necesarias
+                        INTRODUCIR Y GESTIONAR LAS HERRAMIENTAS
                     </div>
-                    Replantear propuestas de valor y ejecutar una visión de futuro.
+                    de digitalización y automatización (IA) adecuadas para tu empresa. Así como aplicar metodologías
+                    como agile, scrum y lean-startup.
                 </div>
             </div>
             <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50"
                  data-aos-delay="300" data-aos-duration="500" data-aos-easing="ease-in-out">
-                <div class="con-certificado-beneficios-img">
-                    <img src="../assets/img/svg/icono-aprender-2.svg" alt="icono aprender 2">
+                <div class="con-certificado-beneficios-img larger-icon">
+                    <img src="../assets/img/png/desarrolla-talento/disenar_plan_estrategico.png" alt="icono aprender 2">
                 </div>
-                <div class="con-certificado-beneficios-description grapRe fs16 negro19">
+                <div class="con-certificado-beneficios-description shorter-container grapRe fs16 gris66">
                     <div class="title grapBo fs18 negro19">
-                        Incorporar metodologías y procesos ágiles e iterativos
+                        DISEÑAR UN PLAN ESTRATÉGICO
                     </div>
-                    Contribución a la transformación de tu cultura organizacional.
+                    para transformar la gestión de RH en respuesta al mundo digital.
                 </div>
             </div>
             <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50"
                  data-aos-delay="400" data-aos-duration="500" data-aos-easing="ease-in-out">
-                <div class="con-certificado-beneficios-img">
-                    <img src="../assets/img/svg/icono-aprender-4.svg" alt="icono aprender 4">
+                <div class="con-certificado-beneficios-img  larger-icon">
+                    <img src="../assets/img/png/desarrolla-talento/disenar_puestos.png" alt="icono aprender 4">
                 </div>
-                <div class="con-certificado-beneficios-description grapRe fs16 negro19">
+                <div class="con-certificado-beneficios-description shorter-container grapRe fs16 gris66">
                     <div class="title grapBo fs18 negro19">
-                        Identificar las cualidades, prácticas y enfoques
+                        DISEÑAR LOS NUEVOS PUESTOS DE TRABAJO
                     </div>
-                    Los que forman a un líder con mentalidad digital.
+                    que, a través de la digitalización, impulsen la internacionalización de la organización (Equipos
+                    Virtuales Globales de Alto Rendimiento).
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Sección Video -->
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/S8FTljd0wVk" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+<hr class="linea-separadora">
+
 <!-- Sección Plan de estudios -->
-<div class="plan-de-estudios-container">
+<div class="plan-de-estudios-container desarrolla-talento">
     <div class="plan-de-estudios-title grapBo fs30 negro3D">
         Plan de estudios
     </div>
@@ -575,8 +509,8 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 1</div>
-                    <div class="module-title grapRe negro23">Entendiendo el contexto más allá de las tendencias
-                        tecnológicas.
+                    <div class="module-title grapRe negro23">
+                        Transformación hacia el mundo digital y la cultura agile
                     </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
@@ -585,9 +519,8 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 2</div>
-                    <div class="module-title grapRe negro23">Reconfiguración de sectores y adaptación de modelos
-                        de
-                        negocio.
+                    <div class="module-title grapRe negro23">Liderar a los millennials: retribución y carreras
+                        profesionales
                     </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
@@ -596,7 +529,9 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 3</div>
-                    <div class="module-title grapRe negro23">Impacto de la densidad digital.</div>
+                    <div class="module-title grapRe negro23">Cómo introducir las herramientas digitales y de
+                        comunicación en el departamento de RRHH
+                    </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -604,7 +539,8 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 4</div>
-                    <div class="module-title grapRe negro23">Pasos hacia tu transformación digital.</div>
+                    <div class="module-title grapRe negro23">El diseño del puesto de trabajo en un mundo globalizado
+                    </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -612,7 +548,7 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 5</div>
-                    <div class="module-title grapRe negro23">Cómo construir nuevos modelos de negocio.</div>
+                    <div class="module-title grapRe negro23">Los nuevos puestos de trabajo en el mundo digital</div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -620,7 +556,9 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 6</div>
-                    <div class="module-title grapRe negro23">Aptitudes y capacidades para un Mindset Digital.</div>
+                    <div class="module-title grapRe negro23">Atraer y retener talento en la era de la Inteligencia
+                        Artificial
+                    </div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -628,7 +566,7 @@
             <li class="active modulo-cont">
                 <div class="collapsible-header grapRe fs16">
                     <div class="No grapMe negro19">Módulo 7</div>
-                    <div class="module-title grapRe negro23">Creando organizaciones diseñadas para cambiar.</div>
+                    <div class="module-title grapRe negro23">Gestión integral del DRH: ética y liderazgo</div>
                     <div class="collapsible-header-img hide"></div>
                 </div>
                 <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -636,47 +574,38 @@
         </ul>
     </div>
 </div>
+
 <hr class="linea-separadora">
-<!-- Sección El Certificado... -->
-<div class="el-certificado-container">
+
+
+<!-- El programa es para ti, si -->
+<div class="el-certificado-container desarrolla-talento">
     <div class="el-certificado-title grapBo fs32 negro3D">
-        El programa Mindset Digital es para ti si:
+        El programa Desarrolla el talento en la era digital es para ti si:
     </div>
     <div class="el-certificado-cont">
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="100" data-aos-duration="500">
-            Necesitas llevar a cabo la
-            transición entre viejas y nuevas
-            formas de trabajo dentro de tu
-            empresa u organización.
+            Eres director de RH y te interesa acelerar los procesos de transformación digital en la empresa.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="200" data-aos-duration="500">
-            Por tus responsabilidades
-            debes aplicar estrategias
-            efectivas para la implementación de cambios
-            en tu cultura organizacional.
+            Estás interesado en mejorar la gestión del talento humano para adecuarlo a la era digital.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="300" data-aos-duration="500">
-            Eres emprendedor y necesitas
-            claves estratégicas para
-            desarrollar o competir con
-            modelos de negocio disruptivos.
+            Te interesa lograr que la función de RH adquiera un perfil estratégico en el negocio.
         </div>
         <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
              data-aos-delay="400" data-aos-duration="500">
-            Necesitas complementar tus
-            conocimientos para poder
-            plantear modelos de negocio y
-            propuestas de valor adecuadas
-            para la era digital.
+            Eres un emprendedor en busca de nuevos esquemas para impulsar el proceso de digitalización de tu empresa.
         </div>
     </div>
 </div>
 <hr class="linea-separadora">
+
 <!-- Sección Video -->
-<div class="video-container">
+<div class="video-container desarrolla-talento">
     <div class="title grapBo fs32 negro3D">
         Aula Virtual
     </div>
@@ -691,123 +620,8 @@
     </div>
 </div>
 <hr class="linea-separadora">
-<!-- Sección Negocios globales -->
-<div class="global-business-container">
-    <div class="title grapSe-Bo fs24 negro3D">
-        IESE, escuela de negocios global
-    </div>
-    <div class="business-cont">
-        <div class="business">
-            <div class="img">
-                <img src="../assets/img/svg/icono-5-campus.svg" alt="Alrededor del mundo">
-            </div>
-            <div class="title grapBo fs30 negro19">
-                5 campus
-            </div>
-            <div class="subtitle grapRe fs18 negro23">
-                Alrededor del mundo
-            </div>
-        </div>
-        <div class="business">
-            <div class="img">
-                <img src="../assets/img/svg/icono-educacion-ejecutiva.svg" alt="Ranking del Financial Times">
-            </div>
-            <div class="title grapBo fs30 negro19">
-                #1 en educación ejecutiva
-            </div>
-            <div class="subtitle grapRe fs18 negro23">
-                Ranking del Financial Times
-            </div>
-        </div>
-        <div class="business">
-            <div class="img">
-                <img src="../assets/img/svg/icono-16-escuelas.svg" alt="Escuelas de negocios asociadas">
-            </div>
-            <div class="title grapBo fs30 negro19">
-                +16
-            </div>
-            <div class="subtitle grapRe fs18 negro23">
-                Escuelas de negocios asociadas
-            </div>
-        </div>
-        <div class="business">
-            <div class="img">
-                <img src="../assets/img/svg/icono-50000-alumni.svg" alt="Alumni">
-            </div>
-            <div class="title grapBo fs30 negro19">
-                +50,000
-            </div>
-            <div class="subtitle grapRe fs18 negro23">
-                Alumni
-            </div>
-        </div>
-        <div class="business">
-            <div class="img">
-                <img src="../assets/img/svg/icono-130-nacionalidades.svg" alt="Nacionalidades">
-            </div>
-            <div class="title grapBo fs30 negro19">
-                +130
-            </div>
-            <div class="subtitle grapRe fs18 negro23">
-                Nacionalidades
-            </div>
-        </div>
-        <div class="business">
-            <div class="img">
-                <img src="../assets/img/svg/icono-100-profesores.svg" alt="Profesores de tiempo completo">
-            </div>
-            <div class="title grapBo fs30 negro19">
-                +100
-            </div>
-            <div class="subtitle grapRe fs18 negro23">
-                Profesores de tiempo completo
-            </div>
-        </div>
-    </div>
-</div>
-<hr class="linea-separadora">
-<!-- Sección Perfiles Directivos -->
-<div class="profiles-container">
-    <div class="title grapSe-Bo fs24 negro3D">
-        Formación para todos los perfiles directivos
-    </div>
-    <div class="profiles-cont">
-        <div class="profiles">
-            <img src="../assets/img/svg/icono-directores-funcionales.svg" alt="Directores-funcionales">
-            <div class="title grapBo fs24 negro19">
-                Directores funcionales
-            </div>
-        </div>
-        <div class="profiles">
-            <img src="../assets/img/svg/icono-emprendedores.svg" alt="Emprendedores">
-            <div class="title grapBo fs24 negro19">
-                Emprendedores
-            </div>
-        </div>
-        <div class="profiles">
-            <img src="../assets/img/svg/icono-ejecutivos-senior.svg" alt="Ejecutivos-senior">
-            <div class="title grapBo fs24 negro19">
-                Ejecutivos senior
-            </div>
-        </div>
-        <div class="profiles">
-            <img src="../assets/img/svg/icono-ejecutivos-c-suite.svg" alt="Ejecutivos-C-Suite">
-            <div class="title grapBo fs24 negro19">
-                Ejecutivos
-                <br>
-                C-Suite
-            </div>
-        </div>
-        <div class="description grapRe fs18 negro19">
-                <span>
-                    En cualquier etapa de tu carrera en los programas online del IESE
-                    eres el protagonista de tu aprendizaje. De los pasos que das. De
-                    lo que logras.
-                </span>
-        </div>
-    </div>
-</div>
-<hr class="linea-separadora">
+
+
 <!-- Sección Metodología -->
 <div class="metodology-container" style="padding: 30px 0!important;">
     <div class="title grapSe-Bo fs24 negro19">
@@ -837,8 +651,7 @@
                 Voces expertas
             </div>
             <div class="metodology-subtitle grapRe fs16 negro23">
-                Entrevistas con los expertos en la transformación digital, directores de empresas como Google, BBVA,
-                Televisa, Microsoft, entre otras.
+                Entrevistas con los expertos en la gestión de talento.
             </div>
         </div>
         <div class="metodology">
@@ -855,128 +668,90 @@
     </div>
 </div>
 <hr class="linea-separadora">
-<!-- Sección Tu viaje de aprendizaje -->
-<!-- <div class="tu-viaje-container">
-    <div class="tu-viaje-title grapBo fs32 negro3D">Tu viaje de aprendizaje</div>
-    <div class="tu-viaje-subtitle grapMe fs16 negro19">
-        El programa aplica varios métodos docentes dinámicos e interactivos, entre los que se incluyen:
-    </div>
-    <div class="tu-viaje-cont">
 
-        <div class="aprendizaje">
-            <div class="aprendizaje-img">
-                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-1.jpg"
-                    alt="CONOCIMIENTO-PUNTERO">
-            </div>
-            <div class="aprendizaje-desc">
-                <div class="aprendizaje-desc-title grapBo fs18 negro19">CONOCIMIENTO PUNTERO:</div>
-                <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                    Descubre lo conceptos más relevantes y actuales a través de
-                    vídeo-conferencias, presentaciones interactivas y otros
-                    contenidos completamente adaptados al consumo online.
-                </div>
-            </div>
-        </div>
 
-        <div class="aprendizaje">
-            <div class="aprendizaje-img">
-                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-5.jpg" alt="PLAN-DE-ACCIÓN">
-            </div>
-            <div class="aprendizaje-desc">
-                <div class="aprendizaje-desc-title grapBo fs18 negro19">PLAN DE ACCIÓN:</div>
-                <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                    Aplica tus aprendizajes a un plan de acción concreto -para
-                    ti y para tu empresa-, con la ayuda de un tutor que te
-                    guiará con ejercicios específicos.
-                </div>
-            </div>
-        </div>
-
-        <div class="aprendizaje">
-            <div class="aprendizaje-img">
-                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-3.jpg"
-                    alt="INSPIRACIÓN-DE-DIRECTIVOS-DE-PRIMER-NIVEL">
-            </div>
-            <div class="aprendizaje-desc">
-                <div class="aprendizaje-desc-title grapBo fs18 negro19">INSPIRACIÓN DE DIRECTIVOS DE PRIMER NIVEL:
-                </div>
-                <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                    Escucha las experiencias que comparten altos directivos de
-                    compañías líderes, a través de video-entrevistas.
-                </div>
-            </div>
-        </div>
-
-        <div class="aprendizaje">
-            <div class="aprendizaje-img">
-                <img class="lazyload" data-src="../assets/img/jpg/M&L/viaje-aprendizaje-4.jpg"
-                    alt="NUEVOS-PUNTOS-DE-VISTA">
-            </div>
-            <div class="aprendizaje-desc">
-                <div class="aprendizaje-desc-title grapBo fs18 negro19">NUEVOS PUNTOS DE VISTA:</div>
-                <div class="aprendizaje-desc-subtitle grapRe fs16 gris66">
-                    Cuestiona tus propias ideas compartiéndolas con otros
-                    participantes, a través de foros de debate o trabajos
-                    en equipo.
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
 <!-- Sección Tutores Expertos -->
-<div class="tutores-expertos-container">
+<div class="tutores-expertos-container desarrolla-talento">
     <div class="tutores-expertos-title grapBo fs32 negro3D">
         Profesores
     </div>
     <div class="tutor-container">
+
+
         <div class="tutor-cont">
+
+            <!-- Jose Ramón -->
             <div class="tutor-desc">
                 <div class="tutor-imagen">
-                    <img src="../assets/img/jpg/Sandra-Sieber.jpg" alt="PROF. SANDRA SIEBER">
+                    <img src="../assets/img/png/desarrolla-talento/jose_ramon_pin.png" alt="JOSÉ RAMÓN PIN">
                 </div>
                 <div class="tutor-data">
-                    <div class="grapBo fs18 negro19">PROF. SANDRA SIEBER</div>
+                    <div class="grapBo fs18 negro19">JOSÉ RAMÓN PIN</div>
                     <div class="grapMe fs15 gris66">
-                        Directora Académica, Profesora ordinaria y directora
-                        del Departamento de Sistemas de Información del IESE
-                        Business School.
+                        Profesor Emérito del Departamento de Dirección de Personas en las Organizaciones.
+                        Miembro del Comité Académico de Barna Business School.
                     </div>
                 </div>
             </div>
-            <div class="tutor-description grapRe fs16 gris66">
-                La profesora Sieber ha dedicado mucho tiempo al estudio del
-                impacto de las TIC en las prácticas de trabajo de las
-                organizaciones y las personas, desde una variedad de
-                perspectivas. En la actualidad, sus investigaciones se centran
-                en el análisis del impacto de la digitalización en las personas,
-                empresas, sectores y para la sociedad en su conjunto.
-                <br>
-                <br>
-                Desde una perspectiva sectorial, la Prof. Sieber está
-                especialmente interesada en aquellos sectores que están
-                siendo transformados por los avances tecnológicos recientes,
-                como las telecomunicaciones, la banca, el sector salud y los
-                medios de comunicación y el entretenimiento.
-                <br>
-                <br>
-                La profesora Sieber tiene amplia experiencia de trabajo con
-                audiencias ejecutivas en Europa, el Norte y el Sur de América,
-                Asia, Medio Oriente y Africa. Ha impartido clases, dirigido
-                Custom Programs y ha hecho consultas con empresas
-                multinacionales tales como Oracle, BBVA, La Caixa, Banco
-                Santander, Telefónica, Vodafone, BMW, Volkswagen, Bonfiglioli,
-                Renta Corporación, Komatsu, Olympus, RTE, Henkel, Erste
-                Bank, Boehringer Ingelheim, Boston Scientific o Desigual.
-                Realiza de forma regular funciones de mentoría con empresas
-                de nueva creación (start-ups), incubadoras y fondos
-                tecnológicos.
+
+            <!-- Guido -->
+            <div class="tutor-desc">
+                <div class="tutor-imagen">
+                    <img src="../assets/img/png/desarrolla-talento/stein_guido.png" alt="GUIDO STEIN">
+                </div>
+                <div class="tutor-data">
+                    <div class="grapBo fs18 negro19">GUIDO STEIN</div>
+                    <div class="grapMe fs15 gris66">
+                        Profesor del Departamento de Dirección de Personas en las Organizaciones.
+                        <br><br>
+                        Director de la Unidad de Negociación y socio de Inicia Corporate, compañía de fusiones y
+                        adquisiciones y finanzas corporativas.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+<hr class="linea-separadora">
+
+<!-- Sección Certificado -->
+<div class="certificado-container">
+    <div class="certificado-cont">
+        <!-- Link to open the modal -->
+        <a class="certificado-img" href="#ex1" rel="modal:open">
+            <div>
+                <img src="../assets/img/png/desarrolla-talento/certificado-desarrolla-el-talento-ESE-oct2020.png" alt="Certificado">
+            </div>
+        </a>
+        <!-- Modal HTML embedded directly into document -->
+        <div id="ex1" class="modal modal-certificado">
+            <img src="../assets/img/png/desarrolla-talento/certificado-desarrolla-el-talento-ESE-oct2020.png" alt="Certificado">
+        </div>
+        <div class="certificado-datos">
+            <div class="certificado-title grapBo fs32 blanco">
+                Certificado
+            </div>
+            <div class="certificado-subtitle grapRe fs20 blanco">
+                Al concluir satisfactoriamente el programa, los participantes
+                son reconocidos con un certificado oficial de conclusión de
+                estudios respaldado por IESE Business School.
+            </div>
+            <div class="certificado-button">
+                <a class="grapBo fs16 blanco anchor_apply" target="_blank"
+                   rel="noopener noreferrer" id="btn-apply-now" style="cursor: pointer;">
+                    REGÍSTRATE
+                    <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
+                </a>
             </div>
         </div>
     </div>
 </div>
-<hr class="linea-separadora">
+
 <!-- Sección Rankings -->
-<div class="rankings-container">
+<div class="rankings-container desarrolla-talento">
     <div class="rankings-title grapBo fs32 negro19">Rankings</div>
     <div class="ranking-cont">
         <div class="ranking">
@@ -1038,62 +813,8 @@
         </div>
     </div>
 </div>
-<!-- Sección Certificado -->
-<div class="certificado-container">
-    <div class="certificado-cont">
-        <!-- Link to open the modal -->
-        <a class="certificado-img" href="#ex1" rel="modal:open">
-            <div>
-                <img src="../assets/img/jpg/certificado-mindset-digital.jpg" alt="Certificado">
-            </div>
-        </a>
-        <!-- Modal HTML embedded directly into document -->
-        <div id="ex1" class="modal modal-certificado">
-            <img src="../assets/img/jpg/certificado-mindset-digital.jpg" alt="Certificado">
-        </div>
-        <div class="certificado-datos">
-            <div class="certificado-title grapBo fs32 blanco">
-                Certificado
-            </div>
-            <div class="certificado-subtitle grapRe fs20 blanco">
-                Al concluir satisfactoriamente el programa, los participantes
-                son reconocidos con un certificado oficial de conclusión de
-                estudios respaldado por IESE Business School.
-            </div>
-            <div class="certificado-button">
-                <a class="grapBo fs16 blanco anchor_apply" target="_blank"
-                   rel="noopener noreferrer" id="btn-apply-now" style="cursor: pointer;">
-                    REGÍSTRATE
-                    <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Sección Slider -->
-<div class="slider-container">
-    <div class="silder-container-title grapBo fs32 negro3D">
-        Testimonios de participantes
-    </div>
-    <div class="slide-testimonio-MD">
-        <div class="testimonio">
-            <div class="testimonio-img">
-                <img src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-            </div>
-            <div class="testimonio-desc grapRe fs15 negro19">
-                Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en
-                mi carrera profesional.
-                Quedé muy satisfecho y lo recomiendo ampliamente.
-            </div>
-            <div class="testimonio-name grapBo fs20 gris66">
-                Salvador Valderas Campos
-            </div>
-            <div class="testimonio-work grapRe fs14 negro3D">
-                National Account Manager Bacardi
-            </div>
-        </div>
-    </div>
-</div>
+
+
 <!-- Sección colaboración -->
 <div class="colaboration-container">
     <div class="description grapMe fs14 blanco">

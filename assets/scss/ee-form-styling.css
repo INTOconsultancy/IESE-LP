@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+form {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background: #EEEEEE;
+  color: #3d3d3d;
+  line-height: 1.42857143;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+form .form-group {
+  margin-bottom: 8px;
+}
+
+form .form-control-label {
+  color: #68746E;
+  font-size: 12px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+form .form-control-label:after {
+  content: none;
+}
+
+form .form-control-label:before {
+  content: none;
+}
+
+form .form-control {
+  border: 0px;
+  border-radius: 0;
+  height: 45px;
+  padding-top: 15px;
+}
+
+/* Checkbox/radio button padding fix */
+form .form-check {
+  padding: 0 15px;
+}
+
+/* Checkbox/radio button styles */
+form .form-check input[type=checkbox] {
+  height: 20px;
+  margin: 0 5px 15px 0;
+  opacity: 1;
+  position: static;
+  width: 20px;
+}
+
+.form-group {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 410px;
+}
+.form-group .form-control {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.form-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Remove default arrow */
+  background-image: url("../img/svg/chevron-down-solid.svg");
+  /* Add custom arrow */
+  background-size: 15px 10px;
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
+}
+.form-group .form-control-label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Checkbox/radio button label styles */
+form .form-group .form-check label.form-check-label {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #232323 !important;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: calc(100% - 25px);
+  margin-top: -15px;
+  margin-bottom: -20px;
+}
+
+form .form-group .form-check label.form-check-label::before {
+  content: none;
+}
+
+/* Submit button styles */
+form input[type=submit] {
+  width: auto;
+  margin: 15px auto 0;
+  display: block;
+  background-color: #FF0000;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 10px 20px;
+  width: 100%;
+  display: block;
+  max-width: 410px;
+}
+
+/* Submit button hover/focus state */
+form input[type=submit]:hover,
+form input[type=submit]:focus {
+  background-color: #FF0000;
+  color: #ffffff;
+}
+
+/* Submit button focus state */
+form input[type=submit]:focus {
+  outline: 0;
+}
+
+form select {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  -ms-appearance: menulist;
+  -o-appearance: menulist;
+  appearance: menulist;
+}
+
+/*# sourceMappingURL=ee-form-styling.css.map */

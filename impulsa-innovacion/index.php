@@ -4,53 +4,60 @@
 <head>
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P5X7WH8');</script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P5X7WH8');
+    </script>
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="HandheldFriendly" content="true" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IESE | Impulsa la innovación de la idea al lanzamiento</title>
 
-    <link rel="canonical" href="https://emeritus.iese.edu/Mujer-Liderazgo/" />
-
-    <title>IESE | Mujer y liderazgo</title>
-
-    <meta property="og:title" content="IESE | Mujer y Liderazgo" />
-    <meta property="og:description" content="Identifica fortalezas, diseña de planes de mejora, reafirma el liderazgo y habilidades de negociación. Programa diseñado especialmente para mujeres líderes." />
+    <meta property="og:title" content="IESE | Impulso a la innovación de la idea al lanzamiento" />
+    <meta property="og:description"
+        content="Métodos y técnicas de innovación para creadores de startups o responsables de la gestión de proyectos de innovación en las empresas." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://emeritus.iese.edu/Mujer-Liderazgo/" />
+    <meta property="og:url" content="https://emeritus.iese.edu/impulsa-innovacion/" />
     <meta property="og:image" content="https://emeritus.iese.edu/assets/img/png/iese-share-logo.png"/>
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="Mujer y Liderazgo" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="500" />
+    <meta property="og:image:alt" content="Impulso a la innovación de la idea al lanzamiento" />
     <meta property="fb:app_id" content="467662454062015" />
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="canonical" href="https://emeritus.iese.edu/impulsa-innovacion/" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/favicon.png" />
 
-
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="../assets/scss/stylesheet.css">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="../assets/libs/mdl/material.min.css">
 
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
         integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
 
     <!-- Enrollment Engine Script -->
     <script
-            src="https://fast.emeritus.org/scripts/custom_forms/421.js" async>
+            src="https://fast.emeritus.org/scripts/custom_forms/420.js" async>
     </script>
 
 </head>
@@ -58,33 +65,25 @@
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5X7WH8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5X7WH8" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
+
 
     <!-- Getting the querystring -->
     <?php
+    /*
+        // Commented as it is no longer necessary to pass the querystring to the thank you page.
         $queryStringArray = array();
-        foreach ($_GET as $key => $value) {
-            $parameter = $key . "=" . $value;
+        foreach($_GET as $key=>$value){
+        $parameter = $key."=".$value;
             array_push($queryStringArray, $parameter);
         }
         $queryString = implode("&", $queryStringArray);
+    */
     ?>
-
-    <!-- Getting the current url (used in the retURL in the form.) -->
-    <?php
-        if (isset($_SERVER["HTTPS"]) && ($_SERVER["HTTPS"] == "on" || $_SERVER["HTTPS"] == 1) || isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && $_SERVER["HTTP_X_FORWARDED_PROTO"] == "https") {
-            $protocol = "https://";
-
-        } else {
-            $protocol = "http://";
-        }
-
-        $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_URI"])['path'];
-
-    ?>
-
     <!-- Sección Header Fixed -->
     <header>
         <div class="header-container">
@@ -101,56 +100,66 @@
     </header>
     <!-- Body -->
     <div class="space"></div>
+
     <!-- Sección Hero Image -->
-    <div class="hero-container banner-ML">
+    <div class="hero-container banner-IAI">
 
         <!-- <div class="hero-webinar-button">
 
-            <a href="https://emeritus.zoom.us/webinar/register/3615821448768/WN_18CtPna8TcigilPgJs6meA" class="btn-webinar" id="btn-webinar" target="_blank">
-                <img class="icon-webinar" src="../assets/img/svg/icon-webinar-ML.svg" alt="">
+            <a href="https://emeritus.zoom.us/webinar/register/7815695940064/WN_wrHgYVh0Qe-6RfI387dDSQ"
+                class="btn-webinar" id="btn-webinar" target="_blank">
+                <img class="icon-webinar" src="../assets/img/svg/icon-webinar-MD.svg" alt="webinar">
             </a>
 
         </div> -->
 
-        <div class="hero-title padding-ML">
+        <div class="hero-title padding-IAI fix-padd">
 
-            <div class="title grapRe fs16 rojoFF">NUEVO PROGRAMA ONLINE</div>
+            <div class="hero-title-cont">
 
-            <div class="course-information">
-                <div class="title grapBo fs30 negro19">Mujer y liderazgo</div>
-                <div class="details">
-                    <div class="date-hours">
-                        <div class="date grapMe fs16 negro23">
-                            16 / Noviembre / 2020
-                        </div>
-                        <div class="hours grapRe fs14 negro23">
-                            3 MESES | 6 HORAS POR SEMANA
-                        </div>
+                <div class="course-information">
+
+                    <div class="hero-content-banner grapSe-Bo rojoFF fs15">
+                        NUEVO PROGRAMA ONLINE
                     </div>
-                    <div class="price-fees">
-                        <div class="price grapBo fs16 negro19">
-                            PRECIO: $ 2,450 USD
+
+                    <div class="title grapBo fs30 negro19">Impulsa la innovación:</div>
+                    <div class="subtitle grapBo fs20 negro19">de la idea al lanzamiento</div>
+                    <div class="details">
+                        <div class="date-hours">
+                            <div class="date grapRe fs18 negro23">
+                                08 / Febrero / 2021
+                            </div>
+                            <div class="hours grapRe fs14 negro23">
+                                9 SEMANAS | 6 HORAS POR SEMANA
+                            </div>
                         </div>
-                        <div class="fees grapMe fs14 negro23">
-                            Cuota Miembros del IESE: $2,205 USD
+                        <div class="price-fees">
+                            <div class="price grapBo fs16 negro19">
+                                PRECIO: $2,150 USD
+                            </div>
+                            <div class="fees grapMe fs14 negro23">
+                                Cuota Miembros del IESE: $1,935 USD
+                            </div>
+                            <div class="price-fees" style="padding: 0;">
+                                <a class="price grapBo fs16 negro19" href="#specialFee" rel="modal:open" style="text-transform: uppercase;">
+                                    Precio especial para grupos
+                                </a>
+                            </div>
+                            <div class="flexible-payments grapBo fs16 rojo39">
+                                <a class="rojo39" href="#ex2" rel="modal:open">
+                                    <img class="lazyload" src="../assets/img/svg/info-circle-solid.svg"
+                                        alt="información">
+                                    Pagos flexibles disponibles
+                                </a>
+                            </div>
                         </div>
-                        <div class="price-fees" style="padding: 0;">
-                            <a class="price grapBo fs16 negro19" href="#specialFee" rel="modal:open" style="text-transform: uppercase;">
-                                Precio especial para grupos
-                            </a>
-                        </div>
-                        <div class="flexible-payments grapBo fs14 rojo39">
-                            <a class="rojo39" href="#ex2" rel="modal:open">
-                                <img class="lazyload" data-src="../assets/img/svg/info-circle-solid.svg"
-                                    alt="información">
-                                Pagos flexibles disponibles
-                            </a>
-                        </div>
+
                     </div>
 
                 </div>
-            </div>
 
+            </div>
             <!-- Modal pagos flexibles -->
             <div id="ex2" class="modal modal-pagos-flexibles">
                 <div class="modal-pagos-title fs24 grapBo negro19">
@@ -162,7 +171,7 @@
                     antes de realizar el pago.
                 </div>
                 <div class="modal-pagos-subtitle fs16 grapRe negro19">
-                    Las siguientes opciones de pago están disponibles para el programa de Mujer y liderazgo:
+                    Las siguientes opciones de pago están disponibles para el programa de Impulsa la innovación:
                 </div>
                 <div class="pagos">
                     <div class="pagos-title fs16 grapBo negro19">
@@ -170,7 +179,7 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La cuota completa del programa $2,450 USD.
+                        La cuota completa del programa $2,150 USD.
                     </div>
                 </div>
                 <div class="pagos">
@@ -179,11 +188,11 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $1,324 USD se paga al inicio.
+                        La primera parcialidad de $1,163 USD se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $1,175 USD a pagar del 14 de marzo de 2021.
+                        La segunda parcialidad de $1,030 USD a pagar el 28 de febrero de 2021.
                     </div>
                 </div>
                 <div class="pagos no-border">
@@ -192,15 +201,15 @@
                     </div>
                     <div class="precio-pago fs14 robotoRe negro23">
                         <div class="dot-pagos"></div>
-                        La primera parcialidad de $978 USD se paga al inicio.
+                        La primera parcialidad de $859 USD se paga al inicio.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La segunda parcialidad de $797 USD a pagar del 14 de marzo de 2021.
+                        La segunda parcialidad de $699 USD a pagar 28 de febrero de 2021.
                     </div>
                     <div class="precio-pago">
                         <div class="dot-pagos"></div>
-                        La tercera parcialidad de $797 USD se paga a más tardar el 4 de abril de 2021.
+                        La tercera parcialidad se paga de $699 USD a pagar el 20 de marzo de 2021.
                     </div>
                 </div>
             </div>
@@ -304,28 +313,14 @@
             </div>
 
         </div>
-
-        <!-- Counter -->
-        <div class="counter-container movil">
-            <div class="counter">
-                <div class="counter-number grapMe fs36 negro19">
-                    60
-                </div>
-            </div>
-            <br><br>
-            <div class="counter-title grapMe fs28 negro19">
-                Plazas máximo en el grupo
-            </div>
-        </div>
-
-        <div class="form-container" id="form">
-            <div class="form-title grapRe fs16 negro23">Para obtener más información, rellena el formulario</div>
+        <div class="form-container form-container-absolute" id="form">
+            <div class="form-title grapRe fs14 negro23">Para obtener más información, rellena el formulario</div>
             <!-- Enrollment Engine Form -->
-            <div class="ee-iframe-421"></div>
+            <div class="ee-iframe-420"></div>
             <?php
             /*
             ?>
-            <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-06-11/545njl" method="post"
+            <form class="form-cont" action="https://www2.emeritus.org/l/134351/2020-02-03/5brgzg" method="post"
                 id="formDesk">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <input class="grapRe mdl-textfield__input" type="text" id="first_name" name="first_name"
@@ -345,7 +340,7 @@
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <select id="country" name="Country" class="mdl-textfield__input Country" required>
                     </select>
-                    <label class="grapRe mdl-textfield__label" for="Country">País</label>
+                    <label class="grapRe mdl-textfield__label" for="country">País</label>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <select id="work_experience" name="work_experience"
@@ -384,16 +379,16 @@
                     <input type="hidden" name="utm_content" id="utm_content" value="">
                     <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                     <input type="hidden" name="browser" id="browser" value="">
-                    <input type="hidden" name="course" id="course" value="IESE - Mujer y Liderazgo">
-                    <input type="hidden" name="retURL" id="retURL"
-                        value="<?php echo $current_link . 'Thanks.php?' . $queryString ?>">
+                    <input type="hidden" name="course" id="course"
+                        value="IESE - Impulso a la innovación de la idea al lanzamiento">
+                    <input type="hidden" name="retURL" value="https://emeritus.iese.edu/impulsa-innovacion/Thanks.php">
                     <button class="grapBo fs16 blanco" type="submit" id="btn-download-brochure">
                         DESCARGAR EL FOLLETO
                         <img class="descargar" src="../assets/img/svg/icon-descargar.svg" alt="Download">
                     </button>
                 </div>
-            </form>
 
+            </form>
             */
             ?>
 
@@ -420,8 +415,10 @@
             <?php
             */
             ?>
+
         </div>
     </div>
+
     <!-- Counter -->
     <div class="counter-container desktop">
         <div class="counter">
@@ -433,455 +430,245 @@
             Plazas máximo en el grupo
         </div>
     </div>
-    <!-- Sección Nuevo Mundo -->
-    <div class="new-world-container">
-        <div class="new-world-title grapBo fs32 negro3D">
-            Refuerza tu estilo de liderazgo
-        </div>
-        <div class="new-world-subtitle grapRe fs20 negro19">
-            Las organizaciones que cuentan con ejecutivas formadas en alta dirección
-            consiguen mejorar su competitividad y promover competencias que
-            contribuyen a humanizar su organización y a mejorar el compromiso de los
-            equipos.
-        </div>
-        <div class="choose-efforts-container">
-            <div class="choose-efforts-title grapSe-Bo fs18 negro19">
-                Las mujeres quieren elegir dónde centrar sus esfuerzos:
-            </div>
-            <div class="efforts-container">
-                <div class="effort">
-                    <div class="logo-effort">
-                        <img src="../assets/img/svg/icon-highlights-1.svg" alt="">
-                    </div>
-                    <div class="title-effort grapBo fs30 negro19">
-                        60%
-                    </div>
-                    <div class="subtitle-effort grapRe fs18 negro23">
-                        Desea compatibilizar el trabajo
-                        con su vida familiar.
-                    </div>
-                </div>
 
-                <div class="effort">
-                    <div class="logo-effort">
-                        <img src="../assets/img/svg/icon-highlights-2.svg" alt="">
-                    </div>
-                    <div class="title-effort grapBo fs30 negro19">
-                        20%
-                    </div>
-                    <div class="subtitle-effort grapRe fs18 negro23">
-                        Opta, en exclusiva, por atender a su familia.
-                    </div>
-                </div>
+    <!-- Sección Impulsa la innovación -->
+    <div class="boost-innovation-container">
 
-                <div class="effort">
-                    <div class="logo-effort">
-                        <img src="../assets/img/svg/icon-highlights-3.svg" alt="">
-                    </div>
-                    <div class="title-effort grapBo fs30 negro19">
-                        20%
-                    </div>
-                    <div class="subtitle-effort grapRe fs18 negro23">
-                        Tiende a priorizar su trabajo por encima de otros ámbitos.
-                    </div>
-                </div>
+        <div class="boost-innovation-cont">
+
+            <div class="boost-innovation-title grapBo negro19">
+                Impulsa la innovación en tu empresa
             </div>
-            <div class="efforts-source grapRe fs14 negro3D">
-                (IESE Business School – Índice de Liderazgo Femenino I-Wil 2018)
+
+            <div class="boost-innovation-description grapRe negro19">
+                Aprende en un ambiente “hands on” y genera proyectos de innovación con base en un modelo probado
             </div>
+
         </div>
 
-        <div class="choose-efforts-container">
-            <div class="efforts-container" style="margin: 20px auto; padding: 0 35px">
-                <div class="effort-large">
-                    <div class="logo-effort">
-                        <img src="../assets/img/svg/Trazado.svg" alt="">
+    </div>
+
+    <!-- Sección Sé un motor... -->
+    <!-- <div class="be-engine-container">
+
+        <div class="be-engine-cont">
+
+            <div class="be-engine-title grapBo fs30 negro19">
+                Sé un motor de cambio e innovación en tu empresa
+            </div>
+
+            <div class="be-engine-subtitle grapRe fs20 negro19">
+                Aprende en un ambiente “hands on” y genera proyectos
+                de innovación con base en un modelo probado
+            </div>
+
+            <div class="be-engine-testimonial">
+
+                <div class="be-engine-icon">
+                    <img class="quotation-icon" src="../assets/img/svg/quotation.svg" alt="Quotation Marks">
+                </div>
+
+                <div class="be-engine-content">
+
+                    <div class="be-engine-description grapRe fs30 negro19">
+                        Más del 70% de los líderes innovadores lograron incrementar los beneficios de su empresa en los
+                        últimos 12 meses, y una tercera parte impulsaron el crecimiento de su Ebitda en más del 10%.
                     </div>
-                    <div class="title-effort grapBo fs30 negro19">
-                        En 2018 menos del 5%
+
+                    <div class="be-engine-source grapRe fs22 negro19">
+                        Forbes México, 2017
                     </div>
-                    <div class="subtitle-effort grapRe fs18 negro23">
-                        De las mujeres ocupaban posiciones de alta dirección de las grandes corporaciones.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> -->
+
+    <!-- Sección Al estudiar... -->
+    <div class="by-studying-container">
+        <div class="by-studying-title grapBo fs28 negro19">
+            Al estudiar este programa aprendes a:
+        </div>
+        <div class="by-studying-cont">
+            <div class="by-studying-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="100"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="by-studying-beneficios-img">
+                    <img class="sm-studying-size" src="../assets/img/png/IAI/icono-asset-1.png" alt="icono aprender 1">
+                </div>
+                <div class="by-studying-beneficios-description grapRe fs16 gris66">
+                    <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
+                        GESTIONAR PROYECTOS DE INNOVACIÓN
                     </div>
-                    <div class="source-effort grapRe fs14 negro3D">
-                        The New Yorker
+                    desde la idea hasta el lanzamiento. También te transformas en un
+                    motor para la generación de una cultura de innovación basada en
+                    procesos, disciplina y creatividad.
+                </div>
+            </div>
+            <div class="by-studying-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="200"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="by-studying-beneficios-img">
+                    <img class="lg-studying-size" src="../assets/img/png/IAI/icono-asset-2.png" alt="icono aprender 2">
+                </div>
+                <div class="by-studying-beneficios-description grapRe fs16 gris66">
+                    <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
+                        DISEÑAR UN BUSINESS PLAN PARA INNOVAR PRODUCTOS, SERVICIOS Y PROCESOS,
                     </div>
+                    venciendo la resiliencia en el proceso de innovación e integrando
+                    tecnología, modelos de negocio, herramientas de desarrollo y
+                    costes.
+                </div>
+            </div>
+            <div class="by-studying-beneficios" data-aos="zoom-out-right" data-aos-offset="50" data-aos-delay="300"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="by-studying-beneficios-img">
+                    <img class="md-studying-size" src="../assets/img/png/IAI/icono-asset-3.png" alt="icono aprender 3">
+                </div>
+                <div class="by-studying-beneficios-description grapRe fs16 gris66">
+                    <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
+                        APLICAR DIFERENTES TÉCNICAS PARA DESARROLLAR INNOVACIÓN
+                    </div>
+                    para luego adaptar la más adecuada a la resolución de problemas
+                    concretos y medibles en cualquier tipo y tamaño de organización.
+                </div>
+            </div>
+            <div class="by-studying-beneficios" data-aos="zoom-out-left" data-aos-offset="50" data-aos-delay="400"
+                data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="by-studying-beneficios-img">
+                    <img class="md-studying-size" src="../assets/img/png/IAI/icono-asset-4.png" alt="icono aprender 4">
+                </div>
+                <div class="by-studying-beneficios-description grapRe fs16 gris66">
+                    <div class="by-studying-beneficios-description-title grapBo fs18 negro19">
+                        IDENTIFICAR CUALIDADES, PRÁCTICAS Y ENFOQUES
+                    </div>
+                    necesarios para transformarte en un líder con mentalidad
+                    innovadora, capaz de impulsar la cultura y los proyectos de
+                    innovación.
                 </div>
             </div>
         </div>
     </div>
-    <!-- <hr class="linea-separadora"> -->
-    <!-- Sección Con Certificado... -->
-    <div class="con-certificado-container">
-        <div class="con-certificado-title grapBo fs32 negro3D">
-            En el programa Mujer y liderazgo aprenderás a:
-            <div class="con-certificado-cont">
-                <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50"
-                    data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="con-certificado-beneficios-img">
-                        <img class="lazyload" data-src="../assets/img/svg/icon-programa-1.svg" alt="icono aprender 1">
-                    </div>
-                    <div class="con-certificado-beneficios-description grapRe fs16 negro19">
-                        <div class="title grapBo fs18 negro19">
-                            Realizar un diagnóstico personal de competencias
-                        </div>
-                        Para identificar tus fortalezas y diseñar un plan de mejora.
-                    </div>
-                </div>
-                <div class="con-certificado-beneficios" data-aos="zoom-out-right" data-aos-offset="50"
-                    data-aos-delay="300" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="con-certificado-beneficios-img">
-                        <img class="lazyload" data-src="../assets/img/svg/icon-programa-2.svg" alt="icono aprender 2">
-                    </div>
-                    <div class="con-certificado-beneficios-description grapRe fs16 negro19">
-                        <div class="title grapBo fs18 negro19">
-                            Compartir experiencias y generar un network
-                        </div>
-                        Para crear una red de relaciones efectivas con otras mujeres
-                        directivas e identificar tus retos y los factores que
-                        obstaculizan tu progreso.
-                    </div>
-                </div>
-                <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50"
-                    data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="con-certificado-beneficios-img">
-                        <img class="lazyload" data-src="../assets/img/svg/icon-programa-3.svg" alt="icono aprender 3">
-                    </div>
-                    <div class="con-certificado-beneficios-description grapRe fs16 negro19">
-                        <div class="title grapBo fs18 negro19">
-                            Mejorar habilidades y capacidades para reforzar el liderazgo
-                        </div>
-                        Para implementar herramientas de negociación, trabajo en equipo,
-                        gestión de conflictos y toma de decisiones.
-                    </div>
-                </div>
-                <div class="con-certificado-beneficios" data-aos="zoom-out-left" data-aos-offset="50"
-                    data-aos-delay="400" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="con-certificado-beneficios-img">
-                        <img class="lazyload" data-src="../assets/img/svg/icon-programa-4.svg" alt="icono aprender 4">
-                    </div>
-                    <div class="con-certificado-beneficios-description grapRe fs16 negro19">
-                        <div class="title grapBo fs18 negro19">
-                            Equilibrar tu vida personal y profesional
-                        </div>
-                        Para gestionar tu tiempo con eficacia y emplear estrategias
-                        para lograr un equilibrio entre el trabajo y la familia.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr class="linea-separadora desktop">
+
     <!-- Sección Plan de estudios -->
-    <div class="plan-de-estudios-container">
-        <div class="plan-de-estudios-title grapBo fs30 negro3D">
+    <div class="plan-de-estudios-container" style="padding: 30px 0!important;">
+
+        <div class="plan-de-estudios-title grapBo fs30 negro19" style="background-color: #ffffff!important; padding:0;">
             Plan de estudios
         </div>
-        <div class="modulos-container">
+
+        <div class="modulos-container" style="background-color: #ffffff!important; padding:0;">
             <ul class="collapsible">
                 <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
+                    <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 1</div>
-                        <div class="module-title grapMe negro23">
-                            Liderazgo y perfil de la mujer directiva.
-                            <br>
-                            <span class="grapRe">
-                                Análisis de las características diferenciales de la gestión femenina e
-                                identificación de los puntos en los que esta diferencia puede suponer
-                                una ventaja.
-                            </span>
+                        <div class="module-title grapRe negro23">
+                            ¿Por qué es importante la innovación en la empresa?
                         </div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
+                    <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 2</div>
-                        <div class="module-title grapMe negro23">
-                            Competencias directivas.
-                            <br>
-                            <span class="grapRe">
-                                Aplicación de un sistema de autoevaluación para identificar los puntos
-                                fuertes y las áreas en las que cada participante puede desarrollarse.
-                            </span>
+                        <div class="module-title grapRe negro23">
+                            Conceptos básicos para la innovación.
                         </div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
+                    <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 3</div>
-                        <div class="module-title grapMe negro23">
-                            Liderazgo y networking.
-                            <br>
-                            <span class="grapRe">
-                                Conocimiento de los obstáculos a los que se enfrenta la mujer para
-                                entrar en los círculos de poder empresarial.
-                            </span>
-                        </div>
+                        <div class="module-title grapRe negro23">Diseñando el proceso de innovación.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
+                    <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 4</div>
-                        <div class="module-title grapMe negro23">
-                            Desarrollo de la competencia de negociación.
-                            <br>
-                            <span class="grapRe">
-                                Desarrollo de habilidades de negociación con base en la colaboración
-                                o la empatía; así como en principios y técnicas que permitan negociar
-                                con eficacia en todos los contextos.
-                            </span>
-                        </div>
+                        <div class="module-title grapRe negro23">Aprender a innovar en situaciones de alta
+                            incertidumbre.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
+                    <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 5</div>
-                        <div class="module-title grapMe negro23">
-                            Delegación y gestión de reuniones.
-                            <br>
-                            <span class="grapRe">
-                                Repaso de aspectos básicos sobre la gestión de equipos y la delegación
-                                de tareas.
-                            </span>
-                        </div>
+                        <div class="module-title grapRe negro23">Aprender a innovar en situaciones de baja
+                            incertidumbre.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
+                    <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 6</div>
-                        <div class="module-title grapMe negro23">
-                            Gestión del conflicto.
-                            <br>
-                            <span class="grapRe">
-                                Conocimiento de las distintas dimensiones y la dinámica de los conflictos,
-                                así como las maneras de prevenirlos y resolverlos.
-                            </span>
+                        <div class="module-title grapRe negro23">
+                            Innovación en grandes empresas
                         </div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
+                    <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 7</div>
-                        <div class="module-title grapMe negro23">
-                            Análisis y toma de decisiones.
-                            <br>
-                            <span class="grapRe">
-                                Conocimiento y aplicación de los principios del proceso de toma de decisiones
-                                en equipo y sus reglas.
-                            </span>
-                        </div>
+                        <div class="module-title grapRe negro23">Planificar la innovación.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
+                    <div class=" collapsible-header grapRe fs16" style="background-color: #ffffff!important;">
                         <div class="No grapMe negro19">Módulo 8</div>
-                        <div class="module-title grapMe negro23">
-                            Gestión del tiempo.
-                            <br>
-                            <span class="grapRe">
-                                Utilización y manejo de herramientas prácticas y útiles para gestionar el
-                                tiempo con eficacia para poder combinar, sin presión, la agenda profesional
-                                con la personal y familiar.
-                            </span>
-                        </div>
-                        <div class="collapsible-header-img hide"></div>
-                    </div>
-                    <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header grapRe fs16">
-                        <div class="No grapMe negro19">Módulo 9</div>
-                        <div class="module-title grapMe negro23">
-                            Conciliación trabajo-familia.
-                            <br>
-                            <span class="grapRe">
-                                Conocimiento de las mejores prácticas y herramientas en conciliación, de modo
-                                que permitan a las participantes reducir los niveles de estrés que repercuten
-                                en su gestión, y hasta en su salud o en su vida personal y familiar.
-                            </span>
-                        </div>
+                        <div class="module-title grapRe negro23">Liderar organizaciones innovadoras.</div>
                         <div class="collapsible-header-img hide"></div>
                     </div>
                     <div class="collapsible-body grapRe negro23 hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
             </ul>
         </div>
+
     </div>
-    <hr class="linea-separadora desktop">
+
+    <hr class="linea-separadora">
     <!-- Sección El Certificado... -->
-    <div class="el-certificado-container">
-        <div class="el-certificado-title grapBo fs32 negro3D">
-            El programa Mujer y liderazgo es para ti si:
+    <div class="el-certificado-container" style="padding: 30px 0!important;">
+        <div class="el-certificado-title grapBo fs32 negro19">
+            El programa Impulsa la innovación es para ti si:
         </div>
         <div class="el-certificado-cont">
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="100" data-aos-duration="500">
-                Quieres desarrollar tus competencias gerenciales e incrementar tu valor profesional.
+                Necesitas gestionar proyectos de innovación en tu empresa u organización.
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="200" data-aos-duration="500">
-                Eres una directora de alto nivel en tu organización.
+                Por tus responsabilidades debes aplicar una metodología experimentada para desarrollo de innovaciones
+                incrementales y radicales (startups).
+
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="300" data-aos-duration="500">
-                Ocupas un puesto directivo de nivel medio y deseas progresar en tu vida profesional.
+                Requieres implementar técnicas de observación que faciliten el diseño de una innovación en su fase
+                inicial (Design Thinking).
             </div>
             <div class="el-certificado-beneficios grapRe fs18 negro23" data-aos="fade-right" data-aos-offset="50"
                 data-aos-delay="400" data-aos-duration="500">
-                Eres empresaria o dueña de tu propio negocio y necesitas mejorar tus capacidades de liderazgo.
+                Necesitas aprender las técnicas que aplican las grandes empresas en sus procesos de innovación.
             </div>
         </div>
     </div>
-    <hr class="linea-separadora">
-    <!-- Sección Tutores Expertos -->
-    <div class="tutores-expertos-container">
-        <div class="tutores-expertos-title grapBo fs32 negro3D">
-            Profesores
-        </div>
-        <div class="tutor-container">
-            <div class="tutor-cont">
-                <div class="tutor-desc">
-                    <div class="tutor-imagen">
-                        <img class="lazyload" data-src="../assets/img/jpg/M&L/Nuria-Chinchilla-IESE.jpg"
-                            alt="NURIA-CHINCHILLA">
-                    </div>
-                    <div class="tutor-data">
-                        <div class="grapBo fs18 negro19">NURIA CHINCHILLA</div>
-                        <div class="grapMe fs15 gris66">
-                            Profesora Ordinaria de Dirección de Personas en las
-                            Organizaciones; Titular de la Cátedra Carmina Roca
-                            y Rafael Pich Aguilera de Mujer y liderazgo; Doctora
-                            en Dirección de Empresas, IESE, Universidad de
-                            Navarra; MBA, IESE, Universidad de Navarra.
-                        </div>
-                    </div>
-                </div>
-                <div class="tutor-description grapRe fs16 gris66">
-                    La doctora Chinchilla es profesora, investigadora y consultora
-                    en dirección de personas, está especializada en consejos de
-                    administración, competencias de liderazgo, mujer y
-                    conciliación trabajo-familia.
-                    <br>
-                    <br>
-                    Forma parte de varios consejos de administración y de
-                    numerosos organismos internacionales y nacionales de impulso
-                    a la mujer directiva, como el International Women’s Forum o el
-                    consejo asesor de la European Professional Women’s Network.
-                    <br>
-                    <br>
-                    Asesora a gobiernos y empresas sobre cuestiones relacionadas
-                    con el desarrollo profesional de las mujeres. Desde 2012 es la
-                    candidata española para el Comité Contra la Discriminación de
-                    las Naciones Unidas. Ha escrito numerosos artículos y libros,
-                    entre los que destacan: Dueños de nuestro destino, del que es
-                    coautora junto con Maruja Moragas (Ariel, 2007); Paradigmas
-                    de liderazgo (2002); La ambición femenina (Aguilar, 2004).
-                    <br>
-                    <br>
-                    La doctora Chinchilla ha sido nombrada “Mejor ejecutiva del
-                    año” (2001) por la Federación Española de Mujeres Ejecutivas,
-                    Profesionales y Emprendedores (FEDEPE); premio “Most
-                    valuable speaker 2007” de Interban Network; y ha sido
-                    reconocida durante tres años consecutivos como una de las
-                    “100 mujeres españolas del siglo XXI”.
-                </div>
-            </div>
-            <div class="tutor-cont" style="padding: 0!important; background-color: #FFFFFF; border-bottom: none;">
-                <div class="tutor-cont small-cont" style="padding: 20px!important;">
-                    <div class="tutor-desc">
-                        <div class="tutor-imagen">
-                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Miguel-Angel-Arino.jpg"
-                                alt="MIGUEL-ÁNGEL-ARIÑO">
-                        </div>
-                        <div class="tutor-data">
-                            <div class="grapBo fs18 negro19">MIGUEL ÁNGEL ARIÑO</div>
-                            <div class="grapMe fs15 gris66">
-                                Profesor de Análisis de Decisiones
-                                <br>
-                                <br>
-                                Doctor en Ciencias Matemáticas, Universitat de Barcelona
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/miguel-angel-arino/"
-                        target="_blank" rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
-                        Ver más
-                    </a>
-                </div>
-                <div class="tutor-cont small-cont" style="padding: 20px!important;">
-                    <div class="tutor-desc">
-                        <div class="tutor-imagen">
-                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Esther-Jimenez.jpg"
-                                alt="ESTHER-JIMÉNEZ">
-                        </div>
-                        <div class="tutor-data">
-                            <div class="grapBo fs18 negro19">ESTHER JIMÉNEZ</div>
-                            <div class="grapMe fs15 gris66">
-                                Colaboradora científica de Dirección de Personas en las Organizaciones
-                                <br>
-                                <br>
-                                Doctora en Economía y Dirección de Empresas, Universidad de Navarra
-                                <br>
-                                <br>
-                                MBA, Universitat Oberta de Catalunya
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/esther-jimenez/" target="_blank"
-                        rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
-                        Ver más
-                    </a>
-                </div>
-                <div class="tutor-cont small-cont" style="padding: 20px!important;">
-                    <div class="tutor-desc">
-                        <div class="tutor-imagen">
-                            <img class="lazyload" data-src="../assets/img/jpg/M&L/Kandarp-Mehta.jpg"
-                                alt="KANDARP-MEHTA">
-                        </div>
-                        <div class="tutor-data">
-                            <div class="grapBo fs18 negro19">KANDARP MEHTA</div>
-                            <div class="grapMe fs15 gris66">
-                                Senior Lecturer de Iniciativa Emprendedora y Unidad Docente de Negociación
-                                <br>
-                                <br>
-                                Doctor en Administración, IESE, Universidad de Navarra
-                                <br>
-                                <br>
-                                MBA K.S. School of Business Management, Gujarat University
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://www.iese.edu/es/claustro-investigacion/claustro/kandarp-mehta/" target="_blank"
-                        rel="noopener noreferrer" class="btn-see-more grapSe-Bo fs16 rojo39">
-                        Ver más
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Sección Video -->
-    <div class="video-container" style="padding-top: 0!important;">
-        <iframe src="https://www.youtube.com/embed/xOy9d-UtyNA" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <hr class="linea-separadora">
-    <!-- Sección Video -->
-    <div class="video-container">
-        <div class="title grapBo fs32 negro3D">
+    <div class="video-container" style="padding: 30px 0!important;">
+        <div class="title grapBo fs32 negro19">
             Aula Virtual
         </div>
         <iframe src="https://www.youtube.com/embed/Nk35vcV4jaI" frameborder="0"
@@ -895,9 +682,10 @@
         </div>
     </div>
     <hr class="linea-separadora">
+
     <!-- Sección Negocios globales -->
-    <div class="global-business-container">
-        <div class="title grapSe-Bo fs24 negro3D">
+    <div class="global-business-container" style="padding: 30px 0!important;">
+        <div class="title grapSe-Bo fs24 negro19">
             IESE, escuela de negocios global
         </div>
         <div class="business-cont">
@@ -970,53 +758,56 @@
         </div>
     </div>
     <hr class="linea-separadora">
+
     <!-- Sección Perfiles Directivos -->
-    <div class="profiles-container">
-        <div class="title grapSe-Bo fs24 negro3D">
+    <div class="profiles-container" style="padding: 30px 0!important;">
+        <div class="title grapSe-Bo fs24 negro19">
             Formación para todos los perfiles directivos
         </div>
         <div class="profiles-cont">
             <div class="profiles">
                 <img src="../assets/img/svg/icono-directores-funcionales.svg" alt="Directores-funcionales">
                 <div class="title grapBo fs24 negro19">
-                    Directoras funcionales
+                    Directores funcionales
                 </div>
             </div>
             <div class="profiles">
                 <img src="../assets/img/svg/icono-emprendedores.svg" alt="Emprendedores">
                 <div class="title grapBo fs24 negro19">
-                    Emprendedoras
+                    Emprendedores
                 </div>
             </div>
             <div class="profiles">
                 <img src="../assets/img/svg/icono-ejecutivos-senior.svg" alt="Ejecutivos-senior">
                 <div class="title grapBo fs24 negro19">
-                    Ejecutivas senior
+                    Ejecutivos senior
                 </div>
             </div>
             <div class="profiles">
                 <img src="../assets/img/svg/icono-ejecutivos-c-suite.svg" alt="Ejecutivos-C-Suite">
                 <div class="title grapBo fs24 negro19">
-                    Ejecutivas
+                    Ejecutivos
                     <br>
                     C-Suite
                 </div>
             </div>
-            <div class="description grapRe fs18 negro19">
+            <div class="description grapMe fs18 negro19">
                 <span>
                     En cualquier etapa de tu carrera en los programas online del IESE
                     eres el protagonista de tu aprendizaje. De los pasos que das. De
                     lo que logras.
                 </span>
             </div>
-            <div class="profiles-fundation _ML-version grapMe negro19">
+            <div class="profiles-fundation grapMe negro19">
                 Formación bonificable a través de la FUNDAE
             </div>
+
         </div>
     </div>
+
     <hr class="linea-separadora">
     <!-- Sección Metodología -->
-    <div class="metodology-container">
+    <div class="metodology-container" style="padding: 30px 0!important;">
         <div class="title grapSe-Bo fs24 negro19">
             Metodología
         </div>
@@ -1033,50 +824,52 @@
                     Aprendizaje interactivo
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Video-conferencias, entrevistas con expertos, presentaciones interactivas y sesiones en vivo.
+                    Videoconferencias, entrevistas con expertos, presentaciones interactivas y discusiones de casos en
+                    directo (en el Aula Virtual).
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Inspiración de primer nivel">
+                    <img src="../assets/img/svg/icono-inspiracion-primer-nivel.svg" alt="Herramientas de vanguardia">
                 </div>
                 <div class="metodology-title grapBo fs28 negro19">
-                    Inspiración de primer nivel
+                    Herramientas de vanguardia
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Entrevistas con exitosas directivas con experiencia en diferentes sectores, incluyendo ex ministras
-                    y directoras de empresas como HP, VERTISUB, Grupo Santander, entre otras.
+                    Uso de una de las plataformas más potentes en el mercado para la observación y creación de proyectos
+                    innovadores durante todo el programa.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/svg/icon-360.svg" alt="Test 360º y coaching">
+                    <img src="../assets/img/png/IAI/icon-chat.png" alt="Voces expertas">
                 </div>
                 <div class="metodology-title grapBo fs28 negro19">
-                    Test 360º y coaching
+                    Voces expertas
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Desarrolla un plan de mejora personal y de competencias directivas a través del cuestionario IESE
-                    360°, e impleméntalo con ayuda de un coach que te guiará a lo largo del programa.
+                    Entrevistas con máximos expertos en innovación disruptiva, de empresas internacionales de diversos
+                    sectores.
                 </div>
             </div>
             <div class="metodology">
                 <div class="img">
-                    <img src="../assets/img/svg/icono-plan-accion.svg" alt="Plan de acción">
+                    <img src="../assets/img/svg/icono-plan-accion.svg" alt="Plan-de-acción">
                 </div>
                 <div class="metodology-title grapBo fs28 negro19">
                     Plan de acción
                 </div>
                 <div class="metodology-subtitle grapRe fs16 negro23">
-                    Aplica lo aprendido en un plan de acción para ti y para tu empresa.
+                    Desarrollo de un plan de acción con la guía de un tutor.
                 </div>
             </div>
         </div>
     </div>
     <hr class="linea-separadora">
+
     <!-- Sección Tu viaje de aprendizaje -->
     <!-- <div class="tu-viaje-container">
-        <div class="tu-viaje-title grapBo fs32 negro3D">Tu viaje de aprendizaje</div>
+        <div class="tu-viaje-title grapBo fs32 negro19">Tu viaje de aprendizaje</div>
         <div class="tu-viaje-subtitle grapMe fs16 negro19">
             El programa aplica varios métodos docentes dinámicos e interactivos, entre los que se incluyen:
         </div>
@@ -1141,12 +934,45 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <!-- Sección Tutores Expertos -->
+    <div class="tutores-expertos-container" style="padding: 30px 0!important;">
+        <div class="tutores-expertos-title grapBo fs32 negro19">
+            Profesores
+        </div>
+        <div class="tutor-container">
+            <div class="tutor-cont" style="border: 0;">
+                <div class="tutor-desc">
+                    <div class="tutor-imagen">
+                        <img src="../assets/img/png/IAI/antonio-davila.png" alt="ANTONIO DÁVILA">
+                    </div>
+                    <div class="tutor-data">
+                        <div class="grapBo fs18 negro19">ANTONIO DÁVILA</div>
+                        <div class="grapRe fs15 negro05">
+                            Profesor Ordinario de los departamentos de Iniciativa Emprendedora
+                            y Contabilidad y Control, y Titular de la Cátedra Seat de Innovación.
+                        </div>
+                    </div>
+                </div>
+                <div class="tutor-description grapRe fs16 negro05">
+                    También fue docente en la Graduate School of Business de
+                    Stanford University, donde sigue impartiendo clases
+                    periódicamente y ha sido profesor visitante de la Harvard
+                    Business School.
+                    <br>
+                    <br>
+                    Sus intereses se centran en el crecimiento de startups, la
+                    gestión de la innovación, la gestión deportiva y el control de
+                    gestión.
+                </div>
+            </div>
+        </div>
     </div>
-    <hr class="linea-separadora"> -->
-    <!-- Line -->
     <hr class="linea-separadora">
+
     <!-- Sección Rankings -->
-    <div class="rankings-container">
+    <div class="rankings-container" style="padding: 30px 0!important;">
         <div class="rankings-title grapBo fs32 negro19">Rankings</div>
         <div class="ranking-cont">
             <div class="ranking">
@@ -1208,20 +1034,19 @@
             </div>
         </div>
     </div>
+
     <!-- Sección Certificado -->
-    <div class="certificado-container">
+    <div class="certificado-container" style="padding: 30px 0!important;">
         <div class="certificado-cont">
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex1" rel="modal:open">
                 <div>
-                    <img class="lazyload" data-src="../assets/img/jpg/M&L/certificado-mujer-liderazgo.jpg"
-                        alt="Certificado">
+                    <img src="../assets/img/png/IAI/certificado-impulsa-innovacion.png" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex1" class="modal modal-certificado">
-                <img class="lazyload" data-src="../assets/img/jpg/M&L/certificado-mujer-liderazgo.jpg"
-                    alt="Certificado">
+                <img src="../assets/img/png/IAI/certificado-impulsa-innovacion.png" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title grapBo fs32 blanco">
@@ -1236,91 +1061,38 @@
                     <a class="grapBo fs16 blanco anchor_apply" target="_blank" rel="noopener noreferrer"
                         id="btn-apply-now" style="cursor: pointer;">
                         REGÍSTRATE
-                        <img class="lazyload" data-src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
+                        <img src="../assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow">
                     </a>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Sección Slider -->
-    <div class="slider-container">
-        <div class="silder-container-title grapBo fs32 negro3D">
+    <!-- <div class="slider-container" style="padding: 30px 0!important;">
+        <div class="silder-container-title grapBo fs32 negro19">
             Testimonios de participantes
         </div>
-        <div class="slide-testimonio-ML">
+        <div class="slide-testimonio-IAI">
             <div class="testimonio">
-                <!-- <div class="testimonio-img">
-                <img class="lazyload" data-src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-            </div> -->
-                <div class="testimonio-desc grapRe fs16 negro3D">
-                    “Ha sido un programa fantástico, con grandes profesores y compañeras.
-                    Muy inspirador, estoy convencida que me ayudará a evolucionar como
-                    persona. Este es el inicio de un camino".
+                <div class="testimonio-img">
+                    <img src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
+                </div>
+                <div class="testimonio-desc grapRe fs15 negro19">
+                    Este curso iluminó un terreno antes desconocido para mí, y creo que va a tener un gran impacto en
+                    mi carrera profesional.
+                    Quedé muy satisfecho y lo recomiendo ampliamente.
                 </div>
                 <div class="testimonio-name grapBo fs20 gris66">
-                    Mirenchu Echeverri López
+                    Salvador Valderas Campos
                 </div>
-                <div class="testimonio-work grapMe fs18 gris66">
-                    ACCENTURE, S.L.U
-                    <br>
-                    Managing Director
-                </div>
-            </div>
-            <div class="testimonio">
-                <!-- <div class="testimonio-img">
-                <img class="lazyload" data-src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-            </div> -->
-                <div class="testimonio-desc grapRe fs16 negro3D">
-                    "Es un programa muy completo desde el punto de vista de la mujer en los ámbitos de
-                    cómo liderar, negociar y gestionar conflictos sin perder de vista el foco de
-                    la unidad familiar y empresarial".
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    Anna Triola Mir
-                </div>
-                <div class="testimonio-work grapMe fs18 gris66">
-                    CAIXABANK, S.A.
-                    <br>
-                    Directora Oficina
-                </div>
-            </div>
-            <div class="testimonio">
-                <!-- <div class="testimonio-img">
-                <img class="lazyload" data-src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-            </div> -->
-                <div class="testimonio-desc grapRe fs16 negro3D">
-                    "Este programa me ha hecho reflexionar sobre mi estilo directivo y replantearme el
-                    modo de trabajar, de desarrollar a las personas, de dar feedback y pedir tiempo
-                    para mí".
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    Miriam Latorre Izquierdo
-                </div>
-                <div class="testimonio-work grapMe fs18 gris66">
-                    UNIVERSIDAD DE NAVARRA
-                    <br>
-                    Gerente
-                </div>
-            </div>
-            <div class="testimonio">
-                <!-- <div class="testimonio-img">
-                <img class="lazyload" data-src="../assets/img/jpg/Photo Salvador Valderas Campos.jpg" alt="Persona">
-            </div> -->
-                <div class="testimonio-desc grapRe fs16 negro3D">
-                    "Excelente programa, solo tengo palabras de agradecimiento para la organización y los
-                    profesores. Es de valor, útil y necesario para el desarrollo personal y profesional".
-                </div>
-                <div class="testimonio-name grapBo fs20 gris66">
-                    Carmen Muñoz Almagro
-                </div>
-                <div class="testimonio-work grapMe fs18 gris66">
-                    HOSPITAL SANT JOAN DE DÉU
-                    <br>
-                    Responsable Departamento /Jefe Grupo Investigación
+                <div class="testimonio-work grapRe fs14 negro3D">
+                    National Account Manager Bacardi
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
     <!-- Sección colaboración -->
     <div class="colaboration-container">
         <div class="description grapMe fs14 blanco">
@@ -1329,12 +1101,13 @@
             impacto.
         </div>
     </div>
+
     <!-- Footer -->
     <footer>
         <div class="footer-cont">
             <div class="left">
                 <div class="footer-logo">
-                    <img class="lazyload" data-src="../assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
+                    <img src="../assets/img/svg/IESE-Business-School-footer.svg" alt="IESE Logo">
                 </div>
                 <div class="copyright grapRe fs12 blanco">
                     IESE Business School Universidad de Navarra
@@ -1355,8 +1128,10 @@
         </div>
     </footer>
 
+
     <!-- Script to handle the form population -->
-    <script type="text/javascript" src="../assets/js/form-input-manager-ML.js"></script>
+    <script type="text/javascript" src="../assets/js/form-input-manager.js"></script>
+    <script src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js"></script>
 
     <!-- Script to prevent user from typing letters in the phone number -->
     <script type="text/javascript" src="../assets/js/onkeypress.js"></script>
@@ -1364,16 +1139,14 @@
     <!-- AOS Animations -->
     <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script defer src="../assets/js/aos-animations-manager.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../assets/js/lazysizes.min.js"></script>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script defer type="text/javascript" src="../assets/js/logs.js"></script>
     <script async type="text/javascript" src="../assets/js/utm_populate.js"></script>
-    <script type="text/javascript" src="../assets/js/lazysizes.min.js"></script>
+    <!-- <script asyn type="text/javascript" src="../assets/js/check_input_values.js"></script> -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script async type="text/javascript" src="../assets/js/main.js"></script>
-    <script async type="text/javascript" src="../assets/js/slideWoman.js"></script>
-    <script async type="text/javascript" src="../assets/js/whatsapp_querystring_builder.js"></script>
 
 
 </body>
