@@ -120,7 +120,7 @@
             <div class="details">
                 <div class="date-hours">
                     <div class="date grapRe fs18 negro23">
-                        19 / Octubre / 2020
+                        01 / marzo / 2021
                     </div>
                     <div class="hours grapRe fs14 negro23">
                         7 SEMANAS | 6-8 HORAS POR SEMANA
@@ -183,7 +183,7 @@
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
                     La segunda parcialidad de $1,030 USD
-                    a pagar del 13 de noviembre de 2020.
+                    a pagar del 21 de marzo de 2021.
                 </div>
             </div>
             <div class="pagos no-border">
@@ -198,11 +198,11 @@
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
                     La segunda parcialidad de $699 USD
-                    a pagar del 13 de noviembre de 2020.
+                    a pagar del 21 de marzo de 2021.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La tercera parcialidad se paga de $699 USD a pagar el 28 de noviembre de 2020.
+                    La tercera parcialidad se paga de $699 USD a pagar el 4 de abril de 2021.
                 </div>
             </div>
         </div>
