@@ -121,7 +121,7 @@
                 <div class="details">
                     <div class="date-hours">
                         <div class="date grapMe fs16 negro23">
-                        22 / Febrero / 2020
+                        22 / Febrero / 2021
                         </div>
                         <div class="hours grapRe fs14 negro23">
                             3 MESES | 6 HORAS POR SEMANA
