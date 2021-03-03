@@ -124,7 +124,7 @@ header('Location: https://online-em.iese.edu/desarrolla-talento-digital', true, 
             <div class="details">
                 <div class="date-hours">
                     <div class="date grapRe fs18 negro23">
-                        01 / marzo / 2021
+                        15 / Febrero / 2021
                     </div>
                     <div class="hours grapRe fs14 negro23">
                         7 SEMANAS | 6-8 HORAS POR SEMANA
@@ -187,7 +187,7 @@ header('Location: https://online-em.iese.edu/desarrolla-talento-digital', true, 
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
                     La segunda parcialidad de $1,030 USD
-                    a pagar del 21 de marzo de 2021.
+                    a pagar del 7 de marzo de 2021.
                 </div>
             </div>
             <div class="pagos no-border">
@@ -202,11 +202,11 @@ header('Location: https://online-em.iese.edu/desarrolla-talento-digital', true, 
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
                     La segunda parcialidad de $699 USD
-                    a pagar del 21 de marzo de 2021.
+                    a pagar del 7 de marzo de 2021.
                 </div>
                 <div class="precio-pago">
                     <div class="dot-pagos"></div>
-                    La tercera parcialidad se paga de $699 USD a pagar el 4 de abril de 2021.
+                    La tercera parcialidad se paga de $699 USD a pagar el 27 de marzo de 2021.
                 </div>
             </div>
         </div>
