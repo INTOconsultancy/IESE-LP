@@ -1,3 +1,7 @@
+<?php
+header('Location: https://online-em.iese.edu/mujer-y-liderazgo', true, 301);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

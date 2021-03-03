@@ -1,3 +1,7 @@
+<?php
+header('Location: https://online-em.iese.edu/desarrolla-talento-digital', true, 301);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

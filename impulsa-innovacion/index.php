@@ -1,3 +1,7 @@
+<?php
+header('Location: https://online-em.iese.edu/impulsa-innovacion-idea-lanzamiento', true, 301);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
