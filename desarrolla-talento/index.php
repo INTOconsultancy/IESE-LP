@@ -108,6 +108,7 @@
 </header>
 <!-- Body -->
 <div class="space"></div>
+
 <!-- Sección Hero Image -->
 <div class="hero-container banner-desarrolla-talento">
 
@@ -410,6 +411,7 @@
     </div>
 
 </div>
+
 <!-- Counter -->
 <div class="counter-container desktop">
     <div class="counter">
@@ -577,7 +579,6 @@
 
 <hr class="linea-separadora">
 
-
 <!-- El programa es para ti, si -->
 <div class="el-certificado-container desarrolla-talento">
     <div class="el-certificado-title grapBo fs32 negro3D">
@@ -620,7 +621,6 @@
     </div>
 </div>
 <hr class="linea-separadora">
-
 
 <!-- Sección Metodología -->
 <div class="metodology-container" style="padding: 30px 0!important;">
@@ -668,7 +668,6 @@
     </div>
 </div>
 <hr class="linea-separadora">
-
 
 <!-- Sección Tutores Expertos -->
 <div class="tutores-expertos-container desarrolla-talento">
@@ -814,7 +813,6 @@
     </div>
 </div>
 
-
 <!-- Sección colaboración -->
 <div class="colaboration-container">
     <div class="description grapMe fs14 blanco">
@@ -823,6 +821,7 @@
         impacto.
     </div>
 </div>
+
 <!-- Footer -->
 <footer>
     <div class="footer-cont">
